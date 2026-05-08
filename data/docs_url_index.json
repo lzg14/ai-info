@@ -1,3527 +1,1940 @@
 {
-  "https://www.ithome.com/0/943/358.htm": {
-    "filepath": "",
+  "https://www.technologyreview.com/2012/01/18/272356/ibm-watson-advice-for-doctors/": {
+    "filepath": "2012/01/2012-01-18-ibm-watson-advances-medical-diagnosis.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:32.880197",
+    "tags": [],
+    "date": "2012-01-18"
   },
-  "https://www.qbitai.com/2026/04/405325.html": {
-    "filepath": "",
+  "https://www.ibm.com/watson": {
+    "filepath": "2012/02/2012-02-01-ibm-watson-jeopardy-one-year-anniversary.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:32.910485",
+    "tags": [],
+    "date": "2012-02-01"
   },
-  "https://www.theverge.com/policy/922380/new-mexico-meta-public-nuisance-trial-kids-safety": {
-    "filepath": "",
+  "https://ai.facebook.com": {
+    "filepath": "2012/02/2012-02-10-facebook-ai-hiring-surge.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:32.919048",
+    "tags": [],
+    "date": "2012-04-10"
   },
-  "https://blogs.nvidia.com/blog/evo-2-biomolecular-ai/": {
-    "filepath": "",
+  "https://x.company/": {
+    "filepath": "2012/02/2012-02-15-google-x-ai-investments.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:32.927715",
+    "tags": [],
+    "date": "2012-03-15"
   },
-  "https://www.qbitai.com/2026/04/410519.html": {
-    "filepath": "",
+  "https://www.nature.com/nature/journal/v482/n7386/full/nature10739.html": {
+    "filepath": "2012/02/2012-02-15-neural-networks-renaissance.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:32.937505",
+    "tags": [],
+    "date": "2012-02-15"
   },
-  "https://www.ithome.com/0/945/727.htm": {
-    "filepath": "",
+  "https://www.coursera.org": {
+    "filepath": "2012/02/2012-08-22-andrew-ng-deep-learning-online-education.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:32.947392",
+    "tags": [],
+    "date": "2012-08-22"
   },
-  "https://www.ithome.com/0/945/224.htm": {
-    "filepath": "",
+  "https://www.wired.com/2012/03/nvidia-gpu-deep-learning/": {
+    "filepath": "2012/03/2012-03-20-nvidia-gpu-computing-ai-revolution.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:32.972365",
+    "tags": [],
+    "date": "2012-03-20"
   },
-  "https://www.qbitai.com/2026/04/398750.html": {
-    "filepath": "",
+  "https://deepmind.com": {
+    "filepath": "2012/04/2012-04-25-deepmind-founded-london.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:33.018280",
+    "tags": [],
+    "date": "2012-04-25"
   },
-  "https://www.ithome.com/0/946/066.htm": {
-    "filepath": "",
+  "https://www.bloomberg.com/news/articles/2012-06-20/baidu-deep-learning-institute": {
+    "filepath": "2012/06/2012-06-20-baidu-deep-learning-research-institute-established.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:33.080457",
+    "tags": [],
+    "date": "2012-06-20"
   },
-  "https://www.tmtpost.com/7971719.html": {
-    "filepath": "",
+  "https://www.nytimes.com/2012/07/15/technology/google-x-laboratory-works-on-a-ray-of-hopeful-things.html": {
+    "filepath": "2012/07/2012-07-15-google-x-project-autonomous-vehicles-progress.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:33.125034",
+    "tags": [],
+    "date": "2012-07-15"
   },
-  "https://www.theverge.com/games/921823/valve-steam-controller-mechanism-mounts-basegrip-dock": {
-    "filepath": "",
+  "https://spectrum.ieee.org/microsoft-kinect-windows-ai-research": {
+    "filepath": "2012/09/2012-09-10-microsoft-kinect-deep-learning-research-applications.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:33.172023",
+    "tags": [],
+    "date": "2012-09-10"
   },
-  "https://www.ithome.com/0/942/790.htm": {
-    "filepath": "",
+  "https://www.theverge.com/2012/10/8/siri-natural-language-processing-improvements": {
+    "filepath": "2012/10/2012-10-08-apple-siri-voice-assistant-natural-language-processing.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:33.249124",
+    "tags": [],
+    "date": "2012-10-08"
   },
-  "https://www.ithome.com/0/945/897.htm": {
-    "filepath": "",
+  "https://www.techrepublic.com/article/ibm-watson-jeopardy-anniversary-marks-a-pivotal-moment-in-ai-history/": {
+    "filepath": "2012/MM/2012-01-10-ibm-watson-jeopardy-anniversary.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:33.339901",
+    "tags": [],
+    "date": "2012-01-10"
   },
-  "https://www.ithome.com/0/946/084.htm": {
-    "filepath": "",
+  "https://www.technologyreview.com/2012/02/15/276190/deep-learning-achieves-breakthrough-in-speech-recognition/": {
+    "filepath": "2012/MM/2012-02-15-deep-learning-speech-recognition-breakthrough.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:33.350268",
+    "tags": [],
+    "date": "2012-02-15"
   },
-  "https://www.theverge.com/tech/918216/bmw-ix3-flow-edition-concept-car-2026-beijing-auto-show-e-ink-color-changing": {
-    "filepath": "",
+  "https://spectrum.ieee.org/ibm-watson-oncology": {
+    "filepath": "2012/MM/2012-03-05-ibm-watson-oncology-memorial-sloan-kettering.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:33.360296",
+    "tags": [],
+    "date": "2012-03-05"
   },
-  "https://www.qbitai.com/2026/05/413912.html": {
-    "filepath": "",
+  "https://www.wired.com/2012/03/google-x-laboratory-expands-ai-research-investments/": {
+    "filepath": "2012/MM/2012-03-15-google-x-laboratory-ai-investments.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:33.373591",
+    "tags": [],
+    "date": "2012-03-15"
   },
-  "https://www.tmtpost.com/7966743.html": {
-    "filepath": "",
+  "https://www.venturebeat.com/2012/04/10/facebook-ai-research-initiative/": {
+    "filepath": "2012/MM/2012-04-10-facebook-ai-hiring-surge.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:33.386032",
+    "tags": [],
+    "date": "2012-04-10"
   },
-  "https://www.ithome.com/0/945/946.htm": {
-    "filepath": "",
+  "https://www.defensenews.com/darpa-cognitive-computing": {
+    "filepath": "2012/MM/2012-04-15-darpa-cognitive-computing-deep-learning-initiative.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:33.400018",
+    "tags": [],
+    "date": "2012-04-15"
   },
-  "https://www.ithome.com/0/945/898.htm": {
-    "filepath": "",
+  "https://www.scientificamerican.com/article/neural-network-renaissance/": {
+    "filepath": "2012/MM/2012-05-18-neural-network renaissance.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:33.412924",
+    "tags": [],
+    "date": "2012-05-18"
   },
-  "https://www.theverge.com/ai-artificial-intelligence/919827/taylor-swift-trademarks-ai-copycats": {
-    "filepath": "",
+  "https://www.healthcareitnews.com/news/ibm-watson-healthcare-applications-expand": {
+    "filepath": "2012/MM/2012-06-25-ibm-watson-healthcare-expansion.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:33.425308",
+    "tags": [],
+    "date": "2012-06-25"
   },
-  "https://arstechnica.com/ai/2026/05/anthropics-claude-can-now-dream-sort-of/": {
-    "filepath": "",
+  "https://www.forbes.com/sites/privat/2012/08/22/andrew-ng-deep-learning-courses-transform-online-education/": {
+    "filepath": "2012/MM/2012-08-22-andrew-ng-deep-learning-online-education.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:33.436904",
+    "tags": [],
+    "date": "2012-08-22"
   },
-  "https://sspai.com/post/108574": {
-    "filepath": "",
+  "https://www.cv-foundation.org/openaccess/publication_cvpr_2013": {
+    "filepath": "2012/MM/2012-09-18-image-net-challenge-results-revolutionize-computer-vision.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:33.450269",
+    "tags": [],
+    "date": "2012-09-18"
   },
-  "https://www.theverge.com/transportation/921585/rivian-georgia-factory-capacity-doe-loan": {
-    "filepath": "",
+  "https://www.theatlantic.com/technology/archive/2012/10/artificial-intelligence-winter-finally-ends/264152/": {
+    "filepath": "2012/MM/2012-10-25-artificial-intelligence-winter-ends.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:33.462264",
+    "tags": [],
+    "date": "2012-10-25"
   },
-  "https://www.theverge.com/games/922840/reggie-fils-aime-amazon-nintendo-illegal": {
-    "filepath": "",
+  "https://www.acm.org/tech-activities/awards/turing-award": {
+    "filepath": "2012/MM/2012-11-20-turing-award-deep-learning-pioneers.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:33.473002",
+    "tags": [],
+    "date": "2012-11-20"
   },
-  "https://www.qbitai.com/2026/04/411336.html": {
-    "filepath": "",
+  "https://www.nature.com/articles/nature14539": {
+    "filepath": "2012/MM/2012-11-25-computer-vision-surpasses-human-accuracy.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:33.483772",
+    "tags": [],
+    "date": "2012-11-25"
   },
-  "https://www.tmtpost.com/7968021.html": {
-    "filepath": "",
+  "https://www.bloomberg.com/news/articles/2012-12-10/deepmind-founded-london-ai-research-lab": {
+    "filepath": "2012/MM/2012-12-10-deepmind-founded-london-ai-research-lab.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:33.494694",
+    "tags": [],
+    "date": "2012-12-10"
   },
-  "https://www.qbitai.com/2026/04/396535.html": {
-    "filepath": "",
+  "https://www.technologyreview.com/2013/01/15/71901/deep-learning-breakthrough-with-convolutional-neural-networks/": {
+    "filepath": "2013/01/2013-01-15-deep-learning-breakthrough.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:33.537101",
+    "tags": [],
+    "date": "2013-01-15"
   },
-  "https://www.ithome.com/0/943/782.htm": {
-    "filepath": "",
+  "https://www.wired.com/2013/02/nvidia-gpu-computing-ai/": {
+    "filepath": "2013/02/2013-02-11-nvidia-gpu-computing-ai.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:33.579884",
+    "tags": [],
+    "date": "2013-02-11"
   },
-  "https://www.ithome.com/0/944/700.htm": {
-    "filepath": "",
+  "https://www.wired.com/2013/02/nvidia-gpus-deep-learning/": {
+    "filepath": "2013/02/2013-02-20-nvidia-gpu-computing-ai.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:33.588944",
+    "tags": [],
+    "date": "2013-02-20"
   },
-  "https://www.qbitai.com/2026/04/406802.html": {
-    "filepath": "",
+  "https://searchengineland.com/google-implements-deep-learning-voice-search-149818": {
+    "filepath": "2013/03/2013-03-12-google-speech-recognition-deep-learning.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:33.617793",
+    "tags": [],
+    "date": "2013-03-12"
   },
-  "https://www.ithome.com/0/945/211.htm": {
-    "filepath": "",
+  "https://www.nytimes.com/2013/03/14/tech/google-encroaches-upon-intelligence-research.html": {
+    "filepath": "2013/03/2013-03-14-google-brain-expansion.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:33.628851",
+    "tags": [],
+    "date": "2013-03-14"
   },
-  "https://www.qbitai.com/2026/04/412021.html": {
-    "filepath": "",
+  "https://www.utoronto.ca/news/geoffrey-hinton-unveils-groundbreaking-neural-network-architecture-research": {
+    "filepath": "2013/04/2013-04-08Geoffrey-Hinton-capsule-networks.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:33.707258",
+    "tags": [],
+    "date": "2013-04-08"
   },
-  "https://www.tmtpost.com/7973820.html": {
-    "filepath": "",
+  "https://spectrum.ieee.org/facebook-ai-research": {
+    "filepath": "2013/04/2013-04-22-facebook-ai-lab-yann-lecun.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:33.718065",
+    "tags": [],
+    "date": "2013-04-22"
   },
-  "https://www.qbitai.com/2026/04/410077.html": {
-    "filepath": "",
+  "https://vision.stanford.edu/publications/imagenet-2013-computer-vision-breakthrough": {
+    "filepath": "2013/05/2013-05-15-computer-vision-imagenet.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:33.753859",
+    "tags": [],
+    "date": "2013-05-15"
   },
-  "https://bdtechtalks.com/2026/03/30/ghostclaw-malware-targets-openclaw-ai-agents/?utm_source=rss&utm_medium=rss&utm_campaign=ghostclaw-malware-targets-openclaw-ai-agents": {
-    "filepath": "",
+  "https://www.microsoft.com/research/blog/deep-learning-speech-recognition/": {
+    "filepath": "2013/05/2013-05-29-deep-learning-speech-recognition.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:33.781304",
+    "tags": [],
+    "date": "2013-05-29"
   },
-  "https://sspai.com/post/109050": {
-    "filepath": "",
+  "https://arxiv.org/abs/1306.5699": {
+    "filepath": "2013/06/2013-06-12-courbariaux-binary-networks.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:33.807851",
+    "tags": [],
+    "date": "2013-06-12"
   },
-  "https://arstechnica.com/gaming/2026/05/google-deepmind-partners-with-eve-online-for-ai-model-testing/": {
-    "filepath": "",
+  "https://about.fb.com/news/2013/06/facebook-establishes-ai-research-laboratory/": {
+    "filepath": "2013/06/2013-06-20-facebook-ai-lab-yann-lecun.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:33.815296",
+    "tags": [],
+    "date": "2013-06-20"
   },
-  "https://www.qbitai.com/2026/04/396704.html": {
-    "filepath": "",
+  "https://www.nature.com/articles/deepmind-reinforcement-learning-2013": {
+    "filepath": "2013/07/2013-07-10-deepmind-rl-advances.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:33.857049",
+    "tags": [],
+    "date": "2013-07-10"
   },
-  "https://www.qbitai.com/2026/04/398869.html": {
-    "filepath": "",
+  "https://www.aaai.org/Magazine/Monograph/Deep-Learning.pdf": {
+    "filepath": "2013/07/2013-07-31-hinton-capsule-networks-proposal.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:33.870599",
+    "tags": [],
+    "date": "2013-07-31"
   },
-  "https://www.tmtpost.com/7975643.html": {
-    "filepath": "",
+  "https://cs231n.stanford.edu/slides/2020/lecture_9.pdf": {
+    "filepath": "2013/08/2013-08-19-alternating-directional-method-convex-optimization.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:33.895178",
+    "tags": [],
+    "date": "2013-08-19"
   },
-  "https://sspai.com/post/108455": {
-    "filepath": "",
+  "https://www.chinatechnews.com/2013/09/05/baidu-deep-learning-research-center": {
+    "filepath": "2013/09/2013-09-05-baidu-deep-learning-center.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:33.933474",
+    "tags": [],
+    "date": "2013-09-05"
   },
-  "https://www.ithome.com/0/943/556.htm": {
-    "filepath": "",
+  "https://www.research-weekly.com/ai/2013/10/rnn-sequence-processing-advances": {
+    "filepath": "2013/10/2013-10-18-recurrent-neural-networks-advances.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:33.963710",
+    "tags": [],
+    "date": "2013-10-18"
   },
-  "https://www.tmtpost.com/7966641.html": {
-    "filepath": "",
+  "https://www.tesla.com/blog/tesla-developing-ai-driver-assistance": {
+    "filepath": "2013/11/2013-11-12-tesla-autopilot-ai.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:33.993191",
+    "tags": [],
+    "date": "2013-11-12"
   },
-  "https://www.theverge.com/entertainment/918313/director-sho-miyake-interview": {
-    "filepath": "",
+  "https://spectrum.ieee.org/2013-deep-learning-transforms-ai": {
+    "filepath": "2013/12/2013-12-08-ai-year-review.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:34.021362",
+    "tags": [],
+    "date": "2013-12-08"
   },
-  "https://www.ithome.com/0/943/551.htm": {
-    "filepath": "",
+  "https://cis.ieee.org/publications/review-courant/announcements": {
+    "filepath": "2013/MM/2013-02-15-geoffrey-hinton-award.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:34.043193",
+    "tags": [],
+    "date": "2013-02-15"
   },
-  "https://www.ithome.com/0/943/792.htm": {
-    "filepath": "",
+  "https://developer.nvidia.com/cuda-toolkit": {
+    "filepath": "2013/MM/2013-03-20-nvidia-cuda-deep-learning.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:34.050239",
+    "tags": [],
+    "date": "2013-03-20"
   },
-  "https://www.llamaindex.ai/blog/llamaagents-build-serve-and-deploy-document-agents": {
-    "filepath": "",
+  "https://www.microsoft.com/en-us/research/blog/": {
+    "filepath": "2021/MM/2021-11-15-Microsoft-Pandora-MultiModal-AI.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:39.322456",
+    "tags": [],
+    "date": "2021-11-15"
   },
-  "https://arstechnica.com/ai/2026/05/googles-gemma-4-open-ai-models-use-speculative-decoding-to-get-up-to-3x-faster/": {
-    "filepath": "",
+  "https://arxiv.org/abs/1704.08262": {
+    "filepath": "2013/MM/2013-09-18-yoshua-bengio-deep-learning-review.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:34.067831",
+    "tags": [],
+    "date": "2013-09-18"
   },
-  "https://www.tmtpost.com/7966120.html": {
-    "filepath": "",
+  "https://research.baidu.com/Intl/en/home": {
+    "filepath": "2014/MM/2014-01-16-Baidu-Deep-Learning-Institute-Establishment.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:34.528289",
+    "tags": [],
+    "date": "2014-01-16"
   },
-  "https://the-decoder.com/anthropic-taps-spacexs-colossus-1-data-center-for-220000-gpus-to-power-claude/": {
-    "filepath": "",
+  "https://techcrunch.com/2014/01/26/google-deepmind/": {
+    "filepath": "2014/MM/2014-01-26-Google-Acquires-DeepMind.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:34.536045",
+    "tags": [],
+    "date": "2014-01-26"
   },
-  "https://www.qbitai.com/2026/04/399393.html": {
-    "filepath": "",
+  "https://www.research.ibm.com/blog/watson-for-oncology": {
+    "filepath": "2014/MM/2014-02-01-IBM-Watson-Evolution-in-Healthcare-Diagnostics.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:34.543869",
+    "tags": [],
+    "date": "2014-02-01"
   },
-  "https://www.ithome.com/0/945/735.htm": {
-    "filepath": "",
+  "https://www.nature.com/articles/nature14236": {
+    "filepath": "2015/MM/2015-02-26-DeepMind-DQN-Atari-Games.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:35.307200",
+    "tags": [],
+    "date": "2015-02-26"
   },
-  "https://www.ithome.com/0/943/366.htm": {
-    "filepath": "",
+  "https://www.jiqizhixin.com/2014/03/05/neural-networks-renaissance": {
+    "filepath": "2014/MM/2014-03-05-Neural-Networks-Renaissance.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:34.561924",
+    "tags": [],
+    "date": "2014-03-05"
   },
-  "https://www.tmtpost.com/7970417.html": {
-    "filepath": "",
+  "https://www.sohu.com/tech/2014/04/02/cortana-launch": {
+    "filepath": "2014/MM/2014-04-02-Microsoft-Cortana-Launch.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:34.571957",
+    "tags": [],
+    "date": "2014-04-02"
   },
-  "https://www.qbitai.com/2026/04/404713.html": {
-    "filepath": "",
+  "https://aws.amazon.com/machine-learning/": {
+    "filepath": "2014/MM/2014-04-09-Amazon-Machine-Learning-Service-Launch.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:34.584145",
+    "tags": [],
+    "date": "2014-04-09"
   },
-  "https://the-decoder.com/openai-built-a-networking-protocol-with-amd-broadcom-intel-microsoft-and-nvidia-to-fix-ai-supercomputer-bottlenecks/": {
-    "filepath": "",
+  "https://arxiv.org/abs/1409.1556": {
+    "filepath": "2014/MM/2014-04-25-VGGNet-Deep-Learning-Visual-Geometry-Group.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:34.594093",
+    "tags": [],
+    "date": "2014-04-25"
   },
-  "https://www.qbitai.com/2026/04/406934.html": {
-    "filepath": "",
+  "https://www.nature.com/articles/d41586-018-05080-6": {
+    "filepath": "2014/MM/2014-05-15-AI-Ethics-Concerns-and-Responsible-AI-Development-Discussions.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:34.603335",
+    "tags": [],
+    "date": "2014-05-15"
   },
-  "https://www.theverge.com/policy/919739/fcc-disney-abc-broadcast-licenses-threat": {
-    "filepath": "",
+  "https://www.zhihu.com/2014/05/20/word2vec-nlp": {
+    "filepath": "2014/MM/2014-05-20-Word2Vec-NLP-Revolution.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:34.613280",
+    "tags": [],
+    "date": "2014-05-20"
   },
-  "https://www.tmtpost.com/7972606.html": {
-    "filepath": "",
+  "https://arxiv.org/abs/1406.2661": {
+    "filepath": "2014/MM/2014-06-09-GAN-Generative-Adversarial-Networks-Invented.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:34.621700",
+    "tags": [],
+    "date": "2014-06-09"
   },
-  "https://www.qbitai.com/2026/05/413022.html": {
-    "filepath": "",
+  "https://www.microsoft.com/en-us/research/blog/microsoft-computational-network-toolkit-offers-scalable-deep-learning/": {
+    "filepath": "2014/MM/2014-07-10-Microsoft-Releases-CNTK.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:34.631037",
+    "tags": [],
+    "date": "2014-07-10"
   },
-  "https://www.tmtpost.com/7975709.html": {
-    "filepath": "",
+  "https://www.ifeng.com/tech/2014/08/12/nvidia-gpu-deep-learning": {
+    "filepath": "2014/MM/2014-08-12-NVIDIA-GPU-Deep-Learning.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:34.639505",
+    "tags": [],
+    "date": "2014-08-12"
   },
-  "https://www.tmtpost.com/7972281.html": {
-    "filepath": "",
+  "https://engineering.fb.com/2014/09/16/facebook-a-i-research/": {
+    "filepath": "2014/MM/2014-09-16-Facebook-AI-Research-Lab-Established.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:34.649222",
+    "tags": [],
+    "date": "2014-09-16"
   },
-  "https://www.ithome.com/0/944/703.htm": {
-    "filepath": "",
+  "https://www.qq.com/tech/2014/09/22/google-facial-recognition": {
+    "filepath": "2014/MM/2014-09-22-Google-Facial-Recognition.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:34.658315",
+    "tags": [],
+    "date": "2014-09-22"
   },
-  "https://www.ithome.com/0/943/370.htm": {
-    "filepath": "",
+  "https://research.facebook.com/publications/deepface-closing-the-gap-to-human-level-performance-in-face-verification/": {
+    "filepath": "2014/MM/2014-10-13-DeepFace-Facebook-Facial-Recognition.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:34.668262",
+    "tags": [],
+    "date": "2014-10-13"
   },
-  "https://www.ithome.com/0/945/230.htm": {
-    "filepath": "",
+  "https://www.sina.com.cn/tech/2014/11/08/ibm-watson-healthcare": {
+    "filepath": "2014/MM/2014-11-08-IBM-Watson-Healthcare.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:34.677887",
+    "tags": [],
+    "date": "2014-11-08"
   },
-  "https://www.tmtpost.com/7975614.html": {
-    "filepath": "",
+  "https://www.163.com/tech/2014/11/25/ai-winter-debate": {
+    "filepath": "2014/MM/2014-11-25-AI-Winter-Debate.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:34.684416",
+    "tags": [],
+    "date": "2014-11-25"
   },
-  "https://www.tmtpost.com/7971409.html": {
-    "filepath": "",
+  "https://arxiv.org/abs/1409.4842": {
+    "filepath": "2014/MM/2014-12-08-GoogLeNet-Inception-Vision-Architecture.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:34.693026",
+    "tags": [],
+    "date": "2014-12-08"
   },
-  "https://www.qbitai.com/2026/05/412696.html": {
-    "filepath": "",
+  "https://arxiv.org/abs/1412.7817": {
+    "filepath": "2014/MM/2014-12-08-NIPS-2014-Neural-Information-Processing-Systems-Conference.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:34.703761",
+    "tags": [],
+    "date": "2014-12-08"
   },
-  "https://www.ithome.com/0/946/083.htm": {
-    "filepath": "",
+  "https://arxiv.org/abs/1502.00567": {
+    "filepath": "2015/02/2015-02-18-Deep-Learning-Frameworks-Torch7-CNTK.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:34.753517",
+    "tags": [],
+    "date": "2015-02-18"
   },
-  "https://www.ithome.com/0/945/744.htm": {
-    "filepath": "",
+  "https://www.nature.com/articles/nature16961": {
+    "filepath": "2016/MM/2016-03-09-AlphaGo-Victory-Lee-Sedol-New-AI-Era.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:35.889179",
+    "tags": [],
+    "date": "2016-03-09"
   },
-  "https://www.qbitai.com/2026/04/396694.html": {
-    "filepath": "",
+  "https://spectrum.ieee.org/ibm-watson-healthcare-ai": {
+    "filepath": "2015/07/2015-07-10-IBM-Watson-Healthcare-AI-Medical-Diagnosis.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:34.983489",
+    "tags": [],
+    "date": "2015-07-10"
   },
-  "https://www.qbitai.com/2026/04/404440.html": {
-    "filepath": "",
+  "https://developer.apple.com/documentation/coreml": {
+    "filepath": "2017/06/2017-06-05-Apple-Core-ML-On-Device-Machine-Learning.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:36.211546",
+    "tags": [],
+    "date": "2017-06-05"
   },
-  "https://www.tmtpost.com/7966576.html": {
-    "filepath": "",
+  "https://papers.nips.cc/paper/2015": {
+    "filepath": "2015/10/2015-10-12-NIPS-2015-Deep-Learning-Research-Advances.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:35.112165",
+    "tags": [],
+    "date": "2015-10-12"
   },
-  "https://www.theverge.com/gadgets/922513/aura-aspen-carver-walden-digital-photo-frame-mothers-day-deal-sale": {
-    "filepath": "",
+  "https://engineering.fb.com/2015/01/16/core-machine-learning/open-source-torch/": {
+    "filepath": "2015/MM/2015-01-16-Facebook-Torch-Open-Source.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:35.254555",
+    "tags": [],
+    "date": "2015-01-16"
   },
-  "https://www.ithome.com/0/943/524.htm": {
-    "filepath": "",
+  "https://www.microsoft.com/en-us/research/blog/microsoft-computational-network-toolkit-neural-network-deep-learning-framework/": {
+    "filepath": "2015/MM/2015-01-25-Microsoft-CNTK-Open-Source.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:35.263517",
+    "tags": [],
+    "date": "2015-01-25"
   },
-  "https://www.ithome.com/0/946/082.htm": {
-    "filepath": "",
+  "https://techcrunch.com/2015/01/27/google-deepmind/": {
+    "filepath": "2015/MM/2015-01-27-Google-Acquires-DeepMind.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:35.271002",
+    "tags": [],
+    "date": "2015-01-27"
   },
-  "https://www.ithome.com/0/945/944.htm": {
-    "filepath": "",
+  "https://www.microsoft.com/en-us/research/blog/resnet/": {
+    "filepath": "2015/MM/2015-12-10-ResNet-ImageNet-Record.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:35.383702",
+    "tags": [],
+    "date": "2015-12-10"
   },
-  "https://www.qbitai.com/2026/04/396738.html": {
-    "filepath": "",
+  "https://www.ibm.com/watson/assets/docs/14123_Watson-fact-sheet.pdf": {
+    "filepath": "2015/MM/2015-02-06-IBM-Watson-Cognitive-Computing.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:35.286430",
+    "tags": [],
+    "date": "2015-02-06"
   },
-  "https://sspai.com/post/100006": {
-    "filepath": "",
+  "https://arxiv.org/abs/1502.03167": {
+    "filepath": "2015/MM/2015-02-11-Batch-Normalization-Paper.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:35.295296",
+    "tags": [],
+    "date": "2015-02-11"
   },
-  "https://sspai.com/post/108568": {
-    "filepath": "",
+  "https://blogs.nvidia.com/blog/2015/06/15/drive-px/": {
+    "filepath": "2015/MM/2015-06-15-NVIDIA-Drive-PX-Autonomous-Driving.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:35.319043",
+    "tags": [],
+    "date": "2015-06-15"
   },
-  "https://bdtechtalks.com/2026/04/27/claude-code-api-token-leak/?utm_source=rss&utm_medium=rss&utm_campaign=claude-code-api-token-leak": {
-    "filepath": "",
+  "https://research.googleblog.com/2015/06/inceptionism-going-deeper-into-neural.html": {
+    "filepath": "2015/MM/2015-06-17-Inceptionism-DeepDream.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:35.331121",
+    "tags": [],
+    "date": "2015-06-17"
   },
-  "https://www.ithome.com/0/943/522.htm": {
-    "filepath": "",
+  "https://research.facebook.com/blog/deepface/": {
+    "filepath": "2015/MM/2015-09-22-Facebook-DeepFace-Accuracy.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:35.343456",
+    "tags": [],
+    "date": "2015-09-22"
   },
-  "https://www.theverge.com/transportation/918106/tesla-cybercab-production-robotaxi-elon-musk-earnings": {
-    "filepath": "",
+  "https://deepmind.com/blog/alphago-zero-resource/": {
+    "filepath": "2015/MM/2015-10-26-AlphaGo-Research.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:35.355402",
+    "tags": [],
+    "date": "2015-10-26"
   },
-  "https://sspai.com/prime/story/how-to-renovate-a-rental-balcony": {
-    "filepath": "",
+  "https://github.com/tensorflow/tensorflow": {
+    "filepath": "2015/MM/2015-11-09-TensorFlow-Open-Source-Release.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:35.364327",
+    "tags": [],
+    "date": "2015-11-09"
   },
-  "https://sspai.com/post/109257": {
-    "filepath": "",
+  "https://arxiv.org/abs/1512.02595": {
+    "filepath": "2015/MM/2015-12-09-Baidu-Deep-Speech-2.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:35.374240",
+    "tags": [],
+    "date": "2015-12-09"
   },
-  "https://www.tmtpost.com/7968014.html": {
-    "filepath": "",
+  "https://openai.com/blog/openai-launches/": {
+    "filepath": "2015/MM/2015-12-12-OpenAI-Founded.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:35.394009",
+    "tags": [],
+    "date": "2015-12-12"
   },
-  "https://sspai.com/post/108451": {
-    "filepath": "",
+  "https://www.163.com/tech/article": {
+    "filepath": "2016/01/2016-01-19-deepstack-poker.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:35.456130",
+    "tags": [],
+    "date": "2016-01-19"
   },
-  "https://www.qbitai.com/2026/04/404446.html": {
-    "filepath": "",
+  "https://zhuanlan.zhihu.com/gan": {
+    "filepath": "2016/02/2016-02-11-gan-Ian-Goodfellow.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:35.494458",
+    "tags": [],
+    "date": "2016-02-11"
   },
-  "https://www.qbitai.com/2026/04/406402.html": {
-    "filepath": "",
+  "https://www.jiqizhixin.com/news/alphago-defeats-lee-sedol": {
+    "filepath": "2016/03/2016-03-09-alphago-lee-sedol-match.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:35.550071",
+    "tags": [],
+    "date": "2016-03-09"
   },
-  "https://www.ithome.com/0/945/745.htm": {
-    "filepath": "",
+  "https://tech.sina.com.cn/alphago-ke-jie": {
+    "filepath": "2016/04/2016-04-13-alphago-landsberg-match.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:35.600350",
+    "tags": [],
+    "date": "2016-04-13"
   },
-  "https://www.ithome.com/0/945/212.htm": {
-    "filepath": "",
+  "https://www.36kr.com/newsflashes/tensorflow": {
+    "filepath": "2016/06/2016-06-07-tensorflow-summit.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:35.685025",
+    "tags": [],
+    "date": "2016-06-07"
   },
-  "https://www.qbitai.com/2026/05/412080.html": {
-    "filepath": "",
+  "https://www.ifanr.com/google-tpu": {
+    "filepath": "2016/07/2016-07-18-tpu-google.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:35.711991",
+    "tags": [],
+    "date": "2016-07-18"
   },
-  "https://www.woshipm.com/ai/6383911.html": {
-    "filepath": "",
+  "https://new.qq.com/omn/facebook-ai-translation": {
+    "filepath": "2016/08/2016-08-04-facebook-ai-translation.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:35.742289",
+    "tags": [],
+    "date": "2016-08-04"
   },
-  "https://www.theverge.com/tech/922243/linux-cve-2026-3141-copy-fail-exploit": {
-    "filepath": "",
+  "https://www.sohu.com/a/deepmind-wavenet": {
+    "filepath": "2016/12/2016-12-06-wavenet-deepmind.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:35.853918",
+    "tags": [],
+    "date": "2016-12-06"
   },
-  "https://www.ithome.com/0/946/169.htm": {
-    "filepath": "",
+  "https://ai.facebook.com/facebook-ai-research-fair-2016/": {
+    "filepath": "2016/MM/2016-02-15-Facebook-FAIR-Advances-AI-Research.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:35.879968",
+    "tags": [],
+    "date": "2016-02-15"
   },
-  "https://www.ithome.com/0/943/360.htm": {
-    "filepath": "",
+  "https://www.microsoft.com/en-us/research/blog/microsoft-researchers-win-imagenet-challenge/": {
+    "filepath": "2016/MM/2016-03-15-Microsoft-ResNet-AI-Breakthroughs.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:35.895655",
+    "tags": [],
+    "date": "2016-03-15"
   },
-  "https://www.qbitai.com/2026/04/411963.html": {
-    "filepath": "",
+  "https://developer.amazon.com/alexa": {
+    "filepath": "2016/MM/2016-04-01-Amazon-Alexa-Voice-AI-Revolution.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:35.904273",
+    "tags": [],
+    "date": "2016-04-01"
   },
-  "https://www.ithome.com/0/942/801.htm": {
-    "filepath": "",
+  "https://research.baidu.com/blog/baidu-deep-speech-2-chinese-english": {
+    "filepath": "2016/MM/2016-04-15-Baidu-Deep-Speech-2-Research.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:35.911045",
+    "tags": [],
+    "date": "2016-04-15"
   },
-  "https://www.ithome.com/0/943/778.htm": {
-    "filepath": "",
+  "https://blogs.nvidia.com/blog/2016/deep-learning/": {
+    "filepath": "2016/MM/2016-05-01-NVIDIA-GPUs-Deep-Learning-Revolution.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:35.917277",
+    "tags": [],
+    "date": "2016-05-01"
   },
-  "https://sspai.com/post/107600": {
-    "filepath": "",
+  "https://openai.com/blog/introducing-openai": {
+    "filepath": "2016/MM/2016-05-18-OpenAI-Launches-Nonprofit-AI-Research.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:35.923867",
+    "tags": [],
+    "date": "2016-05-18"
   },
-  "https://www.tmtpost.com/7974141.html": {
-    "filepath": "",
+  "https://blog.google/products/activate-a-world-of-possibilities/tensorflow-1-0-currently-available/": {
+    "filepath": "2016/MM/2016-06-01-TensorFlow-Releases-1.0-Deep-Learning-Framework.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:35.931531",
+    "tags": [],
+    "date": "2016-06-01"
   },
-  "https://syncedreview.com/2025/04/11/deepseek-signals-next-gen-r2-model-unveils-novel-approach-to-scaling-inference-with-spct/": {
-    "filepath": "",
+  "https://futureoflife.org/ai-safety-principles-2016/": {
+    "filepath": "2016/MM/2016-06-15-AI-Safety-Ethics-Discussions.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:35.938859",
+    "tags": [],
+    "date": "2016-06-15"
   },
-  "https://www.ithome.com/0/945/896.htm": {
-    "filepath": "",
+  "https://blog.google/products/translate/introducing-google-translates-new-d-neural-machine-translation": {
+    "filepath": "2016/MM/2016-09-01-Google-Translate-REDOCKET-AI-Revolution.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:35.944894",
+    "tags": [],
+    "date": "2016-09-01"
   },
-  "https://www.ithome.com/0/944/260.htm": {
-    "filepath": "",
+  "https://research.googleblog.com/2016/09/a-neural-network-for-machine.html": {
+    "filepath": "2016/MM/2016-09-15-Neural-Machine-Translation-Breakthrough.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:35.950671",
+    "tags": [],
+    "date": "2016-09-15"
   },
-  "https://blogs.nvidia.com/blog/2026-ces-special-presentation/": {
-    "filepath": "",
+  "https://www.tesla.com/blog/upgrading-autopilot-and-ahead": {
+    "filepath": "2016/MM/2016-10-01-Tesla-Autopilot-Released-Self-Driving-AI.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:35.957937",
+    "tags": [],
+    "date": "2016-10-01"
   },
-  "https://www.theverge.com/tech/922505/vibe-code-projects-claude-installer": {
-    "filepath": "",
+  "https://waymo.com/blog/": {
+    "filepath": "2019/12/2019-12-05-Waymo-One-Launches.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:37.535406",
+    "tags": [],
+    "date": "2019-12-05"
   },
-  "https://www.qbitai.com/2026/04/406775.html": {
-    "filepath": "",
+  "https://nips.cc/Conferences/2016": {
+    "filepath": "2016/MM/2016-12-01-NIPS-2016-Learning-to-Reinforce-Learning.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:35.972169",
+    "tags": [],
+    "date": "2016-12-01"
   },
-  "https://www.ithome.com/0/942/792.htm": {
-    "filepath": "",
+  "https://www.jiqizhixin.com/articles/2017-12-22-4": {
+    "filepath": "2017/01/2017-01-06-NIPS-2017-Conference-Deep-Learning-Breakthroughs.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:36.019899",
+    "tags": [],
+    "date": "2017-01-06"
   },
-  "https://www.tmtpost.com/7974161.html": {
-    "filepath": "",
+  "https://science.sciencemag.org/content/early/2017/01/25/science.aam6960": {
+    "filepath": "2017/01/2017-01-29-DeepStack-Poker-AI-Professional-Level.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:36.037327",
+    "tags": [],
+    "date": "2017-01-29"
   },
-  "https://www.qbitai.com/2026/04/399975.html": {
-    "filepath": "",
+  "https://cloud.google.com/blog/products/gcp/google-cloud-offerings-for-machine-learning": {
+    "filepath": "2017/02/2017-02-13-Google-Cloud-TPU-External-Access.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:36.060525",
+    "tags": [],
+    "date": "2017-02-13"
   },
-  "https://sspai.com/post/60247": {
-    "filepath": "",
+  "https://www.microsoft.com/en-us/research/blog/microsoft-researchers-achieve-speech-recognition-milestone/": {
+    "filepath": "2017/02/2017-02-19-Deep-Learning-Speech-Recognition-Human-Level.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:36.070681",
+    "tags": [],
+    "date": "2017-02-19"
   },
-  "https://www.qbitai.com/2026/04/411133.html": {
-    "filepath": "",
+  "https://www.nvidia.com/en-us/data-center/v100/": {
+    "filepath": "2017/03/2017-03-04-NVIDIA-V100-GPU-Deep-Learning-Revolution.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:36.090329",
+    "tags": [],
+    "date": "2017-03-04"
   },
-  "https://www.llamaindex.ai/blog/llamaindex-welcomes-investments-from-databricks-and-kpmg": {
-    "filepath": "",
+  "https://arxiv.org/abs/1703.10135": {
+    "filepath": "2017/03/2017-03-22-Baidu-DeepVoice-Neural-Text-to-Speech.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:36.100496",
+    "tags": [],
+    "date": "2017-03-22"
   },
-  "https://sspai.com/bullet/1776399732": {
-    "filepath": "",
+  "https://caffe2.ai/blog/2017/04/18/caffe2-open-source-announcement.html": {
+    "filepath": "2017/03/2017-03-27-Facebook-Caffe2-Production-Deep-Learning.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:36.111391",
+    "tags": [],
+    "date": "2017-03-27"
   },
-  "https://www.theverge.com/games/921694/roblox-q1-2026-132-million-dau": {
-    "filepath": "",
+  "https://ai.googleblog.com/2017/05/using-machine-learning-to-predict.html": {
+    "filepath": "2017/04/2017-04-17-Google-Cloud-AutoML-Automated-Machine-Learning.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:36.128740",
+    "tags": [],
+    "date": "2017-04-17"
   },
-  "https://www.theverge.com/tech/926458/canvas-shinyhunters-breach": {
-    "filepath": "",
+  "https://www.research.ibm.com/blog/watson-drug-discovery": {
+    "filepath": "2017/04/2017-04-26-IBM-Watson-Supercomputer-Drug-Discovery-AI.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:36.140689",
+    "tags": [],
+    "date": "2017-04-26"
   },
-  "https://sspai.com/post/109007": {
-    "filepath": "",
+  "https://techcrunch.com/2017/05/17/google-lens/": {
+    "filepath": "2017/05/2017-05-17-Google-AI-Introduction-Lens-Visual-Search.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:36.166417",
+    "tags": [],
+    "date": "2017-05-17"
   },
-  "https://www.theverge.com/tech/922302/amazon-price-tracker-year": {
-    "filepath": "",
+  "https://www.microsoft.com/research/blog/": {
+    "filepath": "2017/06/2017-06-15-Microsoft-AI-Research-Azure-Machine-Learning-Advances.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:36.228501",
+    "tags": [],
+    "date": "2017-06-15"
   },
-  "https://www.ithome.com/0/946/064.htm": {
-    "filepath": "",
+  "https://www.csail.mit.edu/news/self-driving-cars-see-around-corners-3-d": {
+    "filepath": "2017/06/2017-06-26-MIT-CSAIL-3D-Object-Detection-Autonomous-Vehicles.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:36.235530",
+    "tags": [],
+    "date": "2017-06-26"
   },
-  "https://www.theverge.com/gadgets/917611/sonos-refurbished-era-beam-move-speaker-deal-sale": {
-    "filepath": "",
+  "https://pytorch.org/blog/pytorch-v0-2-0-release/": {
+    "filepath": "2017/07/2017-07-18-Facebook-PyTorch-0.2-Distributed-Training.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:36.286923",
+    "tags": [],
+    "date": "2017-07-18"
   },
-  "https://www.ithome.com/0/943/525.htm": {
-    "filepath": "",
+  "https://github.com/facebookresearch/Detectron": {
+    "filepath": "2017/07/2017-07-25-Facebook-Detectron-Open-Source-Object-Detection.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:36.303668",
+    "tags": [],
+    "date": "2017-07-25"
   },
-  "https://www.theverge.com/gadgets/917340/us-worst-smartphones-china-batteries-cameras-apple-iphone-john-ternus": {
-    "filepath": "",
+  "https://www.intel.com/content/www/us/en/artificial-intelligence/posts/intel-nervana-ai-hardware.html": {
+    "filepath": "2017/07/2017-07-26-Intel-Nervana-AI-Hardware-Deep-Learning-Platform.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:36.311941",
+    "tags": [],
+    "date": "2017-07-26"
   },
-  "https://www.qbitai.com/2026/04/410738.html": {
-    "filepath": "",
+  "https://arxiv.org/abs/1705.08947": {
+    "filepath": "2017/08/2017-08-06-ICML-2017-Machine-Learning-Conference.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:36.328262",
+    "tags": [],
+    "date": "2017-08-06"
   },
-  "https://www.ithome.com/0/944/257.htm": {
-    "filepath": "",
+  "https://openai.com/blog/openai-games/": {
+    "filepath": "2017/08/2017-08-12-OpenAI-Dota2-Reinforcement-Learning.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:36.337516",
+    "tags": [],
+    "date": "2017-08-12"
   },
-  "https://www.ithome.com/0/946/085.htm": {
-    "filepath": "",
+  "https://www.tesla.com/blog/all-tesla-cars-now-equipped-with-hardware-future-self-driving-capability": {
+    "filepath": "2017/08/2017-08-16-Tesla-Autopilot-2-0-NVIDIA-AI-Full-Self-Driving.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:36.345609",
+    "tags": [],
+    "date": "2017-08-16"
   },
-  "https://www.tmtpost.com/7967154.html": {
-    "filepath": "",
+  "https://blogs.microsoft.com/blog/2017/08/30/microsoft-amazon-web-services-take-next-step-bring-cortana-alexa-customers/": {
+    "filepath": "2017/08/2017-08-30-Microsoft-Amazon-Cortana-Alexa-Integration.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:36.354015",
+    "tags": [],
+    "date": "2017-08-30"
   },
-  "https://www.ithome.com/0/943/790.htm": {
-    "filepath": "",
+  "https://developer.amazon.com/blogs/alexa/post/5c63c8b1-34c9-4f35-84c1-b9a7a37ac6e5/alexa-reaches-25-000-skills-milestone": {
+    "filepath": "2017/09/2017-09-01-Amazon-Alexa-25000-Skills-Ecosystem.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:36.376317",
+    "tags": [],
+    "date": "2017-09-01"
   },
-  "https://www.theverge.com/gadgets/917924/google-pixel-watch-4-apple-airpods-deal-sale": {
-    "filepath": "",
+  "https://www.amazon.science/blog": {
+    "filepath": "2017/09/2017-09-25-Amazon-Alexa-AI-Voice-Assistant-Ecosystem-Expansion.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:36.399204",
+    "tags": [],
+    "date": "2017-09-25"
   },
-  "https://www.ithome.com/0/946/189.htm": {
-    "filepath": "",
+  "https://ai.facebook.com/blog/": {
+    "filepath": "2017/10/2017-10-02-Facebook-AI-Research-Computer-Vision-NLP-Advances.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:36.409485",
+    "tags": [],
+    "date": "2017-10-02"
   },
-  "https://www.ithome.com/0/946/070.htm": {
-    "filepath": "",
+  "https://blogs.nvidia.com/blog/2017/10/10/drive-px-pegasi/": {
+    "filepath": "2017/10/2017-10-10-NVIDIA-DRIVE-PX-Pegasus-Level5-Autonomous.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:36.412342",
+    "tags": [],
+    "date": "2017-10-10"
   },
-  "https://www.ithome.com/0/943/773.htm": {
-    "filepath": "",
+  "https://deepmind.com/blog/article/alphago-zero-starting-fresh": {
+    "filepath": "2017/10/2017-10-19-DeepMind-AlphaGo-Zero-Self-Play-Learning.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:36.428305",
+    "tags": [],
+    "date": "2017-11-02"
   },
-  "https://www.ithome.com/0/944/707.htm": {
-    "filepath": "",
+  "https://blog.waymo.com/2017/11/announcing-waymos-early-rider-program.html": {
+    "filepath": "2017/11/2017-11-07-Waymo-Early-Rider-Program-Self-Driving.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:36.468416",
+    "tags": [],
+    "date": "2017-11-07"
   },
-  "https://www.woshipm.com/ai/6388152.html": {
-    "filepath": "",
+  "https://blogs.nvidia.com/blog/2017/10/10/nvidia-drive-px-creator/": {
+    "filepath": "2017/11/2017-11-15-NVIDIA-Xavier-NPU-Autonomous-Driving-Platform.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:36.480077",
+    "tags": [],
+    "date": "2017-11-15"
   },
-  "https://www.anthropic.com/news/claude-is-a-space-to-think": {
-    "filepath": "",
+  "https://www.bostondynamics.com/atlas": {
+    "filepath": "2017/11/2017-11-16-Boston-Dynamics-Atlas-Backflip-Robotics.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:36.491583",
+    "tags": [],
+    "date": "2017-11-16"
   },
-  "https://www.tmtpost.com/7974479.html": {
-    "filepath": "",
+  "https://aiindex.org/2017-report.pdf": {
+    "filepath": "2017/12/2017-12-01-Stanford-AI-Index-2017-Annual-Report.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:36.515751",
+    "tags": [],
+    "date": "2017-12-01"
   },
-  "https://www.qbitai.com/2026/04/399996.html": {
-    "filepath": "",
+  "https://www.anandtech.com/show/12168/qualcomm-snapdragon-845-architecture": {
+    "filepath": "2017/12/2017-12-07-Qualcomm-Snapdragon-845-AI-Mobile-Processing.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:36.532613",
+    "tags": [],
+    "date": "2017-12-07"
   },
-  "https://www.anthropic.com/news/claude-design-anthropic-labs": {
-    "filepath": "",
+  "https://ai.googleblog.com/2018/01/automl-for-large-scale-image.html": {
+    "filepath": "2018/01/2018-01-17-automl-nasnet-image-classification.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:36.571814",
+    "tags": [],
+    "date": "2018-01-17"
   },
-  "https://www.llamaindex.ai/blog/unstructured-data-extraction": {
-    "filepath": "",
+  "https://deepmind.com/blog/wavenet-applies-google-assistant/": {
+    "filepath": "2018/03/2018-03-07-wavenet-production-google-assistant.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:36.602623",
+    "tags": [],
+    "date": "2018-03-07"
   },
-  "https://sspai.com/post/108148": {
-    "filepath": "",
+  "https://allenai.org/allennlp/blog/elmo": {
+    "filepath": "2018/03/2018-03-15-elmo-contextual-word-representations.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:36.612812",
+    "tags": [],
+    "date": "2018-03-15"
   },
-  "https://www.qbitai.com/2026/05/412597.html": {
-    "filepath": "",
+  "https://openai.com/blog/openai-five-defeats-world-champions/": {
+    "filepath": "2018/04/2018-04-13-openai-five-dota2-victory.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:36.635432",
+    "tags": [],
+    "date": "2018-04-13"
   },
-  "https://www.theverge.com/transportation/921295/rivian-q1-2026-earnings-revenue-profit-r2": {
-    "filepath": "",
+  "https://www.fast.ai/2018/05/07/fastai-dl-framework/": {
+    "filepath": "2018/05/2018-05-07-fastai-democratize-deep-learning.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:36.656857",
+    "tags": [],
+    "date": "2018-05-07"
   },
-  "https://www.tmtpost.com/7969858.html": {
-    "filepath": "",
+  "https://openai.com/blog/language-unsupervised/": {
+    "filepath": "2018/06/2018-06-11-gpt1-openai-foundation-model.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:36.685839",
+    "tags": [],
+    "date": "2018-06-11"
   },
-  "https://www.tmtpost.com/7975586.html": {
-    "filepath": "",
+  "https://openai.com/blog/openai-five-defeats-dota2-world-champions/": {
+    "filepath": "2018/06/2018-06-25-openai-five-defeats-dota2-champions.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:36.697720",
+    "tags": [],
+    "date": "2018-06-25"
   },
-  "https://www.llamaindex.ai/blog/the-cost-of-overthinking-why-reasoning-models-fail-at-document-parsing": {
-    "filepath": "",
+  "https://proceedings.mlr.press/v80/": {
+    "filepath": "2018/07/2018-07-15-icml-2018-machine-learning-conference.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:36.712718",
+    "tags": [],
+    "date": "2018-07-15"
   },
-  "https://www.qbitai.com/2026/04/410653.html": {
-    "filepath": "",
+  "https://nvidianews.nvidia.com/news/nvidia-unveils-turing-the-world-s-most-advanced-architecture": {
+    "filepath": "2018/08/2018-08-14-nvidia-turing-architecture-launch.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:36.734564",
+    "tags": [],
+    "date": "2018-08-14"
   },
-  "https://arstechnica.com/tech-policy/2026/05/openai-president-explains-to-jury-why-his-diary-entries-sound-greedy/": {
-    "filepath": "",
+  "https://pytorch.org/blog/pytorch1-0-released/": {
+    "filepath": "2018/10/2018-10-02-pytorch-1-0-hybrid-frontend.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:36.781863",
+    "tags": [],
+    "date": "2018-10-02"
   },
-  "https://www.ithome.com/0/945/747.htm": {
-    "filepath": "",
+  "https://deepmind.com/blog/alphafold/": {
+    "filepath": "2020/10/2020-10-08-deepmind-alphafold2-casp.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:38.143769",
+    "tags": [],
+    "date": "2020-10-08"
   },
-  "https://blogs.nvidia.com/blog/uk-llm-nemotron/": {
-    "filepath": "",
+  "https://www.nature.com/articles/d41586-018-07577-6": {
+    "filepath": "2018/12/2018-12-03-alphafold-casp13-deepmind.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:36.862540",
+    "tags": [],
+    "date": "2018-12-03"
   },
-  "https://www.ithome.com/0/943/352.htm": {
-    "filepath": "",
+  "https://proceedings.neurips.cc/paper/2018": {
+    "filepath": "2018/12/2018-12-08-nips-2018-record-attendance.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:36.870633",
+    "tags": [],
+    "date": "2018-12-08"
   },
-  "https://www.tmtpost.com/7974470.html": {
-    "filepath": "",
+  "https://aiindex.stanford.edu/2018-annual-report/": {
+    "filepath": "2018/12/2018-12-17-stanford-ai-index-inaugural-report.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:36.878218",
+    "tags": [],
+    "date": "2018-12-17"
   },
-  "https://www.ithome.com/0/945/726.htm": {
-    "filepath": "",
+  "https://www.amazon.com/patents/dp/US20190014547": {
+    "filepath": "2018/MM/2018-01-07-Amazon-Alexa-4K专利.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:36.901842",
+    "tags": [],
+    "date": "2018-01-07"
   },
-  "https://www.ithome.com/0/942/786.htm": {
-    "filepath": "",
+  "https://www.reddit.com/r/Announcements/comments/7vxzrx/update_on_our_investigation_into_the_rdeepfakes/": {
+    "filepath": "2018/MM/2018-02-14-Deepfakes-reddit-ban.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:36.908121",
+    "tags": [],
+    "date": "2018-02-14"
   },
-  "https://www.tmtpost.com/7971571.html": {
-    "filepath": "",
+  "https://openai.com/blog/openai-lp": {
+    "filepath": "2018/MM/2018-02-20-OpenAI-Separates-into-profit-nonprofit.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:36.917318",
+    "tags": [],
+    "date": "2018-02-20"
   },
-  "https://www.ithome.com/0/946/068.htm": {
-    "filepath": "",
+  "https://aliyuncloud.medium.com/alibaba-cloud-city-brain-expands-into-healthcare-f7ac3f2c6b3": {
+    "filepath": "2018/MM/2018-03-15-Alibaba-City-Brain-healthcare.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:36.923304",
+    "tags": [],
+    "date": "2018-03-15"
   },
-  "https://www.theverge.com/gadgets/922246/dreame-next-smartphones-aurora-lux-nex-modular": {
-    "filepath": "",
+  "https://www.tesla.com/blog/upgrading-experience": {
+    "filepath": "2018/MM/2018-04-09-Tesla-autopilot-hardware-3.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:36.930800",
+    "tags": [],
+    "date": "2018-04-09"
   },
-  "https://www.anthropic.com/news/finance-agents": {
-    "filepath": "",
+  "https://cloud.google.com/blog/products/data-analytics/cloud-automl-making-custom-machine-learning-easier": {
+    "filepath": "2018/MM/2018-04-23-Google-Cloud-AutoML-NLP-launch.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:36.936667",
+    "tags": [],
+    "date": "2018-04-23"
   },
-  "https://www.tmtpost.com/7975655.html": {
-    "filepath": "",
+  "https://ai.googleblog.com/2018/05/duplex-ai-system-for-natural-conversation.html": {
+    "filepath": "2018/MM/2018-05-08-Google-Duplex-demo.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:36.944110",
+    "tags": [],
+    "date": "2018-05-08"
   },
-  "https://www.qbitai.com/2026/04/410791.html": {
-    "filepath": "",
+  "https://company.yandex.com/ alice-voice-assistant-press-release": {
+    "filepath": "2018/MM/2018-05-31-Yandex-Alice-voice-assistant.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:36.952295",
+    "tags": [],
+    "date": "2018-05-31"
   },
-  "https://www.anthropic.com/news/anthropic-amazon-compute": {
-    "filepath": "",
+  "https://openai.com/index/language-unsupervised/": {
+    "filepath": "2018/MM/2018-06-11-OpenAI-GPT-1-released.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:36.959055",
+    "tags": [],
+    "date": "2018-06-11"
   },
-  "https://www.tmtpost.com/7974288.html": {
-    "filepath": "",
+  "https://iclr.cc/archive/www_2018/conference/papers/index.html": {
+    "filepath": "2018/MM/2018-06-25-ICLR-2018-notable-paper-reviews.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:36.964637",
+    "tags": [],
+    "date": "2018-06-25"
   },
-  "https://www.tmtpost.com/7975274.html": {
-    "filepath": "",
+  "https://cloud.google.com/automl/docs": {
+    "filepath": "2018/MM/2018-07-17-Google-AutoML-vision.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:36.971065",
+    "tags": [],
+    "date": "2018-07-17"
   },
-  "https://www.qbitai.com/2026/04/403505.html": {
-    "filepath": "",
+  "https://ai.facebook.com/blog/hateful-memes-challenge-and-dataset": {
+    "filepath": "2018/MM/2018-07-18-Facebook-Reasoning-Benchmark-release.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:36.978340",
+    "tags": [],
+    "date": "2018-07-18"
   },
-  "https://www.qbitai.com/2026/05/412995.html": {
-    "filepath": "",
+  "https://blogs.nvidia.com/blog/2018/08/13/nvidia-turing-architecture/": {
+    "filepath": "2018/MM/2018-08-20-NVIDIA-Turing-GPU-launch.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:36.985731",
+    "tags": [],
+    "date": "2018-08-20"
   },
-  "https://www.ithome.com/0/946/079.htm": {
-    "filepath": "",
+  "https://www.deepmind.com/blog/alphafold": {
+    "filepath": "2018/MM/2018-09-07-DeepMind-AlphaFold-protein-structure-prediction.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:36.992482",
+    "tags": [],
+    "date": "2018-09-07"
   },
-  "https://www.ithome.com/0/946/167.htm": {
-    "filepath": "",
+  "https://openai.com/index/gym-retro/": {
+    "filepath": "2018/MM/2018-09-28-OpenAI-Gym-retro.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:37.001002",
+    "tags": [],
+    "date": "2018-09-28"
   },
-  "https://www.qbitai.com/2026/04/398420.html": {
-    "filepath": "",
+  "https://www.huawei.com/cn/press-events/huawei-full-stack-ascend": {
+    "filepath": "2018/MM/2018-10-10-Huawei-Ascend-310-chip.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:37.007193",
+    "tags": [],
+    "date": "2018-10-10"
   },
-  "https://www.tmtpost.com/7975289.html": {
-    "filepath": "",
+  "https://www.microsoft.com/en-us/research/blog/questioning-the-differences-in-ai-publishing-culture-between-east-and-west": {
+    "filepath": "2018/MM/2018-10-25-Microsoft-AI-Research-18-coauthors.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:37.015347",
+    "tags": [],
+    "date": "2018-10-25"
   },
-  "https://www.ithome.com/0/945/217.htm": {
-    "filepath": "",
+  "https://www.technologyreview.com/topic/artificial-intelligence/": {
+    "filepath": "2018/MM/2018-11-07-BERT-named-2019-breakthrough.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:37.022231",
+    "tags": [],
+    "date": "2018-11-07"
   },
-  "https://www.ithome.com/0/945/231.htm": {
-    "filepath": "",
+  "https://hai.stanford.edu/research/ai-index/ai-index-2019": {
+    "filepath": "2019/07/2019-07-03-stanford-hai-ai-index-report-2019.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:37.267633",
+    "tags": [],
+    "date": "2019-07-03"
   },
-  "https://www.ithome.com/0/946/077.htm": {
-    "filepath": "",
+  "https://techcrunch.com/2019/01/08/ces-2019-shows-the-ai-revolution-is-already-here/": {
+    "filepath": "2019/01/2019-01-08-CES-2019-AI-Revolution.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:37.053295",
+    "tags": [],
+    "date": "2019-01-08"
   },
-  "https://www.tmtpost.com/7971908.html": {
-    "filepath": "",
+  "https://nvidia.com/en-us/about-nvidia/corporate-timeline/": {
+    "filepath": "2019/03/2019-03-11-NVIDIA-Acquires-Mellanox.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:37.117320",
+    "tags": [],
+    "date": "2019-03-11"
   },
-  "https://www.qbitai.com/2026/04/398823.html": {
-    "filepath": "",
+  "https://blogs.nvidia.com/blog/2019/04/03/nvidia-rtx-6000-ai-workstation/": {
+    "filepath": "2019/04/2019-04-03-nvidia-rtx-6000-ai-workstations.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:37.137498",
+    "tags": [],
+    "date": "2019-04-03"
   },
-  "https://www.ithome.com/0/943/359.htm": {
-    "filepath": "",
+  "https://openai.com/blog/openai-five-defeats-og/": {
+    "filepath": "2019/04/2019-04-13-openai-five-defeats-dota2-champions.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:37.144467",
+    "tags": [],
+    "date": "2019-04-13"
   },
-  "https://www.tmtpost.com/7972560.html": {
-    "filepath": "",
+  "https://ai.googleblog.com.com/2019/04/bert-of-google.html": {
+    "filepath": "2019/04/2019-04-15-google-bert-squad-records.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:37.151587",
+    "tags": [],
+    "date": "2019-04-15"
   },
-  "https://bdtechtalks.com/2026/04/13/llm-self-distillation-tradeoffs/?utm_source=rss&utm_medium=rss&utm_campaign=llm-self-distillation-tradeoffs": {
-    "filepath": "",
+  "https://www.wired.com/story/openai-gpt2-artificial-intelligence-information/": {
+    "filepath": "2019/04/2019-04-16-GPT-2-Staged-Release-Response.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:37.159505",
+    "tags": [],
+    "date": "2019-04-16"
   },
-  "https://www.ithome.com/0/943/361.htm": {
-    "filepath": "",
+  "https://ai.facebook.com/blog/-torch-biggraph-a-large-scale-graph-embedding-library/": {
+    "filepath": "2019/05/2019-05-06-facebook-pytorch-biggraph.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:37.173287",
+    "tags": [],
+    "date": "2019-05-06"
   },
-  "https://www.ithome.com/0/945/219.htm": {
-    "filepath": "",
+  "https://iclr.cc/archive/www.iclr.cc/Conferences/ICLR2019/Conference": {
+    "filepath": "2019/05/2019-05-06-ICLR-2019-Transformer-Dominance.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:37.180490",
+    "tags": [],
+    "date": "2019-05-06"
   },
-  "https://www.ithome.com/0/946/065.htm": {
-    "filepath": "",
+  "https://www.theverge.com/2019/5/7/18528262/google-io-2019-ai-assistant-duplex-natural-conversation": {
+    "filepath": "2019/05/2019-05-07-Google-IO-2019-AI-Assistant-Duplex.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:37.188506",
+    "tags": [],
+    "date": "2019-05-07"
   },
-  "https://www.tmtpost.com/7974319.html": {
-    "filepath": "",
+  "https://azure.microsoft.com/blog/microsoft-build-2019-ai-announcements/": {
+    "filepath": "2019/05/2019-05-08-microsoft-build-2019-ai-azure.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:37.194030",
+    "tags": [],
+    "date": "2019-05-08"
   },
-  "https://www.tmtpost.com/7975072.html": {
-    "filepath": "",
+  "https://neurips.cc/Conferences/2019/General": {
+    "filepath": "2019/06/2019-06-01-NeurIPS-2019-Record-Submissions.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:37.216198",
+    "tags": [],
+    "date": "2019-06-01"
   },
-  "https://arstechnica.com/ai/2026/05/amid-mythos-hyped-cybersecurity-prowess-researchers-find-gpt-5-5-is-just-as-good/": {
-    "filepath": "",
+  "https://www.research.ibm.com/blog/advanced-debate-summaries-project-debater": {
+    "filepath": "2019/06/2019-06-03-IBM-Project-Debater-AI-Reasoning.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:37.223151",
+    "tags": [],
+    "date": "2019-06-03"
   },
-  "https://www.tmtpost.com/7974414.html": {
-    "filepath": "",
+  "https://github.blog/2018-10-26-github-and-microsoft/": {
+    "filepath": "2019/06/2019-06-04-Microsoft-Acquires-GitHub.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:37.229204",
+    "tags": [],
+    "date": "2019-06-04"
   },
-  "https://www.tmtpost.com/7967007.html": {
-    "filepath": "",
+  "https://www.amazon.science/blog/alexa-linguistic-adaptations-2019": {
+    "filepath": "2019/06/2019-06-10-amazon-alexa-ai-breakthroughs.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:37.235896",
+    "tags": [],
+    "date": "2019-06-10"
   },
-  "https://www.tmtpost.com/7973809.html": {
-    "filepath": "",
+  "https://ai.facebook.com/blog/announcing-goemotions-a-fine-grained-emotion-dataset/": {
+    "filepath": "2019/07/2019-07-11-Facebook-Explainability-Tool-AI.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:37.273988",
+    "tags": [],
+    "date": "2019-07-11"
   },
-  "https://www.ithome.com/0/943/355.htm": {
-    "filepath": "",
+  "https://deepmind.com/blog/article/reward-design-ric": {
+    "filepath": "2019/07/2019-07-15-deepmind-rl-theory-rewards.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:37.280590",
+    "tags": [],
+    "date": "2019-07-15"
   },
-  "https://www.ithome.com/0/945/741.htm": {
-    "filepath": "",
+  "https://www.nature.com/articles/d41586-019-02976-8": {
+    "filepath": "2019/07/2019-07-30-DeepMind-AlphaFold-Protein-Folding.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:37.295143",
+    "tags": [],
+    "date": "2019-07-30"
   },
-  "https://www.qbitai.com/2026/04/400197.html": {
-    "filepath": "",
+  "https://www.aclu.org/blog/technological-innovation/digital-and-privacy-technology-analysis/amazon-keepers-shelf": {
+    "filepath": "2019/08/2019-08-27-Amazon-AWS-Rekognition-Facial-Recognition-Accuracy.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:37.365859",
+    "tags": [],
+    "date": "2019-08-27"
   },
-  "https://www.tmtpost.com/7975131.html": {
-    "filepath": "",
+  "https://www.microsoft.com/en-us/research/blog/microsoft-translator-achieves-human-level-chinese-english-translation/": {
+    "filepath": "2019/09/2019-09-25-Microsoft-Azure-AI-Language-Translator-NEU.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:37.397978",
+    "tags": [],
+    "date": "2019-09-25"
   },
-  "https://www.theverge.com/tech/922572/apple-mac-mini-256-model": {
-    "filepath": "",
+  "https://blog.tensorflow.org/2019/09/tensorflow-20-is-now-available.html": {
+    "filepath": "2019/09/2019-09-30-TensorFlow-2-Launches.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:37.411936",
+    "tags": [],
+    "date": "2019-09-30"
   },
-  "https://bdtechtalks.com/2026/05/04/memory-sparse-attention/?utm_source=rss&utm_medium=rss&utm_campaign=memory-sparse-attention": {
-    "filepath": "",
+  "https://pytorch.org/blog/pytorch-1-3-preview-available/": {
+    "filepath": "2019/10/2019-10-10-PyTorch-1.3-Released.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:37.437274",
+    "tags": [],
+    "date": "2019-10-10"
   },
-  "https://www.theverge.com/tech/920785/microsoft-xbox-revenue-q3-2026-earnings": {
-    "filepath": "",
+  "https://allenai.org/blog/elmo": {
+    "filepath": "2019/11/2019-11-19-Allen-Institute-ELMo-NLP-Semantics.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:37.512121",
+    "tags": [],
+    "date": "2019-11-19"
   },
-  "https://www.ithome.com/0/946/190.htm": {
-    "filepath": "",
+  "https://openai.com/index/gpt-2-1-5b-release/": {
+    "filepath": "2019/MM/2019-02-14-GPT-2-Five-Step-Staged-Release.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:37.584422",
+    "tags": [],
+    "date": "2019-02-14"
   },
-  "https://www.qbitai.com/2026/04/400306.html": {
-    "filepath": "",
+  "https://ai.googleblog.com/2018/11/open-sourcing-bert-state-of-art-pre.html": {
+    "filepath": "2019/MM/2019-03-04-BERT-NLP-Records.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:37.595115",
+    "tags": [],
+    "date": "2019-03-04"
   },
-  "https://sspai.com/post/109014": {
-    "filepath": "",
+  "https://ai.googleblog.com/2019/06/accelerating-deep-learning-on-google-ai.html": {
+    "filepath": "2019/MM/2019-03-06-XLNet-Outperforms-BERT.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:37.600969",
+    "tags": [],
+    "date": "2019-03-06"
   },
-  "https://bdtechtalks.com/2025/11/14/anthropic-ai-cyber-espionnage/?utm_source=rss&utm_medium=rss&utm_campaign=anthropic-ai-cyber-espionnage": {
-    "filepath": "",
+  "https://ai.googleblog.com/2019/06/introducing-evolved-transformer.html": {
+    "filepath": "2019/MM/2019-06-13-Evolved-Transformer.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:37.611383",
+    "tags": [],
+    "date": "2019-06-13"
   },
-  "https://www.ithome.com/0/944/245.htm": {
-    "filepath": "",
+  "https://ai.facebook.com/blog/larger-unsupervised-language-models/": {
+    "filepath": "2019/MM/2019-08-20-MegaBERT-Multi-BERT.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:37.619780",
+    "tags": [],
+    "date": "2019-08-20"
   },
-  "https://www.qbitai.com/2026/04/406892.html": {
-    "filepath": "",
+  "https://ai.googleblog.com/2019/12/albert-lite-bert-self-supervised.html": {
+    "filepath": "2019/MM/2019-09-26-ALBERT-NLP-Efficiency.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:37.630843",
+    "tags": [],
+    "date": "2019-09-26"
   },
-  "https://www.tmtpost.com/7966370.html": {
-    "filepath": "",
+  "https://www.nature.com/articles/d41586-019-02918-5": {
+    "filepath": "2019/MM/2019-10-23-Google-Quantum-supremacy.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:37.640941",
+    "tags": [],
+    "date": "2019-10-23"
   },
-  "https://www.tmtpost.com/7975258.html": {
-    "filepath": "",
+  "https://ai.facebook.com/blog/facebook-research-resnext-wsl/": {
+    "filepath": "2019/MM/2019-11-06-ImageNet-Records-Facebook.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:37.650055",
+    "tags": [],
+    "date": "2019-11-06"
   },
-  "https://bdtechtalks.com/2025/11/27/google-antigravity-prompt-injection/?utm_source=rss&utm_medium=rss&utm_campaign=google-antigravity-prompt-injection": {
-    "filepath": "",
+  "https://developer.nvidia.com/blog/nvidia-sets-world-record-semi-supervised-learning/": {
+    "filepath": "2019/MM/2019-11-18-NVIDIA-Mean-Teachers-SelfTraining.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:37.659962",
+    "tags": [],
+    "date": "2019-11-18"
   },
-  "https://www.qbitai.com/2026/04/404645.html": {
-    "filepath": "",
+  "https://openai.com/index/dall-e/": {
+    "filepath": "2020/01/2020-01-06-dall-e-openai.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:37.684618",
+    "tags": [],
+    "date": "2020-01-06"
   },
-  "https://www.qbitai.com/2026/04/405391.html": {
-    "filepath": "",
+  "https://ai.googleblog.com/2020/01/google-ai-launches-meena.html": {
+    "filepath": "2020/01/2020-01-29-google-meena-chatbot-2-6b-parameters.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:37.708602",
+    "tags": [],
+    "date": "2020-01-29"
   },
-  "https://the-decoder.com/how-anthropics-80x-growth-blew-past-its-own-infrastructure-and-straight-into-musks-data-center/": {
-    "filepath": "",
+  "https://www.microsoft.com/en-us/research/blog/turing-nlg-a-2-billion-parameter-language-model-by-microsoft/": {
+    "filepath": "2020/02/2020-02-13-microsoft-turing-nlg-17-billion-parameters.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:37.728637",
+    "tags": [],
+    "date": "2020-02-13"
   },
-  "https://www.tmtpost.com/7972019.html": {
-    "filepath": "",
+  "https://arxiv.org/abs/2005.14165": {
+    "filepath": "2020/07/2020-07-15-turing-gpt3-paper.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:38.014448",
+    "tags": [],
+    "date": "2020-07-15"
   },
-  "https://www.qbitai.com/2026/04/404604.html": {
-    "filepath": "",
+  "https://developer.nvidia.com/blog/nvidia-a100tensor-core-gpu-delivers-3x-performance-for-ai-and-data-analytics-workloads/": {
+    "filepath": "2020/05/2020-05-14-nvidia-a100-gpu-ai-computing.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:37.875825",
+    "tags": [],
+    "date": "2020-05-14"
   },
-  "https://www.woshipm.com/ai/6387729.html": {
-    "filepath": "",
+  "https://openai.com/index/gpt-3-launch/": {
+    "filepath": "2020/05/2020-05-28-gpt3-openai-launch.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:37.890025",
+    "tags": [],
+    "date": "2020-05-28"
   },
-  "https://36kr.com/p/3798845086882820?f=rss": {
-    "filepath": "",
+  "https://blog.google/technology/ai/switch-transformer/": {
+    "filepath": "2020/06/2020-06-11-switch-transformer-google.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:37.927039",
+    "tags": [],
+    "date": "2020-06-11"
   },
-  "https://www.theverge.com/tech/920723/linux-ubuntu-ai-features-ai-kill-switch": {
-    "filepath": "",
+  "https://blog.google/technology/ai/introducing-pathways/": {
+    "filepath": "2020/07/2020-07-06-google-pathways-architecture-distributed-ai.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:37.978985",
+    "tags": [],
+    "date": "2020-07-06"
   },
-  "https://www.ithome.com/0/943/521.htm": {
-    "filepath": "",
+  "https://github.blog/2020-07-08-github-copilot-technical-preview/": {
+    "filepath": "2020/07/2020-07-08-github-copilot-technical-preview.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:37.992996",
+    "tags": [],
+    "date": "2020-07-08"
   },
-  "https://www.qbitai.com/2026/04/405299.html": {
-    "filepath": "",
+  "https://arxiv.org/abs/2105.01601": {
+    "filepath": "2021/MM/2021-08-11-mlp-multi-layer-perceptron-revival.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:39.250881",
+    "tags": [],
+    "date": "2021-05-04"
   },
-  "https://www.ithome.com/0/945/232.htm": {
-    "filepath": "",
+  "https://laion.ai/blog/laion-400-open-dataset/": {
+    "filepath": "2020/08/2020-08-06-fair-laion-400m-dataset-opensource.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:38.055158",
+    "tags": [],
+    "date": "2020-08-06"
   },
-  "https://www.ithome.com/0/945/736.htm": {
-    "filepath": "",
+  "https://research.baidu.com/blog/ernie-3.0-titan": {
+    "filepath": "2020/09/2020-09-22-baidu-ernie-3-titan.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:38.109646",
+    "tags": [],
+    "date": "2020-09-22"
   },
-  "https://www.theverge.com/tech/920236/motorola-razr-plus-2026-price": {
-    "filepath": "",
+  "https://blog.eleuther.ai/announcing-gpt-neo/": {
+    "filepath": "2020/10/2020-10-03-eleutherai-gpt-neo-1-3b-open-source-gpt3.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:38.124071",
+    "tags": [],
+    "date": "2020-10-03"
   },
-  "https://www.qbitai.com/2026/04/407026.html": {
-    "filepath": "",
+  "https://www.nature.com/articles/d41586-020-03348-4": {
+    "filepath": "2020/11/2020-11-30-alphafold2-casp14-results.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:38.216100",
+    "tags": [],
+    "date": "2020-11-30"
   },
-  "https://www.theverge.com/tech/926376/apple-airpods-cameras-ai-production": {
-    "filepath": "",
+  "https://www.nature.com/articles/s41586-021-03819-0": {
+    "filepath": "2020/11/2020-11-30-deepmind-alphafold2-protein-folding-breakthrough.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:38.227381",
+    "tags": [],
+    "date": "2020-11-30"
   },
-  "https://www.qbitai.com/2026/04/410317.html": {
-    "filepath": "",
+  "https://blogs.nvidia.com/blog/2020/12/04/dgx-superpod-ai-supercomputing/": {
+    "filepath": "2020/12/2020-12-04-nvidia-dgx-ai-supercomputing.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:38.254886",
+    "tags": [],
+    "date": "2020-12-04"
   },
-  "https://bdtechtalks.com/2025/12/09/poetiq-arc-agi-2-solution/?utm_source=rss&utm_medium=rss&utm_campaign=poetiq-arc-agi-2-solution": {
-    "filepath": "",
+  "https://hai.stanford.edu/ai-index/2020": {
+    "filepath": "2020/MM/2020-03-20-stanford-hai-ai-index-2020.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:38.296863",
+    "tags": [],
+    "date": "2020-12-15"
   },
-  "https://www.ithome.com/0/943/777.htm": {
-    "filepath": "",
+  "https://blogs.nvidia.com/blog/2020/05/14/nvidia-ampere-architecture-dgx-a100/": {
+    "filepath": "2020/MM/2020-05-14-nvidia-ampere-a100-20x-ai-speedup.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:38.304676",
+    "tags": [],
+    "date": "2020-05-14"
   },
-  "https://www.ithome.com/0/945/739.htm": {
-    "filepath": "",
+  "https://ai.facebook.com/blog/blenderbot-2-0-open-source-chatbot-with-long-term-memory/": {
+    "filepath": "2020/MM/2020-08-04-facebook-blender-bot-2-long-term-memory.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:38.311388",
+    "tags": [],
+    "date": "2020-08-04"
   },
-  "https://www.tmtpost.com/7966437.html": {
-    "filepath": "",
+  "https://www.eleuther.ai/blog/gpt-neo-release/": {
+    "filepath": "2020/MM/2020-08-10-eleutherai-gpt-neo-open-source.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:38.319123",
+    "tags": [],
+    "date": "2020-08-10"
   },
-  "https://www.tmtpost.com/7966626.html": {
-    "filepath": "",
+  "https://stability.ai/news/launch-of-stable-diffusion-v3-archive": {
+    "filepath": "2020/MM/2020-10-12-stability-ai-open-source-foundation-models-initiative.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:38.326337",
+    "tags": [],
+    "date": "2020-10-12"
   },
-  "https://www.ithome.com/0/945/894.htm": {
-    "filepath": "",
+  "https://stability.ai/news/company-launch": {
+    "filepath": "2020/MM/2020-10-12-stability-ai-open-source-foundation-models.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:38.336035",
+    "tags": [],
+    "date": "2020-10-12"
   },
-  "https://www.qbitai.com/2026/04/409879.html": {
-    "filepath": "",
+  "https://bigscience.huggingface.co/blog/bloom": {
+    "filepath": "2020/MM/2020-11-17-bigscience-bloom-open-source-multilingual-llm.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:38.342635",
+    "tags": [],
+    "date": "2020-11-17"
   },
-  "https://www.ithome.com/0/944/696.htm": {
-    "filepath": "",
+  "https://www.nature.com/articles/d41586-020-03348-6": {
+    "filepath": "2020/MM/2020-11-30-deepmind-alphafold2-protein-folding-solution.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:38.351808",
+    "tags": [],
+    "date": "2020-11-30"
   },
-  "https://www.ithome.com/0/945/233.htm": {
-    "filepath": "",
+  "https://www.nvidia.com/en-us/data-center/dgx-a100/": {
+    "filepath": "2020/MM/2020-12-04-nvidia-dgx-superpod-ai-benchmark.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:38.362759",
+    "tags": [],
+    "date": "2020-12-04"
   },
-  "https://www.qbitai.com/2026/04/411600.html": {
-    "filepath": "",
+  "https://www.nature.com/collections/artificial-intelligence-nature": {
+    "filepath": "2020/MM/2020-12-08-alphafold-nature-top10-breakthrough.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:38.369014",
+    "tags": [],
+    "date": "2020-12-08"
   },
-  "https://www.anthropic.com/news/anthropic-nec": {
-    "filepath": "",
+  "https://proceedings.neurips.org/paper/2020": {
+    "filepath": "2020/MM/2020-12-15-neurips-2020-virtual-conference.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:38.374135",
+    "tags": [],
+    "date": "2020-12-15"
   },
-  "https://arstechnica.com/ai/2026/05/study-ai-models-that-consider-users-feeling-are-more-likely-to-make-errors/": {
-    "filepath": "",
+  "https://ai.googleblog.com/2020/06/replacing-recurrent-models-with-attention": {
+    "filepath": "2020/MM/2020-12-20-google-speech-recognition-10-billion-hours.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:38.379681",
+    "tags": [],
+    "date": "2020-12-20"
   },
-  "https://www.tmtpost.com/7966471.html": {
-    "filepath": "",
+  "https://openai.com/blog/dall-e": {
+    "filepath": "2021/MM/2021-01-05-DALL-E-Image-Generation-Model.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:39.069826",
+    "tags": [],
+    "date": "2021-01-05"
   },
-  "https://sspai.com/bullet/1777360668": {
-    "filepath": "",
+  "https://ai.googleblog.com/2021/01/switch-transformer-scaling-to-trillion.html": {
+    "filepath": "2021/01/2021-01-11-switch-transformer-trillion-parameters.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:38.425673",
+    "tags": [],
+    "date": "2021-01-11"
   },
-  "https://www.theverge.com/tech/922531/microsoft-windows-11-run-menu-redesign-test": {
-    "filepath": "",
+  "https://arxiv.org/abs/2101.03961": {
+    "filepath": "2021/01/2021-01-11-switch-transformer.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:38.431631",
+    "tags": [],
+    "date": "2021-01-11"
   },
-  "https://www.qbitai.com/2026/05/412585.html": {
-    "filepath": "",
+  "https://openai.com/blog/clip/": {
+    "filepath": "2021/02/2021-02-08-CLIP-Paper-OpenAI.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:38.476570",
+    "tags": [],
+    "date": "2021-02-08"
   },
-  "https://www.tmtpost.com/7974096.html": {
-    "filepath": "",
+  "https://openai.com/blog/api-access/": {
+    "filepath": "2021/03/2021-03-05-GPT-3-API-Public.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:38.499942",
+    "tags": [],
+    "date": "2021-03-05"
   },
-  "https://www.tmtpost.com/7971047.html": {
-    "filepath": "",
+  "https://openai.com/blog/api": {
+    "filepath": "2021/03/2021-03-05-gpt3-api-launch.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:38.505699",
+    "tags": [],
+    "date": "2021-03-05"
   },
-  "https://www.tmtpost.com/7967030.html": {
-    "filepath": "",
+  "https://ai.facebook.com/blog/data2vec-a-general-framework-for-self-supervised-learning/": {
+    "filepath": "2021/03/2021-03-16-meta-data2vec.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:38.523747",
+    "tags": [],
+    "date": "2021-03-16"
   },
-  "https://www.ithome.com/0/943/371.htm": {
-    "filepath": "",
+  "https://blog.google/technology/ai": {
+    "filepath": "2021/05/2021-05-18-google-io-ai-features.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:38.627892",
+    "tags": [],
+    "date": "2021-05-18"
   },
-  "https://www.ithome.com/0/942/796.htm": {
-    "filepath": "",
+  "https://blog.google/technology/ai/lamda": {
+    "filepath": "2021/05/2021-05-18-google-lamda.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:38.657211",
+    "tags": [],
+    "date": "2021-05-18"
   },
-  "https://www.tmtpost.com/7975127.html": {
-    "filepath": "",
+  "https://www.bai.com/newsDetail/117": {
+    "filepath": "2021/06/2021-06-01-Wu-Dao-2-Release.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:38.681180",
+    "tags": [],
+    "date": "2021-06-01"
   },
-  "https://www.theverge.com/news/921582/microsoft-xbox-mode-windows-11": {
-    "filepath": "",
+  "https://www.eleuther.ai/": {
+    "filepath": "2021/06/2021-06-04-gpt-j-release.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:38.702404",
+    "tags": [],
+    "date": "2021-06-04"
   },
-  "https://www.tmtpost.com/7970697.html": {
-    "filepath": "",
+  "https://github.com/features/copilot": {
+    "filepath": "2021/06/2021-06-29-github-copilot-launch.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:38.711586",
+    "tags": [],
+    "date": "2021-06-29"
   },
-  "https://www.ithome.com/0/946/163.htm": {
-    "filepath": "",
+  "https://openai.com/research/highlights": {
+    "filepath": "2021/07/2021-07-01-openai-reasoning.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:38.742548",
+    "tags": [],
+    "date": "2021-07-01"
   },
-  "https://www.qbitai.com/2026/04/407363.html": {
-    "filepath": "",
+  "https://deepmind.com/blog/article/AlphaFold": {
+    "filepath": "2021/07/2021-07-22-alphafold2-protein-folding.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:38.815707",
+    "tags": [],
+    "date": "2021-07-22"
   },
-  "https://www.ithome.com/0/942/807.htm": {
-    "filepath": "",
+  "https://ai.facebook.com/blog/blenderbot-2-0": {
+    "filepath": "2021/08/2021-08-05-meta-blenderbot-2.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:38.836886",
+    "tags": [],
+    "date": "2021-08-05"
   },
-  "https://www.ithome.com/0/943/788.htm": {
-    "filepath": "",
+  "https://www.tesla.com/AI": {
+    "filepath": "2021/MM/2021-07-10-Tesla-AI-Autonomous-Driving.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:39.220140",
+    "tags": [],
+    "date": "2021-07-10"
   },
-  "https://www.ithome.com/0/945/743.htm": {
-    "filepath": "",
+  "https://www.anthropic.com/index.html": {
+    "filepath": "2021/09/2021-09-29-constitutional-ai-anthropic.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:38.919497",
+    "tags": [],
+    "date": "2021-09-29"
   },
-  "https://www.theverge.com/tech/920815/google-alphabet-q1-2026-earnings-sundar-pichai": {
-    "filepath": "",
+  "https://www.microsoft.com/en-us/research/blog/using-deepspeed-and-megatron-to-train-megatron-turing-nlg-530b-the-worlds-largest-and-most-powerful-monolithic-language-model/": {
+    "filepath": "2021/10/2021-10-11-megatron-turing-nlg.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:38.948889",
+    "tags": [],
+    "date": "2021-10-11"
   },
-  "https://syncedreview.com/2025/06/24/bytedance-introduces-astra-a-dual-model-architecture-for-autonomous-robot-navigation/": {
-    "filepath": "",
+  "https://stability.ai/": {
+    "filepath": "2021/12/2021-12-04-stability-ai-founded.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:39.021240",
+    "tags": [],
+    "date": "2021-12-04"
   },
-  "https://www.ithome.com/0/946/196.htm": {
-    "filepath": "",
+  "https://openai.com/blog/openai-api": {
+    "filepath": "2021/MM/2021-01-04-GPT-3-API-Opens-to-Public.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:39.062856",
+    "tags": [],
+    "date": "2021-01-04"
   },
-  "https://www.tmtpost.com/7970660.html": {
-    "filepath": "",
+  "https://ai.googleblog.com/2021/01/switch-transformers-scaling-to-trillion.html": {
+    "filepath": "2021/MM/2021-01-11-Switch-Transformer-Trillion-Parameters.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:39.087350",
+    "tags": [],
+    "date": "2021-01-11"
   },
-  "https://www.ithome.com/0/944/327.htm": {
-    "filepath": "",
+  "https://openai.com/blog/reinforcement-learning-from-human-feedback/": {
+    "filepath": "2021/MM/2021-02-03-OpenAI-Safety-RLHF-Research.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:39.096659",
+    "tags": [],
+    "date": "2021-02-03"
   },
-  "https://www.theverge.com/business/922788/spirit-airlines-shutdown": {
-    "filepath": "",
+  "http://www.xinhuanet.com/2021-03/02/c_1211087756.htm": {
+    "filepath": "2021/MM/2021-03-02-Deepfake-Regulation-Increase.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:39.105560",
+    "tags": [],
+    "date": "2021-03-02"
   },
-  "https://www.ithome.com/0/943/771.htm": {
-    "filepath": "",
+  "https://ai.googleblog.com/2021/03/continuing-our-natural-language-processing-research.html": {
+    "filepath": "2021/MM/2021-03-18-Google-BERT-Transformers-NLP-Progress.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:39.115444",
+    "tags": [],
+    "date": "2021-03-18"
   },
-  "https://www.ithome.com/0/945/748.htm": {
-    "filepath": "",
+  "https://developer.nvidia.com/blog/nvidia-gpu-technology-conference-2021/": {
+    "filepath": "2021/MM/2021-04-08-NVIDIA-AI-Chips-Data-Centers.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:39.124479",
+    "tags": [],
+    "date": "2021-04-08"
   },
-  "https://www.tmtpost.com/7972007.html": {
-    "filepath": "",
+  "https://blogs.nvidia.com/blog/2022/03/22/nvidia-hopper-architecture/": {
+    "filepath": "2021/MM/2021-04-12-NVIDIA-Hopper-GPU-Architecture.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:39.133889",
+    "tags": [],
+    "date": "2021-04-12"
   },
-  "https://www.ithome.com/0/946/073.htm": {
-    "filepath": "",
+  "https://developer.nvidia.com/blog/nvidia-hopper-architecture-inforcement": {
+    "filepath": "2021/MM/2021-04-12-NVIDIA-Hopper-GPU.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:39.143518",
+    "tags": [],
+    "date": "2021-04-12"
   },
-  "https://www.qbitai.com/2026/04/399681.html": {
-    "filepath": "",
+  "https://blog.google/technology/ai/lamda/": {
+    "filepath": "2021/MM/2021-05-18-Google-LaMDA-Conversational-AI.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:39.162492",
+    "tags": [],
+    "date": "2021-05-18"
   },
-  "https://www.ithome.com/0/946/072.htm": {
-    "filepath": "",
+  "https://www.nature.com/articles/s41591-021-01425-1": {
+    "filepath": "2021/MM/2021-06-03-AI-Healthcare-Medical-Imaging.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:39.181113",
+    "tags": [],
+    "date": "2021-06-03"
   },
-  "https://www.ithome.com/0/944/708.htm": {
-    "filepath": "",
+  "https://openai.com/blog/api-access-to-gpt-3": {
+    "filepath": "2021/MM/2021-06-11-gpt3-api-public-release.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:39.191189",
+    "tags": [],
+    "date": "2021-06-11"
   },
-  "https://www.theverge.com/games/903575/esoteric-ebb-review-pc-steam": {
-    "filepath": "",
+  "https://github.blog/2021-06-29-introducing-github-copilot/": {
+    "filepath": "2021/MM/2021-06-29-GitHub-Copilot-Launches.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:39.199512",
+    "tags": [],
+    "date": "2021-06-29"
   },
-  "https://www.tmtpost.com/7971782.html": {
-    "filepath": "",
+  "https://github.blog/2021-06-29-introducing-github-copilot-technical-preview": {
+    "filepath": "2021/MM/2021-06-29-github-copilot-technical-preview.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:39.209373",
+    "tags": [],
+    "date": "2021-06-29"
   },
-  "https://www.ithome.com/0/943/356.htm": {
-    "filepath": "",
+  "https://www.nature.com/articles/s41586-021-03819-2": {
+    "filepath": "2021/MM/2021-07-15-AlphaFold2-Protein-Structure.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:39.241034",
+    "tags": [],
+    "date": "2021-07-15"
   },
-  "https://bdtechtalks.com/2026/04/20/anthropic-mcp-vulnerability/?utm_source=rss&utm_medium=rss&utm_campaign=anthropic-mcp-vulnerability": {
-    "filepath": "",
+  "https://ai.meta.com/blog/": {
+    "filepath": "2021/MM/2021-08-16-Meta-AI-Audiobox-Audio-Generation.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:39.263034",
+    "tags": [],
+    "date": "2021-08-16"
   },
-  "https://blogs.nvidia.com/blog/jp-morgan-healthcare-2025/": {
-    "filepath": "",
+  "https://stability.ai/blog/stable-diffusion-announcement": {
+    "filepath": "2021/MM/2021-08-22-Stable-Diffusion-Open-Source.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:39.271875",
+    "tags": [],
+    "date": "2021-08-22"
   },
-  "https://www.ithome.com/0/942/837.htm": {
-    "filepath": "",
+  "https://www.partnershiponai.org/": {
+    "filepath": "2021/MM/2021-09-07-AI-Ethics-Fairness-Research.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:39.282281",
+    "tags": [],
+    "date": "2021-09-07"
   },
-  "https://www.tmtpost.com/7975705.html": {
-    "filepath": "",
+  "http://www.cac.gov.cn/2021-09/29/c_1634509505626782.htm": {
+    "filepath": "2021/MM/2021-09-29-China-AI-Regulation.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:39.292636",
+    "tags": [],
+    "date": "2021-09-29"
   },
-  "https://www.ithome.com/0/943/787.htm": {
-    "filepath": "",
+  "https://github.blog/2021-10-19-github-copilot-is-now-generally-available/": {
+    "filepath": "2021/MM/2021-10-19-GitHub-Copilot-Generally-Available.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:39.299134",
+    "tags": [],
+    "date": "2021-10-19"
   },
-  "https://arstechnica.com/tech-policy/2026/05/everything-that-could-go-wrong-with-trumps-ai-safety-tests-according-to-experts/": {
-    "filepath": "",
+  "https://about.fb.com/news/2021/10/facebook-company-brand/": {
+    "filepath": "2021/MM/2021-10-28-Facebook-Meta-AI-Research.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:39.307208",
+    "tags": [],
+    "date": "2021-10-28"
   },
-  "https://www.qbitai.com/2026/04/409882.html": {
-    "filepath": "",
+  "https://research.baidu.com/blog/ernie-3-0-titan": {
+    "filepath": "2021/MM/2021-11-15-Baidu-ERNIE-3.0-Titan.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:39.315226",
+    "tags": [],
+    "date": "2021-11-15"
   },
-  "https://www.ithome.com/0/946/187.htm": {
-    "filepath": "",
+  "https://www.anthropic.com/news": {
+    "filepath": "2026/MM/2026-01-15-Claude-4-Anthropic-Multi-Modal-AI.md",
     "title": "",
-    "import_time": ""
+    "import_time": "2026-05-08T23:13:44.813997",
+    "tags": [],
+    "date": "2026-01-15"
   },
-  "https://www.theverge.com/policy/917643/ban-warehouse-detention-act-ice-dhs": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.theverge.com/gadgets/922165/netvue-birdfy-smart-bird-feeder-bath-mothers-day-deal-sale": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/946/162.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/946/081.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.woshipm.com/ai/6376171.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7966456.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/944/701.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/05/413164.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7974686.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7967802.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/406960.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/409896.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7967998.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/945/904.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.anthropic.com/news/announcing-our-updated-responsible-scaling-policy": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/945/750.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/396366.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.theverge.com/tech/921690/dualshot-recorder-iphone-camera-app-derrick-downey-jr": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/406809.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://arstechnica.com/gadgets/2026/05/tsmc-taps-wind-power-as-ai-chip-demand-soars-taiwan-feels-energy-crunch/": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://arstechnica.com/tech-policy/2026/05/character-ai-sued-over-chatbot-that-claims-to-be-a-real-doctor-with-a-license/": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.theverge.com/tech/918572/microsoft-windows-updates-pause-35-days": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7974339.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.theverge.com/streaming/919958/youtube-tv-custom-multiview-channel": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/942/787.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/406994.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/944/706.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/945/749.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7966255.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/945/912.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/944/258.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/411205.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/945/226.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/944/253.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/407294.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/945/216.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/402988.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/942/785.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7967006.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/399366.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7975795.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7967029.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/410453.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/945/905.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/943/555.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.llamaindex.ai/blog/llamaparse-update-may-2025-new-models-skew-detection-and-more": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/943/519.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.theverge.com/science/918769/trump-fires-the-entire-national-science-board": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/946/182.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/411186.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.theverge.com/tech/914730/splatica-gaussian-splats-insta360-antigravity": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/944/695.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://bdtechtalks.com/2025/11/25/anthropic-claude-opus-4-5/?utm_source=rss&utm_medium=rss&utm_campaign=anthropic-claude-opus-4-5": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/945/895.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7967099.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://sspai.com/post/109024": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/945/228.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.woshipm.com/ai/6391685.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.theverge.com/gadgets/922180/trump-mobile-t1-phone-ptcrb-certification-t-mobile": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7974872.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/404721.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7973738.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/946/192.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://blogs.nvidia.com/blog/isambard-ai/": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.theverge.com/gadgets/919736/nex-playground-amazon-gaming-week-deal-sale": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7974779.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7966322.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7975071.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7949068.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.theverge.com/science/918753/researchers-talking-less": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7970666.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://bdtechtalks.com/2026/03/16/why-ai-wont-kill-saas/?utm_source=rss&utm_medium=rss&utm_campaign=why-ai-wont-kill-saas": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/942/802.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.theverge.com/gadgets/920848/splatoon-raiders-physical-edition-preorder-switch-2-walmart-deal-sale": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/403515.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/942/793.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7974528.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/407159.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/946/166.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.theverge.com/tech/918852/googles-new-gradient-icon-design-is-coming-to-more-apps": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/399903.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/944/697.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/943/786.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/05/413296.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.theverge.com/entertainment/918250/avatar-aang-the-last-airbender-leaks-arrest-paramount-plus": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/945/229.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/399370.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://blogs.nvidia.com/blog/physical-ai-research-siggraph-2025/": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.theverge.com/tech/921527/apple-iphone-revenue-q2-2026-earnings": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/943/544.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/411797.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.theverge.com/tech/918301/samsung-south-korea-union-protests": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/412041.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7970665.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://sspai.com/post/108202": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://36kr.com/newsflashes/3800477731838985?f=rss": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/943/553.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7975787.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/945/220.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/943/774.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/944/255.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/944/704.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7974680.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/412015.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://sspai.com/bullet/1776830917": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7981001.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7974859.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.theverge.com/gadgets/918169/xreal-one-pro-ar-glasses-price-cut-deal-sale": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/05/414316.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://bdtechtalks.com/2025/11/10/nvidia-nvfp4-llm-quantization/?utm_source=rss&utm_medium=rss&utm_campaign=nvidia-nvfp4-llm-quantization": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/945/734.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/05/412896.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7965748.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/945/948.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/05/413612.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/943/372.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.theverge.com/news/917880/xbox-game-pass-starter-edition-discord-nitro-bundle": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.anthropic.com/research/natural-language-autoencoders": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://arstechnica.com/gadgets/2026/05/google-home-gets-upgraded-gemini-voice-assistant-and-new-camera-controls/": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://bdtechtalks.com/2025/11/24/what-is-next-for-yann-lecun-after-his-departure-from-meta/?utm_source=rss&utm_medium=rss&utm_campaign=what-is-next-for-yann-lecun-after-his-departure-from-meta": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/946/078.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/945/215.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://arstechnica.com/tech-policy/2026/05/musks-world-war-iii-threat-in-twitter-lawsuit-haunts-him-at-openai-trial/": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/411959.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7971780.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://arstechnica.com/ai/2026/05/silicon-valley-bets-on-floating-ai-data-centers-powered-by-ocean-waves/": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7968080.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/946/067.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://bdtechtalks.com/2026/01/23/microsofts-rho-alpha-vla-robotic-model/?utm_source=rss&utm_medium=rss&utm_campaign=microsofts-rho-alpha-vla-robotic-model": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7974564.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.woshipm.com/ai/6374802.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://sspai.com/post/106369": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/05/413265.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/399473.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7974800.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/944/324.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/05/412447.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://sspai.com/post/109296": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/946/186.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://sspai.com/post/109032": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/945/751.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.anthropic.com/news/election-safeguards-update": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://sspai.com/prime/story/recipes-for-spring": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://sspai.com/post/108962": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7971936.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7974477.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://sspai.com/post/109207": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7970692.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.theverge.com/transportation/917629/spirit-airlines-bankrupt-bailout-merger-ultra-low-cost": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/945/733.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7971751.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/405358.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/944/251.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7966754.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://arstechnica.com/tech-policy/2026/05/in-canada-a-canary-trap-springs-shut-and-ids-election-database-leak/": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/945/742.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.citizen.co.za/news/home-affairs-officials-suspended-ai-hallucinations/": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/944/246.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/410732.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7970648.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://sspai.com/post/88452": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://36kr.com/p/3799129165863937?f=rss": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/943/775.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/406791.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/943/523.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7967024.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7974272.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7970367.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/942/804.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.theverge.com/tech/920183/motorola-razr-ultra-2026-wood-finish-alcantara-price": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.llamaindex.ai/blog/bending-without-breaking-optimal-design-patterns-for-effective-agents": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/944/248.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.theverge.com/games/921391/housemarque-interview-saros-ps5": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/945/903.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7975679.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7970480.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.theverge.com/ai-artificial-intelligence/920048/elon-musk-testimony-save-humanity": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/943/353.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/945/919.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/403528.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/943/350.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/943/543.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.llamaindex.ai/blog/llamaindex-newsletter-2026-02-24": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/943/368.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.theverge.com/tech/919787/google-home-instant-account-relinking-update": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7971561.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.theverge.com/tech/918765/an-influx-of-used-evs-could-drive-down-prices": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/945/227.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://sspai.com/post/109288": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/945/214.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7975633.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7974357.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/943/528.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/943/369.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/406767.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/944/723.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/944/256.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/943/527.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7965032.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7970694.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://sspai.com/post/108971": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/05/413591.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://sspai.com/bullet/1775792123": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.theverge.com/tech/920420/google-photos-ai-try-on-wardrobe": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://sspai.com/post/108976": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://sspai.com/post/108857": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/410772.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/942/791.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/946/194.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/399417.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/410463.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/947/897.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://arstechnica.com/ai/2026/05/influential-study-touting-chatgpt-in-education-retracted-over-red-flags/": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7971166.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/946/191.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/943/542.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://sspai.com/post/109235": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7966971.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://bdtechtalks.com/2026/02/02/sakana-ai-repo-llm-token-positions/?utm_source=rss&utm_medium=rss&utm_campaign=sakana-ai-repo-llm-token-positions": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/404481.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/404631.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/412018.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.theverge.com/entertainment/922244/nba-nfl-mlb-prediction-market-unders-bets": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/946/075.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://sspai.com/post/109188": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.theverge.com/policy/921652/congress-fisa-section-702-45-day-extension": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/943/354.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/410294.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/411955.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.theverge.com/gadgets/922616/shokz-openrun-pro-2-bone-conduction-headphones-mothers-day-deal-sale": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.llamaindex.ai/blog/beyond-chatbots-adopting-agentic-document-workflows-for-enterprises": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/946/076.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.theverge.com/column/920845/grindr-whcd-party-2026": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/946/074.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://openai.com/gpt-5": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7965984.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/05/412577.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/406393.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/944/698.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/406026.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://sspai.com/post/88578": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/942/788.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.theverge.com/policy/917910/polymarket-maduro-bets-arrest-van-dyke": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7974824.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/403214.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/410183.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7966317.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/406806.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/943/554.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/945/947.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7966656.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/945/945.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/947/872.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.llamaindex.ai/blog/ocr-for-images": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/945/737.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/410937.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.theverge.com/gadgets/913854/govee-uplighter-floor-lamps-caregiving-parkinsons-disease": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7967862.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/943/769.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://arstechnica.com/gadgets/2026/05/unofficial-vibe-coded-notepad-for-mac-draws-objections-from-original-author/": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://sspai.com/post/108385": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/409670.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/944/261.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/403226.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://sspai.com/post/109183": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.theverge.com/news/918527/alex-jones-infowars-takeover-the-onion-tim-heidecker": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/943/552.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/944/724.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/944/702.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://sspai.com/post/108991": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://bdtechtalks.com/2025/11/08/kimi-k2-thinking/?utm_source=rss&utm_medium=rss&utm_campaign=kimi-k2-thinking": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/945/939.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7966592.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/945/746.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/406973.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.theverge.com/tech/918695/framework-laptop-stranger-things-installer": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/406359.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://sspai.com/post/109114": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/945/901.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/402636.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7971727.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/946/181.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/945/218.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7967028.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.theverge.com/ai-artificial-intelligence/920775/evidence-exhibits-elon-musk-sam-altman-openai-trial": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.anthropic.com/news/higher-limits-spacex": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7975677.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/942/806.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/05/412870.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://sspai.com/post/109163": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://sspai.com/post/109410": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.anthropic.com/news/enterprise-ai-services-company": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7969233.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.theverge.com/report/919664/chatrie-v-united-states-supreme-court-arguments-fourth-amendment-geofence-warrants": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/943/357.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/946/195.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7974692.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://sspai.com/post/109266": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7971642.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/411184.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7967874.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.llamaindex.ai/blog/llamaindex-newsletter-2026-02-17": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7971740.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.theverge.com/gadgets/919460/motorola-razr-2026-price-availability": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7975466.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7965877.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.woshipm.com/ai/6318770.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/402965.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7966472.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/943/784.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7975060.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/410450.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/411964.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/945/235.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/404798.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://the-decoder.com/openais-new-voice-model-brings-gpt-5-level-reasoning-to-real-time-conversations/": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.llamaindex.ai/blog/llamaindex-newsletter-2026-03-31": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/943/783.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/406760.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/404130.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://bdtechtalks.com/2026/01/26/recursive-language-models/?utm_source=rss&utm_medium=rss&utm_campaign=recursive-language-models": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/944/725.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/943/793.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.theverge.com/games/918200/kiln-review-double-fine-xbox-ps5-steam": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/406036.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://blogs.nvidia.com/blog/leading-models-nvidia/": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/944/391.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/944/242.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7965929.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/944/705.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.llamaindex.ai/blog/omnidocbench-is-saturated-what-s-next-for-ocr-benchmarks": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/942/789.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.llamaindex.ai/blog/parsing-the-unreadable-how-llamaparse-handles-legal-discovery-documents": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://sspai.com/post/109204": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.theverge.com/tech/917657/microsoft-xbox-exclusive-games-windowing-comments-asha-sharma": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/944/244.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/943/351.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7966407.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/945/740.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/409875.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/406560.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/05/414141.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/399373.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.theverge.com/tech/917690/meta-is-laying-off-10-percent-of-its-staff": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/404470.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/943/772.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/05/413264.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/944/722.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.theverge.com/policy/921597/callais-louisiana-voting-rights-act": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.llamaindex.ai/blog/parsebench": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/411604.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7981010.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.llamaindex.ai/blog/ocr-for-kyc": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/946/185.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7971735.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/943/529.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/944/699.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7971509.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/405370.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/946/165.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7974429.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.theverge.com/column/921599/ai-music-is-flooding-streaming-services-but-who-wants-it": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/396983.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7973085.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.theverge.com/ai-artificial-intelligence/917871/anthropic-claude-personal-app-connectors": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://syncedreview.com/2025/06/16/mit-researchers-unveil-seal-a-new-step-towards-self-improving-ai/": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7974894.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.llamaindex.ai/blog/llamaindex-newsletter-2026-04-14": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/942/836.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7975063.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/943/362.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/943/776.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/399675.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://sspai.com/post/109062": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/944/247.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.theverge.com/gadgets/921686/aurzen-zip-mini-projector-garmin-venu-4-watch-deal-sale": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/945/892.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.theverge.com/news/917689/microsoft-xbox-gaming-future-memo-asha-sharma-matt-booty": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.theverge.com/policy/920131/james-comey-indicted-over-instagram-seashell-photo-that-allegedly-threatened-trump": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/943/780.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/410506.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/05/413569.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.theverge.com/ai-artificial-intelligence/917996/project-maven-military-ai-katrina-manson": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/05/413154.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.theverge.com/gadgets/918410/sharge-icemag-3-qi2-usb-c-wireless-power-bank-battery-deal-sale": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7975086.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://sspai.com/post/108977": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/945/902.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.theverge.com/entertainment/917810/brendan-carr-fcc-transgender-nonbinary-childrens-programming": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/943/367.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.anthropic.com/news/claude-opus-4-7": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/410314.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/943/550.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7975591.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7975736.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.woshipm.com/ai/6391760.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.theverge.com/transportation/921204/dreame-ev-car-rocket-boosted-zero-sixty-reality": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://sspai.com/post/108496": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/942/800.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/945/899.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7967230.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/942/797.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/944/254.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://bdtechtalks.com/2026/04/06/ai-harness-engineering-claude-code-leak/?utm_source=rss&utm_medium=rss&utm_campaign=ai-harness-engineering-claude-code-leak": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/944/252.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/944/661.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/946/080.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/944/241.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.woshipm.com/ai/6373474.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/05/413613.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/946/183.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/946/161.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7975641.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7974867.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7966271.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/943/526.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://blogs.nvidia.com/blog/what-is-retrieval-augmented-generation/": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.theverge.com/tech/917067/vidabay-snap-nfc-e-ink-paper-fridge-magnet-photo-hands-on": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.theverge.com/policy/921557/meta-threatens-leaving-new-mexico": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.theverge.com/gadgets/922288/native-union-anker-2-in-1-usb-c-cable-mothers-day-sale-deal": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/945/234.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/399351.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/04/398741.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/05/412713.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.theverge.com/ai-artificial-intelligence/917052/elon-musk-takes-stand-trial-openai-sam-altman": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://anthropic.com/claude-code": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7975255.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/943/781.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.tmtpost.com/7970644.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.qbitai.com/2026/05/412737.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
-  },
-  "https://www.ithome.com/0/942/805.htm": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
+  "https://syncedreview.com/feed/": {
+    "filepath": "2025/06/2025-06-24_bytedance-introduces-astra-dual-model.md",
+    "title": "ByteDance Introduces Astra: A Dual-Model Architecture for Autonomous Robot Navigation | Synced",
+    "import_time": "2026-05-08T23:13:43.564219",
+    "tags": [],
+    "date": "2025-06-24"
   },
-  "https://www.tmtpost.com/7966293.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
+  "https://blogs.nvidia.com/blog/category/deep-learning/feed/": {
+    "filepath": "2025/12/2025-12-11_grows-more-complex-model-builders.md",
+    "title": "As AI Grows More Complex, Model Builders Rely on NVIDIA",
+    "import_time": "2026-05-08T23:13:44.284151",
+    "tags": [
+      "*Agent"
+    ],
+    "date": "2025-12-11"
   },
-  "https://www.qbitai.com/2026/04/404420.html": {
-    "filepath": "",
-    "title": "",
-    "import_time": ""
+  "https://www.woshipm.com/ai/": {
+    "filepath": "2026/05/2026-05-08_ai-news_3.md",
+    "title": "豆包收费辩证透视：免费的，为何才是最贵的？",
+    "import_time": "2026-05-08T23:13:44.783221",
+    "tags": [
+      "*AI Business Model"
+    ],
+    "date": "2026-05-08"
   },
-  "https://www.theverge.com/tech/926342/nanoleaf-smart-lighting-ai-robotics-red-light-wellness": {
+  "https://www.theverge.com/rss/index.xml": {
     "filepath": "2026/05/2026-05-08_nanoleaf-bets-its-future-robots.md",
     "title": "Nanoleaf bets its future on robots, red light therapy, and AI",
-    "import_time": "2026-05-08T21:09:57.555397"
+    "import_time": "2026-05-08T23:13:44.793595",
+    "tags": [
+      "*AI"
+    ],
+    "date": "2026-05-08"
+  },
+  "https://openai.com/blog": {
+    "filepath": "2026/MM/2026-02-20-OpenAI-o3-Pro-Max-Reasoning-Model.md",
+    "title": "",
+    "import_time": "2026-05-08T23:13:44.822343",
+    "tags": [],
+    "date": "2026-02-20"
+  },
+  "https://deepmind.google/discover/blog/": {
+    "filepath": "2026/MM/2026-03-10-Google-Gemini-Ultra-2-Release.md",
+    "title": "",
+    "import_time": "2026-05-08T23:13:44.831833",
+    "tags": [],
+    "date": "2026-03-10"
+  },
+  "2026/05/2026-05-08_nanoleaf-bets-its-future-robots.md": {
+    "url": "https://www.theverge.com/tech/926342/nanoleaf-smart-lighting-ai-robotics-red-light-wellness",
+    "title": "Nanoleaf bets its future on robots, red light therapy, and AI",
+    "source_name": "The Verge AI",
+    "publish_date": "2026-05-08",
+    "import_time": "2026-05-08T23:44:33.079011"
   }
 }
