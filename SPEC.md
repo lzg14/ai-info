@@ -25,7 +25,7 @@ ai-info/
 ├── config/
 │   ├── sources.json         ← RSS 订阅源配置
 │   └── config.json          ← 爬虫评分配置
-├── README.md                ← 内容入口（最新10条 + 精选 + 总览）
+├── README.md                ← 内容入口
 ├── SPEC.md                  ← 本规格说明
 └── LICENSE
 ```
@@ -81,7 +81,7 @@ tags: **AI** **大模型**
 
 ---
 
-## 链接路径规范（CRITICAL — 容易混用）
+## 链接路径规范（CRITICAL）
 
 **三个文件的上下文不同，链接格式也不同：**
 
@@ -91,11 +91,9 @@ tags: **AI** **大模型**
 | docs/YYYY.md | `docs/` 目录下 | `../YYYY/MM/file.md` | `../2026/03/article.md` |
 | docs/YYYY/MM/file.md | `docs/YYYY/MM/` 下 | `file.md`（同目录直接写） | `article.md` |
 
-**容易犯的错误：** 在 docs/YYYY.md 里错误使用 `docs/YYYY/MM/file.md`（会变成 `docs/docs/YYYY/...`）。
+**glossary 链接（从任意文章出发）：** `../../../glossary/terms/xxx.md`
 
 **验证方法：** 从文件所在目录用相对路径能否找到链接目标。
-
-**glossary 链接（从任意文章出发）：** `../../../glossary/terms/xxx.md`（三层回溯）
 
 ---
 
@@ -116,46 +114,6 @@ tags: **AI** **大模型**
 
 ---
 
-## 自动流水线（Cron）
-
-### 调度时间
-
-每天 **06:00 和 18:00** 两次（cron 表达式：`0 6,18 * * *`）。
-
-### 流程
-
-```
-crawler_new.py → scorer_new.py → import_one.py → update_readme.py
-```
-
-1. **crawler_new.py**：从 `config/sources.json` 抓取 RSS，输出 JSON 到 `temp/pending/`
-2. **scorer_new.py**：AI 评分，达标文章移入 `temp/important/`，按 `ai_max_articles_per_day` 限额
-3. **import_one.py**：将 `temp/important/` 里的文章导入 `docs/YYYY/MM/`，做去重判断
-4. **update_readme.py**：更新 README.md 最新10条和精选区
-
-### 关键配置（config/config.json）
-
-```json
-{
-  "crawl": {
-    "ai_score_threshold": 7.0,
-    "ai_max_articles_per_day": 10
-  }
-}
-```
-
-### 阈值与质量规则
-
-**精选门槛（scorer 硬性低分规则）：**
-- 正文 <150 字符 → 最高 3 分
-- 仅有标题无正文 → 最高 2 分
-- 仅有参数/bullet 列表无分析 → 最高 3 分
-- 纯新闻快讯无深度分析 → 最高 4 分
-
-**内容实质性标准（人工判断）：** ≥300 中文字 OR ≥30行，且有分析内容。
-
----
-
 ## 文章同步维护规范
 
 ### 触发条件
@@ -167,7 +125,7 @@ crawler_new.py → scorer_new.py → import_one.py → update_readme.py
 #### 1. 年度汇总（docs/YYYY.md）
 - 精选表：⭐8.0+ 文章，按评分降序
 - 完整列表：按月份分组，每月内按日期倒序
-- 文件名/路径变化时同步更新链接路径
+- **注意路径格式：** 用 `../YYYY/MM/file.md`（不是 `docs/YYYY/MM/file.md`）
 
 #### 2. README.md
 - **最新10条**：该年最新10篇，按日期倒序
@@ -191,5 +149,3 @@ crawler_new.py → scorer_new.py → import_one.py → update_readme.py
 ## 附录
 
 - 适用版本：2026-05-08 起
-- scripts/ 目录在 .gitignore 中，不随 git 提交
-- temp/ 目录为临时数据，不随 git 提交
