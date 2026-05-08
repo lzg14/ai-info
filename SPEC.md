@@ -2,18 +2,9 @@
 
 ## 概述
 
-AI/深度学习相关资讯的静态文章库。每篇文章独立一个文件，Markdown 格式，纯文本存储。
+AI/深度学习相关资讯的静态文章库。每篇文章独立一个 Markdown 文件，纯文本存储，可直接在 GitHub/Gitea 浏览。
 
-**主题范围：**
-
-- **大模型**：各公司模型发布/融资/突破，包括 GPT、LLaMA、PaLM、GLM、Qwen、通义千问、DeepSeek 等
-- **Agent**：AutoGPT/Camel/ReAct/RAG架构、开源Agent项目、Multi-Agent协作、Agent产品发布
-- **算法/模型架构**：CNN/RNN/LSTM/Transformer/ResNet/BERT/RLHF/LoRA 等里程碑论文
-- **神经网络历史**：Hinton/LeCun/Rumelhart/早期CNN/反向传播 历史性论文/人物
-- **AI for Science**：AlphaFold/蛋白质折叠/Drug Discovery/科学计算突破
-- **开源项目**：GitHub trending AI项目、热门AI开源库/框架发布
-- **芯片/算力**：GPU/TPU/NPU相关进展（英伟达/AMD/华为昇腾/谷歌TPU）
-- **行业事件**：AI安全/伦理/法规、重大收购/合并/裁员、重要会议（NeurIPS/ICML/ICLR）
+**主题范围：** 大模型（GPT/LLaMA/DeepSeek/Qwen/GLM 等）、Agent、算法架构、芯片算力、AI 行业事件。
 
 ---
 
@@ -21,20 +12,22 @@ AI/深度学习相关资讯的静态文章库。每篇文章独立一个文件�
 
 ```
 ai-info/
-├── docs/                 ← AI资讯文章（进git）
-│   ├── 2020/01/
-│   ├── 2021/
-│   └── 2026/05/
-├── data/                 ← 持久数据（进git）
-│   ├── docs_url_index.json  ← 已导入URL索引
+├── docs/                    ← AI资讯文章（进git）
+│   ├── 2020/01/ ~ 2026/05/  ← 按年月分目录
+│   └── 2026.md              ← 2026年度汇总
+├── data/                    ← 持久数据（进git）
+│   ├── docs_url_index.json  ← 已导入URL索引（append-only）
 │   └── seen_urls.json       ← 已抓取URL列表
-├── glossary/             ← 术语表（进git）
-│   ├── README.md
-│   └── terms/
-├── README.md             ← 内容入口（最新10条 + 精选 + 总览）
-├── SPEC.md               ← 项目规格说明
-├── LICENSE
-└── AGENTS.md             ← Agent 任务手册
+├── glossary/                 ← 术语表（进git）
+│   ├── README.md            ← 索引页
+│   └── terms/               ← 各术语文件
+├── scripts/                 ← 工具脚本（.gitignore，不进git）
+├── config/
+│   ├── sources.json         ← RSS 订阅源配置
+│   └── config.json          ← 爬虫评分配置
+├── README.md                ← 内容入口（最新10条 + 精选 + 总览）
+├── SPEC.md                  ← 本规格说明
+└── LICENSE
 ```
 
 ---
@@ -50,10 +43,6 @@ ai-info/
 - 同一标题重复：加 `_2`、`_3` 序号区分
 
 **文件名不等于文章标题。** 文章标题写在文件内部（H1），可以有中文、冒号等任何字符。
-
-**示例：**
-- 文件名：`2026-05-06_openai-gpt5-release.md`
-- 文件内 H1：`# OpenAI 发布 GPT-5：重塑人机交互方式`
 
 **日期来源：** 文章原始发布日期。文章无发布日期的，使用文件创建日期。
 
@@ -79,287 +68,128 @@ tags: **AI** **大模型**
 ```
 
 **格式说明：**
-- **H1**：文章标题，可含中文、冒号等任意字符。**标题中不得包含来源名**——来源信息仅放在标题下第一行
-- **标题下第一行**：`YYYY-MM-DD [来源名](url)`，来源为可点击链接
-- **空行后评分行**：`⭐ score`，评分单独一行；只出现在重要文章和精选里
+- **H1**：文章标题，可含中文、冒号等任意字符。**标题中不得包含来源名**
+- **标题下第一行**：`YYYY-MM-DD [来源名](url)`，来源为可点击链接，**无"来源："前缀**
+- **评分行**：`⭐ score`，单独一行；只出现在重要文章里，非重要文章无评分行
 - **正文**：完整提取并适当精简冗余
 - **tags 行**：正文底部单独一行，格式 `tags: **Tag1** **Tag2`（粗体，不用#前缀），最多 8 个标签
-- **相关文章**：tags 后空一行，加 `## 相关文章` 区块，列出同月最近 5 篇文章；由 `import_one.py` 自动生成
+- **相关文章**：tags 后空一行，加 `## 相关文章` 区块，列出同月最近 5 篇文章
 - **无 frontmatter**：不需要 `---` 元数据块
-- **无分类标签**：不放 emoji 分类
+- **无 emoji 分类**：不放 emoji 标签
 
-**标题提取**：优先用正文中 H3（`### 完整标题（评分: X.X/10）`），不用 frontmatter 的 title——frontmatter 常被截断（如 `V4 发布：...` 缺 `DeepSeek` 前缀）。frontmatter 标题的前导脏字符（`-`、`−`、`_`）也需 strip。
-
----
-
-## 标签与相关文章
-
-### 标签来源
-
-标签由工具链在创建/修改文章时自动提取：
-- 从标题和正文提取 2-4 个关键词
-- 常用标签可复用（如 `#GPT`、`#LLM`、`#Agent`、`#Transformer`）
-- 不依赖人工打标签
-
-### 相关文章
-
-文章底部自动列出共享标签最多的 3-5 篇相关文章：
-
-```markdown
-## 相关文章
-- [文章标题A](../2026/04/article-a.md)  ← 共享标签最多的放前面
-- [文章标题B](../2026/05/article-b.md)
-- [文章标题C](../2026/03/article-c.md)
-```
-
-- 由工具链自动生成，人工可补充或删改
-- 链接路径按本文档「链接路径规则」书写
+**标题提取优先级：** 优先用正文中 H3（`### 完整标题`），不用 frontmatter 的 title——frontmatter 常被截断。
 
 ---
 
-## 链接路径规则
+## 链接路径规范（CRITICAL — 容易混用）
 
-所有文档内链接使用**相对路径**，不以 `/` 开头。
+**三个文件的上下文不同，链接格式也不同：**
 
-**规则：**
-- `docs/YYYY.md` 引用 `docs/YYYY/MM/file.md` → 写 `YYYY/MM/file.md`
-- `docs/YYYY/MM/file.md` 引用同月其他文章 → 写 `filename.md`
-- `docs/YYYY/MM/file.md` 引用同年内其他月份 → 写 `../MM/file.md`
-- `docs/YYYY/MM/file.md` 引用 glossary → 写 `../../../glossary/terms/xxx.md`
+| 文件 | 位置 | 文章链接格式 | 示例 |
+|------|------|-------------|------|
+| README.md | 根目录 `/` | `docs/YYYY/MM/file.md` | `docs/2026/03/article.md` |
+| docs/YYYY.md | `docs/` 目录下 | `../YYYY/MM/file.md` | `../2026/03/article.md` |
+| docs/YYYY/MM/file.md | `docs/YYYY/MM/` 下 | `file.md`（同目录直接写） | `article.md` |
 
-**禁止：** 在链接里写 `docs/`（年度汇总文件在 docs/ 下，再写 docs/ 会变成 `docs/docs/...`）
+**容易犯的错误：** 在 docs/YYYY.md 里错误使用 `docs/YYYY/MM/file.md`（会变成 `docs/docs/YYYY/...`）。
 
----
+**验证方法：** 从文件所在目录用相对路径能否找到链接目标。
 
-## README.md 结构
-
-```
-# AI Daily — 资讯库
-
-## 最新（10条）
-# 按日期倒序，每条：日期 · [标题](链接)
-
-## 精选
-# 人工筛选的高质量文章，按日期倒序
-
-## 内容总览
-# 表格：年份 | 篇数 | 目录
-# 年份倒序（2026→2012）
-# 目录列指向 docs/YYYY.md 年度汇总文件
-# 底部显示合计篇数
-```
-
-**年度汇总文件（docs/YYYY.md）结构：**
-```
-# YYYY 年汇总
-
-## 精选
-# 该年高质量文章，按日期倒序
-
-## 完整列表
-# 按日期倒序，列出该年所有文章
-```
+**glossary 链接（从任意文章出发）：** `../../../glossary/terms/xxx.md`（三层回溯）
 
 ---
 
-## 资讯来源列表
+## RSS 订阅源
 
-定期巡查以下来源，优先抓取 AI/LLM/Agent/MCP/Skills 相关内容：
+已验证可用的 RSS 源（配置在 `config/sources.json`）：
 
-### 博客 / 资讯站
+| 源名 | 说明 |
+|------|------|
+| nvidia-blog | NVIDIA 官方博客 |
+| bd-techtalks | BD Tech Talks |
+| hnrss/hacker-news | Hacker News |
+| techcrunch | TechCrunch |
+| thedatainfo | The Data Info |
+| anthropic-blog | Anthropic 官方博客（CSS 选择器覆盖 /news） |
 
-| 来源 | 特点 | 备注 |
-|------|------|------|
-| [腾讯新闻·AI](https://new.qq.com/) | 每日AI资讯汇总，来源广泛 | 搜索效率高 |
-| [CSDN·AI](https://blog.csdn.net/) | 技术深度文章多，AI模型月度盘点详细 | 关键词：全球AI前沿动态 |
-| [36氪·AI](https://www.36kr.com/) | 商业融资、行业趋势 | 需关注AI分类 |
-| [搜狐·AI](https://so.html5.qq.com/) | 搜索聚合，来源杂 | 适合关键词搜索 |
-| [知乎·AI](https://zhuanlan.zhihu.com/) | 深度长文、综述 | 关注AI/大模型话题 |
-| [新浪·AI小时报](https://k.sina.com.cn/) | 每日AI热点速递 | 时效性强 |
-| [今日头条](https://www.toutiao.com/) | 科技/AI资讯流 | 适合抓取当日热点 |
-
-### 行业垂直
-
-| 来源 | 特点 | 备注 |
-|------|------|------|
-| [机器之心](https://www.jiqizhixin.com/) | AI技术深度分析 | 高质量来源 |
-| [赛博禅心](https://www.woshipm.com/u/1572253) | 产品经理视角，AI/Agent深度长文 | 长期追踪，已收录Ext |
-
-### 国外来源
-
-| 来源 | 特点 | 备注 |
-|------|------|------|
-| [Reddit r/MachineLearning](https://reddit.com/r/MachineLearning) | 论文解读、技术讨论 | 英文 |
-| [Hacker News](https://news.ycombinator.com/) | AI/Startup新闻 | 英文，按热度 |
-
-### 公众号/RSS 备选
-- 量子位（搜索发现，但需手动订阅）
-- AI科技媒体（搜索聚合）
+**已确认不可用（被墙/无RSS）：** The Batch、Import AI、DEV Community、Microsoft AI Blog、Meta AI、Product Hunt、InfoQ、AI前线、The Gradient。
 
 ---
 
-## 术语表 / Glossary
+## 自动流水线（Cron）
 
-### 目标定位
+### 调度时间
 
-在资讯文章和术语表之间建立链接：文章中遇到陌生名词 → 可指向术语表看解释。
+每天 **06:00 和 18:00** 两次（cron 表达式：`0 6,18 * * *`）。
 
-### 目录结构
-
-```
-glossary/
-├── README.md              # 索引页（编号 + 术语 + 英文 + 分类导航）
-└── terms/                 # 术语文件（每个术语一个独立文件）
-    ├── transformer.md
-    ├── attention-mechanism.md
-    └── ...
-```
-
-### 术语收录标准
-
-同时满足以下条件时，应主动收录：
-1. 是 AI/LLM/Agent/MCP/ML 领域的**核心概念或新名词**
-2. 普通读者（非专家）看到不一定能立刻理解
-
-### 术语文件格式
-
-```markdown
-### Transformer
-
-**英文：** Transformer
-
-**解释：**
-
-Transformer 是 2017 年谷歌提出的深度学习架构，仅用注意力机制处理序列数据，彻底改变了 NLP 领域。
-
-**为什么重要：** 是 GPT、BERT、ChatGPT 等所有现代大语言模型的基础架构。
-```
-
-**字段说明：**
-
-| 字段 | 是否必填 | 说明 |
-|------|:-------:|------|
-| 术语名称 | ✓ | 中文优先，无官方中文名的保留英文 |
-| 英文名 | ✓ | 原文名称 |
-| 解释 | ✓ | 通俗，2-4 句，不使用过多专业术语 |
-| 为什么重要 | ○ | 可选，补充实践价值或历史意义 |
-
-### 持续维护机制
+### 流程
 
 ```
-抓取文章 → 发现新名词 → 查证 → 创建术语文件 → 更新索引 → commit
+crawler_new.py → scorer_new.py → import_one.py → update_readme.py
 ```
 
-**触发条件**：名词在 AI/LLM/Agent/MCP 领域有明确技术含义 + 普通读者不一定能立刻理解
+1. **crawler_new.py**：从 `config/sources.json` 抓取 RSS，输出 JSON 到 `temp/pending/`
+2. **scorer_new.py**：AI 评分，达标文章移入 `temp/important/`，按 `ai_max_articles_per_day` 限额
+3. **import_one.py**：将 `temp/important/` 里的文章导入 `docs/YYYY/MM/`，做去重判断
+4. **update_readme.py**：更新 README.md 最新10条和精选区
 
-### 链接规范
+### 关键配置（config/config.json）
 
-**文章 → 术语表**：文章中首次出现某术语时，加括号注：
-> Transformer（详见 [术语表](../glossary/terms/transformer.md)）是…
+```json
+{
+  "crawl": {
+    "ai_score_threshold": 7.0,
+    "ai_max_articles_per_day": 10
+  }
+}
+```
 
-**术语表内部索引**：README.md 顶部索引表用 Markdown 表格 + 文件链接；底部分类索引用行内链接。
+### 阈值与质量规则
+
+**精选门槛（scorer 硬性低分规则）：**
+- 正文 <150 字符 → 最高 3 分
+- 仅有标题无正文 → 最高 2 分
+- 仅有参数/bullet 列表无分析 → 最高 3 分
+- 纯新闻快讯无深度分析 → 最高 4 分
+
+**内容实质性标准（人工判断）：** ≥300 中文字 OR ≥30行，且有分析内容。
 
 ---
-
-## 附录
-
-- 适用版本：2026-05-06 起
-
-## README.md 自动生成规范
-
-### 为什么要自动生成
-
-README.md 的三个动态区域（最新10条、精选、内容总览）早期由人工维护，容易出现两类错误：
-
-1. **截断粘合**：区域边界正则匹配偏了，两个 section header 直接粘在一起（如 `cursor3-mu## ⭐ 精选`）
-2. **内容错位**：老文章（无评分）混入精选区
-
-因此改为**每次由脚本自动重写**，人工只修静态描述部分。
-
-### 脚本位置与用法
-
-```bash
-# 每次 docs/ 下文章有增减时运行
-python scripts/update_readme.py
-```
-
-### 规范：区域间空行隔离
-
-所有动态区域之间**强制插入空行**，作为防御性边界：
-
-```
-## 📅 最新（10条）
-[内容]
-
-              ← 空行，区域边界
-
-## ⭐ 2026 年精选（按评分）
-[内容]
-
-              ← 空行，区域边界
-
-## 📊 内容总览
-[内容]
-```
-
-即使解析偏了，空行也能兜底——两个 section header 不会粘成一行。
-
-### 精选过滤规则
-
-只选 `score > 0` 的文章（文章首行有 `⭐` 评分的），避免历史无评分老文章混入 Top6。
-
-### 静态区域保护
-
-README.md 的**前半部分**（项目介绍 + 固定说明文字）为静态区，脚本只重写三个动态区域之间的内容，不触碰静态区。修改静态区内容不受脚本影响。
-
-### 纳入 cron 流程
-
-`scripts/update_readme.py` 应在每日抓取流程结束后运行：
-
-```
-fetch.py → import_json_to_docs.py → update_readme.py → push_wechat.py
-```
-
 
 ## 文章同步维护规范
 
 ### 触发条件
 
-对 `docs/` 下的文章做任何变更后，必须执行同步检查，包括但不限于：
-- **新增文章**：手动添加或通过 `import_json_to_docs.py` 批量导入
-- **删除文章**：移除任一文章文件
-- **重命名文章**：修改文件名（含日期前缀变化）
-- **文章内容变化**：标题/评分/来源变更可能导致链接断裂或精选表/最新10条排名变化
+对 `docs/` 下的文章做任何变更后（包括新增、删除、重命名），必须执行同步检查。
 
 ### 同步范围
 
-每次变更后必须检查并更新以下全部位置：
-
 #### 1. 年度汇总（docs/YYYY.md）
-- 重建该年完整列表，确保包含**所有月份**的所有文章
-- 精选表（⭐8.0+）按评分降序排列，相同分数按日期降序
-- 完整列表按月份分组，每月内按日期倒序
-- 文件名变化时，同步更新列表中的链接路径
+- 精选表：⭐8.0+ 文章，按评分降序
+- 完整列表：按月份分组，每月内按日期倒序
+- 文件名/路径变化时同步更新链接路径
 
 #### 2. README.md
-- **最新10条**：该年最新10篇，按日期倒序，文件名/路径变化时同步更新链接
-- **该年精选**：评分≥8.0的文章，最多15条，文件名/路径变化时同步更新链接
-- **内容总览表格**：篇数变化时更新对应年份行的篇数列和合计篇数
+- **最新10条**：该年最新10篇，按日期倒序
+- **该年精选**：评分≥8.0，最多15篇
+- **内容总览表格**：篇数变化时更新
 
-#### 3.相关文章（各文章底部的 `## 相关文章` 段落）
-- 由 `scripts/add_related_articles.py` 管理
-- 文件名/路径变化后需要重新运行脚本更新相关文章链接
+#### 3. 相关文章（各文章底部的 `## 相关文章`）
+- 由 `add_related_articles.py` 管理
+- 文件名变化后需重新运行
 
 ### 同步检查清单
 
-变更提交前，逐项确认：
-
-- [ ] docs/YYYY.md 已重建，包含该年**所有文章**
-- [ ] docs/YYYY.md 中的所有链接路径**正确无误**
-- [ ] README.md 最新10条已更新，链接正确
-- [ ] README.md 该年精选已更新，链接正确（评分≥8.0）
+- [ ] docs/YYYY.md 已更新，链接路径正确（注意：`../YYYY/MM/` 而非 `docs/YYYY/MM/`）
+- [ ] README.md 最新10条已更新
+- [ ] README.md 精选已更新
 - [ ] README.md 内容总览表格篇数已更新
 - [ ] 如有文件名变化，已重新运行 `add_related_articles.py`
-- [ ] 以上更改已 commit
 
+---
 
+## 附录
+
+- 适用版本：2026-05-08 起
+- scripts/ 目录在 .gitignore 中，不随 git 提交
+- temp/ 目录为临时数据，不随 git 提交
