@@ -1,0 +1,14 @@
+---
+title: NVIDIA Turing GPU Architecture Delivers Real-Time Ray Tracing and AI Capabilities
+date: 2018-08-14
+source: NVIDIA
+url: https://nvidianews.nvidia.com/news/nvidia-unveils-turing-the-world-s-most-advanced-architecture
+---
+
+NVIDIA officially unveiled the Turing GPU architecture in August 2018 at the SIGGRAPH conference, introducing a revolutionary new design that combined traditional rasterization rendering capabilities with dedicated hardware acceleration for real-time ray tracing, a rendering technique previously limited to pre-rendered film production due to its computational intensity, as well as dedicated tensor cores for accelerating deep learning inference workloads that enabled new categories of AI-enhanced graphics and computational applications that had not been previously possible in real-time contexts.
+
+The Turing architecture represented the first major redesign of NVIDIA's GPU design since the Maxwell generation, incorporating approximately 18.6 billion transistors in its flagship TU102 processor and introducing a fundamentally new streaming multiprocessor design that separated the execution of floating-point and integer operations, allowing for more efficient utilization of hardware resources during typical graphics workloads that frequently mix different types of computational tasks. The addition of dedicated ray tracing cores, designated RT cores, provided dedicated hardware acceleration for bounding volume hierarchy traversal and intersection testing operations that form the computational bottleneck in ray tracing algorithms, delivering up to 10 GigaRays per second of ray tracing performance that was previously achievable only with datacenter-scale computing resources.
+
+The implications of Turing's architecture extended beyond gaming applications to professional visualization, autonomous vehicle simulation, and scientific computing, where the combination of traditional GPU acceleration with ray tracing and AI capabilities opened new possibilities for creating photorealistic interactive experiences and training AI systems in simulated environments. NVIDIA positioned Turing as the foundation for a new wave of AI-enhanced content creation tools, professional visualization applications, and gaming experiences that could blur the boundary between rendered and real imagery, while also providing researchers and developers with unprecedented capabilities for running neural network workloads alongside traditional high-performance computing tasks on a single unified platform.
+
+### NVIDIA Turing GPU Architecture Delivers Real-Time Ray Tracing and AI Capabilities（评分: 9.0/10）

@@ -1,0 +1,21 @@
+# Facebook开源XLM-R跨语言预训练模型
+
+2020年3月，Facebook AI发布了XLM-R（Cross-lingual Language Model Pretraining），这是一个基于海量无标注数据训练的大规模跨语言表示模型。XLM-R在100种语言的文本上进行自监督预训练，规模达2.5亿参数，刷新了当时跨语言理解的多项基准。
+
+该模型的核心创新在于采用了大规模降噪自编码训练，结合Common Crawl海量多语言语料，无需依赖双语对齐数据即可学习跨语言表示。XLM-R在XNLI跨语言推理、MUGE机器翻译等任务上大幅领先此前的多语言模型，证明了无监督跨语言学习的有效性。该研究为低成本构建多语言NLP系统提供了新范式，有力推动了NLP模型在低资源语言上的应用落地。
+
+
+
+
+
+
+
+
+## 相关文章
+- [NVIDIA推出H100 GPU Hopper架构](../../2022/03/2022-03-22-nvidia-h100-hopper-architecture.md)
+- [Facebook开源PyTorch：深度学习研究新标杆](../../2016/04/2016-10-01-Facebook开源PyTorch-深度学习研究新标杆.md)
+- [OpenAI Releases GPT-2 1.5B Language Model](../../2019/02/2019-02-14-gpt2-release.md)
+- [Facebook BlenderBot 2：具备长期记忆的对话AI](../../2019/08/2019-08-20-Facebook-BlenderBot-2-长期记忆对话AI.md)
+- [OpenAI -2 完整版：15亿参数语言生成模型发布](../../2019/11/2019-11-01-OpenAI-GPT-2-完整版15亿参数发布.md)
+
+tags: [推理, 对齐, 开源, BERT, OpenAI, 深度学习, GPU, GPT]

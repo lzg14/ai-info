@@ -1,0 +1,13 @@
+node_modules/
+.idea/
+.claude/
+__pycache__/
+
+# 工具链（不进git）
+config/
+scripts/
+temp/
+.env
+
+# logs
+logs/

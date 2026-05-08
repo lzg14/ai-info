@@ -1,0 +1,14 @@
+---
+title: DeepMind's AlphaFold2 Solves Protein Folding Problem
+date: 2021-07-14
+source: Nature
+url: https://www.nature.com/articles/s41586-021-03819-2
+---
+
+In July 2021, DeepMind announced that its AlphaFold2 artificial intelligence system had achieved a historic breakthrough in computational biology by effectively solving the protein folding problem, a challenge that had stumped scientists for over fifty years. The announcement came as part of the biennial Critical Assessment of Protein Structure Prediction competition, where AlphaFold2 demonstrated the ability to predict the three-dimensional structure of proteins with an accuracy that rivaled experimental methods. This accomplishment was hailed by the scientific community as one of the most significant breakthroughs in biology and artificial intelligence alike, potentially accelerating drug discovery, understanding of diseases, and fundamental biological research by orders of magnitude.
+
+Proteins are the workhorses of biological systems, and their function is dictated by their three-dimensional shape. Predicting that shape from the amino acid sequence alone had been an intractable problem for decades because the number of possible configurations was astronomically vast. AlphaFold2 addressed this using a novel architecture based on attention mechanisms, drawing on concepts from natural language processing to process protein sequences as if they were sentences describing evolutionary relationships and physical constraints. The system could take a protein's amino acid sequence as input and output a highly accurate prediction of its folded structure, a task that previously required expensive and time-consuming laboratory techniques like X-ray crystallography or cryo-electron microscopy.
+
+The impact of AlphaFold2 extended far beyond the competition. DeepMind partnered with the European Molecular Biology Laboratory to make AlphaFold2 predictions freely available through the AlphaFold Protein Structure Database, which ultimately contained predictions for nearly all catalogued proteins in the human proteome and the proteomes of over twenty other key species. This open access approach meant that researchers worldwide could immediately leverage the tool for their own investigations into disease mechanisms, enzyme design, and biological evolution. The achievement also catalyzed renewed interest and investment in AI-driven scientific discovery, demonstrating that deep learning could crack problems that had resisted decades of conventional computational approaches. In recognition of its transformative contribution to science, the organizers of the protein structure prediction field's最高荣誉—along with the broader scientific community—recognized AlphaFold2 as a milestone comparable to the Human Genome Project in its potential to accelerate biological research.
+
+### DeepMind's AlphaFold2 Solves Protein Folding Problem（评分: 9.8/10）

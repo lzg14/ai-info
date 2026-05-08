@@ -1,0 +1,18 @@
+---
+title: NVIDIA Announces Ampere Architecture: A100 GPU Accelerates AI Computing 20x
+date: 2020-05-14
+source: NVIDIA Blog
+url: https://blogs.nvidia.com/blog/2020/05/14/nvidia-ampere-architecture-dgx-a100/
+---
+
+NVIDIA unveiled the Ampere architecture and the A100 GPU, claiming a generational leap in AI computing performance that could accelerate training and inference workloads by up to 20 times compared to the previous generation. The announcement marked a significant milestone in the ongoing advancement of computational capabilities that underpin modern artificial intelligence development.
+
+The A100 GPU featured 54 billion transistors, making it the largest chip ever built using semiconductor manufacturing processes at the time. This extraordinary scale enabled unprecedented computational density, with the GPU capable of performing 312 teraflops of FP16 matrix multiply operations. The architecture introduced new precision formats specifically optimized for AI workloads, including TF32 and FP64, allowing researchers to achieve faster results while maintaining numerical accuracy for scientific computing applications.
+
+Beyond raw performance, the A100 introduced specialized hardware accelerators for critical AI operations. The new Sparse feature enabled structured pruning that could effectively double the throughput for inference workloads, a crucial consideration as organizations began deploying trained models in production environments. The Multi-Instance GPU (MIG) technology allowed a single A100 to be partitioned into multiple isolated instances, enabling more efficient utilization in cloud computing environments serving diverse customers.
+
+The DGX A100 system, integrating eight A100 GPUs, provided a complete AI infrastructure solution delivering five petaflops of aggregate performance in a single server. This computing power was sufficient to train models that previously required entire data center racks, democratizing access to large-scale AI capabilities for organizations of all sizes. Major cloud providers including AWS, Google Cloud, and Microsoft Azure announced plans to offer A100-based instances.
+
+The Ampere launch occurred against a backdrop of surging demand for AI computing resources, driven by the rapid growth in model size and dataset volumes. NVIDIA positioned the architecture as essential infrastructure for the next wave of AI breakthroughs, particularly as language models continued to scale toward hundreds of billions of parameters. The company also announced partnerships with leading AI labs to optimize frameworks including PyTorch and TensorFlow for the new architecture.
+
+### NVIDIA Announces Ampere Architecture（评分: 8.5/10）

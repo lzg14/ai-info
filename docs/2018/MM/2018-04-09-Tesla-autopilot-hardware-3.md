@@ -1,0 +1,13 @@
+---
+title: Tesla Hardware 3: The Neural Network Computer Powering Self-Driving Cars
+date: 2018-04-09
+source: 特斯拉
+url: https://www.tesla.com/blog/upgrading-experience
+---
+Tesla announced in April 2018 that all new Tesla vehicles would be equipped with its proprietary Full Self-Driving (FSD) Computer, also known as Hardware 3 or AI3, representing a complete redesign of the vehicle's computing architecture specifically optimized for neural network inference workloads required for autonomous driving. The new computer system, developed entirely in-house by Tesla's hardware engineering team, delivered 21 times the performance of the previous NVIDIA-based system while consuming significantly less power, demonstrating Tesla's commitment to vertical integration and custom silicon design for AI applications. Each FSD computer contained two custom-designed chips working in parallel, providing redundancy for safety-critical applications and enabling continuous operation even if one processor experienced a fault.
+
+The transition to custom AI hardware reflected Tesla's unique approach to the autonomous driving problem, relying primarily on camera-based vision systems processed by deep neural networks rather than lidar sensors favored by competitors like Waymo and Cruise. Tesla's approach required massive computational power to process data from eight cameras simultaneously, running multiple neural networks in real-time to detect lanes, obstacles, traffic signs, pedestrians, and other vehicles across diverse driving conditions. The custom chips incorporated dedicated neural network accelerators optimized for the specific tensor operations common in computer vision models, enabling efficient execution of complex perception algorithms that would be impractical on general-purpose GPUs.
+
+Elon Musk revealed that the development of Hardware 3 was motivated by the need to reduce dependence on third-party suppliers and achieve the cost/performance characteristics necessary for mass-market autonomous vehicles. The FSD computer's introduction was accompanied by promises of over-the-air software updates that would progressively unlock autonomous driving capabilities, with Tesla's fleet of hundreds of thousands of vehicles generating valuable training data to improve its neural network models through shadow driving mode and data collection. The Hardware 3 announcement intensified competition in the autonomous vehicle industry, pushing other companies to accelerate their own hardware development efforts while also fueling debates about the relative merits of vision-based versus lidar-based approaches to self-driving technology.
+
+### Tesla Hardware 3: The Neural Network Computer Powering Self-Driving Cars（评分: 8.7/10）

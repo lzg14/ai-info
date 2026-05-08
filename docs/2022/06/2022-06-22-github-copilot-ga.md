@@ -1,0 +1,40 @@
+# GitHub Copilot 正式商用：AI 编程辅助进入付费时代
+
+## 摘要
+
+2022 年 6 月，GitHub 正式宣布 GitHub Copilot 脱离技术预览版，向所有开发者开放商用。Copilot 订阅定价为每月 10 美元（或每年 100 美元），成为全球首个大规模商用的 AI 编程辅助工具。上线一年已有超过 120 万开发者试用。
+
+## 产品功能
+
+- **实时代码补全**：IDE 中实时给出代码建议，单行或整个函数
+- **多语言支持**：Python、JavaScript、TypeScript、Go、Rust 等
+- **注释生成代码**：根据自然语言注释生成对应代码实现
+- **代码解释**：选中代码后可让 Copilot 解释其逻辑
+
+## 开发者生态
+
+GitHub Copilot 引发了「AI 编程」热潮。根据 GitHub 的调查，使用 Copilot 的开发者编码速度平均提升 55%，减少了重复性编码工作。
+
+## 争议
+
+GitHub Copilot 也引发了代码版权争议——有开发者认为 Copilot 生成的代码可能包含训练数据中受版权保护代码的片段。一起集体诉讼于 2022 年 11 月提交。
+
+## 点评
+
+GitHub Copilot 正式商用是 AI 辅助编程从「玩具」走向「工具」的分水岭，也开启了「AI 编程SaaS」的商业模式。
+
+
+
+
+
+
+
+
+## 相关文章
+- [Manus 发布：首个真正通用的 AI](../../2025/07/2025-07-18-manus-agent.md)
+- [Anthropic 发布  Code：Anthropic 正式入局 AI 编程](../../2024/04/2024-04-18-claude-code.md)
+- [Anthropic 发布  3.5 Sonnet：编程能力超越 GPT-4o](../../2024/05/2024-05-08-claude-3-5-sonnet.md)
+- [Claude 3.5 Sonnet 升级：opus 支持编程，能力再突破](../../2024/07/2024-07-08-claude-3-5-sonnet-v2.md)
+- [无标题](../../2024/08/2024-08-26-claude-3-opus-coding-agent-new-era.md)
+
+tags: [编程, GitHub, 产品, 工具, Claude, Anthropic, Agent, GPT]

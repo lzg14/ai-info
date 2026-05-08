@@ -1,0 +1,16 @@
+{
+  "request": {
+    "delay_seconds": 2,
+    "max_retries": 3,
+    "timeout_seconds": 10,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+  },
+  "crawl": {
+    "max_articles_per_source": 20,
+    "ai_score_threshold": 5.0,
+    "ai_max_articles_per_day": 12
+  },
+  "wechat": {
+    "target": "your_wechat_target_here"
+  }
+}

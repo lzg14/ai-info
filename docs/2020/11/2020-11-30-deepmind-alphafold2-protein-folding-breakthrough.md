@@ -1,0 +1,20 @@
+---
+title: DeepMind's AlphaFold 2 Solves 50-Year-Old Protein Folding Problem: A Revolutionary AI Breakthrough
+date: 2020-11-30
+source: DeepMind / Nature
+url: https://www.nature.com/articles/s41586-021-03819-0
+---
+
+In November 2020, DeepMind announced AlphaFold 2, an AI system that achieved unprecedented accuracy in predicting protein 3D structures from amino acid sequences, representing what many scientists called one of the most significant breakthroughs in biology in decades. The announcement came during the Critical Assessment of Protein Structure Prediction (CASP14) competition, where AlphaFold 2 achieved a median backbone accuracy of 0.96 Angstroms on the competition's most challenging targets.
+
+The protein folding problem had stumped biologists for fifty years—the question of how a protein's amino acid sequence determines its three-dimensional structure, which in turn determines its biological function. Traditional methods like X-ray crystallography and cryo-EM were expensive and time-consuming, taking months or years to determine a single protein structure. AlphaFold 2 could predict structures in hours, potentially revolutionizing drug discovery and our understanding of diseases.
+
+AlphaFold 2's architecture incorporated attention mechanisms that could model the relationships between different parts of the protein sequence, enabling it to learn the physical constraints that determine how proteins fold. The system used a novel approach combining evolutionary analysis, physical modeling, and deep learning to achieve its remarkable accuracy, substantially outperforming all other methods in the CASP14 competition.
+
+DeepMind made AlphaFold 2's methodology publicly available through a Nature paper, describing the system's end-to-end differentiable architecture that could learn to predict structures directly from sequence data. The paper detailed how the model learned to interpret evolutionary relationships encoded in multiple sequence alignments, using these patterns to infer structural information.
+
+The impact of AlphaFold 2 extended far beyond computational biology. By making protein structure prediction accessible and affordable, the system opened new possibilities for understanding diseases, developing treatments, and engineering novel proteins for industrial and therapeutic applications. Researchers could now investigate the mechanisms of proteins associated with Alzheimer's disease, cancer, and infectious diseases at a pace previously unimaginable.
+
+In 2022, DeepMind released AlphaFold Protein Structure Database, containing predicted structures for nearly all catalogued proteins known to science—over 200 million structures—freely available to the global research community. This database became an invaluable resource for scientists worldwide, accelerating research across biology, medicine, and biotechnology. AlphaFold 2 was widely recognized as a landmark achievement demonstrating AI's potential to advance fundamental scientific understanding.
+
+### DeepMind's AlphaFold 2 Solves Protein Folding Problem（评分: 9.5/10）

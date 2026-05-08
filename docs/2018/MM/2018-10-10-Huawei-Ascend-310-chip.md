@@ -1,0 +1,13 @@
+---
+title: Huawei Unveils Ascend 310: China's First Commercial AI Chip
+date: 2018-10-10
+source: 华为
+url: https://www.huawei.com/cn/press-events/huawei-full-stack-ascend
+---
+Huawei announced the Ascend 310 chip at its Huawei Connect 2018 conference, marking a significant milestone in China's artificial intelligence development and establishing the company as a serious competitor in the global AI semiconductor market. This pioneering AI processor was designed in-house by Huawei's HiSilicon subsidiary and represented the company's first commercially available chip specifically optimized for AI workloads, featuring dedicated tensor processing units that delivered unprecedented performance per watt for inference tasks. The chip demonstrated Huawei's strategic commitment to developing proprietary AI technology across hardware, software, and cloud services as part of its broader AI strategy encompassing the full-stack Ascend family of AI processors.
+
+The Ascend 310 achieved remarkable energy efficiency with a typical power consumption of just 8 watts while delivering up to 16 TOPS (tera operations per second) of INT8 inference performance, enabling sophisticated AI applications to run locally on edge devices without requiring cloud connectivity. This capability proved particularly valuable for applications in autonomous driving, surveillance systems, smart cameras, and mobile devices where power constraints and latency requirements made cloud-based AI processing impractical. The chip's architecture supported a wide range of AI frameworks including TensorFlow, Caffe, and PyTorch, facilitating easy integration with existing machine learning workflows and reducing adoption barriers for developers across various industries.
+
+Huawei positioned the Ascend 310 as a cornerstone of its broader AI ecosystem strategy, offering a comprehensive platform that spanned from embedded AI chips for IoT devices to cloud-based AI services powered by Ascend clusters. The company announced plans to invest over 10 billion yuan in AI research and development over the coming years, signaling AI as a core strategic priority alongside its telecommunications infrastructure business. The chip's launch also reflected China's national push for technological self-sufficiency in semiconductors, as domestic companies sought to reduce dependence on foreign AI chips amid escalating technology tensions. The Ascend 310 established Huawei as a formidable challenger to established AI chip manufacturers like NVIDIA, Intel, and Google, intensifying competition in the rapidly expanding AI silicon market.
+
+### Huawei Unveils Ascend 310: China's First Commercial AI Chip（评分: 9.0/10）

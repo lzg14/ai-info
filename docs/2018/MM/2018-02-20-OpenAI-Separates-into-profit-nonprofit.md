@@ -1,0 +1,14 @@
+---
+title: OpenAI Restructures as Dual For-Profit and Nonprofit Organization
+date: 2018-02-20
+source: OpenAI
+url: https://openai.com/blog/openai-lp
+---
+
+OpenAI announced in February 2018 a significant organizational restructuring that created a new capped-profit company called OpenAI LP, designed to accelerate the organization's mission of developing artificial general intelligence while maintaining the safety and ethical considerations that had guided OpenAI since its founding in 2015. The restructuring represented a pragmatic response to the enormous capital requirements of cutting-edge AI research, as the computational resources needed to train state-of-the-art language models and other large-scale AI systems had grown far beyond what traditional nonprofit funding models could sustain, forcing the organization to find new ways to attract the substantial investment needed to remain competitive in the rapidly evolving AI landscape.
+
+Under the new structure, the original OpenAI nonprofit remained as the controlling entity, with the board of directors maintaining fiduciary responsibility and the authority to override商业 decisions that might conflict with the organization's mission of ensuring that AGI benefits humanity. Investor returns were capped at 100 times their investment, a mechanism designed to attract capital while preventing the profit motive from overwhelming the broader societal mission that distinguished OpenAI from purely commercial AI laboratories. This capped-profit model represented an experimental approach to aligning financial incentives with beneficial AI development, drawing on ideas from organizations like Y Combinator while adapting them to the unique challenges of advanced AI research governance.
+
+The restructuring generated substantial discussion within the AI research community and beyond, with supporters arguing that it represented a creative solution to the funding challenge that had constrained nonprofit AI labs, while critics worried that the involvement of large-scale commercial investment could compromise the independence and objectivity of AI safety research. Some observers noted that the structure bore similarities to the "mission hedge" approach used in other high-stakes technology domains, where organizations created parallel commercial and nonprofit entities to balance profitability with public interest considerations. The OpenAI leadership emphasized that the nonprofit would maintain control over all major decisions and that the safety and governance research that had characterized the organization's early work would continue as a central priority, though the transition to a world where AI development required billion-dollar compute budgets inevitably changed the landscape in which these decisions would be made.
+
+### OpenAI Restructures as Dual For-Profit and Nonprofit Organization（评分: 9.1/10）
