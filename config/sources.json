@@ -195,7 +195,16 @@
     "language": "en",
     "category": "english",
     "link_selector": "item link",
-    "enabled": false
+    "enabled": true
+  },
+  {
+    "id": "venturebeat-ai-rss",
+    "name": "VentureBeat AI",
+    "url": "https://venturebeat.com/category/ai/feed/",
+    "language": "en",
+    "category": "english",
+    "link_selector": "item link",
+    "enabled": true
   },
   {
     "id": "syncedreview",

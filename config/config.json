@@ -7,8 +7,8 @@
   },
   "crawl": {
     "max_articles_per_source": 20,
-    "ai_score_threshold": 5.0,
-    "ai_max_articles_per_day": 12
+    "ai_score_threshold": 7.0,
+    "ai_max_articles_per_day": 10
   },
   "wechat": {
     "target": "your_wechat_target_here"
