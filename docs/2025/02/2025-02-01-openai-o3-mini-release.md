@@ -17,9 +17,3 @@ o3-mini是OpenAI o系列的第三款模型，主打性价比路线。与付费�
 
 ## 相关文章
 - [mini API 开放：推理 AI 走向大众](../../2024/09/2024-09-28-openai-o1-mini-api.md)
-- [无标题](../../2024/10/2024-10-09-openai-chatgpt-major-update.md)
-- [正式版发布：推理能力全面开放](../../2024/12/2024-12-01-o1-full.md)
-- [OpenAI发布GPT-4.5，性能接近GPT-5](../04/2025-04-20-gpt-45.md)
-- [DeepMind AlphaCode 发布：AI 编程能力首次达到人类程序员平均水平](../../2022/02/2022-02-02-alphacode-deepmind.md)
-
-tags: [编程, 推理, 推理模型, API, GPT, ChatGPT, OpenAI, GitHub]

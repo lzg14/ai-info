@@ -34,6 +34,3 @@ AlphaCode 的发布引发了「程序员是否会被 AI 取代」的讨论。虽
 - [xAI 发布 Grok-2：马斯克旗下最强编程与推理模型](../../2024/07/2024-07-29-grok2-xai-launch.md)
 - [xAI 发布 Grok-2：最强编程和推理能力](../../2024/07/2024-07-29-grok2-xai.md)
 - [mini API 开放：推理 AI 走向大众](../../2024/09/2024-09-28-openai-o1-mini-api.md)
-- [无标题](../../2024/10/2024-10-09-openai-chatgpt-major-update.md)
-
-tags: [编程, 平台, 推理, 推理模型, 开源, API, GPT, OpenAI]

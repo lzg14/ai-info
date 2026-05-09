@@ -25,6 +25,6 @@ OpenAI"12 Days of OpenAI"活动落下帷幕，共发布：
 - [3.5 即将发布：Anthropic 的反击](../05/2024-05-03-claude-3-5-rumor.md)
 - [API 正式开放：推理能力普惠化](../09/2024-09-09-openai-o1-api.md)
 - [mini API 开放：推理 AI 走向大众](../09/2024-09-28-openai-o1-mini-api.md)
-- [无标题](../10/2024-10-09-openai-chatgpt-major-update.md)
 
 tags: [大模型, 编程, 推理, API, GPT, ChatGPT, Claude, OpenAI]
+

@@ -19,7 +19,7 @@
 - [豆包集成 ：国产 AI 生态加速融合](../03/2025-03-24-doubao-deepseek-integration.md)
 - [AI 发布 Mistral 2：开源模型持续追赶闭源](../../2024/08/2024-08-12-mistral-ai-2.md)
 - [DeepSeek-OCR 2开源视觉编码技术升级](../../2026/01/2026-01-20-deepseek-ocr-v2.md)
-- [无标题](../01/2025-01-08-deepseek-v3-launch.md)
 - [DeepSeek-R1正式发布：性能比肩，开源推理模型挑战竞争格局](../01/2025-01-20-deepseek-r1-release.md)
 
 tags: [大模型, 开源模型, 推理, 开源, DeepSeek, LLM, 推理模型, Meta]
+

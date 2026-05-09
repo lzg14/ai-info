@@ -18,8 +18,8 @@ DeepSeek V2的发布标志着中国开源大模型进入了一个新的发展阶
 ## 相关文章
 - [2024年开源模型爆发：Llama 3、Qwen2和DeepSeek V2三国争霸](../06/2024-06-11-open-source-model-battle.md)
 - [LLaMA 开源：Meta「小」模型引发开源大模型浪潮](../../2022/02/2022-02-24-meta-llama-open-source.md)
-- [无标题](../01/2024-01-31-mistral-large.md)
 - [DeepSeek V4 发布：百万 token 上下文标配，昇腾适配](../../2026/04/2026-04-25-deepseek-v4-million-token.md)
 - [EleutherAI正式成立：开源语言模型"草根革命"对抗GPT-3封闭生态](../../2020/07/2020-07-30-elutherai-founded-open-source-llm.md)
 
 tags: [大模型, 开源模型, 闭源模型, 推理, 开源, API, 评测, GPT]
+

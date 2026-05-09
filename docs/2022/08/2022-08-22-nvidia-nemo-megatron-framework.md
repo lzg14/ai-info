@@ -14,6 +14,3 @@ NVIDIA发布了NeMo Megatron框架，这是一个用于训练大规模语言模�
 - [微软开源DeepSpeed深度学习优化库](../../2020/02/2020-02-14-microsoft-deepspeed-open-source.md)
 - [Hugging Face估值突破十亿美元：开源NLP生态的里程碑](../../2020/08/2020-08-28-hugging-face-bert-models-ml-open-source.md)
 - [OpenAI 全面开放 -3 API：开发者可自主微调模型](../03/2022-03-15-gpt3-fine-tuning-api.md)
-- [无标题](../../2024/01/2024-01-31-mistral-large.md)
-
-tags: [大模型, 平台, 多模态, GPU, 融资, 开源, API, BERT]
