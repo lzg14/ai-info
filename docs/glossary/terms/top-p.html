@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Top-p</title>
+  <link rel="stylesheet" href="../../assets/article.css">
+</head>
+<body>
+  <div class="container">
+    <article>
+      <header class="article-header">
+        <div class="article-tag-line">
+          <span class="dot"></span>
+          <span class="category">术语</span>
+        </div>
+        <h1>Top-p</h1>
+        <div class="article-meta">
+          <span class="source">英文：Top-p (Nucleus Sampling)</span>
+        </div>
+      </header>
+      <div class="article-content">
+<p><strong>解释：</strong> Top-p（也叫 Nucleus Sampling）是另一种控制输出多样性的策略：不是选概率最高的 K 个词，而是选能覆盖总概率 P（通常设为 0.9-0.95）的最小候选集，然后在其中随机采样。这种方法比固定 Top-k 更灵活，因为不同词表的概率分布差异很大。</p>
+<p><strong>为什么重要：</strong> Top-p 是与 Temperature 并列的最重要解码参数，两者常同时使用来精细调控 LLM 输出质量和多样性。</p>
+      </div>
+    </article>
+  </div>
+</body>
+</html>

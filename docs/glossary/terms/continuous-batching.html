@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Continuous Batching</title>
+  <link rel="stylesheet" href="../../assets/article.css">
+</head>
+<body>
+  <div class="container">
+    <article>
+      <header class="article-header">
+        <div class="article-tag-line">
+          <span class="dot"></span>
+          <span class="category">术语</span>
+        </div>
+        <h1>Continuous Batching</h1>
+        <div class="article-meta">
+          <span class="source">英文：Continuous Batching</span>
+        </div>
+      </header>
+      <div class="article-content">
+<p><strong>解释：</strong> Continuous Batching（也叫 Iteration-Level Batching）是 vLLM 提出的推理优化技术。传统批处理需要等一批请求全部完成才能处理下一批，容易造成算力浪费；Continuous Batching 的做法是：当某个请求完成时，立即用新请求替换它，实现了请求级别的「动态组队」，将 GPU 利用率大幅提升。</p>
+<p><strong>为什么重要：</strong> Continuous Batching 是 vLLM 高吞吐量的另一关键因素，结合 PagedAttention，使 vLLM 吞吐量达到 HuggingFace 的 24 倍。</p>
+      </div>
+    </article>
+  </div>
+</body>
+</html>

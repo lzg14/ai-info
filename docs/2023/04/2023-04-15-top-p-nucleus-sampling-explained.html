@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Top-p（核采样）：自适应控制 LLM 输出多样性</title>
+  <link rel="stylesheet" href="../../assets/article.css">
+</head>
+<body>
+  <div class="container">
+    <article>
+      <header class="article-header">
+        
+        <h1>Top-p（核采样）：自适应控制 LLM 输出多样性</h1>
+        <div class="article-meta"><span class="date">入库 2023-04-15</span></div>
+      </header>
+      <div class="article-content">
+<h2>摘要</h2>
+<p>Top-p（也叫 Nucleus Sampling，核采样）是一种自适应解码策略，动态选择覆盖总概率达到阈值 p 的最小候选集，比固定 Top-k 更灵活，是目前最广泛使用的解码策略之一。</p>
+<h2>概念解析</h2>
+<p>传统的贪婪解码（每次选最高概率的词）容易产生重复；完全随机采样则质量不稳定。Top-p 的折中方案是：不要用固定的数量（Top-k），而是用一个动态的「刚好够用」的候选集。</p>
+<p>设置 Top-p = 0.9 时，模型从最高概率的词开始累加概率，直到这些词的累计概率之和达到 90%——这个词汇集合就是本次采样的候选集。概率分布陡峭时可能只有 1-2 个词，平坦时可能有几十个词。这种自适应方式比固定 Top-k 更灵活，是目前最广泛使用的解码策略之一。</p>
+<p>Top-p 通常与 <a href="../../glossary/terms/temperature.html">Temperature</a> 配合使用，调高 Temperature 会让分布变平坦，调高 <a href="../../glossary/terms/top-p.html">Top-p</a> 会让候选集变大，两者共同决定输出的随机性程度。</p>
+      </div>
+      
+    </article>
+  </div>
+</body>
+</html>

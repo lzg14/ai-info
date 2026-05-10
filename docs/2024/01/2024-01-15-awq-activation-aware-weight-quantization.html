@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AWQ：激活感知量化——高质量 INT4 量化的新方法</title>
+  <link rel="stylesheet" href="../../assets/article.css">
+</head>
+<body>
+  <div class="container">
+    <article>
+      <header class="article-header">
+        
+        <h1>AWQ：激活感知量化——高质量 INT4 量化的新方法</h1>
+        <div class="article-meta"><span class="date">入库 2024-01-15</span></div>
+      </header>
+      <div class="article-content">
+<h2>摘要</h2>
+<p>AWQ（Activation-Aware Weight Quantization，激活感知量化）是由 MIT Han Lab 提出的高效大模型量化方法，核心思想是保留与大激活值相乘的重要权重精度，其余权重量化到 INT4，实现高质量低显存推理。</p>
+<h2>概念解析</h2>
+<p>大模型量化通常将权重从 FP16/FP32 压缩到 INT8、INT4 以节省显存和加速推理。但简单量化会严重损害模型质量。AWQ 的关键洞察是：权重与大的激活值相乘时，量化误差会被放大，因此这些权重必须用更高精度保存。</p>
+<p>AWQ 通过分析激活值分布，自动识别重要权重并保持其精度，其余权重量化到 INT4。实验表明，AWQ 在 4 位量化下相较于 <a href="../../glossary/terms/gpt.html">GPT</a>Q 等方法能显著保持模型质量，是目前最流行的本地大模型量化方案之一，尤其适合在消费级 GPU（如 RTX 3090、Mac M系列）上运行 7B-70B 参数模型。</p>
+      </div>
+      
+    </article>
+  </div>
+</body>
+</html>

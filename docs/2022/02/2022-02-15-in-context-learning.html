@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>研究热潮：大模型「无需训练即可学习」的秘密</title>
+  <link rel="stylesheet" href="../../assets/article.css">
+</head>
+<body>
+  <div class="container">
+    <article>
+      <header class="article-header">
+        
+        <h1>研究热潮：大模型「无需训练即可学习」的秘密</h1>
+        <div class="article-meta"><span class="date">入库 2022-02-15</span></div>
+      </header>
+      <div class="article-content">
+<h2>摘要</h2>
+<p>2022 年 2 月，斯坦福大学等机构的研究者发表论文，系统性地研究了大语言模型的「In-context Learning」（上下文学习，ICL）现象——即 GPT-3 等模型能够在不进行梯度更新的情况下，仅通过输入中的几个示例就学会执行新任务。这篇论文揭示了 ICL 的工作机制和影响因素，引发学术界对 LLM「学习能力本质」的新一轮讨论。</p>
+<h2>什么是 In-context Learning</h2>
+<p>In-context Learning 允许用户通过在 prompt 中提供几个「输入-输出示例」，让大语言模型「学会」执行新的任务模式，而无需对模型本身进行任何参数更新。</p>
+<p><strong>示例：</strong> 在 prompt 中写「狗→哺乳动物；猫→哺乳动物；蛇→」，模型即可预测蛇也是哺乳动物。</p>
+<h2>论文核心发现</h2>
+<p><strong>任务级别的泛化：</strong> ICL 不仅能泛化到训练数据中见过的任务类型，还能泛化到完全新的任务。</p>
+<p><strong>预测头的角色：</strong> 研究者发现 <a href="../../glossary/terms/transformer.html">Transformer</a> 的「线性头」（预测下一个 token 的线性层）对 ICL 能力至关重要。</p>
+<p><strong>规模依赖：</strong> ICL 能力随模型规模增大而显著提升，小模型（≤ 1B 参数）几乎不具备 ICL 能力。</p>
+<h2>点评</h2>
+<p>In-context Learning 是 <a href="../../glossary/terms/gpt.html">GPT</a>-3 最引人入胜的特性之一。它让「AI 学习新任务」的方式从「改变参数」变成了「改变提示」，这可能是通向通用人工智能的重要线索之一。</p>
+      </div>
+      
+    </article>
+  </div>
+</body>
+</html>

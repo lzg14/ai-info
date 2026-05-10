@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Facebook开源MAE自监督视觉预训练方法</title>
+  <link rel="stylesheet" href="../../assets/article.css">
+</head>
+<body>
+  <div class="container">
+    <article>
+      <header class="article-header">
+        
+        <h1>Facebook开源MAE自监督视觉预训练方法</h1>
+        <div class="article-meta"><span class="date">入库 2020-12-01</span></div>
+      </header>
+      <div class="article-content">
+<p>2020年12月，Facebook AI研究院发布Masked Autoencoder（MAE），这是一个简单有效的自监督视觉预训练方法，在ImageNet上以75.8%的Top-1准确率刷新记录，超越此前所有有监督预训练方法。</p>
+<p>MAE的灵感来自自然语言处理中的<a href="../../glossary/terms/bert.html">BERT</a>，使用随机遮蔽（Masked）策略——将输入图像的随机patch遮蔽掉75%，然后让模型重建缺失像素。核心设计包含不对称的编码器-解码器架构，编码器仅处理可见patch，解码器负责重建完整图像。MAE证明了一个简单想法配合精心设计即可显著超越复杂方法，且预训练效率比对比学习高3倍以上。该工作迅速成为视觉自监督学习的新标杆，影响深远。</p>
+      </div>
+      
+    </article>
+  </div>
+</body>
+</html>

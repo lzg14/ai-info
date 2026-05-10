@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neural Machine Translation by Jointly Learning to Align and Translate</title>
+  <link rel="stylesheet" href="../../assets/article.css">
+</head>
+<body>
+  <div class="container">
+    <article>
+      <header class="article-header">
+        
+        <h1>Neural Machine Translation by Jointly Learning to Align and Translate</h1>
+        <div class="article-meta"><span class="date">入库 2014-09-03</span></div>
+      </header>
+      <div class="article-content">
+<p>Dzmitry Bahdanau, Kyunghyun Cho, and Yoshua Bengio published "Neural Machine Translation by Jointly Learning to Align and Translate" in September 2014, introducing the attention mechanism that revolutionized sequence-to-sequence modeling in natural language processing. This paper addressed a fundamental limitation of encoder-decoder architectures: the need to compress all information from source sequences into fixed-size vectors, which became increasingly problematic as sequences grew longer.</p>
+<p>The proposed model replaced the fixed context vector with a dynamic mechanism that allowed the decoder to automatically search for relevant parts of the input sequence when generating each output token. Instead of encoding the entire source sentence into a single vector, an bidirectional RNN encoder produced a sequence of hidden states, each corresponding to a specific word in the source. During decoding, the model computed attention weights that indicated which source hidden states were most relevant for predicting the next target word.</p>
+<p>This attention mechanism operated through a learned alignment model that scored the compatibility between the decoder's current hidden state and each source encoder hidden state. These alignment scores were normalized to produce attention weights, which were then used to compute a weighted context vector as the sum of source hidden states multiplied by their attention weights. This context vector, combined with the decoder's current state and the previously generated word, produced the probability distribution over the next target token.</p>
+<p>The innovation enabled neural translation models to handle much longer sequences without the information bottleneck that plagued previous approaches. More importantly, the learned alignment provided interpretable insight into how the model operated—visualizing attention weights revealed precisely which source words influenced each target word's generation. This interpretability proved invaluable for debugging and understanding neural translation behavior.</p>
+<p>The paper also demonstrated that the encoder's bidirectional hidden states were essential for capturing both forward and backward context around each source word. This bidirectional encoding became standard practice in subsequent NLP models, ensuring that each position's representation incorporated information from the entire surrounding context.</p>
+<p>Bahdanau et al.'s attention mechanism fundamentally changed neural network architecture design. The soft alignment between input and output sequences provided a template for multi-modal reasoning, memory access in neural Turing machines, and graph neural network message passing. When <a href="../../glossary/terms/transformer.html">Transformer</a> architectures arrived in 2017, they replaced RNNs entirely but retained attention as the core computation mechanism, extending the paradigm to self-attention across all input positions simultaneously.</p>
+<p>The attention mechanism's success also influenced how researchers approached sequence modeling problems more broadly. The idea that neural networks could learn to dynamically focus on relevant parts of their input rather than processing everything uniformly proved generative across nearly every modality in machine learning, from image captioning to speech recognition to protein structure prediction.</p>
+      </div>
+      <footer>
+<div class="tags-section">
+  <span class="section-label">标签</span>
+  <div class="tags"><span class="tag">TPU</span><span class="tag">NPU</span><span class="tag">Transformer</span><span class="tag">Bengio</span><span class="tag">Google</span><span class="tag">神经网络</span></div>
+</div>
+<div class="related-section">
+<h2>相关文章</h2>
+<ul>
+  <li><a href="../../2013/10/2013-10-18-bengio-rnn.md">Bengio团队提出循环神经网络语言模型</a></li>
+  <li><a href="../11/2014-11-01-Google-AI翻译-质量一年提升50percent.md">Google AI翻译：质量一年提升50%</a></li>
+  <li><a href="../../2015/12/2015-12-10-microsoft-resnet-paper.md">Microsoft Research Asia Publishes Deep Residual Learning for Image Recognition</a></li>
+  <li><a href="../../2020/07/2020-07-06-t5-exploring-transfer-learning-limits.md">T5: 统一文本到文本迁移学习框架</a></li>
+  <li><a href="../../2023/06/2023-06-28-whale-language.md">科学家用 AI 解读鲸鱼语言：跨物种对话的突破</a></li>
+</ul>
+</div>
+</footer>
+    </article>
+  </div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>：让 AI 在思维树上搜索最优推理路径</title>
+  <link rel="stylesheet" href="../../assets/article.css">
+</head>
+<body>
+  <div class="container">
+    <article>
+      <header class="article-header">
+        
+        <h1>：让 AI 在思维树上搜索最优推理路径</h1>
+        <div class="article-meta"><span class="date">入库 2023-05-01</span></div>
+      </header>
+      <div class="article-content">
+<h2>摘要</h2>
+<p>Tree of Thoughts（思维树，简称 ToT）是普林斯顿大学和 DeepAI 于 2023 年提出的推理框架，核心思想是将 <a href="../../glossary/terms/chain-of-thought.html">Chain of Thought</a>（CoT）的线性思考扩展为树状搜索结构，让 AI 在复杂问题求解时能够探索多条推理路径，找到最优解决方案。</p>
+<h2>概念解析</h2>
+<p>CoT 让模型一步一步往下想（线性），适合简单推理任务；但面对复杂问题（如需要探索、回溯、规划）时，线性思考容易陷入局部最优。ToT 的做法是：在推理的每一步，模型生成多个可能的「思考分支」，形成一棵思维树，然后通过搜索算法（广度优先或深度优先）评估每个分支的可行性，最终选择最优路径继续。</p>
+<p>类比：CoT 像是在迷宫中沿着一条路一直走到底；ToT 则是在每个路口探索多条可能的方向，找到通往出口的最佳路线。实验表明，ToT 在需要复杂规划的任务（如24点游戏、创意写作、单词修改）上显著优于 CoT 和贪婪解码。</p>
+      </div>
+      
+    </article>
+  </div>
+</body>
+</html>

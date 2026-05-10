@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>微软与英伟达发布 Megatron Turing-NLG：5300亿参数史上最大NLP模型</title>
+  <link rel="stylesheet" href="../../assets/article.css">
+</head>
+<body>
+  <div class="container">
+    <article>
+      <header class="article-header">
+        
+        <h1>微软与英伟达发布 Megatron Turing-NLG：5300亿参数史上最大NLP模型</h1>
+        <div class="article-meta"><span class="date">入库 2021-10-28</span></div>
+      </header>
+      <div class="article-content">
+<h2>摘要</h2>
+<p>2021年10月，微软与英伟达联合发布 <strong>Megatron Turing-NLG（MT-NLG）</strong>，以 <strong>5300亿参数</strong> 创下当时全球最大语言模型纪录，规模接近 <a href="../../glossary/terms/gpt.html">GPT</a>-3 的3倍。该模型在阅读理解、常识推理、自然语言推理等任务上刷新了多项 SOTA，展示了超大模型在 NLP 领域的惊人潜力。</p>
+<h2>技术架构</h2>
+<p>MT-NLG 是微软 Turing NLG（170亿参数）与英伟达 Megatron-LM（83亿参数）的"继任者"，核心技术亮点：</p>
+<p><strong>3D 并行系统：</strong> 整合了英伟达 Megatron-LM 的 GPU 并行处理与微软开源的 DeepSpeed 分布式训练框架，构建了一套协同的3D并行策略：</p>
+<ul><li><strong>节点内</strong>：Megatron-LM 的 8路张量切片（tensor-slicing），实现 GPU 间模型并行</li><li><strong>节点间</strong>：35路管道并行（pipeline parallelism），跨节点扩展</li><li><strong>全局</strong>：DeepSpeed 数据并行，将训练扩展至数千 GPU</li></ul>
+<p><strong>训练基础设施：</strong> 基于 NVIDIA DGX SuperPOD 超级计算机（560台 DGX A100 服务器，每台 8×A100 80GB）上的 Selene 集群进行混合精度训练，共消耗约 4480 块 A100 GPU。</p>
+<h2>性能表现</h2>
+<p>MT-NLG 在以下任务上获得前所未有的准确率：</p>
+<ul><li>文本预测</li><li>阅读理解（SQuAD、HotpotQA）</li><li>常识推理（PIQA、HellaSwag）</li><li>自然语言推理（ANLI）</li><li>词义消歧</li></ul>
+<p>在零样本和小样本设置下，MT-NLG 均显著超越此前最优模型，证明了"大模型+大算力"路线的有效性。</p>
+<h2>行业影响</h2>
+<p>MT-NLG 的发布标志着大模型军备竞赛进入新阶段：参数规模从千亿迈向万亿，训练成本也水涨船高。该模型证明了通过 3D 并行可以在数千 GPU 规模上高效训练超大人工智能模型，同时也展示了微软与英伟达在 AI 基础设施层面的深度合作。此后，MT-NLG 的技术路线被后续 Megatron-Deepspeed 框架继承，推动了开源大模型的平民化。</p>
+      </div>
+      
+    </article>
+  </div>
+</body>
+</html>

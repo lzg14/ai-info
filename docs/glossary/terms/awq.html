@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AWQ</title>
+  <link rel="stylesheet" href="../../assets/article.css">
+</head>
+<body>
+  <div class="container">
+    <article>
+      <header class="article-header">
+        <div class="article-tag-line">
+          <span class="dot"></span>
+          <span class="category">术语</span>
+        </div>
+        <h1>AWQ</h1>
+        <div class="article-meta">
+          <span class="source">英文：AWQ (Activation-Aware Weight Quantization)</span>
+        </div>
+      </header>
+      <div class="article-content">
+<p><strong>解释：</strong> AWQ 是一种大模型量化方法，核心思想是：不是所有模型权重都同样重要——那些与大激活值（activations）相乘的权重更重要，应该用更高精度保存。AWQ 只量化「不太重要」的权重，保持关键权重精度，实现 INT4 量化下仍保持高质量，是目前最流行的本地大模型量化方案之一。</p>
+<p><strong>为什么重要：</strong> AWQ 是 2024-2026 年本地大模型量化的主流方案，比 GPTQ 效果更好，被 Ollama、llama.cpp 等广泛支持。</p>
+      </div>
+    </article>
+  </div>
+</body>
+</html>

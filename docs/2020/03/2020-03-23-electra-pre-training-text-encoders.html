@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ELECTRA: 判别式预训练文本编码器</title>
+  <link rel="stylesheet" href="../../assets/article.css">
+</head>
+<body>
+  <div class="container">
+    <article>
+      <header class="article-header">
+        
+        <h1>ELECTRA: 判别式预训练文本编码器</h1>
+        <div class="article-meta"><span class="date">入库 2020-03-23</span></div>
+      </header>
+      <div class="article-content">
+<p>斯坦福大学与Google Brain团队联合提出了一种名为ELECTRA的新型预训练语言模型，该模型创新性地将文本编码器训练为判别器而非生成器。传统的<a href="../../glossary/terms/bert.html">BERT</a>等模型采用掩码语言建模（MLM）方法，通过替换部分token后训练模型重建原始token，虽然效果良好但计算成本高昂。ELECTRA则引入对抗式训练机制，使用生成器替换序列中的token，再训练判别器识别哪些token被替换过。这种预训练任务被称为替换token检测（RTD），能够更高效地学习上下文表示。研究团队在GLUE、SQuAD等基准测试上验证了模型性能，实验表明ELECTRA在相同算力下显著优于BERT和XLNet等模型，为自然语言处理预训练开辟了新的技术路径。</p>
+      </div>
+      
+    </article>
+  </div>
+</body>
+</html>

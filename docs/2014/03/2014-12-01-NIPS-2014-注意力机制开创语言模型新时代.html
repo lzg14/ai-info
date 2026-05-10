@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NIPS 2014：注意力机制开创语言模型新时代</title>
+  <link rel="stylesheet" href="../../assets/article.css">
+</head>
+<body>
+  <div class="container">
+    <article>
+      <header class="article-header">
+        
+        <h1>NIPS 2014：注意力机制开创语言模型新时代</h1>
+        <div class="article-meta"><span class="date">入库 2014-12-01</span></div>
+      </header>
+      <div class="article-content">
+<p>2014年，Bengio团队的科学家（尤其是Dzmitry Bahdanau等）在NIPS发表了里程碑论文《Neural Machine Translation by Jointly Learning to Align and Translate》，首次在神经机器翻译中引入注意力机制（Attention Mechanism）。</p>
+<h2>核心创新</h2>
+<p>此前的Seq2Seq模型将整个源句编码为一个固定长度的向量，解码器必须从中提取所有信息——这对长句效果很差。注意力机制允许解码器在生成每个目标词时"软性搜索"源句的不同位置，解决了长距离依赖问题。</p>
+<h2>技术意义</h2>
+<p>注意力机制是深度学习历史上最重要的技术突破之一。它不仅解决了NMT问题，更成为了<a href="../../glossary/terms/transformer.html">Transformer</a>架构（2017）的核心组件，进而催生了GPT、BERT等预训练模型。<a href="../../glossary/terms/attention-mechanism.html">注意力机制</a>让模型能够自适应地关注输入中最相关的部分，是现代大语言模型的基础。</p>
+<h2>后续影响</h2>
+<p>2014年的注意力机制论文被引用超过5万次，是深度学习历史上被引用最多的论文之一。它证明了"让模型自己学会关注什么"比人工设计特征更有效，开创了自注意力（Self-Attention）的研究方向。</p>
+      </div>
+      <footer>
+<div class="tags-section">
+  <span class="section-label">标签</span>
+  <div class="tags"><span class="tag">论文</span><span class="tag">Transformer</span><span class="tag">BERT</span><span class="tag">GPT</span><span class="tag">深度学习</span><span class="tag">Bengio</span><span class="tag">开源</span><span class="tag">Google</span></div>
+</div>
+<div class="related-section">
+<h2>相关文章</h2>
+<ul>
+  <li><a href="../../2017/06/2017-06-01-Transformer..-glossary-terms-transformer.md架构-.md">架构：Attention is All You Need</a></li>
+  <li><a href="../../2017/06/2017-06-Google-Transformer架构Attention-is-All-You-Need.md">架构：Attention is All You Need</a></li>
+  <li><a href="../../2018/07/2018-07-15-Transformer架构加速落地NLP进入注意力机制时代.md">架构加速落地，NLP进入注意力机制时代</a></li>
+  <li><a href="../../2019/02/2019-02-14-gpt2-release.md">OpenAI Releases GPT-2 1.5B Language Model</a></li>
+  <li><a href="../../2019/07/2019-07-26-roberta-dynamic-mask-pre-training.md">无标题</a></li>
+</ul>
+</div>
+</footer>
+    </article>
+  </div>
+</body>
+</html>

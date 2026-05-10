@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flash Attention</title>
+  <link rel="stylesheet" href="../../assets/article.css">
+</head>
+<body>
+  <div class="container">
+    <article>
+      <header class="article-header">
+        <div class="article-tag-line">
+          <span class="dot"></span>
+          <span class="category">术语</span>
+        </div>
+        <h1>Flash Attention</h1>
+        <div class="article-meta">
+          <span class="source">英文：Flash Attention</span>
+        </div>
+      </header>
+      <div class="article-content">
+<p><strong>解释：</strong> Flash Attention 是 2022 年由 Tri Dao（当时是斯坦福博士）提出的注意力机制高效实现算法。核心创新是利用 GPU 内存层级结构（SRAM vs HBM），将注意力计算中需要多次读写 HBM 的操作合并成更少的高速 SRAM 操作，使计算速度提升 2-4 倍，同时将内存使用量从 O(N^2) 降到 O(N)。这是大模型训练和推理中最重要的底层优化之一。</p>
+<p><strong>为什么重要：</strong> Flash Attention 让 GPT-4 等超大上下文模型的训练成为可能，也是 vLLM 等推理引擎的核心底层技术。当前几乎所有大模型训练和推理框架都集成了 Flash Attention。</p>
+      </div>
+    </article>
+  </div>
+</body>
+</html>

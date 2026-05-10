@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Switch Transformer Scaling Language Models</title>
+  <link rel="stylesheet" href="../../assets/article.css">
+</head>
+<body>
+  <div class="container">
+    <article>
+      <header class="article-header">
+        <div class="article-tag-line"><span class="dot"></span><span class="category">arXiv</span></div>
+        <h1>Switch Transformer Scaling Language Models</h1>
+        <div class="article-meta"><span class="source"><a href="https://arxiv.org/abs/2101.03961" target="_blank">arXiv</a></span><span class="date">2021-01-11</span><span class="date">入库 2021-01-11</span></div>
+      </header>
+      <div class="article-content">
+<p>The academic paper "Switch Transformers: Scaling to Trillion Parameter Models with Sparse Selection" established a new paradigm for scaling neural networks. Authored by researchers at Google Brain, the paper detailed how sparse activation could enable trillion-parameter models without overwhelming computational resources.</p>
+<p>The core innovation lay in simplifying the routing mechanism of mixture-of-experts models. Previous approaches required coordinating multiple active experts per token, introducing communication overhead in distributed training. The Switch Transformer reduced this to single expert routing, which dramatically lowered communication costs during training across multiple devices.</p>
+<p>The paper demonstrated that simply scaling the number of experts while keeping computation per token constant could improve performance across a wide range of downstream tasks. This insight challenged the prevailing assumption that model scaling required proportional increases in floating-point operations.</p>
+<p>A key contribution was the analysis of capacity versus performance trade-offs. The researchers showed that sparse models could match dense model performance while consuming less compute during inference, making them attractive for deployment scenarios where latency matters.</p>
+<p>The work also introduced improved training techniques including selective precision training and temperature-based expert routing that stabilized training of such large sparse models. These techniques proved essential for achieving convergence with trillions of parameters.</p>
+<p>### Switch Transformer Scaling Language Models（评分: 9.3/10）</p>
+      </div>
+      
+    </article>
+  </div>
+</body>
+</html>
