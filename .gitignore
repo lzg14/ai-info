@@ -8,4 +8,5 @@ temp/
 logs/
 staging/
 state/
-config/
+# config/ 保持跟踪（RSS源配置可公开，无敏感信息）
+# config.local.json（个人覆盖）应加入 .gitignore
