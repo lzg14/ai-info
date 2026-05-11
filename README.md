@@ -4,16 +4,16 @@
 
 ## 最新 10 条
 
-- [空间智能的"具身化"跃迁，高德ABot体系模型夺冠AGIBot全球挑战赛](docs/2026/05/2026-05-09_abot-agibot.md)（05-09）
-- [奥特曼"官宣" OpenAI 手机](docs/2026/05/2026-05-09_openai.md)（05-09）
-- [豆包收费辩证透视：免费的，为何才是最贵的？](docs/2026/05/2026-05-08_ai-news_3.md)（05-08）
-- [Nanoleaf bets its future on robots, red light therapy, and AI](docs/2026/05/2026-05-08_nanoleaf-bets-its-future-robots.md)（05-08）
-- [Cursor 3发布多Agent并行重新定义编程工具天花板](docs/2026/05/2026-05-05-cursor3-multi-agent-coding.md)（05-05）
-- [OpenAI DeployCo：100亿美元估值，锁定2000+企业的AI合资公司](docs/2026/05/2026-05-04-OpenAI-DeployCo合资公司百亿美元估值锁定两千企业.md)（05-04）
-- [天桥具身机器人亮相济南泺口服装城会推销能T台走秀](docs/2026/05/2026-05-04-tianqiao-robot-fashion-show.md)（05-04）
-- [DeepSeek-V4系列密集落地V4-Pro开源V4-Flash仅0.279美元](docs/2026/05/2026-05-02-deepseek-v4-pro-open-source.md)（05-02）
-- [Claude Code is leaking API keys into public package registries](docs/2026/04/2026-04-27_claude-code-leaking-api-keys.md)（04-27）
-- [DeepSeek V4 发布：百万 token 上下文标配，昇腾适配](docs/2026/04/2026-04-25-deepseek-v4-million-token.md)（04-25）
+- [“养虾人”自述：我为什么卸载龙虾？](docs/2026/05/2026-05-11_article.md)（05-11）
+- [数学专业，危！菲尔兹奖得主亲测ChatGPT 5.5 Pro，17分钟出论文级成果](docs/2026/05/2026-05-11_chatgpt-pro.md)（05-11）
+- [数学专业，危！菲尔兹奖得主亲测ChatGPT 5.5 Pro，17分钟出论文级成果](docs/2026/05/2026-05-11_chatgpt-pro_2.md)（05-11）
+- [第一代机器人公司等到了IPO时刻](docs/2026/05/2026-05-11_ipo.md)（05-11）
+- [具身大模型R1时刻：LIBERO终结者，99.9%背后的物理推理新范式](docs/2026/05/2026-05-11_libero.md)（05-11）
+- [具身大模型R1时刻：LIBERO终结者，99.9%背后的物理推理新范式](docs/2026/05/2026-05-11_libero_2.md)（05-11）
+- [OpenAI砸200亿美元买单，英伟达挑战者冲刺350亿美元估值IPO](docs/2026/05/2026-05-11_openai-ipo.md)（05-11）
+- [OpenAI砸200亿美元买单，英伟达挑战者冲刺350亿美元估值IPO](docs/2026/05/2026-05-11_openai-ipo_2.md)（05-11）
+- [Sora的“死”与可灵的“生”](docs/2026/05/2026-05-11_sora.md)（05-11）
+- [安全公司：部分使用氛围编程 Vibe Coding 开发的网络 App 缺乏身份验证机制、直接暴露于公网](docs/2026/05/2026-05-11_vibe-coding-app.md)（05-11）
 
 ## 数据来源
 
