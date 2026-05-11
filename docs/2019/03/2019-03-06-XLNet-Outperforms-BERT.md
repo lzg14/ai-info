@@ -1,0 +1,26 @@
+<!--
+{
+  "title": "XLNet Outperforms BERT on 18 NLP Tasks",
+  "date": "2019-03-06",
+  "source": "Google Brain官方博客",
+  "source_url": "https://ai.googleblog.com/2019/06/accelerating-deep-learning-on-google-ai.html"
+}
+-->
+
+# XLNet Outperforms BERT on 18 NLP Tasks
+
+📅 2019-03-06 | 📎 Google Brain官方博客
+
+<!-- 正文开始 -->
+## 内容摘要
+
+2019年6月，Google Brain团队发布了XLNet，这是一种新的预训练方法，在18项NLP任务上超越了BERT的性能。XLNet由卡内基梅隆大学、Google Brain和CMU联合团队开发，其核心创新是"排列语言模型"（Permutation Language Modeling）。
+
+BERT使用的遮蔽语言模型存在一个缺陷：训练时模型知道哪些token被遮蔽，但微调时却没有这一定价信息。这种训练-微调不一致性限制了模型性能。XLNet通过排列语言模型解决了这一问题：模型预测任意位置的token，但不依赖人工遮蔽，从而保持训练和微调的一致性。
+
+XLNet还引入了"Transformer-XL"的循环记忆机制，使模型能够处理更长的文本序列。这一特性对于文档级理解和生成长文本尤为重要。在RACE、SQuAD等需要处理长上下文的任务上，XLNet表现尤为突出。
+
+尽管XLNet在很多任务上超越了BERT，但其计算成本也相应更高。XLNet的成功启发了一系列后续研究，推动了预训练语言模型的进一步发展。最终，BERT和XLNet的技术被融合，产生了如RoBERTa等更强大的模型。
+
+### XLNet Outperforms BERT on 18 NLP Tasks（评分: 9.1/10）
+<!-- 正文结束 -->

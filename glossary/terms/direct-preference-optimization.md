@@ -1,9 +1,0 @@
-### DPO
-
-**英文：** Direct Preference Optimization (DPO)
-
-**解释：**
-
-DPO 是 2023 年由斯坦福大学提出的新型大模型对齐算法，是对 RLHF 的重大简化。传统 RLHF 需要训练 Reward Model 再用 PPO 强化学习，三步走；DPO 的核心洞察是：可以直接用人类偏好数据，通过简单的分类损失函数优化模型，省去 Reward Model 和 PPO 两步，大幅降低了训练复杂度和算力需求。
-
-**为什么重要：** DPO 改变了 RL 训练范式，让小团队也能做出高质量对齐模型。Zephyr-7B 等开源模型用 DPO 取得了超过 RLHF 的效果，开源社区广泛采用。

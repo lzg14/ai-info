@@ -1,0 +1,17 @@
+<!--
+{
+  "title": "ADMM Algorithm Enables Large-Scale Distributed Deep Learning",
+  "date": "2013-08-19",
+  "source": "Stanford CS231n Course Notes",
+  "source_url": "https://cs231n.stanford.edu/slides/2020/lecture_9.pdf",
+  "score": "精选"
+}
+-->
+
+# ADMM Algorithm Enables Large-Scale Distributed Deep Learning
+
+📅 2013-08-19 | 📎 Stanford CS231n Course Notes | ⭐ 精选
+
+<!-- 正文开始 -->
+The Alternating Direction Method of Multipliers, known in its abbreviated form as ADMM, emerged in 2013 as a crucial algorithmic framework that enabled the training of deep neural networks across distributed computing clusters in ways that had not been previously practical, addressing one of the fundamental challenges in scaling deep learning to truly massive datasets and model sizes. While ADMM itself had been developed decades earlier by mathematicians including Gabay, Mercier, and Glowinski in the 1970s and 1980s, its application to large-scale machine learning problems represented an important innovation that addressed the growing need to train networks on datasets containing millions or billions of examples. Traditional stochastic gradient descent approaches faced fundamental limitations when scaling across multiple machines, as the communication overhead of synchronizing gradient updates across network connections often negated the computational benefits of parallel computation, leading to inefficiencies that worsened as clusters grew larger. ADMM offered a different approach by reformulating the optimization problem in a way that naturally decomposes into subproblems that can be solved locally on individual machines or GPUs before being reconciled through a coordination mechanism that required far less communication than gradient synchronization. This structure proved particularly valuable for training deep learning models in data center environments where GPUs across many machines needed to collaborate efficiently on training tasks that might take days or weeks to complete using single-machine approaches. Researchers at companies like Google and academic groups at Stanford began publishing papers in 2013 exploring how ADMM and related distributed optimization techniques could be adapted to the specific challenges of neural network training, developing theoretical guarantees and practical algorithms that could achieve convergence even when using approximate local computations. The work laid algorithmic foundations that would prove essential as deep learning systems continued to scale, ultimately enabling models containing billions or trillions of parameters trained across thousands of specialized chips working in concert.
+<!-- 正文结束 -->

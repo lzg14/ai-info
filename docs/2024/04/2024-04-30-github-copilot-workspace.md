@@ -1,0 +1,14 @@
+<!--
+{
+  "title": "GitHub Copilot Workspace发布：用自然语言完成全流程开发",
+  "date": "2024-04-30"
+}
+-->
+
+# GitHub Copilot Workspace发布：用自然语言完成全流程开发
+
+📅 2024-04-30
+
+<!-- 正文开始 -->
+GitHub于2024年4月30日发布了GitHub Copilot Workspace的技术预览版，这是一款由AI驱动的革命性开发环境。Copilot Workspace基于GitHub现有的Copilot和Copilot Chat功能构建，允许开发者使用自然语言进行头脑风暴、规划、构建、测试和运行代码，覆盖从想法到最终软件的完整开发流程。开发者只需用自然语言描述需求，系统即可自动生成代码、解决Bug并执行测试。GitHub CEO Thomas Dohmke表示，该工具将彻底改变开发者的工作体验，让"任何会说话的人都能写代码"。Copilot Workspace的发布标志着AI编程助手从单点补全向完整开发流程的跨越，成为GitHub Copilot产品线的下一代进化里程碑。
+<!-- 正文结束 -->
