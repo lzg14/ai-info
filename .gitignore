@@ -3,9 +3,9 @@
 .DS_Store
 Thumbs.db
 
-# skill 处理过程（已在 skill 目录）
-# temp/
-# logs/
-# state/
-# staging/
-# config/
+# skill 处理过程（已在项目 scripts/ 目录）
+temp/
+logs/
+staging/
+state/
+config/
