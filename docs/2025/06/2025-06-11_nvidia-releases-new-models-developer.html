@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NVIDIA Releases New AI Models and Developer Tools to Advance Autonomous Vehicle Ecosystem</title>
+  <link rel="stylesheet" href="../../assets/article.css">
+</head>
+<body>
+  <div class="container">
+    <article>
+      <header class="article-header">
+        <div class="article-tag-line">
+          <span class="dot"></span>
+          <span class="category">NVIDIA AI Blog</span>
+          
+        </div>
+        <h1>NVIDIA Releases New AI Models and Developer Tools to Advance Autonomous Vehicle Ecosystem</h1>
+        <div class="article-meta">
+          <span class="source"><a href="https://blogs.nvidia.com/blog/autonomous-vehicle-ecosystem-ai-models-developer-tools/" target="_blank">NVIDIA AI Blog</a></span>
+          
+          <span class="date">2025-06-11</span>
+          <span class="date">入库 2026-05-11</span>
+        </div>
+      </header>
+      <div class="article-content">
+<p>Autonomous vehicle (AV) stacks are evolving from many distinct models to a unified, end-to-end architecture that executes driving actions directly from sensor data. This transition to using larger models is drastically increasing the demand for high-quality, physically based sensor data for training, testing and validation.</p>
+<p>To help accelerate the development of next-generation AV architectures, NVIDIA today released NVIDIA Cosmos Predict-2 — a new world foundation model with improved future world state prediction capabilities for high-quality synthetic data generation — as well as new developers tools.</p>
+<p>Cosmos Predict-2 is part of the NVIDIA Cosmos platform, which equips developers with technologies to tackle the most complex challenges in end-to-end AV development. Industry leaders such as Oxa, Plus and Uber are using Cosmos models to rapidly scale synthetic data generation for AV development.</p>
+<p>Cosmos Predict-2 Accelerates AV Training</p>
+<p>Building on Cosmos Predict-1 — which was designed to predict and generate future world states using text, image and video prompts — Cosmos Predict-2 better understands context from text and visual inputs, leading to fewer hallucinations and richer details in generated videos.</p>
+<p>By using the latest optimization techniques, Cosmos Predict-2 significantly speeds up synthetic data generation on NVIDIA GB200 NVL72 systems and NVIDIA DGX Cloud.</p>
+<p>Post-Training Cosmos Unlocks New Training Data Sources</p>
+<p>By post-training Cosmos models on AV data, developers can generate videos that accurately match existing physical environments and vehicle trajectories, as well as generate multi-view videos from a single-view video, such as dashcam footage. The ability to turn widely available dashcam data into multi-camera data gives developers access to new troves of data for AV training. These multi-view videos can also be used to replace real camera data from broken or occluded sensors.</p>
+<p>Post-trained Cosmos models generate multi-view videos to significantly augment AV training datasets.</p>
+<p>The NVIDIA Research team post-trained Cosmos models on 20,000 hours of real-world driving data. Using the AV-specific models to generate multi-view video data, the team improved model performance in challenging conditions such as fog and rain.</p>
+<p>AV Ecosystem Drives Advancements Using Cosmos Predict</p>
+<p>AV companies have already integrated Cosmos Predict to scale and accelerate vehicle development.</p>
+<p>Autonomous trucking leader Plus, which is building its solution with the NVIDIA DRIVE AGX platform, is post-training Cosmos Predict on trucking data to generate highly realistic synthetic driving scenarios to accelerate commercialization of their autonomous solutions at scale. AV software company Oxa is also using Cosmos Predict to support the generation of multi-camera videos with high fidelity and temporal consistency.</p>
+<p>New NVIDIA Models and NIM Microservices Empower AV Developers</p>
+<p>In addition to Cosmos Predict-2, NVIDIA today also announced Cosmos Transfer as an NVIDIA NIM microservice preview for easy deployment on data center GPUs.</p>
+<p>The Cosmos Transfer NIM microservice preview augments datasets and generates photorealistic videos using structured input or ground-truth simulations from the NVIDIA Omniverse platform. And the NuRec Fixer model helps inpaint and resolve gaps in reconstructed AV data.</p>
+<p>NuRec Fixer fills in gaps in driving data to improve neural reconstructions.</p>
+<p>CARLA, the world’s leading open-source AV simulator, will be integrating Cosmos Transfer and NVIDIA NuRec — a set of application programming interfaces and tools for neural reconstruction and rendering — into its latest release. This will enable CARLA’s user base of over 150,000 AV developers to render synthetic simulation scenes and viewpoints with high fidelity and to generate endless variations of lighting, weather and terrain using simple prompts.</p>
+<p>Developers can try out this pipeline using open-source data available on the NVIDIA Physical AI Dataset. The latest dataset release includes 40,000 clips generated using Cosmos, as well as sample reconstructed scenes for neural rendering. With this latest version of CARLA, developers can author new trajectories, reposition sensors and simulate drives.</p>
+<p>Such scalable data generation pipelines unlock the development of end-to-end AV model architectures, as recently demonstrated by NVIDIA Research’s second consecutive win at the End-to-End Autonomous Grand Challenge at CVPR.</p>
+<p>The challenge offered researchers the opportunity to explore new ways to handle unexpected situations — beyond using only real-world human driving data — to accelerate the development of smarter AVs.</p>
+<p>NVIDIA Halos Advances End-to-End AV Safety</p>
+<p>To bolster the operational safety of AV systems, NVIDIA earlier this year introduced NVIDIA Halos — a comprehensive safety platform that integrates the company’s full automotive hardware and software safety stack with state-of-the-art AI research focused on AV safety.</p>
+<p>Bosch, Easyrain and Nuro are the latest automotive leaders to join the NVIDIA Halos AI Systems Inspection Lab to verify the safe integration of their products with NVIDIA technologies and advance AV safety. Lab members announced earlier this year include Continental, Ficosa, OMNIVISION, onsemi and Sony Semiconductor Solutions.</p>
+<p>Watch the NVIDIA GTC Paris keynote from NVIDIA founder and CEO Jensen Huang at VivaTech, and explore GTC Paris sessions.</p>
+      </div>
+<span class="tag">AI</span><span class="tag">GPU</span><span class="tag">IDE</span>
+
+      <footer>
+        <div class="related-section">
+          <h2>相关文章</h2>
+          <ul>
+            <li><a href="2025-06-20-gemini-25-pro-i-o.html">谷歌 I/O 2025： 2.5 Pro 重大更新</a></li>            <li><a href="2025-06-24_bytedance-introduces-astra-dual-model.html">ByteDance Introduces Astra: A Dual-Model Architecture for Autonomous Robot Navigation | Synced</a></li>            <li><a href="2025-06-16_mit-researchers-unveil-seal-new.html">MIT Researchers Unveil “SEAL”: A New Step Towards Self-Improving AI | Synced</a></li>            <li><a href="2025-06-10-waic-preview.html">WAIC 2025 预览：人形机器人量产元年</a></li>            <li><a href="2025-06-15-gpt-5-release.html">OpenAI发布GPT-5，AGI探索新里程碑</a></li>
+          </ul>
+        </div>
+      </footer>
+    </article>
+  </div>
+</body>
+</html>
