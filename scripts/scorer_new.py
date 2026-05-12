@@ -13,6 +13,26 @@ import json
 import time
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
+import yaml
+
+# 加载环境变量（优先 .env，再从 hermes config 兜底）
+env_path = Path.home() / ".hermes" / ".env"
+if env_path.exists():
+    with open(env_path) as f:
+        for line in f:
+            line = line.strip()
+            if line and not line.startswith('#') and '=' in line:
+                k, v = line.split('=', 1)
+                os.environ[k] = v
+
+hermes_config = Path.home() / ".hermes" / "config.yaml"
+if hermes_config.exists():
+    cfg = yaml.safe_load(hermes_config.read_text())
+    providers = cfg.get("providers", {})
+    for name, p in providers.items():
+        for k in ("key", "api_key", "api-key"):
+            if k in p and p[k]:
+                os.environ[f"{name.upper()}_API_KEY"] = p[k]
 
 BASE = Path("/mnt/d/ProjectFile/ai-info")
 sys.path.insert(0, str(BASE))
@@ -63,13 +83,24 @@ def score_article(article: dict, config: Config) -> tuple[dict, float, str, Path
 
 
 def call_llm_judge(text: str, config: Config) -> tuple[int, str]:
-    """调 LLM 评分"""
-    import anthropic
-    api_key = os.getenv("ANTHROPIC_API_KEY") or os.getenv("CLAUDE_API_KEY")
-    model = config.crawl.get("scorer_model", "claude-sonnet-4-7-20250514")
+    """调 LLM 评分（MiniMax OpenAI-compatible API）"""
+    from openai import OpenAI
+
+    # 优先 MiniMax key，fallback 到其他 key
+    api_key = (
+        os.getenv("MINIMAX_API_KEY") or os.getenv("MINIMAX_CN_API_KEY")
+        or os.getenv("ANTHROPIC_API_KEY") or os.getenv("CLAUDE_API_KEY") or ""
+    )
+
+    base_url = os.getenv("LLM_API_BASE", "https://api.minimaxi.com/v1")
+    model = os.getenv("LLM_MODEL", "MiniMax-M2.7")
     max_tokens = config.crawl.get("scorer_max_tokens", 1024)
 
-    client = anthropic.Anthropic(api_key=api_key)
+    if not api_key:
+        print("    [ERROR] 未找到 LLM API key")
+        return 5, "未配置 API key"
+
+    client = OpenAI(api_key=api_key, base_url=base_url)
 
     prompt = f"""你是一个严谨的AI领域文章评分专家。请根据以下文章的标题和内容，判断它对AI从业者的价值。
 
@@ -92,17 +123,23 @@ def call_llm_judge(text: str, config: Config) -> tuple[int, str]:
 """
 
     try:
-        response = client.messages.create(
+        response = client.chat.completions.create(
             model=model,
             max_tokens=max_tokens,
             messages=[{"role": "user", "content": prompt}]
         )
-        raw = response.content[0].text.strip()
-        # 提取 JSON
+        raw = response.choices[0].message.content.strip()
+        # 提取 JSON（优先找代码块，再正则兜底）
         if "```json" in raw:
             raw = raw.split("```json")[1].split("```")[0].strip()
         elif "```" in raw:
             raw = raw.split("```")[1].split("```")[0].strip()
+        else:
+            # 正则兜底：匹配 { 到最后一个 }（支持跨行）
+            import re
+            m = re.search(r'\{[\s\S]+?\}', raw)
+            if m:
+                raw = m.group()
         data = json.loads(raw)
         score_val = int(data.get("score", 5))
         reasoning = str(data.get("reasoning", ""))
@@ -185,9 +222,24 @@ def main():
     # 本来就低分的
     low_results = [(u, a, sc, st, d) for u, a, sc, st, d in results if st == S_SCORED and a is not None]
 
-    all_to_process = low_results + demoted
+    # 处理高分：先移动文件到 important/，再 mark（避免被下面的低分循环误删）
+    for url, article, score_val, status, dest_dir in important_keep:
+        h = url_to_hash(url)
+        src = PENDING / f"{h}.json"
+        dst = IMPORTANT / f"{h}.json"
+        try:
+            if os.path.exists(str(src)):
+                os.rename(str(src), str(dst))
+                dst_path = str(dst)
+            else:
+                dst_path = None
+        except Exception:
+            dst_path = None
+        mark(url, S_IMPORTANT, file=dst_path, score=score_val)
 
     # 处理低分：删除文件 + mark scored
+    # 先处理 demoted（降级），后处理 low_results（本来低分）
+    all_to_process = demoted + low_results
     for url, article, score_val, status, dest_dir in all_to_process:
         h = url_to_hash(url)
         filepath = PENDING / f"{h}.json"
@@ -197,18 +249,6 @@ def main():
         except Exception:
             pass
         mark(url, S_SCORED, score=score_val)
-
-    # 处理高分：保留文件在 important/ + mark important
-    for url, article, score_val, status, dest_dir in important_keep:
-        h = url_to_hash(url)
-        src = PENDING / f"{h}.json"
-        dst = IMPORTANT / f"{h}.json"
-        try:
-            if os.path.exists(str(src)):
-                os.rename(str(src), str(dst))
-        except Exception:
-            dst = None
-        mark(url, S_IMPORTANT, score=score_val)
 
     print(f"\n评分完成:")
     print(f"  重要文章: {len(important_keep)}篇 (阈值={threshold})")
