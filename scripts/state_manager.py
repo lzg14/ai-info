@@ -143,7 +143,8 @@ def get_scored_low():
 
 def mark(url: str, status: str, file: str = None, score: int = None):
     """
-    更新状态/文件/分数。
+    更新状态/文件/分数。不存在则插入。
+    已有记录时：非 None 的参数才覆盖，None 保留原值。
     status: S_PENDING / S_SCORED / S_DONE
     score:  1-10 整数，可选
     """
@@ -151,10 +152,17 @@ def mark(url: str, status: str, file: str = None, score: int = None):
     conn = sqlite3.connect(DB_PATH)
     try:
         cur = conn.cursor()
-        cur.execute(
-            "UPDATE seen_urls SET status = ?, file = ?, score = ?, updated_at = ? WHERE url = ?",
-            (status, file, score, now, url)
-        )
+        # ON CONFLICT 保证已有记录只更新指定字段，保留原 score/created_at
+        sql = """
+            INSERT INTO seen_urls (url, status, file, score, updated_at)
+            VALUES (?, ?, ?, ?, ?)
+            ON CONFLICT(url) DO UPDATE SET
+                status    = excluded.status,
+                file      = excluded.file,
+                score     = COALESCE(excluded.score, seen_urls.score),
+                updated_at = excluded.updated_at
+        """
+        cur.execute(sql, (url, status, file, score, now))
         conn.commit()
     finally:
         conn.close()

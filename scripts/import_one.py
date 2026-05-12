@@ -25,6 +25,8 @@ from pathlib import Path
 from datetime import datetime
 
 BASE = Path("/mnt/d/ProjectFile/ai-info")
+sys.path.insert(0, str(BASE / "scripts"))
+from state_manager import mark, S_DONE, get_score
 DOCS = BASE / "docs"
 INDEX_FILE = BASE / "temp" / "data" / "docs_url_index.json"
 
@@ -303,6 +305,10 @@ def import_article(filepath: str):
         'import_time': datetime.now().isoformat()
     }
     save_index(index)
+
+    # 标记 done，score 沿用已有值（COALESCE 保留）
+    score = article.get('ai_score')
+    mark(url, S_DONE, str(output_path.relative_to(BASE)), score=score)
 
     return f"{year}/{month}/{output_path.name}"
 

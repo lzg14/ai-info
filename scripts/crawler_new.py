@@ -19,9 +19,8 @@ from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 
 BASE = Path("/mnt/d/ProjectFile/ai-info")
-SKILL_SCRIPTS = Path.home() / ".hermes" / "skills" / "ai-info" / "scripts"
-sys.path.insert(0, str(SKILL_SCRIPTS))
-sys.path.insert(0, str(BASE))
+sys.path.insert(0, str(BASE))                  # 项目 scripts/ 优先
+sys.path.insert(0, str(BASE / "scripts"))     # 确保能 import 到项目版
 
 from config_loader import Config
 from extractor import ArticleExtractor
@@ -188,7 +187,7 @@ if __name__ == "__main__":
     import logging
     logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s %(message)s')
 
-    cfg = Config.load_from_file(str(SKILL_SCRIPTS.parent / "config" / "config.json"))
+    cfg = Config.load_from_file(str(BASE / "config" / "config.json"))
     PENDING.mkdir(parents=True, exist_ok=True)
     crawler = Crawler(cfg)
     crawler.run()
