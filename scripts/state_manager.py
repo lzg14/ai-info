@@ -1,80 +1,179 @@
-#!/usr/bin/env python3
 """
-状态管理：seen_urls.json 的读写
-只负责查重和标记状态，不存储文章内容
-
-文章本体在文件系统里流动：
-  temp/pending/    — 待评分（crawler写入）
-  temp/scored/     — 评分<阈值（scorer移动到这里）
-  temp/important/  — 评分>=阈值（scorer移动到这里）
-  docs/YYYY/MM/    — 已导入（importer移动到这里）
-
-seen_urls.json 记录每个URL的当前状态，格式：
-{
-  "url": {"status": "pending|scored|important|done", "file": "filename.json"}
-}
+状态管理 — SQLite 版本
+数据库文件：data/state.db
 """
-import json
+
+import sqlite3
 import os
-from pathlib import Path
+from datetime import datetime
 
-BASE = Path("/mnt/d/ProjectFile/ai-info")
-SEEN = BASE / "temp" / "seen_urls.json"
-PENDING = BASE / "temp" / "pending"
-SCORED = BASE / "temp" / "scored"
-IMPORTANT = BASE / "temp" / "important"
+# 常量
+S_PENDING   = "pending"
+S_SCORED    = "scored"
+S_DONE      = "done"
+S_IMPORTANT = "scored"   # alias，SQLite 中 scored 状态已包含高分
 
-# 状态常量
-S_PENDING = "pending"
-S_SCORED = "scored"
-S_IMPORTANT = "important"
-S_DONE = "done"
+DB_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "state.db")
+
+# 目录常量（供其他脚本使用）
+BASE      = os.path.join(os.path.dirname(__file__), "..")
+PENDING   = os.path.join(BASE, "temp", "pending")
+SCORED    = os.path.join(BASE, "temp", "scored")
+IMPORTANT = os.path.join(BASE, "temp", "important")
 
 
-def _load() -> dict:
-    if not SEEN.exists():
-        return {}
+def init():
+    """首次运行建表"""
+    os.makedirs(os.path.dirname(DB_PATH), exist_ok=True)
+    conn = sqlite3.connect(DB_PATH)
     try:
-        with open(SEEN, "r", encoding="utf-8") as f:
-            return json.load(f)
-    except Exception:
-        return {}
+        cur = conn.cursor()
+        cur.execute("""
+            CREATE TABLE IF NOT EXISTS seen_urls (
+                url         TEXT PRIMARY KEY,
+                status      TEXT NOT NULL DEFAULT 'pending',
+                file        TEXT,
+                score       INTEGER,
+                created_at  TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                updated_at  TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+            )
+        """)
+        cur.execute("CREATE INDEX IF NOT EXISTS idx_status ON seen_urls(status)")
+        cur.execute("CREATE INDEX IF NOT EXISTS idx_score  ON seen_urls(score)")
+        conn.commit()
+    finally:
+        conn.close()
 
 
-def _save(data: dict) -> None:
-    SEEN.parent.mkdir(parents=True, exist_ok=True)
-    tmp = SEEN.with_suffix(".tmp")
-    with open(tmp, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False)
-    os.replace(tmp, SEEN)
+def add(url: str) -> bool:
+    """新增 URL，返回是否是新记录"""
+    conn = sqlite3.connect(DB_PATH)
+    try:
+        cur = conn.cursor()
+        cur.execute(
+            "INSERT INTO seen_urls (url, status) VALUES (?, ?)",
+            (url, S_PENDING)
+        )
+        conn.commit()
+        return True
+    except sqlite3.IntegrityError:
+        return False
+    finally:
+        conn.close()
 
 
-def is_seen(url: str) -> bool:
-    return url in _load()
+def has(url: str) -> bool:
+    """URL 是否见过（任意状态）"""
+    conn = sqlite3.connect(DB_PATH)
+    try:
+        cur = conn.cursor()
+        cur.execute("SELECT 1 FROM seen_urls WHERE url = ?", (url,))
+        return cur.fetchone() is not None
+    finally:
+        conn.close()
+
+is_seen = has   # 别名，兼容旧调用
 
 
-def mark(url: str, status: str, filename: str) -> bool:
-    """标记URL为指定状态，返回True表示新增，False表示已存在"""
-    data = _load()
-    was_new = url not in data
-    data[url] = {"status": status, "file": filename}
-    _save(data)
-    return was_new
+def has_score(url: str) -> bool:
+    """URL 是否已有评分（高分或低分均算）"""
+    conn = sqlite3.connect(DB_PATH)
+    try:
+        cur = conn.cursor()
+        cur.execute(
+            "SELECT 1 FROM seen_urls WHERE url = ? AND score IS NOT NULL",
+            (url,)
+        )
+        return cur.fetchone() is not None
+    finally:
+        conn.close()
 
 
-def remove(url: str) -> None:
-    """从记录中删除（表示已全部完成）"""
-    data = _load()
-    data.pop(url, None)
-    _save(data)
+def get_score(url: str):
+    """获取评分，没有返回 None"""
+    conn = sqlite3.connect(DB_PATH)
+    try:
+        cur = conn.cursor()
+        cur.execute("SELECT score FROM seen_urls WHERE url = ?", (url,))
+        row = cur.fetchone()
+        return row[0] if row else None
+    finally:
+        conn.close()
 
 
-def get_status(url: str) -> str | None:
-    data = _load()
-    return data.get(url, {}).get("status")
+def get_status(url: str):
+    """获取状态，没有返回 None"""
+    conn = sqlite3.connect(DB_PATH)
+    try:
+        cur = conn.cursor()
+        cur.execute("SELECT status FROM seen_urls WHERE url = ?", (url,))
+        row = cur.fetchone()
+        return row[0] if row else None
+    finally:
+        conn.close()
 
 
-def get_all_by_status(status: str) -> list:
-    """获取所有指定状态的(url, filename)列表"""
-    data = _load()
-    return [(url, info["file"]) for url, info in data.items() if info["status"] == status]
+def get_pending_urls(limit: int = None):
+    """返回所有 pending 的 URL"""
+    conn = sqlite3.connect(DB_PATH)
+    try:
+        cur = conn.cursor()
+        sql = "SELECT url FROM seen_urls WHERE status = ? ORDER BY created_at"
+        if limit:
+            sql += f" LIMIT {limit}"
+        cur.execute(sql, (S_PENDING,))
+        return [r[0] for r in cur.fetchall()]
+    finally:
+        conn.close()
+
+
+def get_scored_low():
+    """返回低分（score <= 5）的 scored URL"""
+    conn = sqlite3.connect(DB_PATH)
+    try:
+        cur = conn.cursor()
+        cur.execute(
+            "SELECT url, file FROM seen_urls WHERE status = ? AND score IS NOT NULL AND score <= 5",
+            (S_SCORED,)
+        )
+        return [(r[0], r[1]) for r in cur.fetchall()]
+    finally:
+        conn.close()
+
+
+def mark(url: str, status: str, file: str = None, score: int = None):
+    """
+    更新状态/文件/分数。
+    status: S_PENDING / S_SCORED / S_DONE
+    score:  1-10 整数，可选
+    """
+    now = datetime.now().isoformat()
+    conn = sqlite3.connect(DB_PATH)
+    try:
+        cur = conn.cursor()
+        cur.execute(
+            "UPDATE seen_urls SET status = ?, file = ?, score = ?, updated_at = ? WHERE url = ?",
+            (status, file, score, now, url)
+        )
+        conn.commit()
+    finally:
+        conn.close()
+
+
+def dump():
+    """导出全量数据（dict list）"""
+    conn = sqlite3.connect(DB_PATH)
+    try:
+        cur = conn.cursor()
+        cur.execute(
+            "SELECT url, status, file, score, created_at, updated_at FROM seen_urls"
+        )
+        cols = ["url", "status", "file", "score", "created_at", "updated_at"]
+        return [dict(zip(cols, r)) for r in cur.fetchall()]
+    finally:
+        conn.close()
+
+
+if __name__ == "__main__":
+    init()
+    print(f"数据库初始化完成：{DB_PATH}")

@@ -8,5 +8,8 @@ temp/
 logs/
 staging/
 state/
+# data/ 忽略（运行时状态，SQLite DB）
+data/
+
 # config/ 保持跟踪（RSS源配置可公开，无敏感信息）
 # config.local.json（个人覆盖）应加入 .gitignore
