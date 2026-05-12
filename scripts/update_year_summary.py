@@ -61,7 +61,7 @@ def iter_year_articles(year: str):
             title = ''
             try:
                 content = fp.read_text(encoding='utf-8', errors='ignore')
-                fm_m = re.search(r'<!--\n(.*?)\n-->', content, re.DOTALL)
+                fm_m = re.search(r'<!--\s*\n?(.*?)\n?\s*-->', content, re.DOTALL)
                 if fm_m:
                     try:
                         fm = json.loads(fm_m.group(1))

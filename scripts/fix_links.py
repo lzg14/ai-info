@@ -15,7 +15,7 @@ import argparse
 from pathlib import Path
 
 DOCS = Path("/mnt/d/ProjectFile/ai-info/docs")
-FRONTMATTER_RE = re.compile(r'^<!--\s*\n(.*?)\n-->\s*\n', re.DOTALL)
+FRONTMATTER_RE = re.compile(r'^<!--\s*\n?(.*?)\n?\s*-->\s*\n', re.DOTALL)
 
 
 def iter_articles():

@@ -42,16 +42,15 @@ class ArticleExtractor:
     """文章提取器，使用 trafilatura 从 HTML 中提取文章内容和元数据"""
 
     @staticmethod
-    def extract(html: str, url: str) -> Optional[Dict[str, Optional[str]]]:
+    def extract(html: str, url: str, source_name: str = '', source_url: str = '') -> Optional[Dict[str, Optional[str]]]:
         """
         从 HTML 中提取文章内容、标题、发布日期和摘要
 
         Args:
             html: 原始 HTML 内容
             url: 网页 URL
-
-        Returns:
-            包含 content, title, publish_date, summary 的字典，如果提取失败则返回 None
+            source_name: 来源名称（如 "Anthropic News"）
+            source_url: 来源首页 URL（如 "https://www.anthropic.com/news"）
         """
         # 修复 trafilatura 设置加载问题
         fixed_config = _fix_trafilatura_settings()
@@ -86,7 +85,9 @@ class ArticleExtractor:
             'content': extracted_text,
             'title': title,
             'publish_date': publish_date,
-            'summary': summary
+            'summary': summary,
+            'source_name': source_name,
+            'source_url': source_url,
         }
 
 

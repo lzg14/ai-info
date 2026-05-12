@@ -21,7 +21,7 @@ import argparse
 from pathlib import Path
 
 DOCS = Path("/mnt/d/ProjectFile/ai-info/docs")
-FRONTMATTER_RE = re.compile(r'^<!--\s*\n(.*?)\n-->\s*\n', re.DOTALL)
+FRONTMATTER_RE = re.compile(r'^<!--\s*\n?(.*?)\n?\s*-->\s*\n', re.DOTALL)
 
 
 def parse_frontmatter(content: str) -> dict:
@@ -42,7 +42,7 @@ def check_file(path: Path) -> tuple[bool, list[str]]:
 
     # frontmatter 检查
     fm = parse_frontmatter(content)
-    for field, v5_key in [('source_name', 'source'), ('source_url', 'source_url'), ('publish_date', 'date')]:
+    for field, v5_key in [('source', 'source_name'), ('source_url', 'source_url'), ('publish_date', 'date')]:
         if not fm.get(field) and not fm.get(v5_key):
             errors.append(f"frontmatter 缺少或为空: {field} 或 {v5_key}")
 
@@ -78,9 +78,10 @@ def main():
     if args.files:
         paths = [Path(f) for f in args.files]
     else:
-        # 按修改时间找最近 N 篇 .md
+        # 按修改时间找最近 N 篇 .md，排除年度汇总文件（如 2026.md）
         all_md = sorted(DOCS.rglob("*.md"), key=lambda p: p.stat().st_mtime, reverse=True)
-        paths = all_md[:args.recent]
+        # 排除根目录的年度汇总文件（如 docs/2026.md）和 index.html
+        paths = [p for p in all_md if p.name not in ('index.html',) and not re.match(r'^\d{4}\.md$', p.name)][:args.recent]
 
     print(f"审查 {len(paths)} 篇文章...\n")
     ok_count = 0

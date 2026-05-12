@@ -16,11 +16,24 @@ S_IMPORTANT = "scored"   # alias，SQLite 中 scored 状态已包含高分
 
 DB_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "state.db")
 
-# 目录常量（供其他脚本使用）
+# 目录常量
 BASE      = Path(__file__).parent.parent.resolve()
+ARTICLES  = BASE / "temp" / "articles"   # 唯一文件存储，永不移删
+# 以下为历史目录（不再使用，保留兼容性）
 PENDING   = BASE / "temp" / "pending"
 SCORED    = BASE / "temp" / "scored"
 IMPORTANT = BASE / "temp" / "important"
+
+import hashlib
+
+def url_hash(url: str) -> str:
+    return hashlib.md5(url.encode()).hexdigest()[:12]
+
+def article_path(url: str) -> str:
+    """文章文件的固定路径（相对于 BASE）"""
+    return str(ARTICLES / f"{url_hash(url)}.json")
+
+ARTICLES_DIR = str(ARTICLES)   # 供外部 import 用
 
 
 def init():
@@ -142,12 +155,18 @@ def get_scored_low():
         conn.close()
 
 
+def mark_pending(url: str, file_path: str = None):
+    """快速标记 pending（file 自动计算，无需传入）"""
+    fp = file_path or article_path(url)
+    mark(url, S_PENDING, file=fp)
+
 def mark(url: str, status: str, file: str = None, score: int = None):
     """
     更新状态/文件/分数。不存在则插入。
-    已有记录时：非 None 的参数才覆盖，None 保留原值。
+    已有记录时：非 None 的参数才覆盖，None 保留原值（COALESCE 逻辑）。
     status: S_PENDING / S_SCORED / S_DONE
     score:  1-10 整数，可选
+    file:   文件路径，可选
     """
     now = datetime.now().isoformat()
     conn = sqlite3.connect(DB_PATH)
@@ -159,7 +178,7 @@ def mark(url: str, status: str, file: str = None, score: int = None):
             VALUES (?, ?, ?, ?, ?)
             ON CONFLICT(url) DO UPDATE SET
                 status    = excluded.status,
-                file      = excluded.file,
+                file      = COALESCE(excluded.file, seen_urls.file),
                 score     = COALESCE(excluded.score, seen_urls.score),
                 updated_at = excluded.updated_at
         """

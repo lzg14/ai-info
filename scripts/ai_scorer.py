@@ -21,7 +21,7 @@ from dotenv import load_dotenv
 env_path = Path.home() / ".hermes" / ".env"
 load_dotenv(env_path)
 
-API_KEY = os.getenv("LLM_API_KEY") or os.getenv("MINIMAX_API_KEY") or os.getenv("MINIMAX_CN_API_KEY") or ""
+API_KEY = os.getenv("MINIMAX_API_KEY") or os.getenv("MINIMAX_CN_API_KEY") or ""
 if not API_KEY:
     # 尝试从 hermes config.yaml 读取
     hermes_config = Path.home() / ".hermes" / "config.yaml"
