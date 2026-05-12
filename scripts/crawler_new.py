@@ -2,8 +2,8 @@
 """
 新爬虫：crawler_new.py
 - 扫全部RSS源，提取文章链接
-- 对每个新链接：抓全文 → 提取内容 → 写入 temp/pending/{hash}.json
-- 已处理过的URL跳过（查 seen_urls.json）
+- 对每个新链接：抓全文 → 提取内容 → mark(pending) → 写文件
+- 已处理过的URL跳过（查 DB seen_urls）
 - 单进程顺序执行，每小时cron触发一次
 """
 import sys
@@ -19,12 +19,16 @@ from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 
 BASE = Path("/mnt/d/ProjectFile/ai-info")
-sys.path.insert(0, str(BASE))                  # 项目 scripts/ 优先
-sys.path.insert(0, str(BASE / "scripts"))     # 确保能 import 到项目版
+sys.path.insert(0, str(BASE))
+sys.path.insert(0, str(BASE / "scripts"))
 
 from config_loader import Config
 from extractor import ArticleExtractor
-from state_manager import PENDING, is_seen, mark, S_PENDING
+from state_manager import (
+    PENDING, is_seen, has_score, mark,
+    S_PENDING, init as sm_init
+)
+sm_init()
 from storage import SourceConfigLoader
 
 
@@ -124,7 +128,7 @@ class Crawler:
         print(f"  发现 {len(links)} 个链接")
         new_count = 0
 
-        for url in links[:max_articles]:
+        for url in links:
             if is_seen(url):
                 continue
 
@@ -134,12 +138,15 @@ class Crawler:
 
             extracted = self.extractor.extract(article_html, url)
             if not extracted or not extracted.get('content'):
-                # 降级：用 summary
                 extracted = extracted or {}
                 extracted.setdefault('content', extracted.get('summary', ''))
 
+            article_hash = self.url_hash(url)
+            filename = f"{article_hash}.json"
+            filepath = PENDING / filename
+
             article = {
-                'hash': self.url_hash(url),
+                'hash': article_hash,
                 'title': extracted.get('title') or url.split('/')[-1],
                 'title_zh': None,
                 'url': url,
@@ -155,16 +162,21 @@ class Crawler:
                 'status': 'pending',
             }
 
-            filename = f"{article['hash']}.json"
-            filepath = PENDING / filename
+            # 先写文件（内容缓存）
             with open(filepath, 'w', encoding='utf-8') as f:
                 json.dump(article, f, ensure_ascii=False, indent=2)
 
+            # 再 mark DB（信号）
             mark(url, S_PENDING, filename)
             new_count += 1
+
+            # 超过 max_articles 就停
+            if new_count >= max_articles:
+                break
+
             time.sleep(self.config.request['delay_seconds'])
 
-        print(f"  新增 {new_count}/{len(links[:max_articles])} 篇")
+        print(f"  新增 {new_count}/{len(links)} 篇")
         return new_count
 
     def run(self):

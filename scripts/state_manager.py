@@ -6,6 +6,7 @@
 import sqlite3
 import os
 from datetime import datetime
+from pathlib import Path
 
 # 常量
 S_PENDING   = "pending"
@@ -16,10 +17,10 @@ S_IMPORTANT = "scored"   # alias，SQLite 中 scored 状态已包含高分
 DB_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "state.db")
 
 # 目录常量（供其他脚本使用）
-BASE      = os.path.join(os.path.dirname(__file__), "..")
-PENDING   = os.path.join(BASE, "temp", "pending")
-SCORED    = os.path.join(BASE, "temp", "scored")
-IMPORTANT = os.path.join(BASE, "temp", "important")
+BASE      = Path(__file__).parent.parent.resolve()
+PENDING   = BASE / "temp" / "pending"
+SCORED    = BASE / "temp" / "scored"
+IMPORTANT = BASE / "temp" / "important"
 
 
 def init():

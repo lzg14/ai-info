@@ -1,131 +1,232 @@
 #!/usr/bin/env python3
 """
-新评分器：scorer_new.py
-- 读 temp/pending/ 目录下的全部文章
-- 并行AI评分（复用ai_scorer.py）
-- 分数 >= 阈值：移入 temp/important/
-- 分数 <  阈值：移入 temp/scored/
-- 更新 seen_urls.json 状态
-- 单独可重跑：只处理pending文件，已评分的跳过
+AI 评分：scorer_new.py
+- 从 DB 读取所有 pending URL（不再读 pending/ 目录）
+- 对每篇抓全文 + AI 评分（1-10）
+- score >= 7：mark(important) + 保留文件（给 import_one 读）
+- score < 7：mark(scored) + 删除文件
+- 已评分 URL 跳过（DB 里 score IS NOT NULL）
 """
 import sys
 import os
 import json
-import shutil
+import time
 from pathlib import Path
-from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 BASE = Path("/mnt/d/ProjectFile/ai-info")
-sys.path.insert(0, str(BASE))                  # 项目 scripts/ 优先
-sys.path.insert(0, str(BASE / "scripts"))     # 确保能 import 到项目版
+sys.path.insert(0, str(BASE))
+sys.path.insert(0, str(BASE / "scripts"))
 
-from state_manager import PENDING, SCORED, IMPORTANT, S_SCORED, S_IMPORTANT, mark
-from ai_scorer import score_articles_batch, filter_by_score
 from config_loader import Config
+from state_manager import (
+    PENDING, IMPORTANT, SCORED,
+    get_pending_urls, has_score, mark,
+    S_PENDING, S_SCORED, S_IMPORTANT,
+    init as sm_init
+)
+sm_init()
 
 
-def score_one(filepath: Path, config: Config) -> tuple[Path, dict, str, Path]:
+def load_article(filepath: Path) -> dict | None:
+    """读取文件内容为 dict"""
+    try:
+        with open(filepath, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except Exception:
+        return None
+
+
+def score_article(article: dict, config: Config) -> tuple[dict, float, str, Path]:
     """
-    对单篇文章评分，返回 (原文件路径, 文章dict, 新状态, 新目录)
+    评分一篇文章，返回 (article, score, status, dest_dir)
+    status: S_IMPORTANT (>=7) or S_SCORED (<7)
     """
-    with open(filepath, encoding="utf-8") as f:
-        article = json.load(f)
+    threshold = config.crawl.get("ai_score_threshold", 7.0)
+    url = article["url"]
+    title = article.get("title") or ""
+    content = article.get("content") or ""
+    # 取前2000字
+    text = (title + "\n\n" + content)[:2000]
 
-    result = score_articles_batch([article], score_threshold=None)
-    scored = result[0] if result else article
+    score_val, reasoning = call_llm_judge(text, config)
 
-    threshold = config.crawl.get("ai_score_threshold", 5.0)
+    # 评分写入 article（不写文件，只返回给调用方）
+    article["ai_score"] = score_val
+    article["ai_reasoning"] = reasoning
 
-    if scored.get("ai_score", 0) >= threshold:
-        new_status = S_IMPORTANT
-        new_dir = IMPORTANT
-    else:
-        new_status = S_SCORED
-        new_dir = SCORED
+    is_important = score_val >= threshold
+    status = S_IMPORTANT if is_important else S_SCORED
+    dest_dir = IMPORTANT if is_important else SCORED
 
-    return filepath, scored, new_status, new_dir
+    return article, score_val, status, dest_dir
+
+
+def call_llm_judge(text: str, config: Config) -> tuple[int, str]:
+    """调 LLM 评分"""
+    import anthropic
+    api_key = os.getenv("ANTHROPIC_API_KEY") or os.getenv("CLAUDE_API_KEY")
+    model = config.crawl.get("scorer_model", "claude-sonnet-4-7-20250514")
+    max_tokens = config.crawl.get("scorer_max_tokens", 1024)
+
+    client = anthropic.Anthropic(api_key=api_key)
+
+    prompt = f"""你是一个严谨的AI领域文章评分专家。请根据以下文章的标题和内容，判断它对AI从业者的价值。
+
+评分标准（1-10分）：
+- 10分：革命性突破、里程碑级成果
+- 8-9分：重要进展、知名公司重磅发布
+- 7分：值得关注的新进展、有实质内容的技术文章
+- 5-6分：一般资讯、可看可不看
+- 3-4分：价值较低、商业软文
+- 1-2分：几乎没有价值
+
+请同时给出评分（整数）和简短理由（1-2句话）。
+
+文章：
+
+{text}
+
+请用以下JSON格式返回（不要加任何markdown标记）：
+{{"score": 分数, "reasoning": "简短理由"}}
+"""
+
+    try:
+        response = client.messages.create(
+            model=model,
+            max_tokens=max_tokens,
+            messages=[{"role": "user", "content": prompt}]
+        )
+        raw = response.content[0].text.strip()
+        # 提取 JSON
+        if "```json" in raw:
+            raw = raw.split("```json")[1].split("```")[0].strip()
+        elif "```" in raw:
+            raw = raw.split("```")[1].split("```")[0].strip()
+        data = json.loads(raw)
+        score_val = int(data.get("score", 5))
+        reasoning = str(data.get("reasoning", ""))
+        score_val = max(1, min(10, score_val))
+        return score_val, reasoning
+    except Exception as e:
+        print(f"    [ERROR] LLM评分失败: {e}")
+        return 5, "评分接口异常"
+
+
+def score_one(url: str, config: Config) -> tuple[str, dict, float, str, Path]:
+    """
+    评分单个 URL，返回 (url, article, score, status, dest_dir)
+    从 DB 确认 pending，从 PENDING/ 读文件内容
+    """
+    filepath = PENDING / f"{url_to_hash(url)}.json"
+    article = load_article(filepath)
+
+    if article is None:
+        # 文件不存在，跳过（crawler 可能还没写完）
+        return url, None, None, None, None
+
+    article, score_val, status, dest_dir = score_article(article, config)
+    return url, article, score_val, status, dest_dir
+
+
+def url_to_hash(url: str) -> str:
+    """从 URL 还原 hash"""
+    import hashlib
+    return hashlib.md5(url.encode('utf-8')).hexdigest()[:12]
 
 
 def main():
-    pending_files = list(PENDING.glob("*.json"))
-    if not pending_files:
-        print("无待评分文章")
+    # 从 DB 读 pending URL（不再读目录）
+    pending_urls = get_pending_urls()
+    if not pending_urls:
+        print("无待评分文章（DB 中无 pending 记录）")
         return
 
-    print(f"待评分: {len(pending_files)}篇")
+    # 过滤掉已有评分的 URL
+    pending_urls = [u for u in pending_urls if not has_score(u)]
+    if not pending_urls:
+        print("所有 pending 文章均已有评分")
+        return
 
-    config = Config.load_from_file()
-    threshold = config.crawl.get("ai_score_threshold", 5.0)
+    print(f"待评分: {len(pending_urls)}篇")
+
+    config = Config.load_from_file(str(BASE / "config" / "config.json"))
+    threshold = config.crawl.get("ai_score_threshold", 7.0)
     max_per_day = config.crawl.get("ai_max_articles_per_day", 12)
-    scored_threshold = config.crawl.get("scored_threshold", 3.0)
 
-    # 并行评分
-    completed = 0
     results = []
+    completed = 0
 
     with ThreadPoolExecutor(max_workers=10) as pool:
-        futures = {pool.submit(score_one, f, config): f for f in pending_files}
+        futures = {pool.submit(score_one, url, config): url for url in pending_urls}
 
         for future in as_completed(futures):
+            url = futures[future]
             try:
-                filepath, scored, new_status, new_dir = future.result()
-                results.append((filepath, scored, new_status, new_dir))
+                result = future.result()
+                if result[1] is not None:  # article is not None
+                    results.append(result)
             except Exception as e:
-                print(f"  [ERROR] {futures[future].name}: {e}")
+                print(f"  [ERROR] {url}: {e}")
 
             completed += 1
-            if completed % 5 == 0 or completed == len(pending_files):
-                print(f"  进度: {completed}/{len(pending_files)}")
+            if completed % 5 == 0 or completed == len(pending_urls):
+                print(f"  进度: {completed}/{len(pending_urls)}")
 
-    # 过滤出important并限制数量（按分数降序）
-    important_all = [(f, a, s, d) for f, a, s, d in results if s == S_IMPORTANT]
-    important_all.sort(key=lambda x: x[1].get("ai_score", 0), reverse=True)
+    # 过滤 important，按分数降序
+    important_all = [(u, a, sc, st, d) for u, a, sc, st, d in results if st == S_IMPORTANT and a is not None]
+    important_all.sort(key=lambda x: x[2], reverse=True)
+
+    # 超出上限的降为 scored
     important_keep = important_all[:max_per_day]
-    important_urls = {r[1]["url"] for r in important_keep}
+    important_urls = {u for u, *_ in important_keep}
+    demoted = [(u, a, sc, S_SCORED, SCORED) for u, a, sc, st, d in important_all if u not in important_urls]
 
-    # 超出上限的important降为scored（直接删除文件，不保留）
-    demoted = [(f, a, S_SCORED, SCORED) for f, a, s, d in important_all if a["url"] not in important_urls]
+    # 本来就低分的
+    low_results = [(u, a, sc, st, d) for u, a, sc, st, d in results if st == S_SCORED and a is not None]
 
-    # scored_results 是本来就<阈值的
-    scored_results = [(f, a, s, d) for f, a, s, d in results if s == S_SCORED]
+    all_to_process = low_results + demoted
 
-    # 低分文件直接删除 + 清理状态
-    for filepath, article, _, _ in scored_results + demoted:
+    # 处理低分：删除文件 + mark scored
+    for url, article, score_val, status, dest_dir in all_to_process:
+        h = url_to_hash(url)
+        filepath = PENDING / f"{h}.json"
         try:
-            filepath.unlink()
-            mark(article["url"], "discarded", "")
-        except Exception as e:
-            print(f"  [WARN] 删除失败 {filepath.name}: {e}")
+            if os.path.exists(str(filepath)):
+                os.remove(str(filepath))
+        except Exception:
+            pass
+        mark(url, S_SCORED, score=score_val)
 
-    # 重要文章移到 important/ 并更新状态
-    for filepath, article, _, new_dir in important_keep:
+    # 处理高分：保留文件在 important/ + mark important
+    for url, article, score_val, status, dest_dir in important_keep:
+        h = url_to_hash(url)
+        src = PENDING / f"{h}.json"
+        dst = IMPORTANT / f"{h}.json"
         try:
-            dst = new_dir / filepath.name
-            shutil.move(str(filepath), str(dst))
-            mark(article["url"], S_IMPORTANT, dst.name)
-        except Exception as e:
-            print(f"  [WARN] 移动失败 {filepath.name}: {e}")
+            if os.path.exists(str(src)):
+                os.rename(str(src), str(dst))
+        except Exception:
+            dst = None
+        mark(url, S_IMPORTANT, score=score_val)
 
     print(f"\n评分完成:")
     print(f"  重要文章: {len(important_keep)}篇 (阈值={threshold})")
-    print(f"  低分文章: {len(scored_results)}篇")
+    print(f"  低分文章: {len(low_results)}篇")
     print(f"  超出上限降级: {len(demoted)}篇")
 
     if important_keep:
         print("\n重要文章:")
-        for _, article, _, _ in important_keep:
-            score = article.get("ai_score", 0)
-            title = article.get("title", "")[:50]
-            print(f"  [{score:.1f}] {title}")
+        for url, article, score, _, _ in important_keep:
+            title = (article.get("title") or "")[:50] if article else ""
+            print(f"  [{score}] {title}")
 
 
 if __name__ == "__main__":
     import logging
     logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s %(message)s')
 
-    PENDING.mkdir(parents=True, exist_ok=True)
-    SCORED.mkdir(parents=True, exist_ok=True)
-    IMPORTANT.mkdir(parents=True, exist_ok=True)
+    for d in [PENDING, SCORED, IMPORTANT]:
+        os.makedirs(str(d), exist_ok=True)
 
     main()
