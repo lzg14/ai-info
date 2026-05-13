@@ -55,8 +55,6 @@ ai-info/
 │       └── terms/                 ← 术语 .md 文件
 ├── README.md                    ← 项目入口（最新10篇 + 年度导航）
 ├── SPEC.md                      ← 格式规范
-├── skills/                      ← 项目规范文档（git 管理）
-│   └── ai-info-article-format.md  ← 文章格式规范
 └── .git/
 ```
 

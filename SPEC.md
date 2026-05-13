@@ -20,8 +20,6 @@ ai-info/
 │       └── terms/                 ← 各术语 .md 文件
 ├── README.md                   ← 项目入口（最新10篇 + 年度导航）
 ├── SPEC.md                     ← 本规格说明
-├── skills/
-│   └── ai-info-article-format.md  ← 文章格式规范（frontmatter、frontmatter 字段、正文格式、相关文章区块）
 ├── data/
 │   └── state.db                ← SQLite 状态数据库（唯一信号源）
 ├── temp/
@@ -78,8 +76,6 @@ update_readme.py → README.md
 ## 文章格式（V4 — Markdown + JSON frontmatter）
 
 每篇文章一个 `.md` 文件，frontmatter 用 HTML 注释包裹 JSON，视觉区用纯 Markdown 元信息栏。
-
-详细格式规范（含 frontmatter 字段说明、正文格式要求、相关文章区块标记）见 [skills/ai-info-article-format.md](skills/ai-info-article-format.md)。
 
 **为什么用 HTML 注释包 JSON frontmatter？**
 
