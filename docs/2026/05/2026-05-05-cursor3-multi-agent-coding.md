@@ -1,10 +1,13 @@
 <!--
 {
   "title": "Cursor 3发布多Agent并行重新定义编程工具天花板",
-  "date": "2026-05-05"
+  "publish_date": "2026-05-05",
+  "source": "",
+  "source_url": "",
+  "url": "",
+  "tags": ""
 }
 -->
-
 # Cursor 3发布多Agent并行重新定义编程工具天花板
 
 📅 2026-05-05
@@ -21,3 +24,8 @@ Cursor 3发布，用多Agent并行重新定义了编程工具的天花板。该�
 - [Claude Opus 4.6与GPT-5.3-Codex：Agent能力的军备竞赛](../02/2026-02-07-Claude-Opus-46与GPT-53-Codex-Agent能力军备竞赛.md)
 - [MiniMax M2.7发布1T总参原生Agent Teams多智能体协作](../03/2026-03-10-minimax-m27-1t-agent-teams.md)
 <!-- 相关文章结束 -->
+
+
+## Related Articles
+
+（待补充相关文章链接）
