@@ -1,4 +1,15 @@
-<!--{"title": "Revisiting the syntax of imperatives in Yemeni Arabic: An Agree across phases approach", "url": "https://arxiv.org/abs/2605.08447", "source": "arXiv CS.CL", "source_url": "https://arxiv.org/abs/2605.08447", "publish_date": "2026-05-08", "score": null, "tags": [], "description_cn": "用户需要我为这篇关于也门阿拉伯语祈使句句法的学术论文写一段100-150字的中文摘要。\n\n让我提取文章的核心内容：\n\n1. 研究对象：也门阿拉伯语的祈使句句法\n2. 研究方法/理论框架：Agree across phases (AAP) 跨阶段一致理论\n3. 主要论点：\n   - AAP方法能成功解释简单和复杂的祈使句结构，包括A'-链结构\n   - 建立句法与话语之间的紧密互动\n   - 这种界面由祈使句的解释功能和执行功能驱动，将信息结构与命题结构联系起来\n   - 祈使句的主题主语是第二人称的pro\n   - 任何显性的代词或名词成分在动词前不是主语，而是C域成分，精确地说是关于性话题\n   - 这些话题作为祈使句的逻辑主语，与pro形成共指关系\n   - 这种关系被分析为AAP，涉及Match，产生了局部和非局部A'-链\n   - 对于核心祈使句（没有显性话题），提出一个空话题在Spec,TopP中(重新)合并\n\n现在我来写摘要：\n\n这篇论文重新审视了也门阿拉伯语中"}-->
+<!--
+{
+  "title": "Revisiting the syntax of imperatives in Yemeni Arabic: An Agree across phases approach",
+  "url": "https://arxiv.org/abs/2605.08447",
+  "source": "arXiv CS.CL",
+  "source_url": "https://arxiv.org/abs/2605.08447",
+  "publish_date": "2026-05-08",
+  "score": null,
+  "tags": "",
+  "description_cn": "用户需要我为这篇关于也门阿拉伯语祈使句句法的学术论文写一段100-150字的中文摘要。\n\n让我提取文章的核心内容：\n\n1. 研究对象：也门阿拉伯语的祈使句句法\n2. 研究方法/理论框架：Agree across phases (AAP) 跨阶段一致理论\n3. 主要论点：\n   - AAP方法能成功解释简单和复杂的祈使句结构，包括A'-链结构\n   - 建立句法与话语之间的紧密互动\n   - 这种界面由祈使句的解释功能和执行功能驱动，将信息结构与命题结构联系起来\n   - 祈使句的主题主语是第二人称的pro\n   - 任何显性的代词或名词成分在动词前不是主语，而是C域成分，精确地说是关于性话题\n   - 这些话题作为祈使句的逻辑主语，与pro形成共指关系\n   - 这种关系被分析为AAP，涉及Match，产生了局部和非局部A'-链\n   - 对于核心祈使句（没有显性话题），提出一个空话题在Spec,TopP中(重新)合并\n\n现在我来写摘要：\n\n这篇论文重新审视了也门阿拉伯语中"
+}
+-->
 # Revisiting the syntax of imperatives in Yemeni Arabic: An Agree across phases approach
 
 📅 2026-05-08
@@ -58,3 +69,7 @@ Both individuals and organizations that work with arXivLabs have embraced and ac
 Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs.
 
 <!-- 正文结束 -->
+
+## Related Articles
+
+（待补充相关文章链接）
