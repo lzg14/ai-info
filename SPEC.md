@@ -20,19 +20,21 @@ ai-info/
 │       └── terms/                 ← 各术语 .md 文件
 ├── README.md                   ← 项目入口（最新10篇 + 年度导航）
 ├── SPEC.md                     ← 本规格说明
+├── skills/
+│   └── ai-info-article-format.md  ← 文章格式规范（frontmatter、frontmatter 字段、正文格式、相关文章区块）
 ├── data/
 │   └── state.db                ← SQLite 状态数据库（唯一信号源）
 ├── temp/
 │   └── articles/               ← 文章原始 JSON（固定路径，永不移删）
 │       └── {hash}.json
-├── scripts/                    ← 爬虫脚本（不在仓库，符号链接到 ~/.hermes/skills/ai-info/scripts/）
+├── scripts/                    ← 爬虫脚本（在仓库）
 ├── config/                     ← 配置（不在仓库）
 │   ├── config.json
 │   └── sources.json
 └── .git/
 ```
 
-**注：** `scripts/`、`config/` 已迁移至 `~/.hermes/skills/ai-info/` 下，不在 ai-info 仓库内。Cron 任务调用时使用符号链接。
+**注：** `skills/` 目录存放项目规范文档（SKILL_*.md），由项目 git 管理。`scripts/` 也在仓库内，由 git 管理历史。`config/` 迁移至 `~/.hermes/skills/ai-info/config/`。
 
 ---
 
@@ -76,6 +78,8 @@ update_readme.py → README.md
 ## 文章格式（V4 — Markdown + JSON frontmatter）
 
 每篇文章一个 `.md` 文件，frontmatter 用 HTML 注释包裹 JSON，视觉区用纯 Markdown 元信息栏。
+
+详细格式规范（含 frontmatter 字段说明、正文格式要求、相关文章区块标记）见 [skills/ai-info-article-format.md](skills/ai-info-article-format.md)。
 
 **为什么用 HTML 注释包 JSON frontmatter？**
 

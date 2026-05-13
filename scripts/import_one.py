@@ -32,7 +32,7 @@ config = Config.load_from_file()
 # 固定路径的前缀（article_path 返回完整绝对路径）
 ARTICLES_PREFIX = str(BASE / "temp" / "articles")
 
-# MiniMax API 配置（复用 ai_scorer.py 的加载逻辑）
+# ===== MiniMax API 配置（复用 ai_scorer.py 的加载逻辑）
 API_KEY = os.getenv("MINIMAX_API_KEY") or os.getenv("MINIMAX_CN_API_KEY") or ""
 if not API_KEY:
     from dotenv import load_dotenv
@@ -239,6 +239,128 @@ def write_docs(article: dict) -> str | None:
     return str(filepath.relative_to(BASE))
 
 
+def get_ext_number() -> int:
+    """获取下一个 Ext 编号（从现有文件扫描）"""
+    import glob
+    course_dir = Path("/mnt/d/ProjectFile/ai-learning/course")
+    files = list(course_dir.glob("Ext*_*.md"))
+    max_num = 0
+    for f in files:
+        m = re.search(r'Ext(\d+)', f.name)
+        if m:
+            max_num = max(max_num, int(m.group(1)))
+    return max_num + 1
+
+
+def write_ai_learning_ext(article: dict, score: int) -> str | None:
+    """
+    将高分 arxiv 论文写入 ai-learning course/ExtN_xxx.md
+    仅当 source_name 含 'arXiv' 且 score >= 9 时调用。
+    返回写入的文件路径，失败返回 None。
+    """
+    title = article.get('title', '')
+    url = article.get('url', '')
+    source_name = article.get('source_name', '')
+    content = article.get('content', '') or article.get('summary', '')
+    if not title or not url or 'arxiv' not in source_name.lower():
+        return None
+
+    # 生成中文摘要
+    desc_cn = generate_description_cn(article) if is_english(title) else ""
+    if not desc_cn:
+        desc_cn = call_minimax(
+            f"为以下论文写一段100字左右的中文摘要，涵盖核心贡献：\n标题：{title}\n内容：{content[:1000]}",
+            system="你是一个专业的内容摘要助手，用100字左右概括论文核心贡献。",
+            max_tokens=200
+        ).strip()
+
+    # 生成 slug
+    slug = slugify(title)
+    ext_num = get_ext_number()
+    filename = f"Ext{ext_num}_{slug}.md"
+    dest_path = Path("/mnt/d/ProjectFile/ai-learning/course") / filename
+
+    # 生成正文（参考 Ext17 格式）
+    publish_date = article.get('publish_date', '')[:10] if article.get('publish_date') else ''
+
+    lines = [
+        f"> ⚠️ **数据更新时间：{publish_date or '2026年'}**",
+        "",
+        f"> 📢 **来源**：arXiv · [{source_name}]({url})",
+        "",
+        f"# Ext{ext_num}：{title}",
+        "",
+        "---",
+        "",
+        "## 摘要",
+        "",
+        f"{desc_cn or '（暂无中文摘要）'}",
+        "",
+        "---",
+        "",
+        "## 关键信息",
+        "",
+        f"- **论文链接**：[{url}]({url})",
+    ]
+
+    if publish_date:
+        lines.append(f"- **发布日期**：{publish_date}")
+    lines.extend([
+        f"- **评分**：{score}/10（MiniMax AI 评分）",
+        "",
+        "---",
+        "",
+        "## 原文摘要",
+        "",
+        "> " + (content[:1500].strip().replace('\n', '\n> ') if content else '（暂无原文）'),
+        "",
+        "---",
+        "",
+        "## 关联课程",
+        "",
+        "（待补充关联章节）",
+    ])
+
+    try:
+        dest_path.parent.mkdir(parents=True, exist_ok=True)
+        dest_path.write_text('\n'.join(lines), encoding='utf-8')
+        print(f"  [★ Ext{ext_num}] → ai-learning/{dest_path.name}")
+        return str(dest_path)
+    except Exception as e:
+        print(f"  [ERROR] 写 ai-learning 失败: {e}")
+        return None
+
+
+def update_ext_reading_md(new_ext_path: Path):
+    """更新 EXT_READING.md 目录和 ai-learning/README.md 链接"""
+    ext_reading_path = Path("/mnt/d/ProjectFile/ai-learning/course/EXT_READING.md")
+    readme_path = Path("/mnt/d/ProjectFile/ai-learning/README.md")
+
+    # 从文件名提取编号和标题
+    m = re.search(r'Ext(\d+)_(.+)\.md', new_ext_path.name)
+    if not m:
+        return
+    ext_num = m.group(1)
+    slug = m.group(2)
+    title = slug.replace('-', ' ')
+
+    # 读取 EXT_READING.md，找最后一个条目位置插入
+    if ext_reading_path.exists():
+        lines = ext_reading_path.read_text(encoding='utf-8').splitlines()
+        # 在最后一个条目后插入（表格最后一行之后）
+        new_entry = f"| Ext{ext_num} | [{title}](../course/{new_ext_path.name}) | 论文 |\n"
+        # 简单方案：在 "## 主题分类" 之前插入
+        insert_idx = None
+        for i, l in enumerate(lines):
+            if l.strip() == '## 主题分类':
+                insert_idx = i
+                break
+        if insert_idx:
+            # 找到合适位置——在第一个主题分类之前
+            lines.insert(insert_idx, new_entry)
+            ext_reading_path.write_text('\n'.join(lines), encoding='utf-8')
+
+
 def run():
     """导入所有 scored 高分文章"""
     conn = sqlite3.connect(DB_PATH)
@@ -280,6 +402,14 @@ def run():
             print(f"  [★ {score}] → {rel_path}")
             imported += 1
             years_imported.add(year)
+
+            # 高分 arxiv 论文 → 写 ai-learning Ext
+            source = article.get('source_name', '') or ''
+            if 'arxiv' in source.lower() and score >= 9:
+                ext_path = write_ai_learning_ext(article, score)
+                if ext_path:
+                    update_ext_reading_md(Path(ext_path))
+
         except Exception as e:
             print(f"  [ERROR] 写入失败: {e}")
             errors += 1
