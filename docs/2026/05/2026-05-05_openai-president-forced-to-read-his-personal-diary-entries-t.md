@@ -1,4 +1,15 @@
-<!-- {"title": "OpenAI president forced to read his personal diary entries to jury", "url": "https://arstechnica.com/tech-policy/2026/05/openai-president-explains-to-jury-why-his-diary-entries-sound-greedy/", "source": "Ars Technica AI", "source_url": "https://arstechnica.com/ai/", "publish_date": "2026-05-05", "score": null, "tags": [], "description_cn": "<think>用户提供了一篇关于OpenAI总裁Greg Brockman在法庭上被迫朗读私人日记的文章，要求我写一段100-150字的中文摘要。\n\n让我分析文章核心内容：\n1. Greg Brockman被迫在审判中公开朗读私人日记\n2. 背景：Elon Musk起诉OpenAI，称其偏离非营利使命，转而让高管个人致富\n3. Brockman表示这非常痛苦，日记对他来说很私密\n4. 日记特点：反映意识流、会记录他人观点、有时自相矛盾、会记录短信和Signal消息\n5. 日记约有100页，从学生时代开始，用于思考重大决定\n6. 日记本应保密，但在一月被作为证据提交法庭\n\n现在写一个100-150字的中文摘要：</think>\n\n摘要：\n\nOpenAI总裁Greg Brockman在Elon Musk起诉OpenAI的诉讼中被迫当庭朗读私人日记。Brockman表示这对他而言非常痛苦，因为日记内容极其私密，记录的是意识流式的想法，有时会反映他人观点，甚至出现自相矛盾。日记约有100页，从学生时代开始，涵盖他职业生涯中的重大决策。Brockman原本从未打算让任何人阅读这些日记，但今年1月日记内容作为证据被提交"} -->
+<!--
+{
+  "title": "OpenAI president forced to read his personal diary entries to jury",
+  "url": "https://arstechnica.com/tech-policy/2026/05/openai-president-explains-to-jury-why-his-diary-entries-sound-greedy/",
+  "source": "Ars Technica AI",
+  "source_url": "https://arstechnica.com/ai/",
+  "publish_date": "2026-05-05",
+  "score": null,
+  "tags": "",
+  "description_cn": "<think>用户提供了一篇关于OpenAI总裁Greg Brockman在法庭上被迫朗读私人日记的文章，要求我写一段100-150字的中文摘要。\n\n让我分析文章核心内容：\n1. Greg Brockman被迫在审判中公开朗读私人日记\n2. 背景：Elon Musk起诉OpenAI，称其偏离非营利使命，转而让高管个人致富\n3. Brockman表示这非常痛苦，日记对他来说很私密\n4. 日记特点：反映意识流、会记录他人观点、有时自相矛盾、会记录短信和Signal消息\n5. 日记约有100页，从学生时代开始，用于思考重大决定\n6. 日记本应保密，但在一月被作为证据提交法庭\n\n现在写一个100-150字的中文摘要：</think>\n\n摘要：\n\nOpenAI总裁Greg Brockman在Elon Musk起诉OpenAI的诉讼中被迫当庭朗读私人日记。Brockman表示这对他而言非常痛苦，因为日记内容极其私密，记录的是意识流式的想法，有时会反映他人观点，甚至出现自相矛盾。日记约有100页，从学生时代开始，涵盖他职业生涯中的重大决策。Brockman原本从未打算让任何人阅读这些日记，但今年1月日记内容作为证据被提交"
+}
+-->
 # OpenAI president forced to read his personal diary entries to jury
 
 📅 2026-05-05
@@ -34,3 +45,7 @@ No one but Brockman was ever supposed to read the journal, he said. But there wa
 Ultimately, the OpenAI president had to read some of the most embarrassing entries aloud in front of a jury and a packed courthouse, as well as over a YouTube livestream that peaked at around 1,200 viewers.
 
 <!-- 正文结束 -->
+
+## Related Articles
+
+（待补充相关文章链接）
