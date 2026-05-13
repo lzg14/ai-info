@@ -1,4 +1,14 @@
-<!-- {"title": "Agents for financial services", "title_zh": "", "url": "https://www.anthropic.com/news/finance-agents", "source": "", "source_url": "", "publish_date": "2026-05-04", "tags": []} -->
+<!--
+{
+  "title": "Agents for financial services",
+  "title_zh": "",
+  "url": "https://www.anthropic.com/news/finance-agents",
+  "source": "",
+  "source_url": "",
+  "publish_date": "2026-05-04",
+  "tags": ""
+}
+-->
 # Agents for financial services
 
 📅 2026-05-04
@@ -73,3 +83,7 @@ We’ve raised Claude's usage limits and agreed a new compute partnership with S
 Read more
 
 <!-- 正文结束 -->
+
+## Related Articles
+
+（待补充相关文章链接）
