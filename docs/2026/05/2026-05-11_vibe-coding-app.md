@@ -1,12 +1,13 @@
 <!--
 {
   "title": "安全公司：部分使用氛围编程 Vibe Coding 开发的网络 App 缺乏身份验证机制、直接暴露于公网",
-  "date": "2026-05-11",
   "source": "IT之家",
-  "source_url": "https://www.ithome.com/rss/"
+  "source_url": "https://www.ithome.com/rss/",
+  "publish_date": "2026-05-11",
+  "url": "",
+  "tags": ""
 }
 -->
-
 # 安全公司：部分使用氛围编程 Vibe Coding 开发的网络 App 缺乏身份验证机制、直接暴露于公网
 
 📅 2026-05-11 [IT之家](https://www.ithome.com/rss/)
@@ -19,3 +20,8 @@
 
 ## 相关文章
 <!-- 相关文章开始 -->
+
+
+## Related Articles
+
+（待补充相关文章链接）
