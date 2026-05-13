@@ -276,6 +276,6 @@
     "language": "en",
     "category": "english",
     "link_selector": "item link",
-    "enabled": true
+    "enabled": false
   }
 ]
