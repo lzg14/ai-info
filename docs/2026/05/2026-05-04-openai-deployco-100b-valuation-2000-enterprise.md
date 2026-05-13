@@ -35,7 +35,7 @@ DeployCo采用Palantir开创的Forward-Deployed Engineer（驻场工程师）模
 DeployCo的成立标志着AI企业销售从"直销模式"向"PE渠道模式"的转变。
 <!-- 正文结束 -->
 
-## 相关文章
+## Related Articles
 <!-- 相关文章开始 -->
 - [奥特曼"官宣" OpenAI 手机](2026-05-09_openai.md)
 - [Sam Altman住所遭袭击：AI争议从言论升级为物理暴力](../04/2026-04-12-Sam-Altman住所遭袭AI争议升级.md)
