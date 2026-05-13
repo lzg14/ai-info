@@ -1,10 +1,13 @@
 <!--
 {
   "title": "天桥具身机器人亮相济南泺口服装城会推销能T台走秀",
-  "date": "2026-05-04"
+  "publish_date": "2026-05-04",
+  "source": "",
+  "source_url": "",
+  "url": "",
+  "tags": ""
 }
 -->
-
 # 天桥具身机器人亮相济南泺口服装城会推销能T台走秀
 
 📅 2026-05-04
@@ -21,3 +24,8 @@
 - [DeepSeek-V4系列密集落地V4-Pro开源V4-Flash仅0.279美元](./2026-05-02-deepseek-v4-pro-open-source.md)
 - [OpenAI DeployCo：100亿美元估值，锁定2000+企业的AI合资公司](./2026-05-04-OpenAI-DeployCo合资公司百亿美元估值锁定两千企业.md)
 <!-- 相关文章结束 -->
+
+
+## Related Articles
+
+（待补充相关文章链接）
