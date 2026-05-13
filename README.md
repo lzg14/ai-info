@@ -7,13 +7,13 @@
 - [何恺明首个语言模型：105M参数，不走GPT自回归老路](docs/2026/05/2026-05-13_何恺明首个语言模型105m参数不走gpt自回归老路.md)（05-13）
 - [360发布OpenClaw生态安全报告：AI智能体风险进入自动化审计阶段](docs/2026/05/2026-05-12_360发布openclaw生态安全报告ai智能体风险进入自动化审计阶段.md)（05-12）
 - [OpenClaw低调更新重磅版本，龙虾长手长脚了](docs/2026/05/2026-05-12_OpenClaw低调更新重磅版本龙虾长手长脚了.md)（05-12）
-- [Test Article 1 - Important](docs/2026/05/2026-05-12_Test-Article-1-Important.md)（05-12）
-- [Test Article 2 - Important](docs/2026/05/2026-05-12_Test-Article-2-Important.md)（05-12）
 - [AI第一金主黄仁勋：日均花掉20亿](docs/2026/05/2026-05-12_ai第一金主黄仁勋日均花掉20亿.md)（05-12）
 - [Markdown要凉…卡帕西也站HTML了](docs/2026/05/2026-05-12_markdown要凉卡帕西也站html了.md)（05-12）
 - [估值200亿美元！可灵AI被曝剥离快手单独融资](docs/2026/05/2026-05-12_估值200亿美元可灵AI被曝剥离快手单独融资.md)（05-12）
 - [商汤善惠烧卖购机器人小店上海“开业”，让机器人真正落地线下零售](docs/2026/05/2026-05-12_商汤善惠烧卖购机器人小店上海开业让机器人真正落地线下零售.md)（05-12）
 - [龙虾退烧后，荣耀给它造了一个宇宙](docs/2026/05/2026-05-12_龙虾退烧后荣耀给它造了一个宇宙.md)（05-12）
+- [“养虾人”自述：我为什么卸载龙虾？](docs/2026/05/2026-05-11_article.md)（05-11）
+- [Data center guzzled 30 million gallons of water, and nobody noticed for months](docs/2026/05/2026-05-11_data-center-guzzled-30-million-gallons-of-water-and-nobody-n.md)（05-11）
 <!-- LATEST_END -->
 
 ## 年度导航
@@ -36,7 +36,7 @@
 | [2023](docs/2023.md) | 88 |
 | [2024](docs/2024.md) | 112 |
 | [2025](docs/2025.md) | 204 |
-| [2026](docs/2026.md) | 149 |
+| [2026](docs/2026.md) | 147 |
 <!-- YEARLY_END -->
 
 ## 数据来源
