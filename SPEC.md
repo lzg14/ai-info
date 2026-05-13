@@ -32,7 +32,7 @@ ai-info/
 └── .git/
 ```
 
-**注：** `skills/` 目录存放项目规范文档（SKILL_*.md），由项目 git 管理。`scripts/` 也在仓库内，由 git 管理历史。`config/` 迁移至 `~/.hermes/skills/ai-info/config/`。
+**注：** `skills/` 目录存放项目规范文档（SKILL_*.md），由项目 git 管理。`scripts/` 也在仓库内，由 git 管理历史。`config/` 在仓库 `config/` 目录下。
 
 ---
 
@@ -151,7 +151,7 @@ update_readme.py → README.md
 
 ## 订阅源配置
 
-RSS 订阅源配置在 `~/.hermes/skills/ai-info/config/sources.json`（已迁移，不在 ai-info 仓库内）。
+RSS 订阅源配置在项目 `config/sources.json`（不在 ai-info 仓库内，由部署时提供）。
 
 已验证可用的 RSS 源：
 

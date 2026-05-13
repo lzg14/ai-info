@@ -41,7 +41,7 @@
 
 ## 数据来源
 
-RSS 订阅列表定义在 `~/.hermes/skills/ai-info/config/sources.json`。
+RSS 订阅列表定义在项目 `config/sources.json`。
 
 ## 目录结构
 
@@ -64,7 +64,7 @@ ai-info/
 
 ## 自动化
 
-每天 06:00 自动运行抓取任务（位于 `~/.hermes/skills/ai-info/scripts/`），结果写入 `temp/articles/`，经评分后导入 `docs/`。
+每天 06:00 自动运行抓取任务，结果写入 `temp/articles/`，经评分后导入 `docs/`。
 
 ## 许可证
 
