@@ -1,4 +1,15 @@
-<!-- {"title": "Google unveils screenless Fitbit Air and Google Health app to replace Fitbit", "url": "https://arstechnica.com/gadgets/2026/05/google-unveils-screenless-fitbit-air-and-google-health-app-to-replace-fitbit/", "source": "Ars Technica AI", "source_url": "https://arstechnica.com/ai/", "publish_date": "2026-05-07", "score": null, "tags": [], "description_cn": "<think>\n这个标题是关于Google发布新产品的新闻。我需要翻译成中文，同时不超过20个字。\n\n让我分析一下关键信息：\n- Google unveiled\n</think>"} -->
+<!--
+{
+  "title": "Google unveils screenless Fitbit Air and Google Health app to replace Fitbit",
+  "url": "https://arstechnica.com/gadgets/2026/05/google-unveils-screenless-fitbit-air-and-google-health-app-to-replace-fitbit/",
+  "source": "Ars Technica AI",
+  "source_url": "https://arstechnica.com/ai/",
+  "publish_date": "2026-05-07",
+  "score": null,
+  "tags": "",
+  "description_cn": "<think>\n这个标题是关于Google发布新产品的新闻。我需要翻译成中文，同时不超过20个字。\n\n让我分析一下关键信息：\n- Google unveiled\n</think>"
+}
+-->
 # Google unveils screenless Fitbit Air and Google Health app to replace Fitbit
 
 📅 2026-05-07
@@ -21,3 +32,7 @@ Smartwatches never quite became a must-have device—plenty of people have them,
 While the Pixel Watch is very comfortable for a smartwatch, Google still wants to make it easier for people to keep collecting data all day and night. The company says that product testers rated the Air as more comfortable than competing devices, so you may actually be willing to wear it to bed for sleep tracking. You don’t have to choose between these devices, either. You can keep a Pixel Watch and Fitbit Air paired with your phone and wear whichever one you want over time. This capability will come to more wearable devices in the near future, too.
 
 <!-- 正文结束 -->
+
+## Related Articles
+
+（待补充相关文章链接）
