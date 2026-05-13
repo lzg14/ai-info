@@ -1,22 +1,26 @@
-<!--
-{
-  "title": "Agents for financial services",
-  "title_zh": "",
-  "url": "https://www.anthropic.com/news/finance-agents",
-  "source": "",
-  "source_url": "",
-  "publish_date": "2026-05-04",
-  "tags": ""
-}
--->
+---
+date: 2026-05-04
+publish_date: 2026-05-04
+title: "Agents for financial services"
+title_zh: ""
+url: "https://www.anthropic.com/news/finance-agents"
+source: "AI资讯"
+source_url: ""
+tags: []
+category: ""
+---
+
+# Agents for financial services
+
+📅 2026-05-04
+📢 来源：AI资讯
+
 # Agents for financial services
 
 📅 2026-05-04
 
 > Agents for financial services
 We’re releasing ten ready-to-run agent templates for the most time-consuming work in financial services: building pitchbooks, screening KYC files, and closing the books at month-end. Each one ships as a plugin in Claude Cowork and Claude Code, and as a cookbook for C...
-
-<!-- 正文开始 -->
 
 Agents for financial services
 We’re releasing ten ready-to-run agent templates for the most time-consuming work in financial services: building pitchbooks, screening KYC files, and closing the books at month-end. Each one ships as a plugin in Claude Cowork and Claude Code, and as a cookbook for Claude Managed Agents, so a team can put Claude on real financial work in days rather than months.
@@ -81,8 +85,6 @@ Related content
 Higher usage limits for Claude and a compute deal with SpaceX
 We’ve raised Claude's usage limits and agreed a new compute partnership with SpaceX that will substantially increase our capacity in the near term.
 Read more
-
-<!-- 正文结束 -->
 
 ## Related Articles
 

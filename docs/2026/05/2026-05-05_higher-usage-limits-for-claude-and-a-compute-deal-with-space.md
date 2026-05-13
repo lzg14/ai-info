@@ -1,22 +1,26 @@
-<!--
-{
-  "title": "Higher usage limits for Claude and a compute deal with SpaceX",
-  "title_zh": "",
-  "url": "https://www.anthropic.com/news/higher-limits-spacex",
-  "source": "",
-  "source_url": "",
-  "publish_date": "2026-05-05",
-  "tags": ""
-}
--->
+---
+date: 2026-05-05
+publish_date: 2026-05-05
+title: "Higher usage limits for Claude and a compute deal with SpaceX"
+title_zh: ""
+url: "https://www.anthropic.com/news/higher-limits-spacex"
+source: "AI资讯"
+source_url: ""
+tags: []
+category: ""
+---
+
+# Higher usage limits for Claude and a compute deal with SpaceX
+
+📅 2026-05-05
+📢 来源：AI资讯
+
 # Higher usage limits for Claude and a compute deal with SpaceX
 
 📅 2026-05-05
 
 > Higher usage limits for Claude and a compute deal with SpaceX
 We’ve agreed to a partnership with SpaceX that will substantially increase our compute capacity. This, along with our other recent compute deals, means that we’ve been able to increase our usage limits for Claude Code and the Claude AP...
-
-<!-- 正文开始 -->
 
 Higher usage limits for Claude and a compute deal with SpaceX
 We’ve agreed to a partnership with SpaceX that will substantially increase our compute capacity. This, along with our other recent compute deals, means that we’ve been able to increase our usage limits for Claude Code and the Claude API.
@@ -43,8 +47,6 @@ Related content
 Agents for financial services
 We're releasing ten new Cowork and Claude Code plugins, integrations with the Microsoft 365 suite, new connectors, and an MCP app for financial services and insurance organizations.
 Read more
-
-<!-- 正文结束 -->
 
 ## Related Articles
 

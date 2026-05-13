@@ -1,15 +1,20 @@
-<!--
-{
-  "title": "Belief or Circuitry? Causal Evidence for In-Context Graph Learning",
-  "url": "https://arxiv.org/abs/2605.08405",
-  "source": "arXiv CS.AI",
-  "source_url": "https://arxiv.org/rss/cs.AI",
-  "publish_date": "2026-05-08",
-  "score": null,
-  "tags": "",
-  "description_cn": "<think>\n这篇文章是关于大型语言模型（LLM）如何进行上下文学习的科学研究。让我总结核心内容：\n\n主题：探究LLM如何在上下文学习中获取知识——是通过模式匹配近期token，还是通过推断潜在结构。\n\n方法：\n1. 使用图随机游走的玩具任务，在两个竞争图结构之间进行探测\n2. 通过PCA重建内部表示结构\n3. 使用残差流激活 patching 和图差异 steering 进行因果干预\n\n主要发现：\n1. 在中间混合比例时，两种图拓扑同时编码在正交的主子空间中——这难以用纯局部转换复制来解释\n2. 晚期层 patching 几乎完全转移了干净图偏好\n3. 线性 steering 在预期方向上移动预测，但在 norm-matched 和 label-shuffled 控制下失败\n\n结论：支持双机制假说——真正的结构推理和归纳电路并行运作\n\n现在写100-150字的中文摘要：\n</think>\n\n## 摘要\n\n本文探究大语言模型在上下文学习中究竟是依赖模式匹配还是结构推理。通过设计图随机游走任务，在两种竞争图结构间进行实验。研究者采用PCA重建内部表征发现，在中间混合比例下，两种图拓扑同时编码于正交的主子空间中；同时"
-}
--->
+---
+date: 2026-05-08
+publish_date: 2026-05-08
+title: "Belief or Circuitry? Causal Evidence for In-Context Graph Learning"
+title_zh: ""
+url: "https://arxiv.org/abs/2605.08405"
+source: "arXiv CS.AI"
+source_url: "https://arxiv.org/rss/cs.AI"
+tags: []
+category: ""
+---
+
+# Belief or Circuitry? Causal Evidence for In-Context Graph Learning
+
+📅 2026-05-08
+📢 来源：arXiv CS.AI
+
 # Belief or Circuitry? Causal Evidence for In-Context Graph Learning
 
 📅 2026-05-08
@@ -41,8 +46,6 @@
 
 > How do LLMs learn in-context? Is it by pattern-matching recent tokens, or by inferring latent structure? We probe this question using a toy graph random-walk across two competing graph structures. This task's answer is, in principle, decidable: either the model tracks global topology, or it copies local transitions. We present two lines of evidence that neither account alone is sufficient. First, reconstructing the internal representation structure via PCA reveals that at intermediate mixture ratios, both graph topologies are encoded in orthogonal principal subspaces simultaneously. This pattern is difficult to reconcile with purely local transition copying. Second, residual-stream activation patching and graph-difference steering causally intervene on this graph-family signal: late-layer patching almost fully transfers the clean graph preference, while linear steering moves predictions in the intended direction and fails under norm-matched and label-shuffled controls. Taken together, our findings are most consistent with a dual-mechanism account in which genuine structure inference and induction circuits operate in parallel.
 
-<!-- 正文开始 -->
-
 Computer Science > Artificial Intelligence
 [Submitted on 8 May 2026]
 Title:Belief or Circuitry? Causal Evidence for In-Context Graph Learning
@@ -71,8 +74,6 @@ arXivLabs: experimental projects with community collaborators
 arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website.
 Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.
 Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs.
-
-<!-- 正文结束 -->
 
 ## Related Articles
 

@@ -1,22 +1,26 @@
-<!--
-{
-  "title": "Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs",
-  "title_zh": "",
-  "url": "https://www.anthropic.com/news/enterprise-ai-services-company",
-  "source": "",
-  "source_url": "",
-  "publish_date": "2026-05-04",
-  "tags": ""
-}
--->
+---
+date: 2026-05-04
+publish_date: 2026-05-04
+title: "Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs"
+title_zh: ""
+url: "https://www.anthropic.com/news/enterprise-ai-services-company"
+source: "AI资讯"
+source_url: ""
+tags: []
+category: ""
+---
+
+# Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs
+
+📅 2026-05-04
+📢 来源：AI资讯
+
 # Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs
 
 📅 2026-05-04
 
 > Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs
 Anthropic, Blackstone, Hellman & Friedman, and Goldman Sachs announced the formation of a new AI services company. The organization will work with mid-sized companies across sectors to bring Claud...
-
-<!-- 正文开始 -->
 
 Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs
 Anthropic, Blackstone, Hellman & Friedman, and Goldman Sachs announced the formation of a new AI services company. The organization will work with mid-sized companies across sectors to bring Claude into their most important operations. Applied AI engineers from Anthropic will work alongside the firm’s engineering team to identify where Claude can have the most impact, build custom solutions, and support customers over the long term.
@@ -37,8 +41,6 @@ We’ve raised Claude's usage limits and agreed a new compute partnership with S
 Read moreAgents for financial services
 We're releasing ten new Cowork and Claude Code plugins, integrations with the Microsoft 365 suite, new connectors, and an MCP app for financial services and insurance organizations.
 Read more
-
-<!-- 正文结束 -->
 
 ## Related Articles
 

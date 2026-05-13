@@ -1,4 +1,29 @@
-<!-- {"title": "Influential study touting ChatGPT in education retracted over red flags", "title_zh": "", "url": "https://arstechnica.com/ai/2026/05/influential-study-touting-chatgpt-in-education-retracted-over-red-flags/", "source": "Ars Technica AI", "source_url": "https://arstechnica.com", "publish_date": "2026-05-04", "score": null, "tags": ["AI", "ChatGPT", "教育", "学术"]} -->
+---
+date: 2026-05-04
+publish_date: 2026-05-04
+title: Influential study touting ChatGPT in education retracted over red flags
+title_zh: 
+url: https://arstechnica.com/ai/2026/05/influential-study-touting-chatgpt-in-education-retracted-over-red-flags/
+source: Ars Technica AI
+source_url: https://arstechnica.com
+tags:
+  - AI
+  - ChatGPT
+  - 教育
+  - 学术
+category: 
+related_articles:
+  - ../05/2026-05-13_openai-launches-gpt-4o-multi-modal-breakthrough.md
+  - ../05/2026-05-05_anthropic-releases-claude-3-5-coding-surpasses-gpt4.md
+  - ../05/2026-05-04_chatgpt-misinformation-education-risks.md
+  - ../05/2026-05-08_ai-plagiarism-detection-tool-released.md
+---
+
+
+# Influential study touting ChatGPT in education retracted over red flags
+
+📅 2026-05-04
+📢 来源：Ars Technica AI
 
 # Influential study touting ChatGPT in education retracted over red flags
 
@@ -8,8 +33,6 @@
 > The retracted study on ChatGPT in education was already cited hundreds of times.
 
 🏷️ AI · ChatGPT · 教育 · 学术
-
-<!-- 正文开始 -->
 
 A study that claimed OpenAI's ChatGPT can positively impact student learning has been retracted nearly one year after publication. The journal publisher, Springer Nature, cited "discrepancies" in the analysis and a lack of confidence in the conclusions—but not before the paper racked up hundreds of citations and made the rounds on social media.
 
@@ -27,12 +50,10 @@ Williamson also questioned the timing of the paper's publication just two and a 
 
 Since its publication, the study has been cited 262 times in other papers published by Springer Nature's peer-reviewed journals and received a total of 504 citations from both peer-reviewed and non-peer-reviewed sources. It also attracted nearly half a million readers and received enough online attention to rank in the 99th percentile for journal articles in terms of attention score.
 
-<!-- 正文结束 -->
-
 ## Related Articles
-<!-- 相关文章开始 -->
+## Related Articles
+
 - [OpenAI 发布 GPT-4o：多模态突破，覆盖语音/图像/文本](../05/2026-05-13_openai-launches-gpt-4o-multi-modal-breakthrough.md)
 - [Anthropic 发布 Claude 3.5：编码能力超越 GPT-4](../05/2026-05-05_anthropic-releases-claude-3-5-coding-surpasses-gpt4.md)
 - [ChatGPT 错误信息泛滥：教育场景的风险](../05/2026-05-04_chatgpt-misinformation-education-risks.md)
 - [AI 学术不端检测工具问世](../05/2026-05-08_ai-plagiarism-detection-tool-released.md)
-<!-- 相关文章结束 -->

@@ -1,26 +1,35 @@
-<!--
-{
-  "title": "安全公司：部分使用氛围编程 Vibe Coding 开发的网络 App 缺乏身份验证机制、直接暴露于公网",
-  "source": "IT之家",
-  "source_url": "https://www.ithome.com/rss/",
-  "publish_date": "2026-05-11",
-  "url": "",
-  "tags": ""
-}
--->
+---
+date: 2026-05-11
+publish_date: 2026-05-11
+title: "安全公司：部分使用氛围编程 Vibe Coding 开发的网络 App 缺乏身份验证机制、直接暴露于公网"
+title_zh: ""
+url: ""
+source: "IT之家"
+source_url: "https://www.ithome.com/rss/"
+tags:
+  - AI
+  - 安全
+  - 编程
+  - 医疗
+  - 金融
+category: ""
+---
+
+# 安全公司：部分使用氛围编程 Vibe Coding 开发的网络 App 缺乏身份验证机制、直接暴露于公网
+
+📅 2026-05-11
+📢 来源：IT之家
+
 # 安全公司：部分使用氛围编程 Vibe Coding 开发的网络 App 缺乏身份验证机制、直接暴露于公网
 
 📅 2026-05-11 [IT之家](https://www.ithome.com/rss/)
 
 <!-- tags: AI, 安全, 编程, 医疗, 金融 -->
 
-<!-- 正文开始 -->
 安全公司 RedAccess 报告揭示，大量采用“氛围编程”开发的 Web 应用存在严重安全隐患。扫描发现 38 万个疑似应用，其中 5000 款无任何身份验证、访问控制或权限隔离，导致企业敏感数据直接暴露于公网。约 40% 已在生产环境中使用，涉及医疗、金融等敏感信息。#AI 安全##数据泄露##氛围编程#
-<!-- 正文结束 -->
 
 ## 相关文章
-<!-- 相关文章开始 -->
-
+## Related Articles
 
 ## Related Articles
 
