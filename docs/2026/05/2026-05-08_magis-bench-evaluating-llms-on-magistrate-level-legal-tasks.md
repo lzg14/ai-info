@@ -1,4 +1,15 @@
-<!--{"title": "Magis-Bench: Evaluating LLMs on Magistrate-Level Legal Tasks", "url": "https://arxiv.org/abs/2605.08437", "source": "arXiv CS.CL", "source_url": "https://arxiv.org/abs/2605.08437", "publish_date": "2026-05-08", "score": null, "tags": [], "description_cn": "<think>\n用户需要我为这篇关于法律AI评估的学术论文撰写中文摘要。让我分析文章核心内容：\n\n1. **研究背景/问题**：现有法律AI基准测试主要关注生成法律论证或文档的能力，但评判法律论证的能力（权衡竞争性主张、将法理应用于事实、做出合理裁决）对于法律系统同样重要。\n\n2. **研究贡献**：引入Magis-Bench基准测试，用于评估LLMs在 magistrate-level（法官级别）写作任务上的表现，基于巴西司法职位竞争考试。\n\n3. **数据集构成**：74道题目，来自2023-2025年间的8次考试，包括论述性法律分析题（多轮结构）和实践练习（需要撰写完整的民事和刑事判决书）。\n\n4. **评估方法**：使用LLM-as-a-judge方法，4个独立的前沿模型作为评估者。\n\n5. **主要结果**：\n   - 评估者间一致性很高（Kendall's W = 0.984，配对Kendall's τ ≥ 0.897）\n   - Google Gemini-3-Pro-Preview表现最佳（6.97/10）\n   - 其次是Gemini-3-Flash-Preview（6.67）和Claude-4\n</think>"}-->
+<!--
+{
+  "title": "Magis-Bench: Evaluating LLMs on Magistrate-Level Legal Tasks",
+  "url": "https://arxiv.org/abs/2605.08437",
+  "source": "arXiv CS.CL",
+  "source_url": "https://arxiv.org/abs/2605.08437",
+  "publish_date": "2026-05-08",
+  "score": null,
+  "tags": "",
+  "description_cn": "<think>\n用户需要我为这篇关于法律AI评估的学术论文撰写中文摘要。让我分析文章核心内容：\n\n1. **研究背景/问题**：现有法律AI基准测试主要关注生成法律论证或文档的能力，但评判法律论证的能力（权衡竞争性主张、将法理应用于事实、做出合理裁决）对于法律系统同样重要。\n\n2. **研究贡献**：引入Magis-Bench基准测试，用于评估LLMs在 magistrate-level（法官级别）写作任务上的表现，基于巴西司法职位竞争考试。\n\n3. **数据集构成**：74道题目，来自2023-2025年间的8次考试，包括论述性法律分析题（多轮结构）和实践练习（需要撰写完整的民事和刑事判决书）。\n\n4. **评估方法**：使用LLM-as-a-judge方法，4个独立的前沿模型作为评估者。\n\n5. **主要结果**：\n   - 评估者间一致性很高（Kendall's W = 0.984，配对Kendall's τ ≥ 0.897）\n   - Google Gemini-3-Pro-Preview表现最佳（6.97/10）\n   - 其次是Gemini-3-Flash-Preview（6.67）和Claude-4\n</think>"
+}
+-->
 # Magis-Bench: Evaluating LLMs on Magistrate-Level Legal Tasks
 
 📅 2026-05-08
@@ -53,3 +64,7 @@ Both individuals and organizations that work with arXivLabs have embraced and ac
 Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs.
 
 <!-- 正文结束 -->
+
+## Related Articles
+
+（待补充相关文章链接）
