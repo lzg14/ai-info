@@ -1,12 +1,13 @@
 <!--
 {
   "title": "OpenAI砸200亿美元买单，英伟达挑战者冲刺350亿美元估值IPO",
-  "date": "2026-05-11",
   "source": "量子位",
-  "source_url": "https://www.qbitai.com/2026/05/415714.html"
+  "source_url": "https://www.qbitai.com/2026/05/415714.html",
+  "publish_date": "2026-05-11",
+  "url": "",
+  "tags": ""
 }
 -->
-
 # OpenAI砸200亿美元买单，英伟达挑战者冲刺350亿美元估值IPO
 
 📅 2026-05-11 | 📎 量子位
@@ -193,3 +194,8 @@ Cerebras的定价预计本周敲定。
 - [Cursor 3发布多Agent并行重新定义编程工具天花板](2026-05-05-cursor3-multi-agent-coding.md)
 - [Nanoleaf bets its future on robots, red light therapy, and AI](2026-05-08_nanoleaf-bets-its-future-robots.md)
 <!-- 相关文章结束 -->
+
+
+## Related Articles
+
+（待补充相关文章链接）
