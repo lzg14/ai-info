@@ -1,4 +1,14 @@
-<!-- {"title": "VLADriver-RAG: Retrieval-Augmented Vision-Language-Action Models for Autonomous Driving", "title_zh": "VLADriver-RAG：检索增强的自动驾驶视觉语言动作模型", "url": "https://arxiv.org/abs/2605.08133", "source": "arXiv CS.CV", "source_url": "https://arxiv.org", "publish_date": "2026-05-01", "tags": ["自动驾驶", "RAG", "VLA模型"], "category": "算法架构"} -->
+---
+date: 2026-05-01
+publish_date: 2026-05-01
+title: "VLADriver-RAG: Retrieval-Augmented Vision-Language-Action Models for Autonomous Driving"
+title_zh: "VLADriver-RAG：检索增强的自动驾驶视觉语言动作模型"
+url: "https://arxiv.org/abs/2605.08133"
+source: "arXiv CS.CV"
+source_url: "https://arxiv.org"
+tags: ["自动驾驶", "RAG", "VLA模型"]
+category: "算法架构"
+---
 
 # VLADriver-RAG: Retrieval-Augmented Vision-Language-Action Models for Autonomous Driving
 
@@ -6,8 +16,6 @@
 📢 来源：[arXiv CS.CV](https://arxiv.org/rss/cs.CV)
 
 > 本文提出VLADriver-RAG框架，通过Visual-to-Scenario机制将感官输入抽象为时空语义图，并使用Scenario-Aligned Embedding Model进行图-DTW度量对齐，在Bench2Drive基准测试上达到89.12驾驶分数，创下新SOTA。
-
-<!-- 正文开始 -->
 
 ## Background
 
@@ -25,4 +33,7 @@ These retrieved priors are then fused within a query-based VLA backbone to synth
 
 Extensive experiments on the Bench2Drive benchmark establish a new state-of-the-art, achieving a Driving Score of 89.12.
 
-<!-- 正文结束 -->
+## Related Articles
+
+- [Bench2Drive Benchmark — arXiv](https://arxiv.org/abs/2410.10544)
+- [VLA Models for Autonomous Driving — arXiv](https://arxiv.org/abs/2409.15242)

@@ -1,4 +1,14 @@
-<!-- {"title": "Minnesota passes ban on fake AI nudes; app makers risk $500K fines", "title_zh": "明尼苏达州通过禁令：AI生成裸照应用制造商面临最高50万美元罚款", "url": "https://arstechnica.com/tech-policy/2026/05/minnesota-set-to-be-first-state-to-ban-nudification-apps/", "source": "Ars Technica AI", "source_url": "https://arstechnica.com", "publish_date": "2026-05-01", "tags": ["AI", "政策", "隐私"], "category": "AI行业事件"} -->
+---
+date: 2026-05-01
+publish_date: 2026-05-01
+title: "Minnesota passes ban on fake AI nudes; app makers risk $500K fines"
+title_zh: "明尼苏达州通过禁令：AI生成裸照应用制造商面临最高50万美元罚款"
+url: "https://arstechnica.com/tech-policy/2026/05/minnesota-set-to-be-first-state-to-ban-nudification-apps/"
+source: "Ars Technica AI"
+source_url: "https://arstechnica.com"
+tags: ["AI", "政策", "隐私"]
+category: "AI行业事件"
+---
 
 # Minnesota passes ban on fake AI nudes; app makers risk $500K fines
 
@@ -7,7 +17,7 @@
 
 > More evidence of Grok CSAM seen as Minnesota passes nudifying app ban.
 
-<!-- 正文开始 -->
+## Minnesota man used one app to undress 80+ friends
 
 This week, Minnesota became the first state to pass a law banning nudification apps that make it easy to "undress" or sexualize images of real people.
 
@@ -17,10 +27,11 @@ On Wednesday, the Minnesota Senate unanimously voted 65–0 to pass the law. Tha
 
 Ars could not immediately reach Walz's office for comment.
 
-## Minnesota man used one app to undress 80+ friends
-
 Democratic Senator Erin Maye Quade introduced the bill in Minnesota after residents discovered that one man had nudified images of more than 80 women from his social circles. In a statement, she said that she looked forward to Walz signing the bill, which finally offers legal recourse to those victims, as well as others impacted by the mainstreaming of nudifying apps.
 
 RAINN, the national nonprofit that runs the National Sexual Assault Hotline, also helped get Minnesota's bill passed. To prevent any industry lobbying against it, RAINN consulted with tech companies when drafting the law, 19th News reported. That helped ensure there weren't unexpected impacts on popular commercial products, like Photoshop, that could be used to nudify an image. Acknowledging that the state's concern is more about how alarmingly easy undressing apps make it to harm an increasing number of mostly women and children globally, the law exempts products or services that require "the technical skill of a user to nudify an image or video."
 
-<!-- 正文结束 -->
+## Related Articles
+
+- [Ars Technica AI](https://arstechnica.com/category/artificial-intelligence/)
+- [AI Policy News - Ars Technica](https://arstechnica.com/tech-policy/)
