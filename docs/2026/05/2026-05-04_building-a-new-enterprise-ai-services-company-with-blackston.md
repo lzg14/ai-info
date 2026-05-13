@@ -1,4 +1,14 @@
-<!-- {"title": "Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs", "title_zh": "", "url": "https://www.anthropic.com/news/enterprise-ai-services-company", "source": "", "source_url": "", "publish_date": "2026-05-04", "tags": []} -->
+<!--
+{
+  "title": "Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs",
+  "title_zh": "",
+  "url": "https://www.anthropic.com/news/enterprise-ai-services-company",
+  "source": "",
+  "source_url": "",
+  "publish_date": "2026-05-04",
+  "tags": ""
+}
+-->
 # Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs
 
 📅 2026-05-04
@@ -29,3 +39,7 @@ We're releasing ten new Cowork and Claude Code plugins, integrations with the Mi
 Read more
 
 <!-- 正文结束 -->
+
+## Related Articles
+
+（待补充相关文章链接）
