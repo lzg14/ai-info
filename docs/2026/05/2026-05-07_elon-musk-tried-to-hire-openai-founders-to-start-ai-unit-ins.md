@@ -1,4 +1,15 @@
-<!-- {"title": "Elon Musk tried to hire OpenAI founders to start AI unit inside Tesla", "url": "https://arstechnica.com/tech-policy/2026/05/elon-musk-tried-to-hire-openai-founders-to-start-ai-unit-inside-tesla/", "source": "Ars Technica AI", "source_url": "https://arstechnica.com/ai/", "publish_date": "2026-05-07", "score": null, "tags": [], "description_cn": "<think>\n让我分析这篇关于Elon Musk试图在特斯拉内部建立AI团队的报道，并撰写一段100-150字的中文摘要。\n\n核心信息：\n1. 2018年Musk试图挖走OpenAI创始人（Sam Altman等）到特斯拉\n2. 背景是OpenAI内部关于控制权的争夺\n3. Musk认为非营利组织无法成功开发AGI\n4. 2017年底Musk已对OpenAI失去信心，考虑自建AI实验室\n5. 这与当前Musk起诉OpenAI的案件相关\n\n需要涵盖：时间（2018年）、人物（Musk、Altman等）、事件（挖人/控制权争夺）、核心冲突（非营利vs商业化）\n</think>\n\n2018年，埃隆·马斯克曾试图挖走OpenAI创始人萨姆·奥特曼等人，将他们招入特斯拉内部建立新AI实验室。法庭文件显示，2017年底马斯克已对非营利组织OpenAI开发通用人工智能的能力失去信心，考虑自立门户。他向OpenAI顾问泽利斯透露，若专注于特斯拉AI，OpenAI几乎不可能成功。案件核心在于马斯克指控奥特曼通过将公司转型为营利企业“窃取慈善资产”，而OpenAI方面"} -->
+<!--
+{
+  "title": "Elon Musk tried to hire OpenAI founders to start AI unit inside Tesla",
+  "url": "https://arstechnica.com/tech-policy/2026/05/elon-musk-tried-to-hire-openai-founders-to-start-ai-unit-inside-tesla/",
+  "source": "Ars Technica AI",
+  "source_url": "https://arstechnica.com/ai/",
+  "publish_date": "2026-05-07",
+  "score": null,
+  "tags": "",
+  "description_cn": "<think>\n让我分析这篇关于Elon Musk试图在特斯拉内部建立AI团队的报道，并撰写一段100-150字的中文摘要。\n\n核心信息：\n1. 2018年Musk试图挖走OpenAI创始人（Sam Altman等）到特斯拉\n2. 背景是OpenAI内部关于控制权的争夺\n3. Musk认为非营利组织无法成功开发AGI\n4. 2017年底Musk已对OpenAI失去信心，考虑自建AI实验室\n5. 这与当前Musk起诉OpenAI的案件相关\n\n需要涵盖：时间（2018年）、人物（Musk、Altman等）、事件（挖人/控制权争夺）、核心冲突（非营利vs商业化）\n</think>\n\n2018年，埃隆·马斯克曾试图挖走OpenAI创始人萨姆·奥特曼等人，将他们招入特斯拉内部建立新AI实验室。法庭文件显示，2017年底马斯克已对非营利组织OpenAI开发通用人工智能的能力失去信心，考虑自立门户。他向OpenAI顾问泽利斯透露，若专注于特斯拉AI，OpenAI几乎不可能成功。案件核心在于马斯克指控奥特曼通过将公司转型为营利企业“窃取慈善资产”，而OpenAI方面"
+}
+-->
 # Elon Musk tried to hire OpenAI founders to start AI unit inside Tesla
 
 📅 2026-05-07
@@ -33,3 +44,7 @@ In late 2017, Zilis sketched out plans for an event to “share that Tesla is bu
 By early 2018, she laid out nine possible scenarios for achieving AGI. The bulk of those centered on Tesla and included bringing Altman in to run AI at the carmaker. Another proposal was to poach DeepMind founder Demis Hassabis for the same role.
 
 <!-- 正文结束 -->
+
+## Related Articles
+
+（待补充相关文章链接）
