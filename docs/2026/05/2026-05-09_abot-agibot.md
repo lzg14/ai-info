@@ -1,10 +1,13 @@
 <!--
 {
   "title": "空间智能的“具身化”跃迁，高德ABot体系模型夺冠AGIBot全球挑战赛",
-  "date": "2026-05-09"
+  "publish_date": "2026-05-09",
+  "source": "",
+  "source_url": "",
+  "url": "",
+  "tags": ""
 }
 -->
-
 # 空间智能的“具身化”跃迁，高德ABot体系模型夺冠AGIBot全球挑战赛
 
 📅 2026-05-09
@@ -23,3 +26,8 @@
 - [DeepSeek-V4系列密集落地V4-Pro开源V4-Flash仅0.279美元](./2026-05-02-deepseek-v4-pro-open-source.md)
 - [OpenAI DeployCo：100亿美元估值，锁定2000+企业的AI合资公司](./2026-05-04-OpenAI-DeployCo合资公司百亿美元估值锁定两千企业.md)
 <!-- 相关文章结束 -->
+
+
+## Related Articles
+
+（待补充相关文章链接）
