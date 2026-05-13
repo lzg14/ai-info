@@ -1,4 +1,15 @@
-<!--{"title": "How Much Do Circuits Tell Us? Measuring the Consistency and Specificity of Language Model Circuits", "url": "https://arxiv.org/abs/2605.08348", "source": "arXiv CS.CL", "source_url": "https://arxiv.org/abs/2605.08348", "publish_date": "2026-05-08", "score": null, "tags": [], "description_cn": "<think>\n这篇文章关于语言模型中的\"电路\"框架（circuits framework），这是一种机制可解释性（mechanistic interpretability）研究方法。文章主要测量了电路的两个特性：一致性和特异性。\n\n核心内容：\n1. 电路框架旨在识别模型中因果重要的稀疏子图\n2. 研究了电路重用、一致性（任务内组件的重复出现）和特异性（组件对任务的独特性）\n3. 在6个任务和7个模型上使用边缘归因 patching 进行实验\n4. 发现：任务内重用很高，共享组件对任务性能是必要的\n5. 关键发现：电路并不具有任务特异性——消融一个任务的电路对另一个任务的性能损害程度与消融该任务自身电路相当\n6. 原因：不同任务之间的电路存在大量重叠\n7. 结论：虽然电路发现能识别重要组件，但缺乏任务特异性引发了疑问\n\n我需要用100-150字概括这些内容。\n</think>\n\n**中文摘要：**\n\n本文研究了语言模型中“电路”框架的一致性和特异性。研究者在六个任务和七个模型上使用边缘归因 patching 方法，发现任务内电路重用率很高，共享组件对性能至关重要，消融后准确率下降可达"}-->
+<!--
+{
+  "title": "How Much Do Circuits Tell Us? Measuring the Consistency and Specificity of Language Model Circuits",
+  "url": "https://arxiv.org/abs/2605.08348",
+  "source": "arXiv CS.CL",
+  "source_url": "https://arxiv.org/abs/2605.08348",
+  "publish_date": "2026-05-08",
+  "score": null,
+  "tags": "",
+  "description_cn": "<think>\n这篇文章关于语言模型中的\"电路\"框架（circuits framework），这是一种机制可解释性（mechanistic interpretability）研究方法。文章主要测量了电路的两个特性：一致性和特异性。\n\n核心内容：\n1. 电路框架旨在识别模型中因果重要的稀疏子图\n2. 研究了电路重用、一致性（任务内组件的重复出现）和特异性（组件对任务的独特性）\n3. 在6个任务和7个模型上使用边缘归因 patching 进行实验\n4. 发现：任务内重用很高，共享组件对任务性能是必要的\n5. 关键发现：电路并不具有任务特异性——消融一个任务的电路对另一个任务的性能损害程度与消融该任务自身电路相当\n6. 原因：不同任务之间的电路存在大量重叠\n7. 结论：虽然电路发现能识别重要组件，但缺乏任务特异性引发了疑问\n\n我需要用100-150字概括这些内容。\n</think>\n\n**中文摘要：**\n\n本文研究了语言模型中“电路”框架的一致性和特异性。研究者在六个任务和七个模型上使用边缘归因 patching 方法，发现任务内电路重用率很高，共享组件对性能至关重要，消融后准确率下降可达"
+}
+-->
 # How Much Do Circuits Tell Us? Measuring the Consistency and Specificity of Language Model Circuits
 
 📅 2026-05-08
@@ -55,3 +66,7 @@ Both individuals and organizations that work with arXivLabs have embraced and ac
 Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs.
 
 <!-- 正文结束 -->
+
+## Related Articles
+
+（待补充相关文章链接）
