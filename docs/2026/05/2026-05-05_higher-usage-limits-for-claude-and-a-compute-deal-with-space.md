@@ -1,4 +1,14 @@
-<!-- {"title": "Higher usage limits for Claude and a compute deal with SpaceX", "title_zh": "", "url": "https://www.anthropic.com/news/higher-limits-spacex", "source": "", "source_url": "", "publish_date": "2026-05-05", "tags": []} -->
+<!--
+{
+  "title": "Higher usage limits for Claude and a compute deal with SpaceX",
+  "title_zh": "",
+  "url": "https://www.anthropic.com/news/higher-limits-spacex",
+  "source": "",
+  "source_url": "",
+  "publish_date": "2026-05-05",
+  "tags": ""
+}
+-->
 # Higher usage limits for Claude and a compute deal with SpaceX
 
 📅 2026-05-05
@@ -35,3 +45,7 @@ We're releasing ten new Cowork and Claude Code plugins, integrations with the Mi
 Read more
 
 <!-- 正文结束 -->
+
+## Related Articles
+
+（待补充相关文章链接）
