@@ -1,4 +1,15 @@
-<!-- {"title": "Data center guzzled 30 million gallons of water, and nobody noticed for months", "url": "https://arstechnica.com/tech-policy/2026/05/data-center-used-30-million-gallons-of-water-without-initially-paying/", "source": "Ars Technica AI", "source_url": "https://arstechnica.com/ai/", "publish_date": "2026-05-11", "score": null, "tags": [], "description_cn": "<think>The user wants me to write a concise Chinese summary (100-150 characters) of the article about a data center in Georgia that consumed 30 million gallons of water unnoticed for months.\n\nLet me summarize the key points:\n1. A data center in Georgia consumed nearly 30 million gallons of water without anyone noticing for months\n2. The facility (QTS) had two water hookups that weren't being monitored properly\n3. This happened when nearby residents were dealing with drought and had to restrict water usage\n4. QTS eventually paid about $150,000 but faced no fines for exceeding peak limits\n5. The county blamed itself and didn't fine QTS because they are their largest customer\n6. This highlights a broader issue of data center developments being approved without proper water system monitoring infrastructure\n\nLet me write a 100-150 character summary in Chinese:</think>\n\n美国佐治亚州一处大型数据中心在数月内悄然消耗近3000万加仑水，却无人察觉。该数据中心拥有两个未被监测的工业级水管连接，导致用水未被计费。同期当地居民正因干旱而限水，部分家庭甚至出现水压骤降。经调查后，QTS数据中心补缴约15万美元，但因是该地区最大"} -->
+<!--
+{
+  "title": "Data center guzzled 30 million gallons of water, and nobody noticed for months",
+  "url": "https://arstechnica.com/tech-policy/2026/05/data-center-used-30-million-gallons-of-water-without-initially-paying/",
+  "source": "Ars Technica AI",
+  "source_url": "https://arstechnica.com/ai/",
+  "publish_date": "2026-05-11",
+  "score": null,
+  "tags": "",
+  "description_cn": "<think>The user wants me to write a concise Chinese summary (100-150 characters) of the article about a data center in Georgia that consumed 30 million gallons of water unnoticed for months.\n\nLet me summarize the key points:\n1. A data center in Georgia consumed nearly 30 million gallons of water without anyone noticing for months\n2. The facility (QTS) had two water hookups that weren't being monitored properly\n3. This happened when nearby residents were dealing with drought and had to restrict water usage\n4. QTS eventually paid about $150,000 but faced no fines for exceeding peak limits\n5. The county blamed itself and didn't fine QTS because they are their largest customer\n6. This highlights a broader issue of data center developments being approved without proper water system monitoring infrastructure\n\nLet me write a 100-150 character summary in Chinese:</think>\n\n美国佐治亚州一处大型数据中心在数月内悄然消耗近3000万加仑水，却无人察觉。该数据中心拥有两个未被监测的工业级水管连接，导致用水未被计费。同期当地居民正因干旱而限水，部分家庭甚至出现水压骤降。经调查后，QTS数据中心补缴约15万美元，但因是该地区最大"
+}
+-->
 # Data center guzzled 30 million gallons of water, and nobody noticed for months
 
 📅 2026-05-11
@@ -30,3 +41,7 @@ QTS eventually paid about $150,000 for the water, but there were no consequences
 Notably, the main reason the water usage was overlooked is that the county is transitioning from outdated water meters to a smart, cloud-based system that is supposed to make it easier to track leaks and other unexpected drains on the county’s water system. Tigert also told Politico that the county failed to notice the water usage because it’s understaffed, explaining that the only worker available to inspect meters is “spread pretty thin.”
 
 <!-- 正文结束 -->
+
+## Related Articles
+
+（待补充相关文章链接）
