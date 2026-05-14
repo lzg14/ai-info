@@ -36,7 +36,7 @@ load_dotenv(BASE / ".env")
 import requests
 
 API_KEY = os.getenv("MINIMAX_API_KEY") or os.getenv("MINIMAX_CN_API_KEY") or ""
-BASE_URL = os.getenv("MINIMAX_API_BASE") or "https://api.minimaxi.com/v1"
+BASE_URL = os.getenv("MINIMAX_API_BASE") or "https://api.minimaxi.com/anthropic/v1"
 MODEL = os.getenv("MINIMAX_MODEL") or "MiniMax-M2.7"
 
 print(f"[scorer] API: {MODEL} | key: {API_KEY[:8]}... | base: {BASE_URL}")
@@ -97,8 +97,8 @@ def score_article(article: dict) -> int | None:
         resp.raise_for_status()
         data = resp.json()
 
-        # 解析 OpenAI-compatible 响应
-        raw = data["choices"][0]["message"]["content"].strip()
+        # Anthropic/MiniMax 响应格式
+        raw = data["content"][0]["text"].strip()
 
         # 尝试 JSON 解析
         import json as json_mod
