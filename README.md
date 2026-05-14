@@ -4,16 +4,16 @@
 
 ## 最新 10 条
 <!-- LATEST_BEGIN -->
-- [OpenAI DeployCo：100亿美元估值，锁定2000+企业的AI合资公司](docs/2026/05/2026-05-04-openai-deployco-100b-valuation-2000-enterprise.md)（05-04）
-- [Influential study touting ChatGPT in education retracted over red flags](docs/2026/05/2026-05-04_Influential-study-touting-ChatGPT-in-education-retracted-over-red-flags.md)（05-04）
-- [DeepSeek-V4系列密集落地V4-Pro开源V4-Flash仅0.279美元](docs/2026/05/2026-05-02-deepseek-v4-pro-open-source.md)（05-02）
-- [Reasoning emerges from constrained inference manifolds in large language models](docs/2026/05/2026-05-02_reasoning-emerges-from-constrained-inference-manifolds-in-la.md)（05-02）
-- [Amid Mythos' hyped cybersecurity prowess, researchers find GPT-5.5 is just as good](docs/2026/05/2026-05-01_Amid-Mythos-hyped-cybersecurity-prowess-researchers-find-GPT-55-is-just-as-good.md)（05-01）
-- [Minnesota passes ban on fake AI nudes; app makers risk $500K fines](docs/2026/05/2026-05-01_Minnesota-passes-ban-on-fake-AI-nudes-app-makers-risk-500K-fines.md)（05-01）
-- [Study: AI models that consider users' feelings are more likely to make errors](docs/2026/05/2026-05-01_Study-AI-models-that-consider-users-feelings-are-more-likely-to-make-errors.md)（05-01）
-- [Dendritic Neural Networks with Equilibrium Propagation](docs/2026/05/2026-05-01_dendritic-neural-networks-with-equilibrium-propagation.md)（05-01）
-- [Towards Customized Multimodal Role-Play](docs/2026/05/2026-05-01_towards-customized-multimodal-role-play.md)（05-01）
-- [VLADriver-RAG: Retrieval-Augmented Vision-Language-Action Models for Autonomous Driving](docs/2026/05/2026-05-01_vladriver-rag-retrieval-augmented-vision-language-action-mod.md)（05-01）
+- [何恺明首个语言模型：105M参数，不走GPT自回归老路](docs/2026/05/2026-05-13_何恺明首个语言模型105m参数不走gpt自回归老路.md)（05-13）
+- [360发布OpenClaw生态安全报告：AI智能体风险进入自动化审计阶段](docs/2026/05/2026-05-12_360发布openclaw生态安全报告ai智能体风险进入自动化审计阶段.md)（05-12）
+- [OpenClaw低调更新重磅版本，龙虾长手长脚了](docs/2026/05/2026-05-12_OpenClaw低调更新重磅版本龙虾长手长脚了.md)（05-12）
+- [AI第一金主黄仁勋：日均花掉20亿](docs/2026/05/2026-05-12_ai第一金主黄仁勋日均花掉20亿.md)（05-12）
+- [Markdown要凉…卡帕西也站HTML了](docs/2026/05/2026-05-12_markdown要凉卡帕西也站html了.md)（05-12）
+- [估值200亿美元！可灵AI被曝剥离快手单独融资](docs/2026/05/2026-05-12_估值200亿美元可灵AI被曝剥离快手单独融资.md)（05-12）
+- [商汤善惠烧卖购机器人小店上海“开业”，让机器人真正落地线下零售](docs/2026/05/2026-05-12_商汤善惠烧卖购机器人小店上海开业让机器人真正落地线下零售.md)（05-12）
+- [龙虾退烧后，荣耀给它造了一个宇宙](docs/2026/05/2026-05-12_龙虾退烧后荣耀给它造了一个宇宙.md)（05-12）
+- [“养虾人”自述：我为什么卸载龙虾？](docs/2026/05/2026-05-11_article.md)（05-11）
+- [Data center guzzled 30 million gallons of water, and nobody noticed for months](docs/2026/05/2026-05-11_data-center-guzzled-30-million-gallons-of-water-and-nobody-n.md)（05-11）
 <!-- LATEST_END -->
 
 ## 年度导航
