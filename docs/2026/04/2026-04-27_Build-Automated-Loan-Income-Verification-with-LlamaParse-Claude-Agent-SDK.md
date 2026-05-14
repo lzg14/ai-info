@@ -174,19 +174,19 @@ The Report
 The full pipeline generates a self-contained HTML report with income summary cards, document extraction details with confidence scores, a cross-document validation table, and a color-coded decision banner (green for COMPLETE, yellow for REVIEW, red for FLAG).
 Running It
 html
-# Clone the repo
+`# Clone the repo`
 git clone https://github.com/jerryjliu/llamaparse_use_cases.git
 cd llamaparse_use_cases/loan_processing/
-# Install dependencies
+`# Install dependencies`
 pip install 'llama-cloud>=2.1' anthropic pydantic pypdf reportlab requests
-# Set API keys
+`# Set API keys`
 export LLAMA_CLOUD_API_KEY=llx-...
 export ANTHROPIC_API_KEY=sk-ant-...
-# Generate sample documents
+`# Generate sample documents`
 python sample_docs/generate_docs.py
-# Run the full pipeline
+`# Run the full pipeline`
 python loan_pipeline.py
-# View the report
+`# View the report`
 open output/loan_report.html
 The whole thing runs e2e in a few minutes. The sample doc generation downloads the actual Fannie Mae 1003 URLA form and an IRS W-2 template, fills them via AcroForm, and generates synthetic pay stub and bank statement PDFs with reportlab — so you're testing against realistic document formats, not toy examples.
 Try It Out

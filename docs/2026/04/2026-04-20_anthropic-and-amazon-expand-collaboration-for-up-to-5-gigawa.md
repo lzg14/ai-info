@@ -1,13 +1,17 @@
----
-title: "Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute"
-title_zh: ""
-url: "https://www.anthropic.com/news/anthropic-amazon-compute"
-source: ""
-source_url: ""
-date: "2026-04-20"
-tags: []
-draft: false
----
+<!--
+{
+  "title": "Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute",
+  "title_zh": "",
+  "url": "https://www.anthropic.com/news/anthropic-amazon-compute",
+  "source": "",
+  "source_url": "",
+  "publish_date": "2026-04-20",
+  "score": null,
+  "tags": []
+}
+-->
+
+<!-- 正文开始 -->
 
 # Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute
 
@@ -24,9 +28,5 @@ Enterprise and developer demand for Claude has accelerated in 2026, and alongsid
 Today’s agreement will quickly expand our available capacity, delivering meaningful compute in the next three months and nearly 1GW in total before the end of the year. Combined with additional capacity expansions and our diversified hardware strategy, with workloads spread across a range of chips, we are building the infrastructure needed to keep Claude at the frontier and reliably serve our growing customer base.
 To learn more about Anthropic on AWS, visit: https://aws.amazon.com/bedrock/anthropic/.
 Updated April 21st to clarify Claude Platform on AWS is coming soon.
-Related content
-Higher usage limits for Claude and a compute deal with SpaceX
-We’ve raised Claude's usage limits and agreed a new compute partnership with SpaceX that will substantially increase our capacity in the near term.
-Read moreAgents for financial services
-We're releasing ten new Cowork and Claude Code plugins, integrations with the Microsoft 365 suite, new connectors, and an MCP app for financial services and insurance organizations.
-Read more
+
+<!-- 正文结束 -->

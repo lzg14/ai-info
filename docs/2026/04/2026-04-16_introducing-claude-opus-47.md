@@ -1,17 +1,17 @@
----
+<!--
+{
+  "title": "Introducing Claude Opus 4.7",
+  "title_zh": "",
+  "url": "https://www.anthropic.com/news/claude-opus-4-7",
+  "source": "",
+  "source_url": "",
+  "publish_date": "2026-04-16",
+  "score": null,
+  "tags": []
+}
+-->
 
-# Introducing Claude Opus 4.7
-
-title: "Introducing Claude Opus 4.7"
-title_zh: ""
-url: "https://www.anthropic.com/news/claude-opus-4-7"
-source: ""
-source_url: ""
-date: "2026-04-16"
-tags: []
-draft: false
----
-
+<!-- 正文开始 -->
 
 # Introducing Claude Opus 4.7
 
@@ -86,9 +86,5 @@ Footnotes
 - CyberGym: Opus 4.6’s score has been updated from the originally reported 66.6 to 73.8, as we updated our harness parameters to better elicit cyber capability.
 - SWE-bench Multimodal: We used an internal implementation for both Opus 4.7 and Opus 4.6. Scores are not directly comparable to public leaderboard scores.
 May 4, 2026: Updated Document reasoning graph to reflect updated OfficeQA Pro scores for Opus 4.7.
-Related content
-Higher usage limits for Claude and a compute deal with SpaceX
-We’ve raised Claude's usage limits and agreed a new compute partnership with SpaceX that will substantially increase our capacity in the near term.
-Read moreAgents for financial services
-We're releasing ten new Cowork and Claude Code plugins, integrations with the Microsoft 365 suite, new connectors, and an MCP app for financial services and insurance organizations.
-Read more
+
+<!-- 正文结束 -->

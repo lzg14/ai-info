@@ -1,17 +1,17 @@
----
+<!--
+{
+  "title": "Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce",
+  "title_zh": "",
+  "url": "https://www.anthropic.com/news/anthropic-nec",
+  "source": "",
+  "source_url": "",
+  "publish_date": "2026-04-24",
+  "score": null,
+  "tags": []
+}
+-->
 
-# Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce
-
-title: "Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce"
-title_zh: ""
-url: "https://www.anthropic.com/news/anthropic-nec"
-source: ""
-source_url: ""
-date: "2026-04-24"
-tags: []
-draft: false
----
-
+<!-- 正文开始 -->
 
 # Anthropic and NEC collaborate to build Japan's largest AI engineering workforce
 
@@ -29,9 +29,5 @@ As part of its long-running Client Zero initiative, in which NEC serves as its o
 Availability
 Claude is now being deployed to NEC Group employees around the world, and our joint development of industry-specific AI solutions is underway. Learn more about NEC’s value-creation model at NEC BluStellar.
 Claude, Claude Code, and Claude Cowork are Anthropic products. NEC BluStellar is an offering from NEC Corporation.
-Related content
-Higher usage limits for Claude and a compute deal with SpaceX
-We’ve raised Claude's usage limits and agreed a new compute partnership with SpaceX that will substantially increase our capacity in the near term.
-Read moreAgents for financial services
-We're releasing ten new Cowork and Claude Code plugins, integrations with the Microsoft 365 suite, new connectors, and an MCP app for financial services and insurance organizations.
-Read more
+
+<!-- 正文结束 -->

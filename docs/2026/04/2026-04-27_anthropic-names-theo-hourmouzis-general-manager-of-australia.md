@@ -19,11 +19,7 @@ We recently announced deep platform collaborations with Canva and Xero. Canva wi
 We're also working with YMCA South Australia as a Claude for Nonprofits Partner. YMCA operates across 65+ community locations with around 1,250 staff. Using Claude, YMCA SA has built custom AI skills that turn complex operational data into actionable insights, cut branded content production from hours to minutes, and brought technical work in-house that previously required external contractors.
 “The future for us is about Claude becoming embedded infrastructure, a core part of how we run the organisation,” said Devan Seamans, Head of Marketing & Technology, YMCA South Australia. “That requires a platform with the enterprise governance and controls to match the obligations of a large not-for-profit. We want to be a leader in the Australian NFP space with AI adoption, and Anthropic's approach gives us the confidence to pursue that.”
 Sydney follows our recent office openings in Tokyo and Bengaluru, and comes just ahead of Seoul, bringing us closer to where our customers are. For more information about current career opportunities in our Sydney office, visit anthropic.com/careers.
-Related content
-Higher usage limits for Claude and a compute deal with SpaceX
-We’ve raised Claude's usage limits and agreed a new compute partnership with SpaceX that will substantially increase our capacity in the near term.
-Read moreAgents for financial services
-We're releasing ten new Cowork and Claude Code plugins, integrations with the Microsoft 365 suite, new connectors, and an MCP app for financial services and insurance organizations.
-Read more
+
+
 
 <!-- 正文结束 -->

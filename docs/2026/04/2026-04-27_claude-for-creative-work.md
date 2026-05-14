@@ -1,13 +1,17 @@
----
-title: "Claude for Creative Work"
-title_zh: ""
-url: "https://www.anthropic.com/news/claude-for-creative-work"
-source: ""
-source_url: ""
-date: "2026-04-27"
-tags: []
-draft: false
----
+<!--
+{
+  "title": "Claude for Creative Work",
+  "title_zh": "",
+  "url": "https://www.anthropic.com/news/claude-for-creative-work",
+  "source": "",
+  "source_url": "",
+  "publish_date": "2026-04-27",
+  "score": null,
+  "tags": []
+}
+-->
+
+<!-- 正文开始 -->
 
 # Claude for Creative Work
 
@@ -37,9 +41,5 @@ Anthropic has made a donation to support the Blender project as they continue to
 Working with students and educators
 We’re also working with art and design programs to support curricula that involve creative computation. The first three such programs are Art and Computation at Rhode Island School of Design, Fundamentals of AI for Creatives at Ringling College of Art and Design, and the MA/MFA Computational Arts program at Goldsmiths, University of London. Students and faculty will get access to Claude and the new connectors, and their feedback will help us understand what creative practitioners need from these tools. We look forward to learning from them, and to expanding the program to more institutions in the future.
 Updated May 1, 2026: Blender has elected to receive Anthropic's contribution as a one-time donation rather than through the Blender Development Fund; the post has been revised to reflect this. Accordingly, we've also edited the wording used to describe the collaborations listed.
-Related content
-Higher usage limits for Claude and a compute deal with SpaceX
-We’ve raised Claude's usage limits and agreed a new compute partnership with SpaceX that will substantially increase our capacity in the near term.
-Read moreAgents for financial services
-We're releasing ten new Cowork and Claude Code plugins, integrations with the Microsoft 365 suite, new connectors, and an MCP app for financial services and insurance organizations.
-Read more
+
+<!-- 正文结束 -->

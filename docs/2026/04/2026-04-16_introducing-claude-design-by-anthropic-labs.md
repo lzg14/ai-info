@@ -1,13 +1,17 @@
----
-title: "Introducing Claude Design by Anthropic Labs"
-title_zh: ""
-url: "https://www.anthropic.com/news/claude-design-anthropic-labs"
-source: ""
-source_url: ""
-date: "2026-04-16"
-tags: []
-draft: false
----
+<!--
+{
+  "title": "Introducing Claude Design by Anthropic Labs",
+  "title_zh": "",
+  "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
+  "source": "",
+  "source_url": "",
+  "publish_date": "2026-04-16",
+  "score": null,
+  "tags": []
+}
+-->
+
+<!-- 正文开始 -->
 
 # Introducing Claude Design by Anthropic Labs
 
@@ -39,9 +43,5 @@ Get started
 Claude Design is available for Claude Pro, Max, Team, and Enterprise subscribers. Access is included with your plan and uses your subscription limits, with the option to continue beyond those limits by enabling extra usage.
 For Enterprise organizations, Claude Design is off by default. Admins can enable it in Organization settings.
 Start designing at claude.ai/design.
-Related content
-Higher usage limits for Claude and a compute deal with SpaceX
-We’ve raised Claude's usage limits and agreed a new compute partnership with SpaceX that will substantially increase our capacity in the near term.
-Read moreAgents for financial services
-We're releasing ten new Cowork and Claude Code plugins, integrations with the Microsoft 365 suite, new connectors, and an MCP app for financial services and insurance organizations.
-Read more
+
+<!-- 正文结束 -->

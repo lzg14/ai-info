@@ -32,11 +32,7 @@ This year, we ran evaluations on our models to see whether web search was trigge
 Opus 4.7 and Sonnet 4.6 triggered web search on these types of questions 92% and 95% of the time, respectively. These results show us that users asking about the midterms are consistently routed to up-to-date information.
 Looking ahead
 When people choose to engage with Claude during an election, we want them to be able to trust that the information they receive is accurate, reliable, and balanced. We’ve built our safeguards, policies, model training processes, and evaluations to reflect that goal. Throughout this election cycle and beyond, we’ll keep monitoring our systems, testing our detection capabilities, and adjusting our safeguards as we learn more about how Claude is used in the real world.
-Related content
-Higher usage limits for Claude and a compute deal with SpaceX
-We’ve raised Claude's usage limits and agreed a new compute partnership with SpaceX that will substantially increase our capacity in the near term.
-Read moreAgents for financial services
-We're releasing ten new Cowork and Claude Code plugins, integrations with the Microsoft 365 suite, new connectors, and an MCP app for financial services and insurance organizations.
-Read more
+
+
 
 <!-- 正文结束 -->
