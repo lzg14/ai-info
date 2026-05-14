@@ -1,24 +1,13 @@
----
-date: 2026-05-05
-publish_date: 2026-05-05
-title: "OpenAI president forced to read his personal diary entries to jury"
-title_zh: ""
-url: "https://arstechnica.com/tech-policy/2026/05/openai-president-explains-to-jury-why-his-diary-entries-sound-greedy/"
-source: "Ars Technica AI"
-source_url: "https://arstechnica.com/ai/"
-tags: []
-category: ""
----
-
-# OpenAI president forced to read his personal diary entries to jury
-
-📅 2026-05-05
-📢 来源：Ars Technica AI
+<!-- {"title": "OpenAI president forced to read his personal diary entries to jury", "title_zh": "", "url": "https://arstechnica.com/tech-policy/2026/05/openai-president-explains-to-jury-why-his-diary-entries-sound-greedy/", "source": "Ars Technica AI", "source_url": "https://arstechnica.com/ai/", "publish_date": "2026-05-05", "score": null, "tags": []} -->
 
 # OpenAI president forced to read his personal diary entries to jury
 
 📅 2026-05-05
 📢 来源：[Ars Technica AI](https://arstechnica.com/ai/)
+
+
+
+<!-- 正文开始 -->
 
 📝 <think>用户提供了一篇关于OpenAI总裁Greg Brockman在法庭上被迫朗读私人日记的文章，要求我写一段100-150字的中文摘要。
 
@@ -30,7 +19,7 @@ category: ""
 5. 日记约有100页，从学生时代开始，用于思考重大决定
 6. 日记本应保密，但在一月被作为证据提交法庭
 
-现在写一个100-150字的中文摘要：</think>
+## 现在写一个100-150字的中文摘要：</think>
 
 摘要：
 
@@ -47,6 +36,5 @@ In total, Brockman estimated that his journal has about 100 pages of entries. He
 No one but Brockman was ever supposed to read the journal, he said. But there was no keeping them private after his journal entries were revealed in court filings in January. OpenAI submitted the journals as evidence in October that was initially sealed and then unsealed in January. The entries, Musk’s legal team alleged, show the moment when OpenAI leaders decided to abandon the nonprofit mission, with Brockman explicitly discussing stealing a charity from Musk and hoping to earn a billion for his contributions at OpenAI.
 Ultimately, the OpenAI president had to read some of the most embarrassing entries aloud in front of a jury and a packed courthouse, as well as over a YouTube livestream that peaked at around 1,200 viewers.
 
-## Related Articles
 
-（待补充相关文章链接）
+<!-- 正文结束 -->

@@ -1,24 +1,13 @@
----
-date: 2026-05-11
-publish_date: 2026-05-11
-title: "Data center guzzled 30 million gallons of water, and nobody noticed for months"
-title_zh: ""
-url: "https://arstechnica.com/tech-policy/2026/05/data-center-used-30-million-gallons-of-water-without-initially-paying/"
-source: "Ars Technica AI"
-source_url: "https://arstechnica.com/ai/"
-tags: []
-category: ""
----
-
-# Data center guzzled 30 million gallons of water, and nobody noticed for months
-
-📅 2026-05-11
-📢 来源：Ars Technica AI
+<!-- {"title": "Data center guzzled 30 million gallons of water, and nobody noticed for months", "title_zh": "", "url": "https://arstechnica.com/tech-policy/2026/05/data-center-used-30-million-gallons-of-water-without-initially-paying/", "source": "Ars Technica AI", "source_url": "https://arstechnica.com/ai/", "publish_date": "2026-05-11", "score": null, "tags": []} -->
 
 # Data center guzzled 30 million gallons of water, and nobody noticed for months
 
 📅 2026-05-11
 📢 来源：[Ars Technica AI](https://arstechnica.com/ai/)
+
+
+
+<!-- 正文开始 -->
 
 📝 <think>The user wants me to write a concise Chinese summary (100-150 characters) of the article about a data center in Georgia that consumed 30 million gallons of water unnoticed for months.
 
@@ -43,6 +32,5 @@ QTS eventually paid about $150,000 for the water, but there were no consequences
 “They’re our largest customer, and we have to be partners,” Tigert said. “It’s called customer service.”
 Notably, the main reason the water usage was overlooked is that the county is transitioning from outdated water meters to a smart, cloud-based system that is supposed to make it easier to track leaks and other unexpected drains on the county’s water system. Tigert also told Politico that the county failed to notice the water usage because it’s understaffed, explaining that the only worker available to inspect meters is “spread pretty thin.”
 
-## Related Articles
 
-（待补充相关文章链接）
+<!-- 正文结束 -->

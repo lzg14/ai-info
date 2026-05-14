@@ -1,25 +1,23 @@
----
-date: 2026-05-04
-publish_date: 2026-05-04
-title: "Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs"
-title_zh: ""
-url: "https://www.anthropic.com/news/enterprise-ai-services-company"
-source: "AI资讯"
-source_url: ""
-tags: []
-category: ""
----
+<!--
+{
+  "title": "Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs",
+  "title_zh": "",
+  "url": "https://www.anthropic.com/news/enterprise-ai-services-company",
+  "source": "AI资讯",
+  "source_url": "",
+  "publish_date": "2026-05-04",
+  "score": null,
+  "tags": []
+}
+-->
+
+<!-- 正文开始 -->
 
 # Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs
 
 📅 2026-05-04
 📢 来源：AI资讯
 
-# Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs
-
-📅 2026-05-04
-
-> Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs
 Anthropic, Blackstone, Hellman & Friedman, and Goldman Sachs announced the formation of a new AI services company. The organization will work with mid-sized companies across sectors to bring Claud...
 
 Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs
@@ -35,13 +33,5 @@ Engagements like this will run across mid-sized companies across industries, eac
 Building the Claude Partner Network
 This company will also become a member of Anthropic’s growing Claude Partner Network.
 Our partnerships with Accenture, Deloitte, PwC, and the other consulting and systems integration firms in the Claude Partner Network are one of the ways Claude benefits the world’s largest enterprises today. These firms lead the complex transformation programs that shape how global enterprises operate, and they bring Claude expertise to their millions of practitioners across every major industry. We have been steadily expanding the Claude Partner Network since its launch, and we are continuing to invest in the programs, funding, and teams that support our partners.
-Related content
-Higher usage limits for Claude and a compute deal with SpaceX
-We’ve raised Claude's usage limits and agreed a new compute partnership with SpaceX that will substantially increase our capacity in the near term.
-Read moreAgents for financial services
-We're releasing ten new Cowork and Claude Code plugins, integrations with the Microsoft 365 suite, new connectors, and an MCP app for financial services and insurance organizations.
-Read more
 
-## Related Articles
-
-（待补充相关文章链接）
+<!-- 正文结束 -->

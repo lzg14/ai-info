@@ -1,19 +1,14 @@
----
-date: 2026-05-01
-publish_date: 2026-05-01
-title: "Towards Customized Multimodal Role-Play"
-title_zh: "定制化多模态角色扮演"
-url: "https://arxiv.org/abs/2605.08129"
-source: "arXiv CS.LG"
-source_url: "https://arxiv.org"
-tags: ["多模态", "角色扮演", "研究"]
-category: "算法架构"
----
+<!-- {"title": "Towards Customized Multimodal Role-Play", "title_zh": "定制化多模态角色扮演", "url": "https://arxiv.org/abs/2605.08129", "source": "arXiv CS.LG", "source_url": "https://arxiv.org", "publish_date": "2026-05-01", "score": null, "tags": ["多模态", "角色扮演", "研究"]} -->
+
+
 
 # Towards Customized Multimodal Role-Play
 
 📅 2026-05-01
 📢 来源：[arXiv CS.LG](https://arxiv.org/rss/cs.LG)
+
+
+<!-- 正文开始 -->
 
 > 本文提出"定制化多模态角色扮演"（CMRP）新任务，旨在同时定制角色的个性、对话风格和视觉形象，并保持跨模态输出一致性。研究团队构建了包含20个角色的RoleScape-20数据集，提出UniCharacter两阶段训练框架，仅需10张图片即可让模型掌握目标角色特征。
 
@@ -37,7 +32,5 @@ Experiments on the RoleScape-20 dataset show that the proposed method substantia
 
 We argue that CMRP, coupled with unified modeling, provides a basis for next-generation characterful and immersive interactive agents.
 
-## Related Articles
 
-- [RoleScape-20 Dataset — arXiv](https://arxiv.org/abs/2605.08129)
-- [UniCharacter Framework — arXiv](https://arxiv.org/abs/2605.08129)
+<!-- 正文结束 -->

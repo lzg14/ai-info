@@ -1,24 +1,13 @@
----
-date: 2026-05-08
-publish_date: 2026-05-08
-title: "Magis-Bench: Evaluating LLMs on Magistrate-Level Legal Tasks"
-title_zh: ""
-url: "https://arxiv.org/abs/2605.08437"
-source: "arXiv CS.CL"
-source_url: "https://arxiv.org/abs/2605.08437"
-tags: []
-category: ""
----
-
-# Magis-Bench: Evaluating LLMs on Magistrate-Level Legal Tasks
-
-📅 2026-05-08
-📢 来源：arXiv CS.CL
+<!-- {"title": "Magis-Bench: Evaluating LLMs on Magistrate-Level Legal Tasks", "title_zh": "", "url": "https://arxiv.org/abs/2605.08437", "source": "arXiv CS.CL", "source_url": "https://arxiv.org/abs/2605.08437", "publish_date": "2026-05-08", "score": null, "tags": []} -->
 
 # Magis-Bench: Evaluating LLMs on Magistrate-Level Legal Tasks
 
 📅 2026-05-08
 📢 来源：[arXiv CS.CL](https://arxiv.org/rss/cs.CL)
+
+
+
+<!-- 正文开始 -->
 
 📝 <think>
 用户需要我为这篇关于法律AI评估的学术论文撰写中文摘要。让我分析文章核心内容：
@@ -66,6 +55,5 @@ arXivLabs is a framework that allows collaborators to develop and share new arXi
 Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.
 Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs.
 
-## Related Articles
 
-（待补充相关文章链接）
+<!-- 正文结束 -->

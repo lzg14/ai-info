@@ -7,11 +7,9 @@ normalize_article.py — 规范化单篇文章
     python normalize_article.py docs/2026/05/2026-05-04-xxx.md
 
 每篇执行:
-1. 读取 frontmatter，修补缺失字段
-2. 确保元信息栏有 tags 行
-3. 确保正文有 ## 标题
-4. 确保 Related Articles 区块（≥3条）
-5. git add + commit
+1. 读取 frontmatter，修补缺失字段（YAML→HTML，补充 publish_date）
+2. 确保正文有 ## 标题
+3. git add（不自动 commit，方便批量处理）
 """
 
 import sys
@@ -42,17 +40,7 @@ def parse_frontmatter(content: str) -> tuple[dict, str]:
 
 def build_frontmatter(fm: dict) -> str:
     fm_str = json.dumps(fm, ensure_ascii=False, indent=2)
-    return f"<!--\n{fm_str}\n-->\n"
-
-
-def has_related_block(body: str) -> bool:
-    return bool(re.search(r'^##\s+Related', body, re.MULTILINE))
-
-
-def add_related_block(body: str) -> str:
-    if has_related_block(body):
-        return body
-    return body + "\n\n## Related Articles\n\n（待补充相关文章链接）\n"
+    return f"<!--\n{fm_str}\n-->\n\n"
 
 
 def has_section_headers(body: str) -> bool:
@@ -99,11 +87,8 @@ def main():
             fm[field] = ''
             changed = True
 
-    # 2. body 修复
+    # 2. body 修复：确保有 ## 标题
     new_body = body
-    if not has_related_block(body):
-        new_body = add_related_block(body)
-        changed = True
     if not has_section_headers(body):
         new_body = fix_title_headers(new_body)
         changed = True
@@ -116,15 +101,11 @@ def main():
     new_content = build_frontmatter(fm) + new_body
     path.write_text(new_content, encoding='utf-8')
 
-    # git commit
+    # git add（批量处理时不自动 commit）
     slug = path.name
-    msg = f"fix: normalize {slug}"
     run(f"git add {path}", cwd=DOCS)
-    run(f"git commit -m '{msg}'", cwd=DOCS)
-    run(f"git push", cwd=DOCS)
 
-    print(f"  [✅] {slug}")
-    print(f"  [✅] commit: {run('git log -1 --oneline', cwd=DOCS)}")
+    print(f"  [✅] {slug} 已规范化")
 
 
 if __name__ == '__main__':

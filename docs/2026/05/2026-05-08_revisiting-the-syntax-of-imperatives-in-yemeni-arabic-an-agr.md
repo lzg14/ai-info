@@ -1,24 +1,13 @@
----
-date: 2026-05-08
-publish_date: 2026-05-08
-title: "Revisiting the syntax of imperatives in Yemeni Arabic: An Agree across phases approach"
-title_zh: ""
-url: "https://arxiv.org/abs/2605.08447"
-source: "arXiv CS.CL"
-source_url: "https://arxiv.org/abs/2605.08447"
-tags: []
-category: ""
----
-
-# Revisiting the syntax of imperatives in Yemeni Arabic: An Agree across phases approach
-
-📅 2026-05-08
-📢 来源：arXiv CS.CL
+<!-- {"title": "Revisiting the syntax of imperatives in Yemeni Arabic: An Agree across phases approach", "title_zh": "", "url": "https://arxiv.org/abs/2605.08447", "source": "arXiv CS.CL", "source_url": "https://arxiv.org/abs/2605.08447", "publish_date": "2026-05-08", "score": null, "tags": []} -->
 
 # Revisiting the syntax of imperatives in Yemeni Arabic: An Agree across phases approach
 
 📅 2026-05-08
 📢 来源：[arXiv CS.CL](https://arxiv.org/rss/cs.CL)
+
+
+
+<!-- 正文开始 -->
 
 📝 用户需要我为这篇关于也门阿拉伯语祈使句句法的学术论文写一段100-150字的中文摘要。
 
@@ -71,6 +60,5 @@ arXivLabs is a framework that allows collaborators to develop and share new arXi
 Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.
 Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs.
 
-## Related Articles
 
-（待补充相关文章链接）
+<!-- 正文结束 -->

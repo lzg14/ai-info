@@ -1,34 +1,12 @@
----
-date: 2026-05-04
-publish_date: 2026-05-04
-title: OpenAI DeployCo：100亿美元估值，锁定2000+企业的AI合资公司
-title_zh: OpenAI DeployCo：100亿美元估值，锁定2000+企业的AI合资公司
-url: https://example.com/openai-deployco-100b-valuation
-source: 来源名称
-source_url: https://example.com
-tags:
-  - AI
-  - OpenAI
-  - 私募
-  - 企业服务
-category: 
-related_articles:
-  - 2026-05-09_openai.md
-  - ../04/2026-04-12-Sam-Altman住所遭袭AI争议升级.md
-  - ../04/2026-04-23-gpt-image-2-thinking.md
-  - ../04/2026-04-01-Anthropic-4亿美元收购AI-Biotech-制药卡位战开打.md
-  - ../01/2026-01-03-birentech-ipo-75percent.md
----
-
+<!-- {"title": "OpenAI DeployCo：100亿美元估值，锁定2000+企业的AI合资公司", "title_zh": "OpenAI DeployCo：100亿美元估值，锁定2000+企业的AI合资公司", "url": "https://example.com/openai-deployco-100b-valuation", "source": "来源名称", "source_url": "https://example.com", "publish_date": "2026-05-04", "score": null, "tags": []} -->
 
 # OpenAI DeployCo：100亿美元估值，锁定2000+企业的AI合资公司
 
 📅 2026-05-04
-📢 来源：来源名称
 
-# OpenAI DeployCo：100亿美元估值，锁定2000+企业的AI合资公司
 
-📅 2026-05-04
+<!-- 正文开始 -->
+
 🏷️ AI · OpenAI · 私募 · 企业服务
 
 2026年5月4日，OpenAI正式宣布与多家私募股权基金联合成立合资公司The Deployment Company（内部代号DeployCo）。这是继Anthropic与Blackstone等机构成立15亿美元合资公司之后，又一AI巨头选择通过私募股权渠道快速切入企业市场。
@@ -59,11 +37,5 @@ DeployCo采用Palantir开创的Forward-Deployed Engineer（驻场工程师）模
 
 DeployCo的成立标志着AI企业销售从"直销模式"向"PE渠道模式"的转变。
 
-## Related Articles
-## Related Articles
 
-- [奥特曼"官宣" OpenAI 手机](2026-05-09_openai.md)
-- [Sam Altman住所遭袭击：AI争议从言论升级为物理暴力](../04/2026-04-12-Sam-Altman住所遭袭AI争议升级.md)
-- [GPT Image 2 最完整解读：第一个会"思考"的图像模型](../04/2026-04-23-gpt-image-2-thinking.md)
-- [Anthropic 4亿美元收购AI Biotech：制药卡位战开打](../04/2026-04-01-Anthropic-4亿美元收购AI-Biotech-制药卡位战开打.md)
-- [壁仞科技港股上市暴涨75%](../01/2026-01-03-birentech-ipo-75percent.md)
+<!-- 正文结束 -->

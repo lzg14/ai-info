@@ -1,25 +1,23 @@
----
-date: 2026-05-05
-publish_date: 2026-05-05
-title: "Higher usage limits for Claude and a compute deal with SpaceX"
-title_zh: ""
-url: "https://www.anthropic.com/news/higher-limits-spacex"
-source: "AI资讯"
-source_url: ""
-tags: []
-category: ""
----
+<!--
+{
+  "title": "Higher usage limits for Claude and a compute deal with SpaceX",
+  "title_zh": "",
+  "url": "https://www.anthropic.com/news/higher-limits-spacex",
+  "source": "AI资讯",
+  "source_url": "",
+  "publish_date": "2026-05-05",
+  "score": null,
+  "tags": []
+}
+-->
+
+<!-- 正文开始 -->
 
 # Higher usage limits for Claude and a compute deal with SpaceX
 
 📅 2026-05-05
 📢 来源：AI资讯
 
-# Higher usage limits for Claude and a compute deal with SpaceX
-
-📅 2026-05-05
-
-> Higher usage limits for Claude and a compute deal with SpaceX
 We’ve agreed to a partnership with SpaceX that will substantially increase our compute capacity. This, along with our other recent compute deals, means that we’ve been able to increase our usage limits for Claude Code and the Claude AP...
 
 Higher usage limits for Claude and a compute deal with SpaceX
@@ -43,11 +41,5 @@ Expanding internationally
 Our enterprise customers—particularly those in regulated industries like financial services, healthcare, and government—increasingly need in-region infrastructure to meet compliance and data residency requirements. Accordingly, some of our capacity expansion will be international: our recently announced collaboration with Amazon includes additional inference in Asia and Europe.
 We’re very intentional about where we’ll add capacity—partnering with democratic countries whose legal and regulatory frameworks support investments of this scale, and where the supply chain on which our compute depends—hardware, networking, and facilities—will be secure.
 Finally, we recently made a commitment to cover any consumer electricity price increases caused by our data centers in the US. As part of our international expansion, we’re exploring ways to extend that commitment to new jurisdictions, as well as partnering with local leaders to invest back into the communities that host our facilities.
-Related content
-Agents for financial services
-We're releasing ten new Cowork and Claude Code plugins, integrations with the Microsoft 365 suite, new connectors, and an MCP app for financial services and insurance organizations.
-Read more
 
-## Related Articles
-
-（待补充相关文章链接）
+<!-- 正文结束 -->

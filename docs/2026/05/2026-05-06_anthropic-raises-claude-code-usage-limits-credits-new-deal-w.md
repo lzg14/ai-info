@@ -1,26 +1,15 @@
----
-date: 2026-05-06
-publish_date: 2026-05-06
-title: "Anthropic raises Claude Code usage limits, credits new deal with SpaceX"
-title_zh: ""
-url: "https://arstechnica.com/ai/2026/05/anthropic-raises-claude-code-usage-limits-credits-new-deal-with-spacex/"
-source: "Ars Technica AI"
-source_url: "https://arstechnica.com/ai/"
-tags: []
-category: ""
----
-
-# Anthropic raises Claude Code usage limits, credits new deal with SpaceX
-
-📅 2026-05-06
-📢 来源：Ars Technica AI
+<!-- {"title": "Anthropic raises Claude Code usage limits, credits new deal with SpaceX", "title_zh": "", "url": "https://arstechnica.com/ai/2026/05/anthropic-raises-claude-code-usage-limits-credits-new-deal-with-spacex/", "source": "Ars Technica AI", "source_url": "https://arstechnica.com/ai/", "publish_date": "2026-05-06", "score": null, "tags": []} -->
 
 # Anthropic raises Claude Code usage limits, credits new deal with SpaceX
 
 📅 2026-05-06
 📢 来源：[Ars Technica AI](https://arstechnica.com/ai/)
 
-📝 <think>文章摘要需要覆盖以下核心信息：
+
+
+<!-- 正文开始 -->
+
+## 📝 <think>文章摘要需要覆盖以下核心信息：
 1. Anthropic与SpaceX达成合作
 2. 合作内容：利用SpaceX位于孟菲斯的数据中心全部计算容量
 3. 目的：提高Claude Code使用限制
@@ -29,7 +18,7 @@ category: ""
 6. SpaceX的Colossus 1超级计算机：22万+英伟达GPU，包括H100、H200、GB200
 7. 未来计划：Anthropic有意建设多千兆瓦的轨道计算容量
 
-需要用100-150字简洁概括这些要点。</think>
+## 需要用100-150字简洁概括这些要点。</think>
 
 Anthropic在开发者大会上宣布与SpaceX达成合作协议，将使用SpaceX位于孟菲斯数据中心的全部计算能力。此举旨在提高Claude Code对Pro和Max用户的配额限制，Anthropic将相关使用上限提高一倍，并取消高峰时段限制，同时提升API配额。据Anthropic称，该合作可提供超过300兆瓦的新计算容量。SpaceX方面重点介绍了Colossus 1超级计算机，该系统配备超过22万块英伟达GPU，包括H100、H200及下一代GB200加速器。Anthropic还表示
 
@@ -42,6 +31,5 @@ Anthropic claims the deal gives the company access to more than 300 megawatts of
 Additionally, Anthropic “expressed interest” in working with SpaceX to build up “multiple gigawatts” of orbital compute capacity, tying into a recent (but unproven) focus on exploring orbital data centers as an answer to the problem that “compute required to train and operate the next generation of these systems is outpacing what terrestrial power, land, and cooling can deliver on the timelines that matter.”
 The deal might be surprising to those who have followed Musk’s recent public comments—he was, until now, critical of Anthropic. For example, in February, he declared on X that “Anthropic hates Western Civilization,” while sharing a false tweet from Trump administration official Emil Michael about Anthropic’s practices with its constitution for Claude.
 
-## Related Articles
 
-（待补充相关文章链接）
+<!-- 正文结束 -->

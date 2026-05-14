@@ -1,24 +1,13 @@
----
-date: 2026-05-08
-publish_date: 2026-05-08
-title: "Playing games with knowledge: AI-Induced delusions need game theoretic interventions"
-title_zh: ""
-url: "https://arxiv.org/abs/2605.08409"
-source: "arXiv CS.AI"
-source_url: "https://arxiv.org/rss/cs.AI"
-tags: []
-category: ""
----
-
-# Playing games with knowledge: AI-Induced delusions need game theoretic interventions
-
-📅 2026-05-08
-📢 来源：arXiv CS.AI
+<!-- {"title": "Playing games with knowledge: AI-Induced delusions need game theoretic interventions", "title_zh": "", "url": "https://arxiv.org/abs/2605.08409", "source": "arXiv CS.AI", "source_url": "https://arxiv.org/rss/cs.AI", "publish_date": "2026-05-08", "score": null, "tags": []} -->
 
 # Playing games with knowledge: AI-Induced delusions need game theoretic interventions
 
 📅 2026-05-08
 📢 来源：[arXiv CS.AI](https://arxiv.org/rss/cs.AI)
+
+
+
+<!-- 正文开始 -->
 
 📝 <think>The user wants me to write a concise Chinese summary (100-150 characters) of an academic article about AI-induced delusions and game theory. Let me understand the key points:
 
@@ -31,7 +20,7 @@ category: ""
 7. Solution: Epistemic Mediator - an inference-time mechanism design intervention
 8. Belief Versioning is a key contribution
 
-Now I'll write a 100-150 character Chinese summary:</think>
+## Now I'll write a 100-150 character Chinese summary:</think>
 
 **中文摘要：**
 
@@ -66,6 +55,5 @@ arXivLabs is a framework that allows collaborators to develop and share new arXi
 Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.
 Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs.
 
-## Related Articles
 
-（待补充相关文章链接）
+<!-- 正文结束 -->

@@ -1,24 +1,13 @@
----
-date: 2026-05-07
-publish_date: 2026-05-07
-title: "Google unveils screenless Fitbit Air and Google Health app to replace Fitbit"
-title_zh: ""
-url: "https://arstechnica.com/gadgets/2026/05/google-unveils-screenless-fitbit-air-and-google-health-app-to-replace-fitbit/"
-source: "Ars Technica AI"
-source_url: "https://arstechnica.com/ai/"
-tags: []
-category: ""
----
-
-# Google unveils screenless Fitbit Air and Google Health app to replace Fitbit
-
-📅 2026-05-07
-📢 来源：Ars Technica AI
+<!-- {"title": "Google unveils screenless Fitbit Air and Google Health app to replace Fitbit", "title_zh": "", "url": "https://arstechnica.com/gadgets/2026/05/google-unveils-screenless-fitbit-air-and-google-health-app-to-replace-fitbit/", "source": "Ars Technica AI", "source_url": "https://arstechnica.com/ai/", "publish_date": "2026-05-07", "score": null, "tags": []} -->
 
 # Google unveils screenless Fitbit Air and Google Health app to replace Fitbit
 
 📅 2026-05-07
 📢 来源：[Ars Technica AI](https://arstechnica.com/ai/)
+
+
+
+<!-- 正文开始 -->
 
 📝 <think>
 这个标题是关于Google发布新产品的新闻。我需要翻译成中文，同时不超过20个字。
@@ -34,6 +23,5 @@ The Fitbit Air itself is a small plastic puck about 1.4 inches long and 0.7 inch
 Smartwatches never quite became a must-have device—plenty of people have them, but we don’t all wear them all the time because they need to be charged often and aren’t always very comfortable. The screenless Fitbit Air doesn’t have those issues. Google says it lasts about a week on a charge, and it does that while collecting continuous health data. It can even store a day of data without being connected to your phone.
 While the Pixel Watch is very comfortable for a smartwatch, Google still wants to make it easier for people to keep collecting data all day and night. The company says that product testers rated the Air as more comfortable than competing devices, so you may actually be willing to wear it to bed for sleep tracking. You don’t have to choose between these devices, either. You can keep a Pixel Watch and Fitbit Air paired with your phone and wear whichever one you want over time. This capability will come to more wearable devices in the near future, too.
 
-## Related Articles
 
-（待补充相关文章链接）
+<!-- 正文结束 -->

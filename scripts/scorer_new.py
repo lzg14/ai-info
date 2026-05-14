@@ -36,7 +36,7 @@ load_dotenv(BASE / ".env")
 import requests
 
 API_KEY = os.getenv("MINIMAX_API_KEY") or os.getenv("MINIMAX_CN_API_KEY") or ""
-BASE_URL = os.getenv("MINIMAX_API_BASE") or "https://api.minimaxi.com/anthropic/v1"
+BASE_URL = os.getenv("MINIMAX_API_BASE") or "https://api.minimaxi.com/v1"
 MODEL = os.getenv("MINIMAX_MODEL") or "MiniMax-M2.7"
 
 print(f"[scorer] API: {MODEL} | key: {API_KEY[:8]}... | base: {BASE_URL}")
@@ -84,7 +84,7 @@ def score_article(article: dict) -> int | None:
         "model": MODEL,
         "messages": [{"role": "user", "content": prompt}],
         "max_tokens": 600,
-        "timeout": (60, 10),
+        "timeout": (60, 120),
     }
 
     try:
@@ -92,7 +92,7 @@ def score_article(article: dict) -> int | None:
             f"{BASE_URL}/chat/completions",
             headers=headers,
             json=payload,
-            timeout=(60, 10),
+            timeout=(60, 120),
         )
         resp.raise_for_status()
         data = resp.json()

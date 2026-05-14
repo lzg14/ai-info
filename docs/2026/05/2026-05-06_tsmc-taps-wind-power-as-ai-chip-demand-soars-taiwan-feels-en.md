@@ -1,24 +1,13 @@
----
-date: 2026-05-06
-publish_date: 2026-05-06
-title: "TSMC taps wind power as AI chip demand soars, Taiwan feels energy crunch"
-title_zh: ""
-url: "https://arstechnica.com/gadgets/2026/05/tsmc-taps-wind-power-as-ai-chip-demand-soars-taiwan-feels-energy-crunch/"
-source: "Ars Technica AI"
-source_url: "https://arstechnica.com/ai/"
-tags: []
-category: ""
----
-
-# TSMC taps wind power as AI chip demand soars, Taiwan feels energy crunch
-
-📅 2026-05-06
-📢 来源：Ars Technica AI
+<!-- {"title": "TSMC taps wind power as AI chip demand soars, Taiwan feels energy crunch", "title_zh": "", "url": "https://arstechnica.com/gadgets/2026/05/tsmc-taps-wind-power-as-ai-chip-demand-soars-taiwan-feels-energy-crunch/", "source": "Ars Technica AI", "source_url": "https://arstechnica.com/ai/", "publish_date": "2026-05-06", "score": null, "tags": []} -->
 
 # TSMC taps wind power as AI chip demand soars, Taiwan feels energy crunch
 
 📅 2026-05-06
 📢 来源：[Ars Technica AI](https://arstechnica.com/ai/)
+
+
+
+<!-- 正文开始 -->
 
 📝 <think>用户要求为这篇关于台积电(TSMC)利用风能应对AI芯片需求带来的能源危机的文章撰写中文摘要。
 
@@ -46,6 +35,5 @@ Once completed, the Hai Long offshore wind project would have the capacity to po
 TSMC’s move comes as many countries have scrambled to shore up energy supplies after the war in the Middle East disrupted regional energy production and effectively halted shipping through the Strait of Hormuz. When Qatar shut down natural gas production after its facilities were damaged by Iranian drone strikes in March 2026, Bloomberg reported that Taiwan’s power grid lost one-third of its usual supply of liquefied natural gas.
 That started an energy crunch countdown, because Taiwan relies on natural gas plants to generate about half of its electricity—and Taiwan typically has just two weeks of fuels in reserve. So far, Taiwan’s government has managed to stave off energy shortages by tapping alternative natural gas suppliers like Australia and the United States, Reuters reported.
 
-## Related Articles
 
-（待补充相关文章链接）
+<!-- 正文结束 -->

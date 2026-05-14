@@ -1,25 +1,23 @@
----
-date: 2026-05-04
-publish_date: 2026-05-04
-title: "Agents for financial services"
-title_zh: ""
-url: "https://www.anthropic.com/news/finance-agents"
-source: "AI资讯"
-source_url: ""
-tags: []
-category: ""
----
+<!--
+{
+  "title": "Agents for financial services",
+  "title_zh": "",
+  "url": "https://www.anthropic.com/news/finance-agents",
+  "source": "AI资讯",
+  "source_url": "",
+  "publish_date": "2026-05-04",
+  "score": null,
+  "tags": []
+}
+-->
+
+<!-- 正文开始 -->
 
 # Agents for financial services
 
 📅 2026-05-04
 📢 来源：AI资讯
 
-# Agents for financial services
-
-📅 2026-05-04
-
-> Agents for financial services
 We’re releasing ten ready-to-run agent templates for the most time-consuming work in financial services: building pitchbooks, screening KYC files, and closing the books at month-end. Each one ships as a plugin in Claude Cowork and Claude Code, and as a cookbook for C...
 
 Agents for financial services
@@ -81,11 +79,5 @@ Getting started
 Our new Claude agents are available today at our financial services marketplace. They can be used as plugins in Claude Cowork or Claude Code on all paid plans, or as Managed Agents in the Claude Platform (in public beta) for programmatic use. The new connectors and Moody’s MCP app are also available to joint customers on paid plans.
 The Claude for Excel, PowerPoint, and Word add-ins are generally available, and Claude for Outlook is coming soon.
 To see these capabilities in action, you can register for our livestreamed keynote, and hands-on webinar which will provide deeper practical adoption guidance. For additional support, contact our sales team, and learn more about our solutions for financial services.
-Related content
-Higher usage limits for Claude and a compute deal with SpaceX
-We’ve raised Claude's usage limits and agreed a new compute partnership with SpaceX that will substantially increase our capacity in the near term.
-Read more
 
-## Related Articles
-
-（待补充相关文章链接）
+<!-- 正文结束 -->

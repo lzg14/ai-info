@@ -1,19 +1,14 @@
----
-date: 2026-05-01
-publish_date: 2026-05-01
-title: "Study: AI models that consider users' feelings are more likely to make errors"
-title_zh: "研究：考虑用户情感的AI模型更容易出错"
-url: "https://arstechnica.com/ai/2026/05/study-ai-models-that-consider-users-feeling-are-more-likely-to-make-errors/"
-source: "Ars Technica AI"
-source_url: "https://arstechnica.com"
-tags: ["AI", "大模型", "研究"]
-category: "算法架构"
----
+<!-- {"title": "Study: AI models that consider users' feelings are more likely to make errors", "title_zh": "研究：考虑用户情感的AI模型更容易出错", "url": "https://arstechnica.com/ai/2026/05/study-ai-models-that-consider-users-feeling-are-more-likely-to-make-errors/", "source": "Ars Technica AI", "source_url": "https://arstechnica.com", "publish_date": "2026-05-01", "score": null, "tags": ["AI", "大模型", "研究"]} -->
+
+
 
 # Study: AI models that consider users' feelings are more likely to make errors
 
 📅 2026-05-01
 📢 来源：[Ars Technica AI](https://arstechnica.com)
+
+
+<!-- 正文开始 -->
 
 > Overtuning can cause models to "prioritize user satisfaction over truthfulness."
 
@@ -29,7 +24,5 @@ The fine-tuning instructions guided the models to "increase … expressions of e
 
 The increased warmth of the resulting fine-tuned models was confirmed via the SocioT score developed in previous research and double-blind human ratings that show the new models were "perceived as warmer than those from corresponding original models."
 
-## Related Articles
 
-- [Ars Technica AI](https://arstechnica.com/category/artificial-intelligence/)
-- [Nature: AI models trained to sound empathetic may be less accurate](https://www.nature.com)
+<!-- 正文结束 -->

@@ -1,24 +1,13 @@
----
-date: 2026-05-08
-publish_date: 2026-05-08
-title: "Belief or Circuitry? Causal Evidence for In-Context Graph Learning"
-title_zh: ""
-url: "https://arxiv.org/abs/2605.08405"
-source: "arXiv CS.AI"
-source_url: "https://arxiv.org/rss/cs.AI"
-tags: []
-category: ""
----
-
-# Belief or Circuitry? Causal Evidence for In-Context Graph Learning
-
-📅 2026-05-08
-📢 来源：arXiv CS.AI
+<!-- {"title": "Belief or Circuitry? Causal Evidence for In-Context Graph Learning", "title_zh": "", "url": "https://arxiv.org/abs/2605.08405", "source": "arXiv CS.AI", "source_url": "https://arxiv.org/rss/cs.AI", "publish_date": "2026-05-08", "score": null, "tags": []} -->
 
 # Belief or Circuitry? Causal Evidence for In-Context Graph Learning
 
 📅 2026-05-08
 📢 来源：[arXiv CS.AI](https://arxiv.org/rss/cs.AI)
+
+
+
+<!-- 正文开始 -->
 
 📝 <think>
 这篇文章是关于大型语言模型（LLM）如何进行上下文学习的科学研究。让我总结核心内容：
@@ -75,6 +64,5 @@ arXivLabs is a framework that allows collaborators to develop and share new arXi
 Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.
 Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs.
 
-## Related Articles
 
-（待补充相关文章链接）
+<!-- 正文结束 -->

@@ -1,24 +1,13 @@
----
-date: 2026-05-08
-publish_date: 2026-05-08
-title: "How Much Do Circuits Tell Us? Measuring the Consistency and Specificity of Language Model Circuits"
-title_zh: ""
-url: "https://arxiv.org/abs/2605.08348"
-source: "arXiv CS.CL"
-source_url: "https://arxiv.org/abs/2605.08348"
-tags: []
-category: ""
----
-
-# How Much Do Circuits Tell Us? Measuring the Consistency and Specificity of Language Model Circuits
-
-📅 2026-05-08
-📢 来源：arXiv CS.CL
+<!-- {"title": "How Much Do Circuits Tell Us? Measuring the Consistency and Specificity of Language Model Circuits", "title_zh": "", "url": "https://arxiv.org/abs/2605.08348", "source": "arXiv CS.CL", "source_url": "https://arxiv.org/abs/2605.08348", "publish_date": "2026-05-08", "score": null, "tags": []} -->
 
 # How Much Do Circuits Tell Us? Measuring the Consistency and Specificity of Language Model Circuits
 
 📅 2026-05-08
 📢 来源：[arXiv CS.CL](https://arxiv.org/rss/cs.CL)
+
+
+
+<!-- 正文开始 -->
 
 📝 <think>
 这篇文章关于语言模型中的"电路"框架（circuits framework），这是一种机制可解释性（mechanistic interpretability）研究方法。文章主要测量了电路的两个特性：一致性和特异性。
@@ -68,6 +57,5 @@ arXivLabs is a framework that allows collaborators to develop and share new arXi
 Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.
 Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs.
 
-## Related Articles
 
-（待补充相关文章链接）
+<!-- 正文结束 -->

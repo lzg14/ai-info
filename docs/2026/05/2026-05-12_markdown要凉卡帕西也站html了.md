@@ -1,28 +1,17 @@
----
-date: 2026-05-12
-publish_date: 2026-05-12
-title: "Markdown要凉…卡帕西也站HTML了"
-title_zh: ""
-url: "https://www.qbitai.com/2026/05/416339.html"
-source: "量子位"
-source_url: "https://www.qbitai.com/"
-tags: []
-category: ""
----
-
-# Markdown要凉…卡帕西也站HTML了
-
-📅 2026-05-12
-📢 来源：量子位
+<!-- {"title": "Markdown要凉…卡帕西也站HTML了", "title_zh": "", "url": "https://www.qbitai.com/2026/05/416339.html", "source": "量子位", "source_url": "https://www.qbitai.com/", "publish_date": "2026-05-12", "score": null, "tags": []} -->
 
 # Markdown要凉…卡帕西也站HTML了
 
 📅 2026-05-12
 📢 来源：[量子位](https://www.qbitai.com/)
 
+
+
+<!-- 正文开始 -->
+
 > 去质疑一切吧
 
-Markdown要凉…卡帕西也站HTML了
+## Markdown要凉…卡帕西也站HTML了
 去质疑一切吧
 Jay 发自 凹非寺
 量子位 | 公众号 QbitAI
@@ -215,6 +204,5 @@ https://x.com/trq212/status/2052809885763747935
 - DeepSeek V4最大的遗憾2026-05-03
 - 突破视觉仿真算力瓶颈！新一代具身智能仿真框架开源：高吞吐并行高保真渲染助力规模化训练2026-05-03
 
-## Related Articles
 
-（待补充相关文章链接）
+<!-- 正文结束 -->

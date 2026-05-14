@@ -1,30 +1,12 @@
----
-date: 2026-05-11
-publish_date: 2026-05-11
-title: OpenAI砸200亿美元买单，英伟达挑战者冲刺350亿美元估值IPO
-title_zh: 
-url: 
-source: 量子位
-source_url: https://www.qbitai.com/2026/05/415714.html
-tags:
-category: 
-related_articles:
-  - 2026-05-04-OpenAI-DeployCo合资公司百亿美元估值锁定两千企业.md
-  - 2026-05-02-deepseek-v4-pro-open-source.md
-  - 2026-05-11_article.md
-  - 2026-05-05-cursor3-multi-agent-coding.md
-  - 2026-05-08_nanoleaf-bets-its-future-robots.md
----
-
-
-# OpenAI砸200亿美元买单，英伟达挑战者冲刺350亿美元估值IPO
-
-📅 2026-05-11
-📢 来源：量子位
+<!-- {"title": "OpenAI砸200亿美元买单，英伟达挑战者冲刺350亿美元估值IPO", "title_zh": "", "url": "", "source": "量子位", "source_url": "https://www.qbitai.com/2026/05/415714.html", "publish_date": "2026-05-11", "score": null, "tags": []} -->
 
 # OpenAI砸200亿美元买单，英伟达挑战者冲刺350亿美元估值IPO
 
 📅 2026-05-11 | 📎 量子位
+
+
+
+<!-- 正文开始 -->
 
 OpenAI砸200亿美元买单，英伟达挑战者冲刺350亿美元估值IPO
 
@@ -199,14 +181,5 @@ Cerebras的定价预计本周敲定。
 \- 特斯拉百万年薪招数据标注员，朝九晚五，无需AI经验2026-05-08
 
 ## 相关文章
-## Related Articles
 
-- [OpenAI DeployCo：100亿美元估值，锁定2000+企业的AI合资公司](2026-05-04-OpenAI-DeployCo合资公司百亿美元估值锁定两千企业.md)
-- [DeepSeek-V4系列密集落地V4-Pro开源V4-Flash仅0.279美元](2026-05-02-deepseek-v4-pro-open-source.md)
-- [千问“入淘”对撞豆包“闭环”，618大战从AI电商贴身肉搏开始](2026-05-11_article.md)
-- [Cursor 3发布多Agent并行重新定义编程工具天花板](2026-05-05-cursor3-multi-agent-coding.md)
-- [Nanoleaf bets its future on robots, red light therapy, and AI](2026-05-08_nanoleaf-bets-its-future-robots.md)
-
-## Related Articles
-
-（待补充相关文章链接）
+<!-- 正文结束 -->
