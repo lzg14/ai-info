@@ -1,13 +1,17 @@
----
-title: "Claude is a space to think"
-title_zh: ""
-url: "https://www.anthropic.com/news/claude-is-a-space-to-think"
-source: ""
-source_url: ""
-date: "2026-02-04"
-tags: []
-draft: false
----
+<!--
+{
+  "title": "Claude is a space to think",
+  "title_zh": "",
+  "url": "https://www.anthropic.com/news/claude-is-a-space-to-think",
+  "source": "",
+  "source_url": "",
+  "publish_date": "2026-02-04",
+  "score": null,
+  "tags": []
+}
+-->
+
+<!-- 正文开始 -->
 
 # Claude is a space to think
 
@@ -36,9 +40,5 @@ A trusted tool for thought
 We want our users to trust Claude to help them keep thinking—about their work, their challenges, and their ideas.
 Our experience of using the internet has made it easy to assume that advertising on the products we use is inevitable. But open a notebook, pick up a well-crafted tool, or stand in front of a clean chalkboard, and there are no ads in sight.
 We think Claude should work the same way.
-Related content
-Higher usage limits for Claude and a compute deal with SpaceX
-We’ve raised Claude's usage limits and agreed a new compute partnership with SpaceX that will substantially increase our capacity in the near term.
-Read moreAgents for financial services
-We're releasing ten new Cowork and Claude Code plugins, integrations with the Microsoft 365 suite, new connectors, and an MCP app for financial services and insurance organizations.
-Read more
+
+<!-- 正文结束 -->
