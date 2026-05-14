@@ -1,4 +1,18 @@
-<!-- {"title": "Announcing our updated Responsible Scaling Policy", "title_zh": "", "url": "https://www.anthropic.com/news/announcing-our-updated-responsible-scaling-policy", "source": "", "source_url": "", "publish_date": "2024-10-14", "tags": []} -->
+<!--
+{
+  "title": "Announcing our updated Responsible Scaling Policy",
+  "title_zh": "",
+  "url": "https://www.anthropic.com/news/announcing-our-updated-responsible-scaling-policy",
+  "source": "",
+  "source_url": "",
+  "publish_date": "2024-10-14",
+  "score": null,
+  "tags": []
+}
+-->
+
+<!-- 正文开始 -->
+
 # Announcing our updated Responsible Scaling Policy
 
 📅 2024-10-14
@@ -46,11 +60,5 @@ Read the updated policy at anthropic.com/rsp, and supplementary information at a
 We extend our sincere gratitude to the many external groups that provided invaluable feedback on the development and refinement of our Responsible Scaling Policy.
 Footnotes
 1 We have also shared our assessment methodology with both AI Safety Institutes, as well as a selection of independent experts and organizations, for feedback. This does not represent an endorsement from either AI Safety Institute or the independent experts and organizations.
-Related content
-Higher usage limits for Claude and a compute deal with SpaceX
-We’ve raised Claude's usage limits and agreed a new compute partnership with SpaceX that will substantially increase our capacity in the near term.
-Read moreAgents for financial services
-We're releasing ten new Cowork and Claude Code plugins, integrations with the Microsoft 365 suite, new connectors, and an MCP app for financial services and insurance organizations.
-Read more
 
 <!-- 正文结束 -->

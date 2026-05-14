@@ -10,7 +10,6 @@
 📅 2020-10-28
 
 <!-- 正文开始 -->
-# Switch Transformer — 谷歌发布万亿参数稀疏激活模型
 
 2020年10月，Google Brain团队发表了Switch Transformer论文，提出了一种革命性的稀疏激活架构，将语言模型参数量推升至万亿级别。该模型基于"混合专家"（[Mixture of Experts](../../glossary/terms/mixture-of-experts.md)，MoE）范式，通过动态激活不同子网络处理不同输入，在保持计算成本可控的同时实现参数规模的突破性扩展。
 
