@@ -1,18 +1,25 @@
 #!/usr/bin/env python3
 """
 导入器：import_one.py（文件永存架构）
-- 从 DB 读 scored（score >= 8）且未 done 的 URL
+- 从 DB 读 scored（score >= 7）且未 done 的 URL
 - 从固定路径读文件内容
 - 对英文文章用 MiniMax 生成中文摘要（description_cn）
 - 写入 docs/YYYY/MM/YYYY-MM-DD_slug.md
 - 更新 DB status=done
 - 文件永不移动/删除
 """
-import sys, os, json, re, hashlib
+import sys, os, json, re, hashlib, argparse
 from pathlib import Path
 from datetime import datetime
 
 BASE = Path("/mnt/d/ProjectFile/ai-info")
+
+# ===== CLI 参数 =====
+parser = argparse.ArgumentParser(description="导入单篇 AI 文章")
+parser.add_argument("--min-score", type=int, default=7, help="最低评分阈值（默认7）")
+parser.add_argument("--dry-run", action="store_true", help="仅预览，不写入")
+args = parser.parse_args()
+MIN_SCORE = args.min_score
 sys.path.insert(0, str(BASE))
 sys.path.insert(0, str(BASE / "scripts"))
 
@@ -365,7 +372,7 @@ def run():
     """导入所有 scored 高分文章"""
     conn = sqlite3.connect(DB_PATH)
     rows = conn.execute(
-        "SELECT url, score FROM seen_urls WHERE status=? AND score >= 8",
+        f"SELECT url, score FROM seen_urls WHERE status=? AND score >= {MIN_SCORE}",
         (S_SCORED,)
     ).fetchall()
     conn.close()
