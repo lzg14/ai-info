@@ -1,19 +1,29 @@
-<!--
-{
-  "title": "Introducing Claude Opus 4.7",
-  "title_zh": "",
-  "url": "https://www.anthropic.com/news/claude-opus-4-7",
-  "source": "",
-  "source_url": "",
-  "publish_date": "2026-04-16",
-  "score": null,
-  "tags": []
-}
--->
+<!-- {"title": "Introducing Claude Opus 4.7", "url": "https://www.anthropic.com/news/claude-opus-4-7", "source": "Anthropic Blog", "source_url": "https://www.anthropic.com/news", "publish_date": "2026-04-16", "score": null, "tags": [], "description_cn": "<think>用户要求我为这篇关于Claude Opus 4.7发布的文章写一段100-150字的中文摘要。\n\n让我先理解文章的核心内容：\n1. 发布Claude Opus 4.7模型\n2. 在高级软件工程方面相比4.6有显著改进，尤其在困难任务上\n3. 可以处理复杂、长时间运行的任务，能验证自己的输出\n4. 视觉能力大幅提升，可以看更高分辨率的图像\n5. 在专业任务上更有品味和创造力，产出更高质量的界面、幻灯片和文档\n6. 相比最强大的Claude Mythos Preview能力范围有限，但在各项基准测试中表现优于4.6\n7. 包含网络安全防护措施，是首个测试网络安全的模型\n\n现在写100-150字的中文摘要：</think>\n\nAnthropic推出Claude Opus 4.7模型，在高级软件工程领域相比前代有显著提升，尤其擅长处理高难度编程任务，能够独立完成此前需要密切监督的工作。该模型具备严谨的推理能力和输出验证机制，视觉能力大幅增强，可识别高分辨率图像。在专业任务中展现出更高的品味与创造力，产出更优质的界面和文档。尽管能力不及旗舰模型Claude Mythos Preview，但在多项基准测试中超越 Opus"} -->
+# Introducing Claude Opus 4.7
+
+📅 2026-04-16
+📢 来源：[Anthropic Blog](https://www.anthropic.com/news)
+
+📝 <think>用户要求我为这篇关于Claude Opus 4.7发布的文章写一段100-150字的中文摘要。
+
+让我先理解文章的核心内容：
+1. 发布Claude Opus 4.7模型
+2. 在高级软件工程方面相比4.6有显著改进，尤其在困难任务上
+3. 可以处理复杂、长时间运行的任务，能验证自己的输出
+4. 视觉能力大幅提升，可以看更高分辨率的图像
+5. 在专业任务上更有品味和创造力，产出更高质量的界面、幻灯片和文档
+6. 相比最强大的Claude Mythos Preview能力范围有限，但在各项基准测试中表现优于4.6
+7. 包含网络安全防护措施，是首个测试网络安全的模型
+
+现在写100-150字的中文摘要：</think>
+
+Anthropic推出Claude Opus 4.7模型，在高级软件工程领域相比前代有显著提升，尤其擅长处理高难度编程任务，能够独立完成此前需要密切监督的工作。该模型具备严谨的推理能力和输出验证机制，视觉能力大幅增强，可识别高分辨率图像。在专业任务中展现出更高的品味与创造力，产出更优质的界面和文档。尽管能力不及旗舰模型Claude Mythos Preview，但在多项基准测试中超越 Opus
+
+> Introducing Claude Opus 4.7
+Our latest model, Claude Opus 4.7, is now generally available.
+Opus 4.7 is a notable improvement on Opus 4.6 in advanced software engineering, with particular gains on the most difficult tasks. Users report being able to hand off their hardest coding work—the kind that...
 
 <!-- 正文开始 -->
-
-# Introducing Claude Opus 4.7
 
 Introducing Claude Opus 4.7
 Our latest model, Claude Opus 4.7, is now generally available.
@@ -86,5 +96,13 @@ Footnotes
 - CyberGym: Opus 4.6’s score has been updated from the originally reported 66.6 to 73.8, as we updated our harness parameters to better elicit cyber capability.
 - SWE-bench Multimodal: We used an internal implementation for both Opus 4.7 and Opus 4.6. Scores are not directly comparable to public leaderboard scores.
 May 4, 2026: Updated Document reasoning graph to reflect updated OfficeQA Pro scores for Opus 4.7.
+Related content
+Introducing Claude for Small Business
+We're launching Claude for Small Business, a package of connectors and ready-to-run workflows that put Claude inside the tools small businesses use every day.
+Read moreHigher usage limits for Claude and a compute deal with SpaceX
+We’ve raised Claude's usage limits and agreed a new compute partnership with SpaceX that will substantially increase our capacity in the near term.
+Read moreAgents for financial services
+We're releasing ten new Cowork and Claude Code plugins, integrations with the Microsoft 365 suite, new connectors, and an MCP app for financial services and insurance organizations.
+Read more
 
 <!-- 正文结束 -->

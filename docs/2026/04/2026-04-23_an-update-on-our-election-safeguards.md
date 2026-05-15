@@ -1,7 +1,28 @@
-<!-- {"title": "An update on our election safeguards", "title_zh": "", "url": "https://www.anthropic.com/news/election-safeguards-update", "source": "", "source_url": "", "publish_date": "2026-04-23", "tags": []} -->
+<!-- {"title": "An update on our election safeguards", "url": "https://www.anthropic.com/news/election-safeguards-update", "source": "Anthropic Blog", "source_url": "https://www.anthropic.com/news", "publish_date": "2026-04-23", "score": null, "tags": [], "description_cn": "<think>这篇文章来自Anthropic，介绍了他们在选举期间如何帮助Claude更好地提供选举相关信息。让我总结核心内容：\n\n1. 主题：关于Claude在选举期间如何提供准确、公正的政治信息\n2. 关键信息：\n   - 人们在选举期间会向Claude询问政治相关信息\n   - Anthropic的目标是让Claude提供准确、公正的信息，帮助用户做出自己的判断\n   - 通过训练确保Claude对不同政治观点保持同等深度和公正性\n   - 这基于Claude的\"宪法\"原则\n   - 通过角色训练和系统提示强化政治中立性\n   - 发布前会进行评估测试\n\n我需要写一个100-150字的中文摘要：\n</think>\n\n\n\n**摘要：**\n\nAnthropic公司发布了关于Claude选举安全措施的更新说明。文章指出，用户在选举期间会向Claude询问候选人、政党及投票相关信息，公司致力于让Claude提供准确、公正的答案，帮助用户自主决策而非引导特定观点。为此，Claude在接受训练时会对不同政治观点保持同等深度和严谨性，这基于Claude的“宪法”原则，通过角色训练和系统提示强化政治中立。每个模型发布前还会进行专门评估，检验其对各政治立场的一致性和公正性。"} -->
 # An update on our election safeguards
 
 📅 2026-04-23
+📢 来源：[Anthropic Blog](https://www.anthropic.com/news)
+
+📝 <think>这篇文章来自Anthropic，介绍了他们在选举期间如何帮助Claude更好地提供选举相关信息。让我总结核心内容：
+
+1. 主题：关于Claude在选举期间如何提供准确、公正的政治信息
+2. 关键信息：
+   - 人们在选举期间会向Claude询问政治相关信息
+   - Anthropic的目标是让Claude提供准确、公正的信息，帮助用户做出自己的判断
+   - 通过训练确保Claude对不同政治观点保持同等深度和公正性
+   - 这基于Claude的"宪法"原则
+   - 通过角色训练和系统提示强化政治中立性
+   - 发布前会进行评估测试
+
+我需要写一个100-150字的中文摘要：
+</think>
+
+
+
+**摘要：**
+
+Anthropic公司发布了关于Claude选举安全措施的更新说明。文章指出，用户在选举期间会向Claude询问候选人、政党及投票相关信息，公司致力于让Claude提供准确、公正的答案，帮助用户自主决策而非引导特定观点。为此，Claude在接受训练时会对不同政治观点保持同等深度和严谨性，这基于Claude的“宪法”原则，通过角色训练和系统提示强化政治中立。每个模型发布前还会进行专门评估，检验其对各政治立场的一致性和公正性。
 
 > An update on our election safeguards
 People around the world turn to Claude for information about political parties, candidates, and the issues at stake during election time—as well as to answer simpler questions like when, where, and how to vote. In our view, if AI models can answer these questi...
@@ -32,7 +53,13 @@ This year, we ran evaluations on our models to see whether web search was trigge
 Opus 4.7 and Sonnet 4.6 triggered web search on these types of questions 92% and 95% of the time, respectively. These results show us that users asking about the midterms are consistently routed to up-to-date information.
 Looking ahead
 When people choose to engage with Claude during an election, we want them to be able to trust that the information they receive is accurate, reliable, and balanced. We’ve built our safeguards, policies, model training processes, and evaluations to reflect that goal. Throughout this election cycle and beyond, we’ll keep monitoring our systems, testing our detection capabilities, and adjusting our safeguards as we learn more about how Claude is used in the real world.
-
-
+Related content
+Introducing Claude for Small Business
+We're launching Claude for Small Business, a package of connectors and ready-to-run workflows that put Claude inside the tools small businesses use every day.
+Read moreHigher usage limits for Claude and a compute deal with SpaceX
+We’ve raised Claude's usage limits and agreed a new compute partnership with SpaceX that will substantially increase our capacity in the near term.
+Read moreAgents for financial services
+We're releasing ten new Cowork and Claude Code plugins, integrations with the Microsoft 365 suite, new connectors, and an MCP app for financial services and insurance organizations.
+Read more
 
 <!-- 正文结束 -->
