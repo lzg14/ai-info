@@ -41,6 +41,7 @@ def iter_articles():
                 break
         if not title:
             continue
+        # README.md 在项目根目录，文章在 docs/ 下，所以链接加 "docs/" 前缀
         rel = "docs/" + str(p.relative_to(DOCS_DIR))
         yield date_str, title, rel
 

@@ -80,6 +80,7 @@ def iter_year_articles(year: str):
             if not title:
                 title = fp.stem
 
+            # docs/2026.md 在 docs/ 目录下，文章在其子目录 YYYY/MM/ 下，所以用 "../" 回到上一级再进入文章目录
             rel = f"../{year}/{month_dir.name}/{fp.name}"
             articles.append((date_str, month, day, title, rel, score))
 
