@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI-info AI资讯知识库</title>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4.13.1/lib/themes/vue.css">
+  <style>
+    /* 字体优化 */
+    .markdown-body, .markdown-section {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 17px;
+      line-height: 1.8;
+      color: #24292e;
+    }
+    .markdown-body h1, .markdown-body h2, .markdown-body h3 {
+      font-weight: 600;
+    }
+    /* 代码块美化 */
+    pre, code {
+      border-radius: 6px;
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace !important;
+      font-size: 14px !important;
+    }
+    pre {
+      background: #f6f8fa;
+      padding: 16px;
+      border: 1px solid #e1e4e8;
+    }
+    pre code {
+      background: transparent;
+      padding: 0;
+      border: none;
+    }
+    /* 链接颜色 */
+    .markdown-body a {
+      color: #0366d6;
+      text-decoration: none;
+    }
+    .markdown-body a:hover {
+      text-decoration: underline;
+    }
+    /* 侧边栏优化 */
+    .sidebar-nav ul {
+      padding-left: 0;
+    }
+    .sidebar-nav li {
+      list-style: none;
+    }
+    .sidebar-nav > ul > li > a {
+      font-size: 15px;
+      font-weight: 600;
+      color: #24292e;
+    }
+    /* 表格 */
+    .markdown-body table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 16px 0;
+    }
+    .markdown-body table th,
+    .markdown-body table td {
+      border: 1px solid #e1e4e8;
+      padding: 8px 12px;
+    }
+    .markdown-body table th {
+      background: #f6f8fa;
+      font-weight: 600;
+    }
+    /* 引用块 */
+    .markdown-body blockquote {
+      border-left: 4px solid #e1e4e8;
+      background: #f6f8fa;
+      margin: 16px 0;
+      padding: 12px 16px;
+    }
+    /* 图片 */
+    .markdown-body img {
+      max-width: 100%;
+      border-radius: 6px;
+    }
+    /* 滚动条 */
+    ::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #c1c1c1;
+      border-radius: 4px;
+    }
+    /* 搜索框 */
+    .search {
+      margin-bottom: 16px;
+    }
+    /* 首页Hero */
+    .markdown-body:first-child h1 {
+      font-size: 2em;
+      text-align: center;
+      padding: 40px 0;
+      color: #24292e;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">加载中...</div>
+
+  <script>
+    window.$docsify = {
+      name: 'AI-info',
+      repo: 'https://github.com/lzg14/ai-info',
+      loadSidebar: '.sidebar.md',
+      subMaxLevel: 2,
+      auto2top: true,
+      homepage: 'README.md',
+      search: {
+        maxAge: 86400000,
+        paths: 'auto',
+        placeholder: '搜索文章',
+        noData: '没有找到结果',
+        depth: 3
+      },
+      copyCode: {
+        buttonText: '复制',
+        errorText: '失败',
+        successText: '成功'
+      },
+      pagination: {
+        previousButton: '上一篇',
+        nextButton: '下一篇'
+      },
+      markdown: {
+        smartypants: true,
+        gfm: true
+      }
+    };
+  </script>
+
+  <script src="//cdn.jsdelivr.net/npm/docsify@4.13.1/lib/docsify.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4.13.1/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4.13.1/lib/plugins/copy-code.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4.13.1/lib/plugins/pagination.min.js"></script>
+
+  <!-- 字数统计 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-count@1.2.1/dist/countable.min.js"></script>
+</body>
+</html>
