@@ -6,14 +6,14 @@
 <!-- LATEST_BEGIN -->
 - [微信读书Skill安装与使用指南](docs/2026/05/2026-05-19_微信读书skill安装与使用指南.md)（05-19）
 - [8B模型做生物实验：实验步骤顺序不乱、剂量无幻觉｜ICLR 2026](docs/2026/05/2026-05-18_8b模型做生物实验实验步骤顺序不乱剂量无幻觉iclr-2026.md)（05-18）
+- [AI水论文封一年，署名连坐！arXiv最严新规来了，陶哲轩附议](docs/2026/05/2026-05-18_ai水论文封一年署名连坐arxiv最严新规来了陶哲轩附议.md)（05-18）
+- [Bug bounty businesses bombarded with AI slop](docs/2026/05/2026-05-18_bug-bounty-businesses-bombarded-with-ai-slop.md)（05-18）
+- [Elon Musk took too long to sue OpenAI, jury unanimously agrees](docs/2026/05/2026-05-18_elon-musk-took-too-long-to-sue-openai-jury-unanimously-agree.md)（05-18）
 - [LeCun炮轰Hinton：他认可LLM就是想摆烂退休了！](docs/2026/05/2026-05-18_lecun炮轰hinton他认可llm就是想摆烂退休了.md)（05-18）
+- [Legal fail: Don’t use AI to sue Facebook users for calling you a bad date](docs/2026/05/2026-05-18_legal-fail-dont-use-ai-to-sue-facebook-users-for-calling-you.md)（05-18）
+- [openJiuwen社区开源新招：重磅发布JiuwenSwarm，拉开群体智能“养蜂”序幕](docs/2026/05/2026-05-18_openjiuwen社区开源新招重磅发布jiuwenswarm拉开群体智能养蜂序幕.md)（05-18）
+- [一键生成韩国棒球AI视频模板爆火](docs/2026/05/2026-05-18_一键生成韩国棒球ai视频模板爆火.md)（05-18）
 - [上交x创智x瑞金联合发布CX-Mind：胸片诊断进入“可验证推理”时代](docs/2026/05/2026-05-18_上交x创智x瑞金联合发布cx-mind胸片诊断进入可验证推理时代.md)（05-18）
-- [信通院&清华提出FedRE：用「纠缠」搞定联邦学习三难困境 | CVPR 26](docs/2026/05/2026-05-18_信通院清华提出fedre用纠缠搞定联邦学习三难困境-cvpr-26.md)（05-18）
-- [华为“养”出半个具身智能创业圈](docs/2026/05/2026-05-18_华为养出半个具身智能创业圈.md)（05-18）
-- [打破虚拟与现实的边界，这 6 款网页解谜游戏值得一试 - 少数派](docs/2026/05/2026-05-18_打破虚拟与现实的边界这-6-款网页解谜游戏值得一试-少数派.md)（05-18）
-- [黄仁勋北京必吃榜我们都尝了！后海酒吧老板：他答应以后每年来一次](docs/2026/05/2026-05-18_黄仁勋北京必吃榜我们都尝了后海酒吧老板他答应以后每年来一次.md)（05-18）
-- [6.4k Stars！用Claude Code写论文的全套流水线，有人打包开源了](docs/2026/05/2026-05-17_64k-stars用claude-code写论文的全套流水线有人打包开源了.md)（05-17）
-- [Agent、多模态、应用、算力一天看尽，峰会亮点在此｜5.20日，来现场一起AI](docs/2026/05/2026-05-17_agent多模态应用算力一天看尽峰会亮点在此520日来现场一起ai.md)（05-17）
 <!-- LATEST_END -->
 
 ## 年度导航
@@ -36,7 +36,7 @@
 | [2023](docs/2023.md) | 89 |
 | [2024](docs/2024.md) | 112 |
 | [2025](docs/2025.md) | 204 |
-| [2026](docs/2026.md) | 171 |
+| [2026](docs/2026.md) | 181 |
 <!-- YEARLY_END -->
 
 ## 数据来源
