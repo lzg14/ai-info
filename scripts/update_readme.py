@@ -41,8 +41,8 @@ def iter_articles():
                 break
         if not title:
             continue
-        rel = p.relative_to(AIINFO_DIR)
-        yield date_str, title, str(rel)
+        rel = "docs/" + str(p.relative_to(DOCS_DIR))
+        yield date_str, title, rel
 
 
 def build_latest_block(n: int = 10) -> str:

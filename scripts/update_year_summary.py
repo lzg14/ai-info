@@ -80,7 +80,7 @@ def iter_year_articles(year: str):
             if not title:
                 title = fp.stem
 
-            rel = f"{year}/{month_dir.name}/{fp.name}"
+            rel = f"docs/{year}/{month_dir.name}/{fp.name}"
             articles.append((date_str, month, day, title, rel, score))
 
     return articles
