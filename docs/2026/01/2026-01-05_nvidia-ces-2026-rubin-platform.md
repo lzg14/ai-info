@@ -1,4 +1,4 @@
-<!-- {"title": "NVIDIA Rubin Platform, Open Models, Autonomous Driving: NVIDIA Presents Blueprint for the Future at CES", "date": "2026-01-05"} -->
+<!-- {"title": "NVIDIA Rubin Platform, Open Models, Autonomous Driving: NVIDIA Presents Blueprint for the Future at CES", "date": "2026-01-05", "url": "https://blogs.nvidia.com/blog/2026-ces-special-presentation/", "source": "NVIDIA AI Blog", "source_url": "https://blogs.nvidia.com/blog", "publish_date": "2026-01-05", "tags": ["NVIDIA", "CES", "Rubin", "自动驾驶"]} -->
 # NVIDIA Rubin Platform, Open Models, Autonomous Driving: NVIDIA Presents Blueprint for the Future at CES
 📅 2026-01-05
 📢 来源：[NVIDIA AI Blog](https://blogs.nvidia.com/blog/2026-ces-special-presentation/)
@@ -75,3 +75,10 @@ Read more about these announcements from Monday night at CES on this GeForce new
 Learn more about all NVIDIA announcements at CES.
 
 <!-- 正文结束 -->
+
+## 相关文章
+<!-- 相关文章开始 -->
+- [Vulnerability in Perplexity's BrowseSafe shows why single models can't stop prompt injection - TechTalks](2026-01-19_vulnerability-perplexity-browsesafe-shows-why.md)
+- [Recursive Language Models: A new framework for infinite context in LLMs - TechTalks](2026-01-26_recursive-language-models-new-framework.md)
+- [Microsoft's new Rho-alpha model brings tactile sensing to robotics - TechTalks](2026-01-23_microsoft-new-rho-alpha-model.md)
+<!-- 相关文章结束 -->

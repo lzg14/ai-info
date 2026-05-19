@@ -1,4 +1,4 @@
-<!-- {"title": "Mortgage Document Automation: Transforming Loan Processing", "date": "2026-01-01"} -->
+<!-- {"title": "Mortgage Document Automation: Transforming Loan Processing", "date": "2026-01-01", "url": "https://www.llamaindex.ai/blog/mortgage-document-automation", "source": "LlamaIndex Blog", "source_url": "https://www.llamaindex.ai/blog", "publish_date": "2026-01-01", "tags": ["抵押贷款", "文档自动化", "金融科技"]} -->
 # Mortgage Document Automation: Transforming Loan Processing
 📅 2026-01-01
 📢 来源：[LlamaIndex Blog](https://www.llamaindex.ai/blog/mortgage-document-automation)

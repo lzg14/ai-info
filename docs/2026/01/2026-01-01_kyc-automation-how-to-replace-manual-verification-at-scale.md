@@ -1,22 +1,8 @@
-<!-- {"title": "KYC Automation: How to Replace Manual Verification at Scale", "url": "https://www.llamaindex.ai/blog/kyc-automation", "source": "LlamaIndex Blog", "source_url": "https://www.llamaindex.ai/blog", "publish_date": "2026-01-01", "score": null, "tags": [], "description_cn": "<think>用户要求我为这篇关于KYC自动化的文章写一段100-150字的中文摘要。我需要：\n1. 涵盖核心主题：KYC（了解你的客户）自动化\n2. 包含关键信息：\n   - KYC是金融服务的文档密集型流程\n   - 手动KYC耗时、易出错、不一致\n   - 错误KYC的代价高昂（合规违规、欺诈损失、监管罚款）\n   - 过度摩擦导致客户流失\n   - 自动化KYC的优势：快速、低成本、一致性好、有审计追踪\n   - 文章重点：文档处理层是关键\n\n让我写一段简洁的摘要：</think>\n\nKYC（了解你的客户）合规是金融服务业最耗文档的流程之一，涉及身份验证、文件收集、制裁筛查和风险评分等环节。传统手动操作耗时长、易出错，且在大规模处理时难以保证一致性。KYC失误代价高昂，既可能导致反洗钱违规、欺诈损失和监管处罚，也可能因流程繁琐而导致客户流失。KYC自动化通过软件实现文档提取、身份验证、制裁筛查和风险评分，显著降低成本和时间，同时提升一致性和审计可追溯性。实施KYC自动化的关键在于文档处理层，这是大多数"} -->
+<!-- {"title": "KYC Automation: How to Replace Manual Verification at Scale", "url": "https://www.llamaindex.ai/blog/kyc-automation", "source": "LlamaIndex Blog", "source_url": "https://www.llamaindex.ai/blog", "publish_date": "2026-01-01", "score": null, "tags": ["KYC", "自动化", "文档处理"]} -->
 # KYC Automation: How to Replace Manual Verification at Scale
 
 📅 2026-01-01
 📢 来源：[LlamaIndex Blog](https://www.llamaindex.ai/blog)
-
-📝 <think>用户要求我为这篇关于KYC自动化的文章写一段100-150字的中文摘要。我需要：
-1. 涵盖核心主题：KYC（了解你的客户）自动化
-2. 包含关键信息：
-   - KYC是金融服务的文档密集型流程
-   - 手动KYC耗时、易出错、不一致
-   - 错误KYC的代价高昂（合规违规、欺诈损失、监管罚款）
-   - 过度摩擦导致客户流失
-   - 自动化KYC的优势：快速、低成本、一致性好、有审计追踪
-   - 文章重点：文档处理层是关键
-
-让我写一段简洁的摘要：</think>
-
-KYC（了解你的客户）合规是金融服务业最耗文档的流程之一，涉及身份验证、文件收集、制裁筛查和风险评分等环节。传统手动操作耗时长、易出错，且在大规模处理时难以保证一致性。KYC失误代价高昂，既可能导致反洗钱违规、欺诈损失和监管处罚，也可能因流程繁琐而导致客户流失。KYC自动化通过软件实现文档提取、身份验证、制裁筛查和风险评分，显著降低成本和时间，同时提升一致性和审计可追溯性。实施KYC自动化的关键在于文档处理层，这是大多数
 
 > Learn how KYC automation replaces manual verification with scalable, compliant workflows that cut costs, reduce errors, and speed up onboarding.
 

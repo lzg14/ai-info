@@ -1,4 +1,4 @@
-<!-- {"title": "Agentic OCR for Receipts: Why Traditional Pipelines Break", "date": "2026-01-01"} -->
+<!-- {"title": "Agentic OCR for Receipts: Why Traditional Pipelines Break", "date": "2026-01-01", "url": "https://www.llamaindex.ai/blog/ocr-for-receipts", "source": "LlamaIndex Blog", "source_url": "https://www.llamaindex.ai/blog", "publish_date": "2026-01-01", "tags": ["OCR", "文档处理", "AI Agent"]} -->
 # Agentic OCR for Receipts: Why Traditional Pipelines Break
 📅 2026-01-01
 📢 来源：[LlamaIndex Blog](https://www.llamaindex.ai/blog/ocr-for-receipts)

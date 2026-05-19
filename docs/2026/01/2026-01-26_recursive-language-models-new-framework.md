@@ -1,15 +1,19 @@
 <!--
 {
   "title": "Recursive Language Models: A new framework for infinite context in LLMs - TechTalks",
+  "url": "https://bdtechtalks.com/2026/01/26/recursive-language-models/",
   "date": "2026-01-26",
+  "publish_date": "2026-01-26",
   "source": "BD Tech Talks",
-  "source_url": "https://bdtechtalks.com/2026/01/26/recursive-language-models/?utm_source=rss&utm_medium=rss&utm_campaign=recursive-language-models"
+  "source_url": "https://bdtechtalks.com",
+  "tags": ["MIT", "递归语言模型", "长上下文", "LLM"]
 }
 -->
 
 # Recursive Language Models: A new framework for infinite context in LLMs - TechTalks
 
-📅 2026-01-26 | 📎 BD Tech Talks
+📅 2026-01-26
+📢 来源：[BD Tech Talks](https://bdtechtalks.com)
 
 <!-- 正文开始 -->
 This article is part of our coverage of the latest in AI research.
@@ -40,16 +44,14 @@ This approach represents a natural evolution from prompt engineering to optimizi
 
 Why it matters
 
-Subscribe to continue reading
-
-Become a paid subscriber to get access to the rest of this post and other exclusive content.
+> 📄 文章正文受付费墙限制，剩余内容需订阅后阅读。如需完整内容请前往 [BD Tech Talks](https://bdtechtalks.com/2026/01/26/recursive-language-models/) 原站购买订阅。
 <!-- 正文结束 -->
 
 ## 相关文章
 <!-- 相关文章开始 -->
 - [Vulnerability in Perplexity’s BrowseSafe shows why single models can’t stop prompt injection - TechTalks](2026-01-19_vulnerability-perplexity-browsesafe-shows-why.md)
 - [Microsoft’s new Rho-alpha model brings tactile sensing to robotics - TechTalks](2026-01-23_microsoft-new-rho-alpha-model.md)
-- [NVIDIA Rubin Platform, Open Models, Autonomous Driving: NVIDIA Presents Blueprint for the Future at CES](2026-01-05_nvidia-rubin-platform-open-models.md)
+- [NVIDIA Rubin Platform, Open Models, Autonomous Driving: NVIDIA Presents Blueprint for the Future at CES](2026-01-05_nvidia-ces-2026-rubin-platform.md)
 - [Anthropic发布Claude 4多模态AI模型](2026-01-15-Claude-4-Anthropic-Multi-Modal-AI.md)
 - [阿里Qwen3-Max-Thinking发布自主选用工具](2026-01-07-qwen3-max-thinking-tools.md)
 <!-- 相关文章结束 -->

@@ -1,20 +1,26 @@
 <!--
 {
   "title": "Claude「新宪法」发布：2.3 万字详细行为指南",
-  "date": "2026-01-25"
+  "date": "2026-01-25",
+  "publish_date": "2026-01-25",
+  "tags": ["Anthropic", "Claude", "AI安全", "宪法"]
 }
 -->
 
 # Claude「新宪法」发布：2.3 万字详细行为指南
 
 📅 2026-01-25
+📢 来源：[Anthropic](https://www.anthropic.com)
 
 <!-- 正文开始 -->
 Anthropic 发布了 Claude 的全新"宪法"（Constitution），一份 2.3 万字的详细行为指南，直接用于模型训练，是 Claude 行为的最终权威来源。
 
 **四大核心优先级（从高到低）：**
 
-1\. **广泛安全** ：不破坏人类对 AI 的监督机制——这是最高红线 2. **广泛伦理** ：诚实守信，遵循良好价值观，避免危险或有害行为 3. **遵守 Anthropic 指南** ：在相关情况下遵循更具体的规定 4. **真正有帮助** ：在满足上述条件后，为用户和运营商提供实际价值
+1. **广泛安全** ：不破坏人类对 AI 的监督机制——这是最高红线
+2. **广泛伦理** ：诚实守信，遵循良好价值观，避免危险或有害行为
+3. **遵守 Anthropic 指南** ：在相关情况下遵循更具体的规定
+4. **真正有帮助** ：在满足上述条件后，为用户和运营商提供实际价值
 
 **最激进的一点：赋予 AI"良心拒服权"** ——当指令与最高优先级冲突时，Claude 有权拒绝。
 
@@ -23,7 +29,7 @@ Anthropic 发布了 Claude 的全新"宪法"（Constitution），一份 2.3 万�
 
 ## 相关文章
 <!-- 相关文章开始 -->
-- [Anthropic融资超200亿美元估值破3500亿](./2026-01-25-Anthropic-融资超200亿美元估值破3500亿.md)
+- [Anthropic融资超200亿美元估值破3500亿](./2026-01-25-anthropic-funding-valuation-350b.md)
 - [Anthropic发布Claude 4多模态AI模型](./2026-01-15-Claude-4-Anthropic-Multi-Modal-AI.md)
 - [Claude Opus 4.6与GPT-5.3-Codex：Agent能力的军备竞赛](../02/2026-02-07-Claude-Opus-46与GPT-53-Codex-Agent能力军备竞赛.md)
 - [MiniMax M2.5 Lightning发布成本仅为Claude的1/20](../02/2026-02-07-minimax-m25-lightning.md)

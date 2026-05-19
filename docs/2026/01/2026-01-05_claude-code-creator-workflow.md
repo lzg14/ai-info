@@ -1,4 +1,4 @@
-<!-- {"title": "The creator of Claude Code just revealed his workflow, and developers are losing their minds", "date": "2026-01-05"} -->
+<!-- {"title": "The creator of Claude Code just revealed his workflow, and developers are losing their minds", "date": "2026-01-05", "url": "https://venturebeat.com/technology/the-creator-of-claude-code-just-revealed-his-workflow-and-developers-are", "source": "VentureBeat AI", "source_url": "https://venturebeat.com", "publish_date": "2026-01-05", "tags": ["Claude Code", "AI编程", "Anthropic", "工作流"]} -->
 # The creator of Claude Code just revealed his workflow, and developers are losing their minds
 📅 2026-01-05
 📢 来源：[VentureBeat AI](https://venturebeat.com/technology/the-creator-of-claude-code-just-revealed-his-workflow-and-developers-are)

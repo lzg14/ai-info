@@ -1,15 +1,19 @@
 <!--
 {
-  "title": "Microsoft’s new Rho-alpha model brings tactile sensing to robotics - TechTalks",
+  "title": "Microsoft's new Rho-alpha model brings tactile sensing to robotics - TechTalks",
+  "url": "https://bdtechtalks.com/2026/01/23/microsofts-rho-alpha-vla-robotic-model/",
   "date": "2026-01-23",
+  "publish_date": "2026-01-23",
   "source": "BD Tech Talks",
-  "source_url": "https://bdtechtalks.com/2026/01/23/microsofts-rho-alpha-vla-robotic-model/?utm_source=rss&utm_medium=rss&utm_campaign=microsofts-rho-alpha-vla-robotic-model"
+  "source_url": "https://bdtechtalks.com",
+  "tags": ["Microsoft", "机器人", "VLA", "触觉感知"]
 }
 -->
 
 # Microsoft’s new Rho-alpha model brings tactile sensing to robotics - TechTalks
 
-📅 2026-01-23 | 📎 BD Tech Talks
+📅 2026-01-23
+📢 来源：[BD Tech Talks](https://bdtechtalks.com)
 
 <!-- 正文开始 -->
 While large language models (LLMs) have mastered the art of processing text and images, they remain largely confined to the digital realm. Moving from generating code to folding laundry requires a fundamental shift in how AI perceives the world. Microsoft is attempting to bridge this gap with Rho-alpha (⍴ɑ), a new robotics foundation model designed to bring adaptivity to physical tasks.
@@ -69,6 +73,6 @@ Despite these constraints, the architecture offers a glimpse into the future of 
 <!-- 相关文章开始 -->
 - [Vulnerability in Perplexity’s BrowseSafe shows why single models can’t stop prompt injection - TechTalks](2026-01-19_vulnerability-perplexity-browsesafe-shows-why.md)
 - [Recursive Language Models: A new framework for infinite context in LLMs - TechTalks](2026-01-26_recursive-language-models-new-framework.md)
-- [NVIDIA Rubin Platform, Open Models, Autonomous Driving: NVIDIA Presents Blueprint for the Future at CES](2026-01-05_nvidia-rubin-platform-open-models.md)
+- [NVIDIA Rubin Platform, Open Models, Autonomous Driving: NVIDIA Presents Blueprint for the Future at CES](2026-01-05_nvidia-ces-2026-rubin-platform.md)
 - [DeepSeek-OCR 2开源视觉编码技术升级](2026-01-20-deepseek-ocr-v2.md)
 <!-- 相关文章结束 -->

@@ -1,13 +1,16 @@
 <!--
 {
   "title": "Anthropic融资超200亿美元估值破3500亿",
-  "date": "2026-01-25"
+  "date": "2026-01-25",
+  "publish_date": "2026-01-25",
+  "tags": ["Anthropic", "融资", "估值", "AI"]
 }
 -->
 
 # Anthropic融资超200亿美元估值破3500亿
 
 📅 2026-01-25
+📢 来源：[General Atlantic](https://www.generalatlantic.com)
 
 <!-- 正文开始 -->
 2026年1月，Anthropic宣布完成新一轮超200亿美元融资，使其估值突破3500亿美元大关，成为全球估值最高的AI独角兽企业。这一轮融资由General Atlantic领投，Spark Capital等多家机构跟投，融资金额和估值均刷新了AI领域的历史纪录。

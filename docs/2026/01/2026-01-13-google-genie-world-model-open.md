@@ -1,13 +1,16 @@
 <!--
 {
   "title": "谷歌DeepMind向外部开放Project Genie世界模型",
-  "date": "2026-01-13"
+  "date": "2026-01-13",
+  "publish_date": "2026-01-13",
+  "tags": ["Google", "DeepMind", "世界模型", "Genie"]
 }
 -->
 
 # 谷歌DeepMind向外部开放Project Genie世界模型
 
 📅 2026-01-13
+📢 来源：[Google DeepMind](https://deepmind.google)
 
 <!-- 正文开始 -->
 谷歌DeepMind向外部开放Project Genie模型，用户通过自然语言描述可即时创建并探索虚拟世界。该模型代表了世界模型发展的重要方向，为AI理解物理世界交互提供了新范式。

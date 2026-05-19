@@ -1,13 +1,16 @@
 <!--
 {
   "title": "阿里Qwen3-Max-Thinking发布自主选用工具",
-  "date": "2026-01-07"
+  "date": "2026-01-07",
+  "publish_date": "2026-01-07",
+  "tags": ["Qwen", "阿里", "Agent", "大模型"]
 }
 -->
 
 # 阿里Qwen3-Max-Thinking发布自主选用工具
 
 📅 2026-01-07
+📢 来源：[阿里云](https://www.alibabacloud.com)
 
 <!-- 正文开始 -->
 阿里发布Qwen3-Max-Thinking模型，可在对话过程中自主选用搜索、个性化记忆、代码解释器等核心工具功能，提供更符合用户需求的回答。该模型代表了国产大模型在[Agent](../../glossary/terms/agent-ai-agent.md)能力方向的重要突破，展现了从聊天机器人向AI工作者转变的技术路径。

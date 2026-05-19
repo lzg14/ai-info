@@ -1,4 +1,4 @@
-<!-- {"title": "Income Verification API: Automate Document-Based Income Checks", "date": "2026-01-01"} -->
+<!-- {"title": "Income Verification API: Automate Document-Based Income Checks", "date": "2026-01-01", "url": "https://www.llamaindex.ai/blog/Income-verification-api", "source": "LlamaIndex Blog", "source_url": "https://www.llamaindex.ai/blog", "publish_date": "2026-01-01", "tags": ["收入验证", "API", "文档处理"]} -->
 # Income Verification API: Automate Document-Based Income Checks
 📅 2026-01-01
 📢 来源：[LlamaIndex Blog](https://www.llamaindex.ai/blog/Income-verification-api)
