@@ -33,7 +33,7 @@
 
 ## 相关文章
 <!-- 相关文章开始 -->
-- [Anthropic融资超200亿美元估值破3500亿](../01/2026-01-25-Anthropic-融资超200亿美元估值破3500亿.md)
+- [Anthropic融资超200亿美元估值破3500亿](../01/2026-01-25-anthropic-funding-valuation-350b.md)
 - [Anthropic Mythos：最强模型发布，但强到不能公开](./2026-04-08-anthropic-mythos-powerful-closed.md)
 - [Anthropic 新工具：Sonnet 遇到难题可以直接请教 Opus](./2026-04-10-anthropic-advisor-sonnet-opus.md)
 - [OpenAI DeployCo：100亿美元估值，锁定2000+企业的AI合资公司](../05/2026-05-04-OpenAI-DeployCo合资公司百亿美元估值锁定两千企业.md)

@@ -38,6 +38,6 @@
 - [Anthropic 4亿美元收购AI Biotech：制药卡位战开打](./2026-04-01-Anthropic-4亿美元收购AI-Biotech-制药卡位战开打.md)
 - [Anthropic 新工具：Sonnet 遇到难题可以直接请教 Opus](./2026-04-10-anthropic-advisor-sonnet-opus.md)
 - [Anthropic发布Claude 4多模态AI模型](../01/2026-01-15-Claude-4-Anthropic-Multi-Modal-AI.md)
-- [Anthropic融资超200亿美元估值破3500亿](../01/2026-01-25-Anthropic-融资超200亿美元估值破3500亿.md)
+- [Anthropic融资超200亿美元估值破3500亿](../01/2026-01-25-anthropic-funding-valuation-350b.md)
 - [Claude「新宪法」发布：2.3 万字详细行为指南](../01/2026-01-25-claude-new-constitution.md)
 <!-- 相关文章结束 -->

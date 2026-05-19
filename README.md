@@ -4,16 +4,16 @@
 
 ## 最新 10 条
 <!-- LATEST_BEGIN -->
+- [Hermes 可配置的国内外 AI 模型及使用方法](docs/2026/05/2026-05-19_hermes-可配置的国内外-ai-模型及使用方法.md)（05-19）
+- [一键生成韩国棒球AI视频模板爆火](docs/2026/05/2026-05-19_一键生成韩国棒球ai视频模板爆火.md)（05-19）
+- [人机快递分拣对决直播](docs/2026/05/2026-05-19_人机快递分拣对决直播.md)（05-19）
+- [开源工具揭露AI API中转站安全风险与检测差异](docs/2026/05/2026-05-19_开源工具揭露ai-api中转站安全风险与检测差异.md)（05-19）
 - [微信读书Skill安装与使用指南](docs/2026/05/2026-05-19_微信读书skill安装与使用指南.md)（05-19）
+- [腾讯 AI 设计智能体 Ardot 公测：一句话生成可编辑设计稿，一键转代码](docs/2026/05/2026-05-19_腾讯-ai-设计智能体-ardot-公测一句话生成可编辑设计稿一键转代码.md)（05-19）
+- [阿里云推出HappyHorse视频生成模型](docs/2026/05/2026-05-19_阿里云推出happyhorse视频生成模型.md)（05-19）
 - [8B模型做生物实验：实验步骤顺序不乱、剂量无幻觉｜ICLR 2026](docs/2026/05/2026-05-18_8b模型做生物实验实验步骤顺序不乱剂量无幻觉iclr-2026.md)（05-18）
 - [AI水论文封一年，署名连坐！arXiv最严新规来了，陶哲轩附议](docs/2026/05/2026-05-18_ai水论文封一年署名连坐arxiv最严新规来了陶哲轩附议.md)（05-18）
 - [Bug bounty businesses bombarded with AI slop](docs/2026/05/2026-05-18_bug-bounty-businesses-bombarded-with-ai-slop.md)（05-18）
-- [Elon Musk took too long to sue OpenAI, jury unanimously agrees](docs/2026/05/2026-05-18_elon-musk-took-too-long-to-sue-openai-jury-unanimously-agree.md)（05-18）
-- [LeCun炮轰Hinton：他认可LLM就是想摆烂退休了！](docs/2026/05/2026-05-18_lecun炮轰hinton他认可llm就是想摆烂退休了.md)（05-18）
-- [Legal fail: Don’t use AI to sue Facebook users for calling you a bad date](docs/2026/05/2026-05-18_legal-fail-dont-use-ai-to-sue-facebook-users-for-calling-you.md)（05-18）
-- [openJiuwen社区开源新招：重磅发布JiuwenSwarm，拉开群体智能“养蜂”序幕](docs/2026/05/2026-05-18_openjiuwen社区开源新招重磅发布jiuwenswarm拉开群体智能养蜂序幕.md)（05-18）
-- [一键生成韩国棒球AI视频模板爆火](docs/2026/05/2026-05-18_一键生成韩国棒球ai视频模板爆火.md)（05-18）
-- [上交x创智x瑞金联合发布CX-Mind：胸片诊断进入“可验证推理”时代](docs/2026/05/2026-05-18_上交x创智x瑞金联合发布cx-mind胸片诊断进入可验证推理时代.md)（05-18）
 <!-- LATEST_END -->
 
 ## 年度导航
@@ -36,7 +36,7 @@
 | [2023](docs/2023.md) | 89 |
 | [2024](docs/2024.md) | 112 |
 | [2025](docs/2025.md) | 204 |
-| [2026](docs/2026.md) | 181 |
+| [2026](docs/2026.md) | 187 |
 <!-- YEARLY_END -->
 
 ## 数据来源

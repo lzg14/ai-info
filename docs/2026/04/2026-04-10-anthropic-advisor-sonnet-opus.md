@@ -36,6 +36,6 @@ Anthropic 推出 Advisor Tool（小模型调用大模型的 advisor 模式），
 - [Anthropic Mythos：最强模型发布，但强到不能公开](./2026-04-08-anthropic-mythos-powerful-closed.md)
 - [Anthropic 4亿美元收购AI Biotech：制药卡位战开打](./2026-04-01-Anthropic-4亿美元收购AI-Biotech-制药卡位战开打.md)
 - [Anthropic发布Claude 4多模态AI模型](../01/2026-01-15-Claude-4-Anthropic-Multi-Modal-AI.md)
-- [Anthropic融资超200亿美元估值破3500亿](../01/2026-01-25-Anthropic-融资超200亿美元估值破3500亿.md)
+- [Anthropic融资超200亿美元估值破3500亿](../01/2026-01-25-anthropic-funding-valuation-350b.md)
 - [Claude「新宪法」发布：2.3 万字详细行为指南](../01/2026-01-25-claude-new-constitution.md)
 <!-- 相关文章结束 -->
