@@ -238,7 +238,7 @@ def write_docs(article: dict) -> str | None:
         tags_str = " · ".join(str(t) for t in tags)
         lines.extend(["", f"🏷️ {tags_str}"])
 
-    lines.extend(["", "<!-- 正文开始 -->", "", content, "", "<!-- 正文结束 -->"])
+    lines.extend(["", "<!-- 正文开始 -->", "", content, "", "<!-- 正文结束 -->", "", "## 相关文章", "<!-- 相关文章开始 -->", "", "<!-- 相关文章结束 -->"])
 
     with open(filepath, 'w', encoding='utf-8') as f:
         f.write('\n'.join(lines))
