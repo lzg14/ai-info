@@ -364,9 +364,13 @@ FAIR内部有很多人在做LLM，这很好。我从来没有反对过，只是�
 https://unsupervised-learning.simplecast.com/episodes/ep-86-yann-lecun-on-leaving-meta-breaking-the-llm-paradigm-why-hinton-is-wrong-rZ6fpa_8
 参考链接：
 [1]https://x.com/jacobeffron/status/2055279354821607551
+
+<!-- 正文结束 -->
+## 相关文章
+<!-- 相关文章开始 -->
 - 黄仁勋北京必吃榜我们都尝了！后海酒吧老板：他答应以后每年来一次2026-05-18
 - 一只机器狗，把英伟达的算力王座拱翻了2026-05-17
 - Agent、多模态、应用、算力一天看尽，峰会亮点在此｜5.20日，来现场一起AI2026-05-17
 - 重生之我在AI时代当老板：让一群Agent互相PUA2026-05-14
 
-<!-- 正文结束 -->
+<!-- 相关文章结束 -->
