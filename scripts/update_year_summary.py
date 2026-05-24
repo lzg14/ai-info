@@ -80,8 +80,8 @@ def iter_year_articles(year: str):
             if not title:
                 title = fp.stem
 
-            # docs/2026.md 在 docs/ 目录下，文章在其子目录 YYYY/MM/ 下，所以用 "../" 回到上一级再进入文章目录
-            rel = f"../{year}/{month_dir.name}/{fp.name}"
+            # docs/YYYY.md 在 docs/ 目录下，文章在 docs/YYYY/MM/ 下，所以链接直接是 "YYYY/MM/file.md"
+            rel = f"{year}/{month_dir.name}/{fp.name}"
             articles.append((date_str, month, day, title, rel, score))
 
     return articles
@@ -89,8 +89,14 @@ def iter_year_articles(year: str):
 
 def build_featured_block(articles, threshold=FEATURED_THRESHOLD):
     """精品区块：评分 >= threshold 的文章，按评分倒序"""
-    featured = [(s, d, m, t, p) for d, m, _, t, p, s in articles
-                if s is not None and float(s) >= threshold]
+    featured = []
+    for d, m, _, t, p, s in articles:
+        if s is not None:
+            try:
+                if float(s) >= threshold:
+                    featured.append((s, d, m, t, p))
+            except (ValueError, TypeError):
+                pass
     featured.sort(key=lambda x: float(x[0]), reverse=True)
 
     if not featured:
@@ -98,8 +104,11 @@ def build_featured_block(articles, threshold=FEATURED_THRESHOLD):
 
     lines = []
     for score, date_str, month, title, rel in featured:
+        try:
+            score_mark = f"[{float(score):.1f}]"
+        except (ValueError, TypeError):
+            score_mark = f"[{score}]"
         date_short = f"{month}-{date_str[8:]}"
-        score_mark = f"[{float(score):.1f}]"
         lines.append(f"- {score_mark} [{title}]({rel})（{date_short}）")
     return '\n'.join(lines)
 
@@ -127,7 +136,15 @@ def build_year_summary(year: str) -> str:
     """构建单个年份的汇总 MD 内容"""
     articles = iter_year_articles(year)
     total = len(articles)
-    featured_count = len([a for a in articles if a[-1] is not None and float(a[-1]) >= FEATURED_THRESHOLD])
+    featured_count = 0
+    for a in articles:
+        s = a[-1]
+        if s is not None:
+            try:
+                if float(s) >= FEATURED_THRESHOLD:
+                    featured_count += 1
+            except (ValueError, TypeError):
+                pass
 
     featured_block = build_featured_block(articles)
     full_list_block = build_full_list_block(articles)

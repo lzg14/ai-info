@@ -4,16 +4,14 @@
 
 ## 最新 10 条
 <!-- LATEST_BEGIN -->
-- [Hermes 可配置的国内外 AI 模型及使用方法](docs/2026/05/2026-05-19_hermes-可配置的国内外-ai-模型及使用方法.md)（05-19）
-- [一键生成韩国棒球AI视频模板爆火](docs/2026/05/2026-05-19_一键生成韩国棒球ai视频模板爆火.md)（05-19）
-- [人机快递分拣对决直播](docs/2026/05/2026-05-19_人机快递分拣对决直播.md)（05-19）
-- [开源工具揭露AI API中转站安全风险与检测差异](docs/2026/05/2026-05-19_开源工具揭露ai-api中转站安全风险与检测差异.md)（05-19）
-- [微信读书Skill安装与使用指南](docs/2026/05/2026-05-19_微信读书skill安装与使用指南.md)（05-19）
-- [腾讯 AI 设计智能体 Ardot 公测：一句话生成可编辑设计稿，一键转代码](docs/2026/05/2026-05-19_腾讯-ai-设计智能体-ardot-公测一句话生成可编辑设计稿一键转代码.md)（05-19）
-- [阿里云推出HappyHorse视频生成模型](docs/2026/05/2026-05-19_阿里云推出happyhorse视频生成模型.md)（05-19）
-- [8B模型做生物实验：实验步骤顺序不乱、剂量无幻觉｜ICLR 2026](docs/2026/05/2026-05-18_8b模型做生物实验实验步骤顺序不乱剂量无幻觉iclr-2026.md)（05-18）
-- [AI水论文封一年，署名连坐！arXiv最严新规来了，陶哲轩附议](docs/2026/05/2026-05-18_ai水论文封一年署名连坐arxiv最严新规来了陶哲轩附议.md)（05-18）
-- [Bug bounty businesses bombarded with AI slop](docs/2026/05/2026-05-18_bug-bounty-businesses-bombarded-with-ai-slop.md)（05-18）
+- [PwC deploying Claude 构建 technology, execute deals, reinvent 企业 functions clients](docs/2026/05/2026-05-15_pwc-is-deploying-claude-to-build-technology-execute-deals-an.md)（05-15）
+- [How Much Do Circuits Tell Us? Measuring Consistency 与 Specificity Language 模型 Circuits](docs/2026/05/2026-05-08_how-much-do-circuits-tell-us-measuring-the-consistency-and-s.md)（05-08）
+- [Playing games 集成 knowledge: AI-Induced delusions need game theoretic interventions](docs/2026/05/2026-05-08_playing-games-with-knowledge-ai-induced-delusions-need-game-.md)（05-08）
+- [Revisiting syntax imperatives 在 Yemeni Arabic: Agree across phases approach 中的应用](docs/2026/05/2026-05-08_revisiting-the-syntax-of-imperatives-in-yemeni-arabic-an-agr.md)（05-08）
+- [Humanoid robots start sorting luggage 在 Tokyo airport test amid labor shortage 中的应用](docs/2026/04/2026-04-28_Humanoid-robots-start-sorting-luggage-in-Tokyo-airport-test-amid-labor-shortage.md)（04-28）
+- [TTCD:Transformer Integrated Temporal Causal Discovery 用 Non-Stationary Time Series 数据](docs/2026/04/2026-04-27_ttcdtransformer-integrated-temporal-causal-discovery-from-no.md)（04-27）
+- [creator Claude Code just revealed his workflow, 与 developers losing their minds](docs/2026/01/2026-01-05_claude-code-creator-workflow.md)（01-05）
+- [DeepMind's AlphaFold 2 Solves 50-Year-Old Protein Folding Problem: Revolutionary AI 突破](docs/2020/11/2020-11-30-deepmind-alphafold2-protein-folding-breakthrough.md)（11-30）
 <!-- LATEST_END -->
 
 ## 年度导航
@@ -21,22 +19,22 @@
 <!-- YEARLY_BEGIN -->
 | 年份 | 文章数 |
 |------|--------|
-| [2011](docs/2011.md) | 3 |
-| [2012](docs/2012.md) | 50 |
-| [2013](docs/2013.md) | 50 |
-| [2014](docs/2014.md) | 50 |
-| [2015](docs/2015.md) | 50 |
-| [2016](docs/2016.md) | 50 |
-| [2017](docs/2017.md) | 50 |
-| [2018](docs/2018.md) | 51 |
-| [2019](docs/2019.md) | 67 |
-| [2020](docs/2020.md) | 79 |
-| [2021](docs/2021.md) | 91 |
-| [2022](docs/2022.md) | 86 |
-| [2023](docs/2023.md) | 89 |
-| [2024](docs/2024.md) | 112 |
-| [2025](docs/2025.md) | 204 |
-| [2026](docs/2026.md) | 187 |
+| 2011 | — |
+| [2012](docs/2012.md) | 28 |
+| [2013](docs/2013.md) | 26 |
+| [2014](docs/2014.md) | 37 |
+| [2015](docs/2015.md) | 29 |
+| [2016](docs/2016.md) | 28 |
+| [2017](docs/2017.md) | 39 |
+| [2018](docs/2018.md) | 40 |
+| [2019](docs/2019.md) | 33 |
+| [2020](docs/2020.md) | 50 |
+| [2021](docs/2021.md) | 67 |
+| [2022](docs/2022.md) | 41 |
+| [2023](docs/2023.md) | 25 |
+| [2024](docs/2024.md) | 41 |
+| [2025](docs/2025.md) | 30 |
+| [2026](docs/2026.md) | 155 |
 <!-- YEARLY_END -->
 
 ## 数据来源
